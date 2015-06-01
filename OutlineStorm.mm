@@ -1,6 +1,6 @@
 <map version="freeplane 1.3.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Thesis" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1432988416997"><hook NAME="MapStyle">
+<node TEXT="Thesis" LOCALIZED_STYLE_REF="AutomaticLayout.level.root" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1432988416997"><hook NAME="MapStyle" zoom="2.0">
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node">
@@ -95,6 +95,12 @@
 <node TEXT="Technological mean to emulate screens everywhere" ID="ID_1595535281" CREATED="1432988542652" MODIFIED="1432988552823"/>
 </node>
 <node TEXT="TUI" ID="ID_573573029" CREATED="1432988474490" MODIFIED="1432988475727"/>
+<node TEXT="Why do we work on these fields" ID="ID_610859433" CREATED="1433156532918" MODIFIED="1433156542162"/>
+<node TEXT="Examples of applications and possibilities" ID="ID_613230300" CREATED="1433156542567" MODIFIED="1433156554751"/>
+<node TEXT="Comparing screen vs SAR" ID="ID_456622853" CREATED="1433156587148" MODIFIED="1433156593971">
+<node TEXT="What is enabled by SAR" ID="ID_1019681679" CREATED="1433156605333" MODIFIED="1433156611821"/>
+<node TEXT="What can we still do /w sar that we could do with screen" ID="ID_353595967" CREATED="1433156617317" MODIFIED="1433156634392"/>
+</node>
 </node>
 <node TEXT="Related Works" LOCALIZED_STYLE_REF="AutomaticLayout.level,1" POSITION="right" ID="ID_471341881" CREATED="1432984839904" MODIFIED="1433146012857">
 <edge COLOR="#ff00ff"/>
@@ -113,6 +119,7 @@
 <font BOLD="true"/>
 </node>
 </node>
+<node TEXT="Related Work" ID="ID_143337577" CREATED="1433157269786" MODIFIED="1433157273581"/>
 <node TEXT="CurSAR" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_1255138742" CREATED="1432984891504" MODIFIED="1432992397724">
 <node TEXT="Study that compare the pointing performance of 2D input devices between a Screen and SAR setups" ID="ID_844891205" CREATED="1432991484983" MODIFIED="1432991516481"/>
 </node>
@@ -143,7 +150,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="Wellbeing incompatible with metrics" ID="ID_1980098322" CREATED="1433145579420" MODIFIED="1433145608072">
@@ -154,6 +160,7 @@
 <font BOLD="true"/>
 </node>
 </node>
+<node TEXT="Related Work" ID="ID_310921757" CREATED="1433157262437" MODIFIED="1433157266381"/>
 <node TEXT="Teegi" LOCALIZED_STYLE_REF="AutomaticLayout.level,2" ID="ID_729640759" CREATED="1432984937329" MODIFIED="1432992422824">
 <node TEXT="Is a tangible interface enabling users to explore EEG signals of their brain in real-time reprojected onto the scalp of a doll" ID="ID_1244149550" CREATED="1418979282731" MODIFIED="1418979326074"/>
 </node>
