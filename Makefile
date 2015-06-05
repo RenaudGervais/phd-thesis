@@ -3,7 +3,7 @@ pdf:
 	-t latex \
 	-o ./thesis.pdf \
 	--template ./style/template.tex \
-	-V documentclass=memoir \
+	-V documentclass=report \
 	-V papersize=a4paper \
 	-V fontsize=12pt
 
