@@ -7,13 +7,13 @@ However, making the real and digital cohabit on a physical medium makes it diffi
 
 
 ### Interaction with Spatial Augmented Reality
-The first part of the thesis is focusing on the interaction with augmented objects by the mean of projectors. The work includes an evaluation of a pointing technique (CurSAR) and an interaction metaphor for bridging interaction on traditional computer screens and physical augmented objects.
+The first part of the thesis is focusing on the interaction with physical objects, augmented using SAR. The work includes an evaluation of a pointing technique (CurSAR) and an interaction metaphor for bridging interaction on traditional computer screens and physical augmented objects.
 
 #### CurSAR
 <!-- margin: top right bottom left -->
 <img style="float: left; margin: 10px 10px 10px 0px;" width="300" height="150" src="img/cursar.jpg">
 
-CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task
+CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition.
 
 <div style="clear: both"></div>
 #### Tangible Viewports: Bridging Desktop Computers and Physical Augmented Objects
