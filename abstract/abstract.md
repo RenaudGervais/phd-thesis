@@ -13,12 +13,17 @@ The first part of the thesis is focusing on the interaction with augmented objec
 <!-- margin: top right bottom left -->
 <img style="float: left; margin: 10px 10px 10px 0px;" width="300" height="150" src="img/cursar.jpg">
 
-CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task 
+CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task
 
-
+<div style="clear: both"></div>
 #### Tangible Viewports: Bridging Desktop Computers and Physical Augmented Objects
-<img style="float: right; margin: 10px 10px 10px 0px;" width="300" height="150" src="img/cursar.jpg">
-
+<img style="float: right; margin: 10px 0px 10px 10px;" width="300" height="150" src="img/cursar.jpg">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 
 <!-- ### Approach: How did you go about solving or making progress on the problem? Did you use simulation, analytic models, prototype construction, or analysis of field data for an actual product? -->
