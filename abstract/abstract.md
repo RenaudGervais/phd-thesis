@@ -29,6 +29,7 @@ The proposed system also supports different input modalities depending of its sp
 
 #### Teegi: Tangible EEG Interface
 
+<div style="clear: both"></div>
 #### TOBE: Tangible Out of Body Experience
 
 
