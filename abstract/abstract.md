@@ -25,7 +25,7 @@ The proposed system also supports different input modalities depending of its sp
 
 
 <div style="clear: both"></div>
-### Physiological Introspection with Augmented Physical Objects
+### Physiological Introspection with Physical Augmented Objects
 
 #### Teegi: Tangible EEG Interface
 
