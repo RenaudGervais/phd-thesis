@@ -13,17 +13,23 @@ The first part of the thesis is focusing on the interaction with physical object
 <!-- margin: top right bottom left -->
 <img style="float: left; margin: 10px 10px 10px 0px;" width="300" height="150" src="img/cursar.jpg">
 
-CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition.
+CurSAR is a project investigating the use of 2D input devices to point at augmented physical objects. The main goal of the study was to compare the performance of a pointing task in a SAR and SCREEN condition. We created an experimental setup that allowed to have the same view of augmented objects either physical (SAR) or virtual (SCREEN).  Participants were 11% slower in the SCREEN condition. However, the transfer function of the mouse to the cursor, even without the physical presence of a screen as a reference system for the cursor, continued to the be effective.
 
 <div style="clear: both"></div>
 #### Tangible Viewports: Bridging Desktop Computers and Physical Augmented Objects
-<img style="float: right; margin: 10px 0px 10px 10px;" width="300" height="150" src="img/cursar.jpg">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img style="float: right; margin: 10px 0px 10px 10px;" width="300" height="197" src="img/tports.jpg">
+
+Tangible Viewports is an interaction metaphor developed to integrate physical objects into a desktop computer environment. It consists of an on-screen window that is aware of physical objects placed in front of it. When the screen cursor is about to be occluded by the object from the point of view of the user, the cursor appears on the surface of the physical object. Most activities involving digital creation are still conveyed on desktop or laptop computers (e.g. design, graphics, programming, etc). Enabling seamless interaction between native computer applications such as Photoshop and programming environments and physical objects makes it possible to envision a way to let users and developers create, tweak and interact with augmented objects with traditional tools.
+
+The proposed system also supports different input modalities depending of its spatial relationship with the screen of the computer. When located in front of the screen, it is possible to use any computer input device (i.e. mouse, graphics tablet) to create graphics, animations and interactive elements on the surface of the object directly. When the object is picked up, it is for example possible to interact with the different elements with direct touch. Considered in a creative workflow, this quick back and forth between the development environment (screen-centric) and the direct manipulation (handheld) could reduce the feedback loop and test ideas and design quicker.
+
+
+<div style="clear: both"></div>
+### Physiological Introspection with Augmented Physical Objects
+
+#### Teegi: Tangible EEG Interface
+
+#### TOBE: Tangible Out of Body Experience
 
 
 <!-- ### Approach: How did you go about solving or making progress on the problem? Did you use simulation, analytic models, prototype construction, or analysis of field data for an actual product? -->
