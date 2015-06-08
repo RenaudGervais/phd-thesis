@@ -29,6 +29,8 @@ The proposed system also supports different input modalities depending of its sp
 The body is the most intimate thing we have. Even though we live with it everyday of our life, many of the internal intricacies of our inner states are not explicitly made available to us. In this chapter, we are interested in the use of tangible augmented objects as a way to expose and explore our inner states in a playful way.
 
 #### Teegi: Tangible EEG Interface
+<img style="float: left; margin: 10px 10px 10px 0px;" width="300" height="261" src="img/teegi.jpg">
+Teegi is a Tangible EEG (ElectroEncephaloGraphy) Interface. It uses a physical puppet on which your brain activity is displayed in real-time using SAR. EEG technologies are still very complex and the technologies required to have access to EEG readings and processing can be a deterrent for novice users that are interested in the brain. By creating a fully tangible installation, users can explore their own brain activity by manipulating dedicated mini-puppets that each corresponds to a high level brain activity (closing eyes, motor movement, relaxation/meditation). Users are free to explore what happens in their EEG readings by moving their limbs or try to changer their inner state and locate the brain regions that are specific to these activities.
 
 <div style="clear: both"></div>
 #### TOBE: Tangible Out of Body Experience
