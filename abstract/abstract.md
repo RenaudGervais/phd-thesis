@@ -34,15 +34,7 @@ Teegi is a Tangible EEG (ElectroEncephaloGraphy) Interface. It uses a physical p
 
 <div style="clear: both"></div>
 #### TOBE: Tangible Out of Body Experience
+<img style="float: right; margin: 10px 0px 10px 10px;" width="100" height="200" src="img/meegi.png">
+TOBE stands for Tangible Out of Body Experience. It is a direct follow-up of the Teegi project that is focus on increasing the freedom of the users regarding two factors: the physiological readings and the visual representations of said readings. The main idea of this platform is to allow users to build a tangible augmented avatar that will react to their own body's internal state. Compared to Teegi, users have access to a greater range of physiological sensors such as ECG, breathing, GSR and some interpreted EEG signals. Moreover, they are creating the visual mapping themselves by selecting a visual representation, creating an animation using a simplified touch interface and linking it to one of their real-time physiological readings.
 
-
-<!-- ### Approach: How did you go about solving or making progress on the problem? Did you use simulation, analytic models, prototype construction, or analysis of field data for an actual product? -->
-We investigated interacting with SAR using traditional input modalities (mouse and graphic tablets) as a basis. Mice are still relevant today for tasks that involve precision and prolonged use. Moreover, they are the default input device with traditional laptops and desktop computers which are the de facto platforms used for creating digital content. We evaluated the performance of using indirect 2D input devices to point at augmented objects without the use of a screen. We found that the performance of using a mouse without the presence of a physical screen reduced the performance (11%) but did not break the interaction metaphor. We also designed an interaction metaphor, Tangible Viewports, an on-screen window enabling physical objects to be used in the context of a desktop computer screen and its native application such as Photoshop. Initial feedback have shown that the metaphor was transparent for the users.
-
-Additionally, we investigated the use of augmented objects for scientific mediation concerning the body. We combined SAR, TUI and physiological computing to create two main systems: Teegi and TOBE. Teegi (Tangible EEG Interface) is a physical puppet that allows novice users to visualize and interact with their live Entrocenphalography (EEG) readings to explore different brain processes. TOBE (Tangible Out of Body Experience) is a platform that enables users to augment and explore in real-time a physical avatar with customized representations that are animated with their physiological readings (ECG, breathing sensor, GSR and EEG).
-
-
-### Results: What's the answer?
-
-
-### Conclusions: What are the implications of your answer? Is it going to change the world (unlikely), be a significant "win", be a nice hack, or simply serve as a road sign indicating that this path is a waste of time (of of the previous results are useful)?
+By letting users create their own representations of their real-time inner state through a tangible avatar, we are interested to see if they are more involved with their own physiology. Additionally, it can serve as a mediation facilitator, letting novice users explore what can be measured on the body, the way it is measured and how they relate to these measurements.
