@@ -25,7 +25,8 @@ The proposed system also supports different input modalities depending of its sp
 
 
 <div style="clear: both"></div>
-### Physiological Introspection with Physical Augmented Objects
+### Physiological Introspection with Tangible Augmented Objects
+The body is the most intimate thing we have. Even though we live with it everyday of our life, many of the internal intricacies of our inner states are not explicitly made available to us. In this chapter, we are interested in the use of tangible augmented objects as a way to expose and explore our inner states in a playful way.
 
 #### Teegi: Tangible EEG Interface
 
