@@ -1,5 +1,5 @@
 ---
-title: Getting Out of Flatland
+title: 'Getting Out of Flatland: Interaction and Introspection with Tangible Augmented Objects'
 author: Renaud Gervais
 abstract: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
