@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass classicthesis
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_numerical
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -61,17 +70,98 @@
 \begin_body
 
 \begin_layout Chapter
-Acta, non verba
-\end_layout
-
-\begin_layout Standard
+TOBE: Tangible Out-of-Body Experience
 \begin_inset CommandInset label
 LatexCommand label
-name "cha:label-ch1"
+name "cha:tobe"
 
 \end_inset
 
-Ibis redibis numquam peribis in bello.
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Technology speeds up instead of calming us down
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It strikes me how technology is often only associated with performance and
+ efficiency.
+ How, basically, as we get more tools to do more and more difficult tasks,
+ our lives do not get easier.
+ We instead strive for even more efficient tools to tackle even more complex
+ tasks.
+ This accelarating threadmill would not be such a problem if it would make
+ us happy overall.
+ However, as our lives are getting more connected, global and complex, stress
+ is on the rise [REF].
+ 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+[ref] about increasing stress
+\end_layout
+
+\end_inset
+
+ At the same time, we are still trying to achieve overall calm and well-being.
+ Bret Victor says it best:
+\end_layout
+
+\begin_layout Quotation
+If you follow technology, it will only gets you to adopts its way of working.
+ Instead, we have to wonder how a humane technology would look like.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Change with actuall quotation.
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Victor2014"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Calm computing [REF].
+ What we think makes us happy vs what makes us happy.
+ (probably too philosophical and high level).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
