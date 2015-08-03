@@ -109,7 +109,7 @@ pagestyle{plain}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/DirtyTitlepage.lyx"
+filename "chapters/dirtytitlepage.lyx"
 
 \end_inset
 
@@ -119,7 +119,7 @@ filename "./chapters/DirtyTitlepage.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Titlepage.lyx"
+filename "chapters/titlepage.lyx"
 
 \end_inset
 
@@ -129,7 +129,7 @@ filename "./chapters/Titlepage.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Titleback.lyx"
+filename "chapters/titleback.lyx"
 
 \end_inset
 
@@ -146,7 +146,7 @@ filename "./chapters/Titleback.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Dedication.lyx"
+filename "./chapters/dedication.lyx"
 
 \end_inset
 
@@ -163,7 +163,7 @@ filename "./chapters/Dedication.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Abstract.lyx"
+filename "chapters/abstract.lyx"
 
 \end_inset
 
@@ -180,7 +180,7 @@ filename "./chapters/Abstract.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Publication.lyx"
+filename "./chapters/publication.lyx"
 
 \end_inset
 
@@ -197,7 +197,7 @@ filename "./chapters/Publication.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Acknowledgments.lyx"
+filename "./chapters/acknowledgments.lyx"
 
 \end_inset
 
@@ -230,7 +230,7 @@ pagestyle{scrheadings}
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Contents.lyx"
+filename "./chapters/contents.lyx"
 
 \end_inset
 
@@ -261,13 +261,13 @@ pagenumbering{arabic}
 \end_layout
 
 \begin_layout Part
-Some Kind of Manual
+Getting Out of Flatland
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Chapter01.lyx"
+filename "chapters/introduction.lyx"
 
 \end_inset
 
@@ -295,13 +295,13 @@ Errem omnium ea per, pro congue populo ornatus cu, ex qui dicant nemore
 \end_layout
 
 \begin_layout Part
-The Showcase
+Interaction
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Chapter02.lyx"
+filename "chapters/chapter-cursar.lyx"
 
 \end_inset
 
@@ -311,7 +311,7 @@ filename "./chapters/Chapter02.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Chapter03.lyx"
+filename "chapters/chapter-tangibleviewport.lyx"
 
 \end_inset
 
@@ -319,13 +319,23 @@ filename "./chapters/Chapter03.lyx"
 \end_layout
 
 \begin_layout Part
-The Lyx Port
+Introspection
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Chapter04.lyx"
+filename "chapters/chapter-teegi.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapters/chapter-tobe.lyx"
 
 \end_inset
 
@@ -345,9 +355,18 @@ Appendix
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand include
 filename "./chapters/Chapter0A.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
