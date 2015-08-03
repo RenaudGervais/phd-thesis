@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass classicthesis
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_numerical
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -61,17 +70,265 @@
 \begin_body
 
 \begin_layout Chapter
-Acta, non verba
-\end_layout
-
-\begin_layout Standard
+Introduction
 \begin_inset CommandInset label
 LatexCommand label
-name "cha:label-ch1"
+name "cha:introduction"
 
 \end_inset
 
-Ibis redibis numquam peribis in bello.
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Flat Screens
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Most of our waking hours are now spent staring at backlit rectangles of
+ varying sizes.
+ While the use of of computational devices has become ubiquitous in our
+ daily life, flat and rectangular screens are still the de-facto output
+ channel for consuming and interacting with digital content.
+ While they serve a great purpose at delivering digital content to their
+ viewer(s), they fail to seamlessly merge with the environment in which
+ they exist.
+ Instead, the user is required to divert his attention from the real-world
+ before him to focus temporarily or for an extended period of time on this
+ flat rectangle, consume the information or complete a task and then come
+ back to the real-world context.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Screens are inhumane way to represent information on the long term.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There are multiple problems with this way of handling the meshing of our
+ digital and real lives.
+ For one, our digital lives exists in a completely isolated state.
+ We carry them around in our pockets, but one of our scarcest resource,
+ our attention, has always to be either on the digital world or the real
+ one.
+ Additionally, the interaction with the different screens that populate
+ our lives are still very limited.
+ While the advances of touch screen technologies have enabled us to use
+ our fingers to interact with the digital content displayed on screen, we
+ can hardly make the case that it leverages the multiple dimensions of the
+ touch sense: textures and pressure are completely omitted.
+ In his seminal talk, "A Humane Representation of Thoughts" 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Victor2014"
+
+\end_inset
+
+, Bret Victor makes a convincing case for designing interfaces that leverages
+ the vast amount of human senses and ways of thinking.
+ He argues that technology right now confines us in thinking only using
+ ways that a computer can easily understand while we have evolved to think
+ with a multitude of different senses that involves our whole body.
+ In order to create a humane media, focusing on the real world itself seems
+ a promising idea: if we have evolved to think within a real, physical world,
+ leveraging these millions of years of evolution should not only be logical
+ but a sustainable option as well.
+ Indeed, instead of letting our bodies sit at a desk all day to atrophy
+ while our head and fingers do all the work, we should put them to use to
+ instead help us think new ideas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+example of "what is a phone" by bill boxton in designing user interfaces.
+ Gets into a car, throw his phone on the passenger seat, phone connect via
+ bluetooth to radio, continue conversation, drive the car, arrive at destination
+ an pick up the phone to continue conversation while walking.
+ In this example, what is a "phone", is it the mobile phone, the car? What
+ is important is the *conversation*.
+ In the same idea, what is a screen?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Example with the ultimate display (Sutherland 1965).
+ Not only a display but a room where you walk in, move around.
+ It involves the whole body (see reference for this)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This idea of anchoring digital interaction in the real world is by no mean
+ novel.
+ The field of Tangible User Interfaces (TUI) is especially interested in
+ giving form to digital matter.
+ The first concept of TUI was a marble answering machine 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CramptonSmith1995"
+
+\end_inset
+
+ where marbles embodied messages received while the recipient was away from
+ home.
+ Professor Iroshi Ishii has been promoting this vision for more than two
+ decades now.
+ Starting with the proposal of Graspable Interfaces 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fitzmaurice1995"
+
+\end_inset
+
+ followed by the Tangible Bits 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii1997,Ishii2008"
+
+\end_inset
+
+ vision where physical handles on the digital information was offered, it
+ has now evolved to the concept of what Ishii calls Radical Atoms 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Ishii2012"
+
+\end_inset
+
+ which hypothesize a physical material which properties can be digitally
+ controlled.
+\end_layout
+
+\begin_layout Standard
+One way to move closer to physicality is to move part of the content of
+ our flat screen displays in the real world itself.
+ Spatial Augmented Reality (SAR) provides a technical mean towards this
+ idea by using projectors to shed digitally controlled light onto real-world
+ objects and spaces to augment them with functionalities and content.
+ Since the pioneering work of Raskar 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Raskar1998a"
+
+\end_inset
+
+, SAR has been used to augment planar surfaces such as in the 
+\emph on
+Office of the Future
+\emph default
+ vision 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Raskar1998"
+
+\end_inset
+
+ to giving different appearances to everyday objects comprised of curved
+ and complex surfaces 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Raskar2001a"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Problem Statement
+\end_layout
+
+\begin_layout Standard
+Making the real and virtual cohabit on a physical medium represent an interactio
+n challenge.
+ Direct touch can be a solution most of the time.
+ Indeed, manipulating physical objects with our hands is something we have
+ a lot of experience with in our daily lives and thus can express a lot
+ of subtle and expressive gestures and operations.
+ Nonetheless, interacting with the virtual content of an object can sometime
+ be difficult, especially because the virtual content itself does not have
+ a physical embodiment: we are interacting with light that happens to be
+ displayed on the a complex surface.
+ Interacting with touch also suffers from the "fat finger" problem where
+ the finger is occluding the very area where we are interested in and therefore
+ is not appropriate for complex geometries.
+\end_layout
+
+\begin_layout Standard
+Augmented objects also have the potential to help us visualizing information
+ in different ways, ways often more personal than just using virtual elements
+ that cannot go outside of a screen's frame.
+\end_layout
+
+\begin_layout Subsection
+Research Questions
+\end_layout
+
+\begin_layout Subsection
+Research Goals
+\end_layout
+
+\begin_layout Section
+Contributions
+\end_layout
+
+\begin_layout Section
+Structure of the Thesis
 \end_layout
 
 \end_body
