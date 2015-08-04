@@ -114,8 +114,55 @@ It strikes me how technology is almost exclusively associated with performance
  Overall, we try to adapt to the tools we have instead of them being adapted
  to our humane nature.
  As the form factor of our computational devices gets increasingly personal
- -- smartphones and smartwatches are quickly becoming ubiquitous -- there
- is a rise of interest for health and wellbeing applications.
+ -- smartphones and smartwatches are quickly becoming ubiquitous and are
+ with us all the time -- it is important to reflect on the effect they have
+ in our life.
+ For the most part, they are greatly beneficial as they allow us to stay
+ connected with loved ones, access to a wealth of information, work, play,
+ etc.
+ However, this constant capability to be connected leaves little time for
+ our minds for calmness and contemplation 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "turkle2012alone"
+
+\end_inset
+
+.
+ While these might appear to be important only for an overall feeling of
+ well-being, it is also central in fostering creativity.
+ In his book 
+\begin_inset Quotes eld
+\end_inset
+
+Where good ideas come from: The natural history of innovation
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "johnson2010good"
+
+\end_inset
+
+, Johnson makes the case that great ideas often comes from 
+\emph on
+slow
+\emph default
+ hunches that, therefore, require 
+\emph on
+time
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+there is a rise of interest for health and wellbeing applications.
  However, this focus has mainly been on the 
 \emph on
 physical
@@ -130,6 +177,11 @@ status open
 \begin_layout Plain Layout
 I don't like the end of this paragraph; it would be better to simply transition
  to calm technologies.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
