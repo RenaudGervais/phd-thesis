@@ -274,6 +274,16 @@ filename "chapters/introduction.lyx"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapters/chapter-sar.lyx"
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Part Introduction (ClassicThesis)
 Lorem ipsum at nusquam appellantur his, ut eos erant homero concludaturque.
  Albucius appellantur deterruisset id eam, vivendum partiendo dissentiet
