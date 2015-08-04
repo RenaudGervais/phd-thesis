@@ -5,7 +5,7 @@
 \textclass classicthesis
 \use_default_options true
 \maintain_unincluded_children false
-\language american
+\language english
 \language_package default
 \inputencoding default
 \fontencoding global
@@ -217,8 +217,16 @@ Wearable computational devices are more accessible and more popular than
  of how well their body is doing.
  However, health monitoring is only one application of these physiological
  sensors.
- We think such sensors could be used by and for users to gain insight, in
- real-time into what goes on in their own body and emotional state.
+ Indeed, physiological computing is mature enough to assess mental states
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -236,6 +244,23 @@ Qualified self
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Confront calm computing and quantified self.
+ Quantification can cause competition.
+ Competition is not necessary a trait we are looking for in a technology
+ that aims for introspection and contemplation.
+ --> Qualified self.
 \end_layout
 
 \end_inset
