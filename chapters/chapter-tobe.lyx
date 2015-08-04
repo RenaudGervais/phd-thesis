@@ -109,12 +109,41 @@ It strikes me how technology is almost exclusively associated with performance
  more difficult and complex tasks, our satisfaction towards our efficiency
  is not increasing.
  Instead, technology often makes us see all the tasks that we are unable
- to accomplish on one day.
+ to accomplish in one day.
  Email is operating 24h a day while we clearly cannot.
  Overall, we try to adapt to the tools we have instead of them being adapted
  to our humane nature.
- I would argue that it should even go farther than that: technology should
- help us become the human beings we strive to be.
+ I would argue that it should even go further: technology should help us
+ become the human beings we strive to be.
+\end_layout
+
+\begin_layout Standard
+A movement in computer science is interested in producing technology that
+ has a 
+\emph on
+calming 
+\emph default
+impact.
+ Weiser and Brown 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1996"
+
+\end_inset
+
+ first proposed the concept of displaying information relying on the periphery
+ of the user's attention -- without having to focus on it deliberately.
+ 
+\end_layout
+
+\begin_layout Standard
+A movevement in computer science was started by Weiser and Brown [REF:Weiser1996
+] focusing on designing technology that has a 
+\emph on
+calming
+\emph default
+ impact.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -130,6 +159,26 @@ Calm computing [REF].
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Representing Physiological Signals
+\end_layout
+
+\begin_layout Section
+Toolkit
+\end_layout
+
+\begin_layout Section
+Tobe in the Wild
+\end_layout
+
+\begin_layout Section
+Applications
+\end_layout
+
+\begin_layout Section
+Discussion
 \end_layout
 
 \end_body
