@@ -155,6 +155,32 @@ slow
 time
 \emph default
 .
+ Richard Hamming, in his seminal talk 
+\begin_inset Quotes eld
+\end_inset
+
+You and your research
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hamming1986you"
+
+\end_inset
+
+ points to the same direction when mentioning 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+time for thinking great thoughts.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
