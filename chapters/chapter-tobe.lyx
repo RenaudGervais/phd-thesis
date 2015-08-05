@@ -1785,6 +1785,37 @@ Augmentation
 \end_layout
 
 \begin_layout Standard
+The visualization of users' signals are displayed onto Tobe using Spatial
+ Augmented Reality (SAR), as introduced by Raskar et al.
+ [@Raskar2001].
+ SAR adds dynamic graphics to real-world surfaces by the means of projected
+ light.
+ Despite external hardware -- i.e.
+ a projector and eventually a tracking device (Figure 
+\backslash
+ref{fig:capsciences}) -- SAR is an easy solution to prototype a system,
+ faster to deploy than putting actual screens in users' surroundings.
+ The augmentation occurred within vvvv^[[http://vvvv.org/](http://vvvv.org/)],
+ a software that uses real-time visual programming to render 3D scenes.
+ As for hardware, we used a LG PF80G projector of resolution 1920x1080 and
+ the tracking of Tobe was achieved with an OptiTrack V120:Trio, running
+ a 120 FPS with an overall latency of 8.3ms and a precision of 0.8mm.
+ The projector was calibrated with the OptiTrack using OpenCV's camera calibrati
+on function.
+\end_layout
+
+\begin_layout Standard
+As an alternative to SAR, Tobe can be embedded with small screens, LEDs,
+ actuators and small electronics components so that it represents a standalone
+ unit.
+ We already have a proof of concept of such an implementation thanks to
+ the easiness and accessibility of the building blocks that go with the
+ Arduino platform and the Raspberry Pi (Figure 
+\backslash
+ref{fig:droid}).
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1819,6 +1850,27 @@ Feedback Customization
 \end_layout
 
 \begin_layout Standard
+We conceived a GUI that let users draw a picture and animate it according
+ to their wishes.
+ The animator is touch based; users press a "record" button and animate
+ the picture with gestures (Figure 
+\backslash
+ref{fig:animator}).
+ Once done, the animation's timeline is automatically mapped to the chosen
+ signal.
+ This animator is kept simple on purpose, it is designed for novice users
+ and as such must remain easy to understand and operate for someone not
+ familiar with animation.
+ Only three basic operations are currently supported -- scaling, rotation
+ and translation -- and yet it is sufficient to generate meaningful animations.
+ For example, scaling makes a heart beat, translation moves a cloud along
+ respiration and rotation spins cogs faster as workload increases.
+ An advanced tool such as Photoshop has already been integrated as a proof
+ of concept, but the simplicity of the current GUI does not impede users'
+ creativity and already is sufficient to enable a tailored feedback.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1848,6 +1900,142 @@ status open
 
 \begin_layout Section
 Tobe in the Wild
+\end_layout
+
+\begin_layout Standard
+We used and tested Tobe in two different applications cases: as a demonstration
+ in a scientific museum and as a multi-user biofeedback device for relaxation
+ and empathy.
+\end_layout
+
+\begin_layout Subsection
+Tobe in a Public Exhibition
+\end_layout
+
+\begin_layout Standard
+Using a co-design approach, we intervened in a scientific museum over two
+ half days, proposing to passersby to try out Tobe.
+ We built the sensors and prepared the signal processing beforehand because
+ these steps require hardware and expertise.
+ Five high-level metrics were selected: workload, vigilance, meditation,
+ valence and arousal.
+ These metrics were chosen because the wide public showed interest into
+ them (meditation and emotions) or because they could benefit from being
+ better known (workload and vigilance).
+ Due to the short duration of our exhibitions, we also set the corresponding
+ feedback (both support and shape), according to the outcome of the questionnair
+es about people's representations.
+\end_layout
+
+\begin_layout Standard
+After we equipped participants, we gave them "activity cards", a collection
+ of scenarios that were likely to modify their inner state and that prompted
+ self-investigation (Figure 
+\backslash
+ref{fig:capsciences}).
+ There were riddles, arithmetic problems, cute and *less* cute images, a
+ breathing exercise and a "Where's Waldo?" picture.
+ Implicitly the activity cards targeted in this order workload, valence,
+ arousal, meditation and vigilance, but participants were free to test whatever
+ they wanted.
+ These sole cards sufficed to engage participants for a few tens minutes
+ without our intervention.
+\end_layout
+
+\begin_layout Standard
+![In a scientific museum, various activities were proposed to visitors in
+ order to prompt self-investigation.
+ The setup consists of a projector handling the augmentation and an OptiTrack
+ for the tracking.](./img/capscience-setup.png){#fig:capsciences}
+\end_layout
+
+\begin_layout Standard
+We created the activity cards after our first intervention in the museum.
+ There were some candies left at disposal next to Tobe to lure museum's
+ visitors to our booth.
+ At some point, one user wanted to see how different tastes affected the
+ emotional valence that was displayed on Tobe.
+ This proved to be a fun activity for him -- and for the people around.
+ Having such goal in mind was an effective way to drive participants.
+\end_layout
+
+\begin_layout Standard
+One degree of freedom was left to users by the mean of a graphical interface
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-gui"
+
+\end_inset
+
+).
+ They had to manipulate the GUI on a nearby tablet to drag and drop visualizatio
+ns on predefined anchor points.
+ Users could customize some of Tobe's aspects (eyes and heart rate feedback)
+ and among the 5 high-level metrics available, they selected which one to
+ study at a particular time.
+ When at first we tested Tobe with *no* degree of freedom -- i.e., all metrics
+ were displayed altogether -- we realized that users were too passive and
+ quickly overwhelmed.
+ The GUI helped to focus and engage users.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-gui.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-gui"
+
+\end_inset
+
+The touched-based GUI allowing visitors to customize the appearance of Tobe's
+ eyes and to select which feedback was displayed on Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To further engage users, Tobe was tracked and participants were asked to
+ put Tobe on a spotlight to "awake" it -- i.e., to start physiological signals'
+ streams.
+ The action of bringing life to an inanimate puppet goes well with making
+ the world "magical" again [@Rose2014], that is to say to use the power
+ of abstraction of modern computer science in order to bring back awe.
+ The aim is not to take benefit of ignorance but to strengthen the amazement
+ that technology can offer.
+ We were ourselves pleasantly disturbed and surprised when we happened to
+ hold in our hands a representation of our beating heart during some routine
+ test.
+ Suddenly the relationship with the digital content felt different, truly
+ tangible.
 \end_layout
 
 \begin_layout Section
