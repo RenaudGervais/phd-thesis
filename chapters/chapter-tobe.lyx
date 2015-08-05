@@ -446,9 +446,13 @@ https://www.empatica.com/
  difficult to conceptualize and often difficult to perceive -- the feedback
  given to users matters for them to comprehend at first sight what is being
  measured.
- How to represent the arousal state of someone? How would *you* represent
- cognitive workload? We found little examples besides pies and charts, which
- are not always obvious informants in data visualizations -- e.g., 
+ How to represent the arousal state of someone? How would 
+\emph on
+you
+\emph default
+ represent cognitive workload? We found little examples besides pies and
+ charts, which are not always obvious informants in data visualizations
+ -- e.g., 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "McCandless2010"
