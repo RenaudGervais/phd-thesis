@@ -103,9 +103,9 @@ Out-of-Body
 \end_inset
 
  Experiences.
- These tools are presented using an incarnation based on a tangible anthropomorp
-hic avatar and spatial augmented reality to display real-time physiological
- signals and mental states (Figure 
+ These tools are presented using one incarnation of the system based on
+ a tangible anthropomorphic avatar and spatial augmented reality to display
+ real-time physiological signals and mental states (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tobe-and-gui"
@@ -766,8 +766,352 @@ User's feedback about the Tobe system and how they perceive physiological
 Representing Physiological Signals
 \end_layout
 
+\begin_layout Standard
+Exposing physiological signals in a way that makes sense for the user is
+ not trivial.
+ Some types of signals might be more obvious to represent than others.
+ For example, heart activity could be understood using a symbolic heart
+ shape due to largely accepted cultural references.
+ This question is, however, harder when talking about more abstract mental
+ states such as workload.
+ Nevertheless, even the dynamic representation of low-level physiological
+ signals is still an open question at the moment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Chanel2015"
+
+\end_inset
+
+.
+ We conducted two surveys to gain more insight about the knowledge and the
+ representation people had of different types of signals and high-level
+ mental states.
+\end_layout
+
+\begin_layout Standard
+In the first survey, conducted online, we asked 36 persons about their knowledge
+ of physiological signals in general.
+ We inquired about the self-awareness of inner states on a 7-points Likert
+ scale (1: no awareness, 7: perfectly aware).
+ About "internal physiological activities", the average score was 3.5 (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+SD=1.4
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+) and for "mental states", the average score was 4.9 (SD=1.3).
+ The latter score indicates that the participants thought they 
+\emph on
+knew
+\emph default
+ their inner states -- even though a whole literature demonstrates how difficult
+ this is 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nisbett1977"
+
+\end_inset
+
+ and how easily we are deceived 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Valins1966"
+
+\end_inset
+
+.
+ Interestingly, we also observed that most of the participants reduced mental
+ state and physiology to emotions only.
+ Mentions of any cognitive processes such as vigilance and workload were
+ very rare (7 out of 36).
+ This lack of knowledge about the inner self and the different cognitive
+ processes is an opportunity to raise awareness of the general public about
+ the complexity of the mind.
+ When inquired about possible uses of a Tobe system, very few respondents
+ (6 out of 36) gave examples other than sports or health.
+ This emphasis the fact that the general public is unaware of possibilities
+ of technology for well-being.
+\end_layout
+
+\begin_layout Standard
+The second survey specifically investigated how users would shape the feedback.
+ We focused on visual cues because it was easier to express on paper, but
+ note that other modalities could be explored, such as sound 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mealla2011"
+
+\end_inset
+
+.
+ We asked 15 participants to express with drawings and text how they would
+ represent various metrics (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-user-drawings"
+
+\end_inset
+
+).
+ There was little resemblance between subjects for a given high-level metric
+ and even low-level ones -- breathing and heart activity -- sprang different
+ views.
+ For example, some people drew a physiologically accurate heart instead
+ of a simple sketch.
+ Overall, there was a wide variety of sketches and people were very creative.
+ This highlighted the absence of consensus on how we conceive and view our
+ inner states.
+ Therefore, people could benefit from being able to tailor a meaningful
+ and personal feedback.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-drawings.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-user-drawings"
+
+\end_inset
+
+Sample of the drawings made by participants to represent various high-level
+ metrics.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Toolkit
+\end_layout
+
+\begin_layout Standard
+We created a tangible anthropomorphic avatar, named Tobe as a host for displayin
+g real-time feedback.
+ We chose this form factor because we found evidence in the literature that
+ this combination of anthropomorphism and tangibility can foster social
+ presence and likability [@Schmitz2010;@Hornecker2011;@Horn2009].
+ This also reminds users and observers that the feedback is linked to an
+ actual being; it helps to recognize Tobe as a persona and to bond with
+ it, hence it facilitates engagement.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: talk more about anthropomorphism
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: write small discussion about cherichable objects in order to justify
+ the tangibility more
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Our implementation uses open or low-cost hardware and we are releasing as
+ open-source software the entire pipeline
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+TO UPDATE:
+\lang english
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://gitrepo.github.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: Update git repo address
+\end_layout
+
+\end_inset
+
+, thus facilitating reproduction and dissemination.
+\end_layout
+
+\begin_layout Subsection
+General Approach
+\end_layout
+
+\begin_layout Standard
+We conceived a toolkit to assist the creation of representations of inner
+ activities -- our body at large and the hidden processes of our mind in
+ particular, making it visible to oneself and to others.
+ The different components are highlighted in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-toolkit-drawing"
+
+\end_inset
+
+.
+ The first step consists in choosing a metric, e.g.
+ the arousal level.
+ For this given metric there are different ways to measure it, that include
+ a combination of one or multiple sensor(s) and signal processing algorithm(s).
+ One chooses a support to express this metric (e.g.
+ tangible avatar, screen, speaker for sound) and creates a shape associated
+ to it (e.g.
+ a circle with a changing color, a rhythmic tone).
+ The conjunction of both the shape and the support produces the feedback.
+ It is an iterative process because when one acknowledges the feedback,
+ it changes one's self-representation.
+ Moreover, it creates a feedback loop which affects one's biosignals.
+\end_layout
+
+\begin_layout Standard
+In order to help users mold the system to their likening, we identified
+ three different degrees of freedom:
+\end_layout
+
+\begin_layout Itemize
+The measured physiological signal or mental state (
+\emph on
+Metric
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+The form factor (
+\emph on
+Support
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+The display of the signals (
+\emph on
+Shape
+\emph default
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-pipeline.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-toolkit-drawing"
+
+\end_inset
+
+Simplified overview of the toolkit that supports Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
