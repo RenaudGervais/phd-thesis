@@ -427,7 +427,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Tools to reflect on oneself and others
+Tobe: a tool to reflect on oneself and others
 \end_layout
 
 \end_inset
@@ -596,6 +596,60 @@ Qualified self
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One of our objective with Tobe was to foster reflection about well-being
+ and inner states.
+ While the toolkit we propose can definitely fit well into the 
+\begin_inset Quotes eld
+\end_inset
+
+Quantified Self
+\begin_inset Quotes erd
+\end_inset
+
+ movement as a way to represent and collect data in a tangible way -- as
+ it was done in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Khot2014"
+
+\end_inset
+
+-- we wanted to go for a 
+\emph on
+Qualified
+\emph default
+ Self.
+ Qualitative representations of information, especially when on a continuum,
+ have the advantage of avoiding explicit metric.
+ Numbers have this properties that they can easily be compared -- that is
+ how scores work.
+ A score can be used to compare against own previous performances or performance
+s of others.
+ This implicitely create competition, a state more or less compatible with
+ calm, reflection and well-being 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Brandts2005"
+
+\end_inset
+
+.
+ Moreover, introspection is an activity where one is focusing on his or
+ her own states, trying to avoid comparing against others.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Feels a bit subjective but might be ok.
+ To revise.
 \end_layout
 
 \end_inset
