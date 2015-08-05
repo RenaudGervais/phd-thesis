@@ -85,6 +85,94 @@ name "cha:tobe"
 status open
 
 \begin_layout Plain Layout
+Chapter overview
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This chapter introduces Tobe, a toolkit for creating Tangible 
+\begin_inset Quotes eld
+\end_inset
+
+Out-of-Body
+\begin_inset Quotes erd
+\end_inset
+
+ Experiences.
+ These tools are presented using an incarnation based on a tangible anthropomorp
+hic avatar and spatial augmented reality to display real-time physiological
+ signals and mental states (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-and-gui"
+
+\end_inset
+
+).
+ The main objective of this project was to enable users to know more about
+ themselves and others using a representation that they could shape themselves
+ -- that is, creating a tangible avatar of their 
+\emph on
+inner
+\emph default
+ selves.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-tablet-window.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-and-gui"
+
+\end_inset
+
+Tobe, the tangible avatar displaying real-time physiological readings along
+ with the interface to control the different visualizations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
 Technology makes us more efficient but not more satisfied.
 \begin_inset Note Greyedout
 status open
@@ -513,52 +601,6 @@ key "Golsteijn2012"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/tobe-tablet-window.jpg
-	lyxscale 10
-	width 100line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:tobe-and-gui"
-
-\end_inset
-
-Tobe, the tangible avatar displaying real-time physiological readings along
- with the interface to control the different visualizations.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Marginal
 status open
 
@@ -685,6 +727,39 @@ key "Frey2014"
  Our toolkit pushes further the boundaries of the applications by giving
  access to physiological signals, high-level mental states, dynamic and
  customizable feedback.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Contributions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The contributions for this work are:
+\end_layout
+
+\begin_layout Itemize
+A toolkit enabling users to create an animated tangible representation of
+ their inner states, encompassing the entire workflow including the physical
+ avatar creation, sensors, signal processing, feedback and augmentation
+ using spatial augmented reality.
+\end_layout
+
+\begin_layout Itemize
+Two use cases of Tobe which were tested in public settings.
+\end_layout
+
+\begin_layout Itemize
+User's feedback about the Tobe system and how they perceive physiological
+ signals and mental states.
 \end_layout
 
 \begin_layout Section
