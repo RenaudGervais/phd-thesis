@@ -1641,6 +1641,154 @@ In earlier iterations of the system we tested the use of an Emotive Epoc
  haired persons.
 \end_layout
 
+\begin_layout Subsection
+Signal Processing 
+\end_layout
+
+\begin_layout Standard
+Consumers-oriented EEG headsets usually conceal signal processing behind
+ proprietary algorithms, with little scientific evidence on what is truly
+ measured.
+ While building a tailored EEG helmet, we took the upper hand on the whole
+ pipeline.
+ With access to raw EEG signals, we looked into the literature to match
+ the inner state we wanted to measure with actual neurological markers.
+ We have used the following features:
+\end_layout
+
+\begin_layout Description
+Vigilance: appoints for the ability to maintain attention over time.
+ We use the ratio between beta frequency band (15-20Hz) and theta + low
+ alpha frequency band (4-10Hz) for all electrodes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Oken2006"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Workload: increases with the amount of mental effort required to complete
+ a task.
+ We use the ratio between delta + theta band (1-8Hz) in near frontal cortex
+ (F7, FP1, F8, T8) and wide alpha band (8-14Hz) in parietal + occipital
+ cortex (P8, P7, O2, O1) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Antonenko2010,Schober1995"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Meditation: we used instantaneous phase locking value between front (FP1,
+ F7, F8) and rear (O1, P7, P8) parts of the brain in alpha + beta bands
+ (7-28Hz) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Frey2014"
+
+\end_inset
+
+ -- mindfulness and body focus practices decrease the synchronization while
+ transcendental practice increases it.
+\end_layout
+
+\begin_layout Description
+Valence: designates the hedonic tone of an emotion and varies from positive
+ to negative (e.g., 
+\emph on
+frustrated
+\emph default
+ vs 
+\emph on
+pleasant
+\emph default
+).
+ We use the ratio between the EEG signal power in the left (F7, P7, O1)
+ and right (F8, P8, O2) cortex in the alpha band (8-12Hz) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Molina2009"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+ Arousal: relates to the intensity of an emotion and varies from calm to
+ excited (e.g., 
+\emph on
+satisfied
+\emph default
+ vs 
+\emph on
+happy
+\emph default
+).
+ We use the EDA readings.
+\end_layout
+
+\begin_layout Standard
+We used OpenViBE to analyze physiological data in real time
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://openvibe.inria.fr/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ EEG signals were re-referenced using a common average reference.
+ Mentioned frequencies were extracted with a band-pass filter, taking the
+ log of the power of signals in order to normalize indices.
+ Eye blinks were detected when the signal exceeded 4 times the variance
+ in the F8 electrode.
+\end_layout
+
+\begin_layout Standard
+Each physiological signal or mental state index was sent to the other stage
+ of the toolkit using LSL, a network protocol dedicated to physiological
+ recordings
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/sccn/labstreaminglayer/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
 Tobe in the Wild
 \end_layout
