@@ -1214,6 +1214,29 @@ reference "fig:tobe-modular-body"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: talk a little bit more about customization.
+ Idea of the balance to automatically set some features of the body (and
+ mention potential 
+\begin_inset Quotes eld
+\end_inset
+
+ethical
+\begin_inset Quotes erd
+\end_inset
+
+ problem of doing that).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1755,6 +1778,72 @@ https://github.com/sccn/labstreaminglayer/
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Augmentation
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: mention how the reflective stickers were on the puppet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: compare this setup to the ones used in other setups such as Tangible
+ Viewports and CurSAR.
+ Simpler and more readily deployable.
+ (is it really simpler than Teegi? probably not, but simpler than TPorts
+ for sure).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Feedback Customization
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: Add more details about the GUI design (if relevant)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: Mention that Tangible Viewport could be used as a way to quickly generate
+ the visual feedback for more proficient users.
+ 
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
