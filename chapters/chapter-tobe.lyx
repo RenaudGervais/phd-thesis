@@ -1247,7 +1247,7 @@ status open
 \begin_inset Graphics
 	filename ../img/tobe-potato.jpg
 	lyxscale 10
-	width 100line%
+	width 75line%
 
 \end_inset
 
@@ -1855,7 +1855,7 @@ status open
 \begin_inset Graphics
 	filename ../img/tobe-droid.jpg
 	lyxscale 10
-	width 100line%
+	width 75line%
 
 \end_inset
 
