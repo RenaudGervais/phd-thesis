@@ -1236,8 +1236,59 @@ Support: 3D Printing
  a "Mr.
  Potato Head" version of Tobe, with parts ready to be assembled (Figure
  
-\backslash
-ref{fig:potato}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-modular-body"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-potato.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-modular-body"
+
+\end_inset
+
+Modular 3D printed body pieces in order to quickly create a personalized
+ Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -1272,6 +1323,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-sensor-ecg"
+
+\end_inset
+
 Coat embedding ECG sensors
 \end_layout
 
@@ -1312,6 +1369,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-sensor-eda"
+
+\end_inset
+
 Fingerless glove measuring EDA
 \end_layout
 
@@ -1348,6 +1411,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-sensor-breathing"
+
+\end_inset
+
 Breathing belt
 \end_layout
 
@@ -1384,6 +1453,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-sensor-eeg"
+
+\end_inset
+
 EEG headband
 \end_layout
 
@@ -1471,8 +1546,13 @@ key "Kranjec2014"
  The electrodes were attached to an elastic band sewed inside the end of
  the lab coat sleeves which could be tightened with velcro straps (Figure
  
-\backslash
-ref{fig:ecg}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-sensor-ecg"
+
+\end_inset
+
+).
  ECG was recorded with the dedicated ECG module of the BITalino.
 \end_layout
 
@@ -1488,8 +1568,13 @@ When measuring EDA, most accurate readings can be obtained from the tip
  from the palm of a single hand instead.
  We assess skin conductance from two small conductive thread patches sewn
  inside a fingerless glove (Figure 
-\backslash
-ref{fig:eda}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-sensor-eda"
+
+\end_inset
+
+).
  Because the BITalino EDA amplifier was not sensitive enough for signals
  acquired from the palm we made our own, replicating the schematics described
  in 
@@ -1508,8 +1593,13 @@ Breathing
 
 \begin_layout Standard
 For breathing, we built a belt based on a stretch sensor (Figure 
-\backslash
-ref{fig:breathing}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-sensor-breathing"
+
+\end_inset
+
+).
  A conductive rubber band was mounted as a voltage divider and connected
  to an instrumentation amplifier (Texas Instruments INA128).
  As opposed to piezoelectric components, that are sensitive to momentous
@@ -1524,8 +1614,13 @@ EEG and Eye Blinks (EOG)
 \begin_layout Standard
 We built our own EEG helmet based on the open hardware OpenBCI board (Figure
  
-\backslash
-ref{fig:openbci}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-sensor-eeg"
+
+\end_inset
+
+).
  To shorten setup time we used dry electrodes -- the same TDE-201 as for
  ECG for the forehead, and elsewhere TDE-200 electrodes, which possess small
  protuberance that could go through the hair.
