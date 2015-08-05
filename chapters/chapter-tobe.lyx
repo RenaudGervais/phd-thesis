@@ -975,7 +975,14 @@ We created a tangible anthropomorphic avatar, named Tobe as a host for displayin
 g real-time feedback.
  We chose this form factor because we found evidence in the literature that
  this combination of anthropomorphism and tangibility can foster social
- presence and likability [@Schmitz2010;@Hornecker2011;@Horn2009].
+ presence and likability 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schmitz2011,Horn2009,Hornecker2011"
+
+\end_inset
+
+.
  This also reminds users and observers that the feedback is linked to an
  actual being; it helps to recognize Tobe as a persona and to bond with
  it, hence it facilitates engagement.
@@ -1149,6 +1156,394 @@ Simplified overview of the toolkit that supports Tobe.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsubsection
+Sensors and Signal Processing
+\end_layout
+
+\begin_layout Standard
+Sensors are the hardware used to capture the raw signals of the body.
+ These encompass heart measures such as electrocardiography (ECG) and photopleth
+ysmography (PPG), brain activity measured by electroencephalography (EEG),
+ electrodermal activity (EDA, i.e.
+ perspiration), etc.
+ Once the raw data is acquired, it needs to be processed in order to produce
+ any relevant metric.
+ As an example, heart rate variability can be inferred from the combination
+ of a set of electrodes attached to the chest and a QRS wave detector.
+ Emotions can be inferred from EDA or certain frequency bands within EEG.
+\end_layout
+
+\begin_layout Subsubsection
+Metrics
+\end_layout
+
+\begin_layout Standard
+There is a continuum in the visibility of the signals and mental states
+ measured from physiological sensors, i.e.
+ metrics.
+ We categorized those metrics in three different levels, depending on who
+ can perceive them without technological help.
+\end_layout
+
+\begin_layout Enumerate
+Perceived by self and others, e.g., eye blinks.
+ Even if those signals may sometimes appear redundant as one may directly
+ look at the person in order to see them, they are crucial in associating
+ a feedback to a user.
+\end_layout
+
+\begin_layout Enumerate
+Perceived only by self, e.g., heart rate or breathing.
+ Mirroring these signals provides presence towards the feedback.
+\end_layout
+
+\begin_layout Enumerate
+Hidden to both self and others, e.g., mental states such as cognitive workload.
+ This type of metrics holds the most promising applications since they are
+ mostly unexplored.
+\end_layout
+
+\begin_layout Standard
+Lower levels (1 & 2) help to breath life into a proxy used to mediate the
+ inner state of the user.
+ These metrics are accessible to our conscious selves.
+ On the other hand, level 3 metrics are little known and are hard to conceptuali
+ze for the general public 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Nisbett1977"
+
+\end_inset
+
+ and would benefit the most of a system enabling their visualization.
+\end_layout
+
+\begin_layout Subsection
+Support: 3D Printing
+\end_layout
+
+\begin_layout Standard
+3D printing a tangible avatar is a powerful incentive for customization.
+ While the version of the system that we deployed in the scientific museum
+ used an already modeled and 3D printed incarnation of Tobe because of time
+ constraints, a user of the system could change the parametric model in
+ order to obtain an avatar that pleases her.
+ The process would be similar to how the appearance of a Nintendo "Mii"
+ can be tuned, except for the tangibility.
+ As a tradeoff between preparation time and customization, we prototyped
+ a "Mr.
+ Potato Head" version of Tobe, with parts ready to be assembled (Figure
+ 
+\backslash
+ref{fig:potato}).
+\end_layout
+
+\begin_layout Subsection
+Sensors: Wearables
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-sensor-ecg.jpg
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Coat embedding ECG sensors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-sensor-eda.jpg
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fingerless glove measuring EDA
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-sensor-breathing.jpg
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Breathing belt
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-sensor-openbci.jpg
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+EEG headband
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Wearables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Metrics were acquired from five physiological signals.
+ We measured thoracic circumference for breathing, ECG for heart rate, EDA
+ for arousal, electrooculography (EOG, eyes activity) for eye blinks, and
+ electroencephalography (EEG, brain activity) for most high-level mental
+ states.
+\end_layout
+
+\begin_layout Standard
+We created the sensors with a wearable form factor in mind.
+ Since we used Tobe in public settings, it was important that the sensors
+ were non-invasive (no need to remove clothes or apply gel to the skin)
+ and be quick to install and remove, while being able to acquire a reliable
+ signal.
+ With the setup described in this section, we were able to equip the users
+ and record physiological signals in less than two minutes.
+\end_layout
+
+\begin_layout Standard
+The different sensors were embedded inside a lab coat (Figure 
+\backslash
+ref{fig:capsciences}) which could be put on quickly over daily clothes.
+ This form factor provides enough room in the sleeves and the pockets to
+ take care of the wiring and electronic components storage.
+ The recording of the low-level physiological signals (i.e.
+ everything except EEG) is done using the BITalino board, an Arduino-based
+ recording device.
+ It contains modules that amplifies various physiological signals and embeds
+ a Bluetooth adapter as well as a battery to work in ambulatory settings.
+\end_layout
+
+\begin_layout Subsubsection
+ECG
+\end_layout
+
+\begin_layout Standard
+We chose to use ECG for heart rate activity as it is more accurate than
+ light emission-based methods to detect individual heartbeats 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kranjec2014"
+
+\end_inset
+
+.
+ Existing solutions for ECG require electrodes to be put directly on the
+ chest, e.g., heart rate monitor belts.
+ We instead opted for installing TDE-201 Ag-AgCl electrodes from Florida
+ Research Instruments on both wrists of the user (ECG needs two electrodes
+ diametrically opposed to sense heart electrical activity).
+ The electrodes were attached to an elastic band sewed inside the end of
+ the lab coat sleeves which could be tightened with velcro straps (Figure
+ 
+\backslash
+ref{fig:ecg}).
+ ECG was recorded with the dedicated ECG module of the BITalino.
+\end_layout
+
+\begin_layout Subsubsection
+EDA
+\end_layout
+
+\begin_layout Standard
+When measuring EDA, most accurate readings can be obtained from the tip
+ of the fingers.
+ However, since it is difficult to manipulate a tangible interface and controls
+ while having hardware attached to one's fingers, we acquire the signal
+ from the palm of a single hand instead.
+ We assess skin conductance from two small conductive thread patches sewn
+ inside a fingerless glove (Figure 
+\backslash
+ref{fig:eda}).
+ Because the BITalino EDA amplifier was not sensitive enough for signals
+ acquired from the palm we made our own, replicating the schematics described
+ in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Poh2010"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Breathing
+\end_layout
+
+\begin_layout Standard
+For breathing, we built a belt based on a stretch sensor (Figure 
+\backslash
+ref{fig:breathing}).
+ A conductive rubber band was mounted as a voltage divider and connected
+ to an instrumentation amplifier (Texas Instruments INA128).
+ As opposed to piezoelectric components, that are sensitive to momentous
+ speed instead of position, stretch sensors can directly map users' chest
+ inflation onto their avatar.
+\end_layout
+
+\begin_layout Subsubsection
+EEG and Eye Blinks (EOG)
+\end_layout
+
+\begin_layout Standard
+We built our own EEG helmet based on the open hardware OpenBCI board (Figure
+ 
+\backslash
+ref{fig:openbci}).
+ To shorten setup time we used dry electrodes -- the same TDE-201 as for
+ ECG for the forehead, and elsewhere TDE-200 electrodes, which possess small
+ protuberance that could go through the hair.
+ Using a stretchable headband, we restrained electrodes' locations to the
+ rim of the scalp to avoid difficulties with long-haired people.
+ In the 10-20 system, electrodes were positioned at O1, P7, F7, FP1, F8,
+ T8, P8 and O2 locations -- reference at T7, ground at FP2.
+\end_layout
+
+\begin_layout Standard
+In earlier iterations of the system we tested the use of an Emotive Epoc
+ headset to account for brain activity.
+ The Epoc is a consumers-oriented EEG device, easier to install than medical
+ headsets that use gel.
+ However, it still requires a saline solution that tends to dry over time,
+ causing additional installation time between users.
+ Moreover, good signal quality was next to impossible to obtain with long
+ haired persons.
 \end_layout
 
 \begin_layout Section
