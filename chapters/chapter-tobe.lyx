@@ -284,38 +284,6 @@ Great Thoughts
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-there is a rise of interest for health and wellbeing applications.
- However, this focus has mainly been on the 
-\emph on
-physical
-\emph default
- health of our bodies.
- While it is a crucial part of our overall wellbeing, our minds, encompassing
- the different cognitive processes, mental states and emotions need to be
- taken into account as well.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-I don't like the end of this paragraph; it would be better to simply transition
- to calm technologies.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Marginal
 status open
 
@@ -1721,7 +1689,7 @@ key "Molina2009"
 \end_layout
 
 \begin_layout Description
- Arousal: relates to the intensity of an emotion and varies from calm to
+Arousal: relates to the intensity of an emotion and varies from calm to
  excited (e.g., 
 \emph on
 satisfied
