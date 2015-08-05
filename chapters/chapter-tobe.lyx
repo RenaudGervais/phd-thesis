@@ -85,12 +85,12 @@ name "cha:tobe"
 status open
 
 \begin_layout Plain Layout
+Technology makes us more efficient but not more satisfied.
 \begin_inset Note Greyedout
 status open
 
 \begin_layout Plain Layout
-Technology makes us more efficient but not more satisfied.
- Raw technology does not foster reflection.
+Technology usage does not foster reflection.
 \end_layout
 
 \end_inset
@@ -223,16 +223,7 @@ I don't like the end of this paragraph; it would be better to simply transition
 status open
 
 \begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
 Calm computing
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -291,16 +282,7 @@ reflection
 status open
 
 \begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Quantified self
-\end_layout
-
-\end_inset
-
-
+The Quantified Self
 \end_layout
 
 \end_inset
@@ -423,16 +405,7 @@ key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
 status open
 
 \begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
 Tobe: a tool to reflect on oneself and others
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -586,16 +559,7 @@ Tobe, the tangible avatar displaying real-time physiological readings along
 status open
 
 \begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Qualified self
-\end_layout
-
-\end_inset
-
-
+Towards a Qualified self
 \end_layout
 
 \end_inset
@@ -604,7 +568,7 @@ Qualified self
 \end_layout
 
 \begin_layout Standard
-One of our objective with Tobe was to foster reflection about well-being
+One of our objectives with Tobe was to foster reflection about well-being
  and inner states.
  While the toolkit we propose can definitely fit well into the 
 \begin_inset Quotes eld
@@ -662,16 +626,7 @@ Feels a bit subjective but might be ok.
 status open
 
 \begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
 Previous work
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
