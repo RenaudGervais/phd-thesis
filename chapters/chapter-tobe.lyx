@@ -441,6 +441,147 @@ Tools to reflect on oneself and others
 \end_layout
 
 \begin_layout Standard
+On the one hand, physiological technologies are not exploited to their full
+ potential and on the other hand, we have end users that ignore what technology
+ has to offer for their well-being.
+ Some companies are pioneers, as for example Empatica and its Embrace smart
+ watch
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://www.empatica.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, but such companies focus on health applications and, consequently, the
+ targeted consumers are still a niche.
+ Both a process that will raise public awareness and a collection of meaningful
+ use cases are missing.
+ Finally, when bodily activity and mental states are at stake -- which are
+ difficult to conceptualize and often difficult to perceive -- the feedback
+ given to users matters for them to comprehend at first sight what is being
+ measured.
+ How to represent the arousal state of someone? How would *you* represent
+ cognitive workload? We found little examples besides pies and charts, which
+ are not always obvious informants in data visualizations -- e.g., 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "McCandless2010"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+To address these issues, we first conducted surveys and interviews to gain
+ insight about physiological feedback.
+ We then created Tobe (to be pronounced [
+\family typewriter
+tobi
+\family default
+]), a Tangible Out-of-Body Experience shaped as a tangible avatar (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-and-gui"
+
+\end_inset
+
+).
+ This avatar lets users freely explore and represent their physiological
+ signals, displayed on the avatar itself using spatial augmented reality.
+ The overarching goal is to help one reflect on his physiological and mental
+ states in 
+\emph on
+his or her
+\emph default
+ own way.
+ The main activity would be for users to actively 
+\emph on
+build
+\emph default
+ from the ground up their own self-representation and then visualize physiologic
+al signals through it.
+ As such, we designed a modular toolkit around Tobe that can be used to
+ customize any part of the system.
+ Tobe has been tested on two different occasions in a scientific museum
+ to collect user feedback.
+ A specialized version of the system was also built to give biofeedback
+ to multiple users in a relaxation task.
+ Beside these two implementations, we frame potential uses of the system,
+ such as a biofeedback device for stroke rehabilitation or replaying inner
+ states synchronized along with videos of cherished memories.
+ The latter example could help create more cherishable versions of personal
+ digital data 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Golsteijn2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-tablet-window.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-and-gui"
+
+\end_inset
+
+Tobe, the tangible avatar displaying real-time physiological readings along
+ with the interface to control the different visualizations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
