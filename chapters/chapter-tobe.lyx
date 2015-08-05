@@ -89,7 +89,8 @@ status open
 status open
 
 \begin_layout Plain Layout
-Technology speeds up instead of calming us down
+Technology makes us more efficient but not more satisfied.
+ Raw technology does not foster reflection.
 \end_layout
 
 \end_inset
@@ -130,7 +131,7 @@ key "turkle2012alone"
 
  -- leaves little time for our minds for calmness and contemplation.
  While these might appear to be important only for an overall feeling of
- well-being, it is also central in fostering creativity.
+ well-being, it is also central in fostering creativity and innovation.
  In his book 
 \begin_inset Quotes eld
 \end_inset
@@ -322,7 +323,8 @@ life hacking
  ever.
  These devices are personal and are embedded with physiological sensors.
  The most current use of these sensors are health monitoring, e.g.
- runners have access to their heartbeat, traveled distances and their itinerary.
+ runners have access to their heart rates, traveled distances and their
+ itinerary.
  Physiological sensors measure something deeply personal while at the same
  time measuring information that is not explicitly available to us.
  The 
@@ -362,6 +364,48 @@ key "Kunze2013"
  and objectively aware of how well their body and mind are doing.
  However, these applications are limited compared to what physiological
  sensors can offer.
+ Nowadays even brain activity is within reach of consumers thanks to cheap
+ alternatives to medical equipment, such as the Emotiv Epoc
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://emotiv.com/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ or, closer to the Do-It-Yourself community, the OpenBCI board
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.openbci.com
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
  Indeed, physiological computing is mature enough to assess mental states
  
 \begin_inset CommandInset citation
@@ -371,7 +415,29 @@ key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
 \end_inset
 
 .
- 
+ Therefore, it could be used as a mean to better know our own self and others.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Tools to reflect on oneself and others
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -406,28 +472,6 @@ Confront calm computing and quantified self.
  Competition is not necessary a trait we are looking for in a technology
  that aims for introspection and contemplation.
  --> Qualified self.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Tools to reflect on oneself and others
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
