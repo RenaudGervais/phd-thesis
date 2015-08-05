@@ -170,17 +170,19 @@ key "hamming1986you"
 
 \end_inset
 
- hints in the same direction when mentioning 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-time for thinking great thoughts.
-\end_layout
-
+ hints in the same direction when mentioning his habit to set time aside
+ weekly for thinking about 
+\begin_inset Quotes eld
 \end_inset
 
+Great Thoughts
+\begin_inset Quotes erd
+\end_inset
 
+.
+ It is indeed hard to imagine any Nobel prize laureate reflecting on important
+ problems while answering emails or disturbed by yet another notification
+ from their smartphone.
 \end_layout
 
 \begin_layout Standard
@@ -263,7 +265,24 @@ key "Ishii1998"
 
  used this concept in conjunction with architectural space to design a room
  where information was represented as subtle visual and auditory cues.
- 
+ These work are interesting because they do not claim our limited attention
+ in order to work well.
+ In the same line of thought, Hallnäs and Redström 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hallnas2001"
+
+\end_inset
+
+ proposed the idea of a technology that is purposely 
+\emph on
+slow
+\emph default
+ and is designed to foster 
+\emph on
+reflection
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
@@ -289,23 +308,60 @@ Quantified self
 \end_layout
 
 \begin_layout Standard
-Wearable computational devices are more accessible and more popular than
+People are interested in improving their own lives.
+ We indeed live in an era of Do-It-Yourself, 
+\begin_inset Quotes eld
+\end_inset
+
+life hacking
+\begin_inset Quotes erd
+\end_inset
+
+ and personal development.
+ Wearable computational devices are more accessible and more popular than
  ever.
  These devices are personal and are embedded with physiological sensors.
- The most current use of these sensors are health monitoring.
- For example, runners have access to their heartbeat, their traveled distances,
- their itinerary, etc.
+ The most current use of these sensors are health monitoring, e.g.
+ runners have access to their heartbeat, traveled distances and their itinerary.
  Physiological sensors measure something deeply personal while at the same
  time measuring information that is not explicitly available to us.
- For example, what is happening in my brain right now? How stressed am I?
- Indeed, for many of the emotional states we are going through on a daily
- basis, the body react way before the mind realize what is going on [REF].
- For example, how useful would it be to realize that you are experiencing
- impatience before acting impatient with your spouse? Health monitoring
- is popular exactly because people are not explicitly and objectively aware
- of how well their body is doing.
- However, health monitoring is only one application of these physiological
- sensors.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+Quantified Self
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolf2010"
+
+\end_inset
+
+ movement have arose from the availability of such sensors 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Li2011"
+
+\end_inset
+
+ and people uses them to collect large amount of data about their lives
+ in order to reflect on them.
+ While this movement has been mostly about collecting physical health data,
+ extension to cognitive tasks has also been proposed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kunze2013"
+
+\end_inset
+
+.
+ Such data collection is popular exactly because people are not explicitly
+ and objectively aware of how well their body and mind are doing.
+ However, these applications are limited compared to what physiological
+ sensors can offer.
  Indeed, physiological computing is mature enough to assess mental states
  
 \begin_inset CommandInset citation
