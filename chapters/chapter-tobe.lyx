@@ -628,12 +628,12 @@ Qualified
 \emph default
  Self.
  Qualitative representations of information, especially when on a continuum,
- have the advantage of avoiding explicit metric.
+ have the advantage of avoiding explicit metrics.
  Numbers have this properties that they can easily be compared -- that is
  how scores work.
- A score can be used to compare against own previous performances or performance
-s of others.
- This implicitely create competition, a state more or less compatible with
+ A score can be used to compare against our own previous performances or
+ performances of others.
+ This implicitly create competition, a state more or less compatible with
  calm, reflection and well-being 
 \begin_inset CommandInset citation
 LatexCommand citep
