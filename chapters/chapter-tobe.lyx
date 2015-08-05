@@ -1792,11 +1792,35 @@ The visualization of users' signals are displayed onto Tobe using Spatial
  light.
  Despite external hardware -- i.e.
  a projector and eventually a tracking device (Figure 
-\backslash
-ref{fig:capsciences}) -- SAR is an easy solution to prototype a system,
- faster to deploy than putting actual screens in users' surroundings.
- The augmentation occurred within vvvv^[[http://vvvv.org/](http://vvvv.org/)],
- a software that uses real-time visual programming to render 3D scenes.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-capscience-setup"
+
+\end_inset
+
+) -- SAR is an easy solution to prototype a system, faster to deploy than
+ putting actual screens in users' surroundings.
+ The augmentation occurred within vvvv
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://vvvv.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, a software that uses real-time visual programming to render 3D scenes.
  As for hardware, we used a LG PF80G projector of resolution 1920x1080 and
  the tracking of Tobe was achieved with an OptiTrack V120:Trio, running
  a 120 FPS with an overall latency of 8.3ms and a precision of 0.8mm.
@@ -1811,8 +1835,59 @@ As an alternative to SAR, Tobe can be embedded with small screens, LEDs,
  We already have a proof of concept of such an implementation thanks to
  the easiness and accessibility of the building blocks that go with the
  Arduino platform and the Raspberry Pi (Figure 
-\backslash
-ref{fig:droid}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-droid"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-droid.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-droid"
+
+\end_inset
+
+A Tobe with embedded electronics enables a standalone unit that does not
+ require a projector.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1845,6 +1920,20 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+TODO: Make sure this is not too redundant with what has been mentioned in
+ the chapter about SAR (or refer to it).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Feedback Customization
 \end_layout
@@ -1854,8 +1943,13 @@ We conceived a GUI that let users draw a picture and animate it according
  to their wishes.
  The animator is touch based; users press a "record" button and animate
  the picture with gestures (Figure 
-\backslash
-ref{fig:animator}).
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-animator"
+
+\end_inset
+
+).
  Once done, the animation's timeline is automatically mapped to the chosen
  signal.
  This animator is kept simple on purpose, it is designed for novice users
@@ -1868,6 +1962,53 @@ ref{fig:animator}).
  An advanced tool such as Photoshop has already been integrated as a proof
  of concept, but the simplicity of the current GUI does not impede users'
  creativity and already is sufficient to enable a tailored feedback.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-animator-slim.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-animator"
+
+\end_inset
+
+Multitouch animator that let users draw a picture and animate.
+ The live biosignal of their choice is then used as a way to playback the
+ animation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1931,10 +2072,18 @@ es about people's representations.
 After we equipped participants, we gave them "activity cards", a collection
  of scenarios that were likely to modify their inner state and that prompted
  self-investigation (Figure 
-\backslash
-ref{fig:capsciences}).
- There were riddles, arithmetic problems, cute and *less* cute images, a
- breathing exercise and a "Where's Waldo?" picture.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-capscience-setup"
+
+\end_inset
+
+).
+ There were riddles, arithmetic problems, cute and 
+\emph on
+less
+\emph default
+ cute images, a breathing exercise and a "Where's Waldo?" picture.
  Implicitly the activity cards targeted in this order workload, valence,
  arousal, meditation and vigilance, but participants were free to test whatever
  they wanted.
@@ -1943,10 +2092,64 @@ ref{fig:capsciences}).
 \end_layout
 
 \begin_layout Standard
-![In a scientific museum, various activities were proposed to visitors in
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD (Bonus): figure showing the activity cards
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-capscience-setup.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-capscience-setup"
+
+\end_inset
+
+In a scientific museum, various activities were proposed to visitors in
  order to prompt self-investigation.
  The setup consists of a projector handling the augmentation and an OptiTrack
- for the tracking.](./img/capscience-setup.png){#fig:capsciences}
+ for the tracking.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1974,9 +2177,12 @@ ns on predefined anchor points.
  Users could customize some of Tobe's aspects (eyes and heart rate feedback)
  and among the 5 high-level metrics available, they selected which one to
  study at a particular time.
- When at first we tested Tobe with *no* degree of freedom -- i.e., all metrics
- were displayed altogether -- we realized that users were too passive and
- quickly overwhelmed.
+ When at first we tested Tobe with 
+\emph on
+no
+\emph default
+ degree of freedom -- i.e., all metrics were displayed altogether -- we realized
+ that users were too passive and quickly overwhelmed.
  The GUI helped to focus and engage users.
 \end_layout
 
@@ -2027,8 +2233,15 @@ To further engage users, Tobe was tracked and participants were asked to
  put Tobe on a spotlight to "awake" it -- i.e., to start physiological signals'
  streams.
  The action of bringing life to an inanimate puppet goes well with making
- the world "magical" again [@Rose2014], that is to say to use the power
- of abstraction of modern computer science in order to bring back awe.
+ the world "magical" again 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rose2014"
+
+\end_inset
+
+, that is to say to use the power of abstraction of modern computer science
+ in order to bring back awe.
  The aim is not to take benefit of ignorance but to strengthen the amazement
  that technology can offer.
  We were ourselves pleasantly disturbed and surprised when we happened to
@@ -2036,6 +2249,20 @@ To further engage users, Tobe was tracked and participants were asked to
  test.
  Suddenly the relationship with the digital content felt different, truly
  tangible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: add information about the spotlight, which was used to add feedback
+ about the signal quality under the form of a pixelated spotlight.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
