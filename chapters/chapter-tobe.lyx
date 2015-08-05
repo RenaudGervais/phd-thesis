@@ -658,20 +658,74 @@ Feels a bit subjective but might be ok.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
-Confront calm computing and quantified self.
- Quantification can cause competition.
- Competition is not necessary a trait we are looking for in a technology
- that aims for introspection and contemplation.
- --> Qualified self.
+\begin_inset Note Greyedout
+status open
+
+\begin_layout Plain Layout
+Previous work
 \end_layout
 
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Previous works do not embrace such system as a whole and are limited either
+ to low-level signals or to emotions.
+ Wearables were used to mediate affect in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2015"
+
+\end_inset
+
+ -- a context similar to the "Social Skin" project 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ugur2013"
+
+\end_inset
+
+ -- or to teach children how the body works 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Norooz2015"
+
+\end_inset
+
+.
+ Tangible proxies were studied in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Khot2014"
+
+\end_inset
+
+, but the feedback was not dynamic.
+ In 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Frey2014"
+
+\end_inset
+
+ a tangible puppet was already used as a proxy for brain activity, but the
+ settings concerned scientific outreach and the feedback focused only on
+ preprocessed brain signals and not on higher level mental states (which
+ Tobe does).
+ Our toolkit pushes further the boundaries of the applications by giving
+ access to physiological signals, high-level mental states, dynamic and
+ customizable feedback.
 \end_layout
 
 \begin_layout Section
