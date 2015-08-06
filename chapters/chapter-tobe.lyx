@@ -1658,7 +1658,7 @@ EEG headband
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Wearables
+Wearable sensors
 \end_layout
 
 \end_inset
@@ -3356,7 +3356,14 @@ Replay recorded internal states of past events.
 \begin_layout Standard
 One could want to analyze or to recall inner states after an event.
  Tobe could replay how one actually felt alongside a video of a cherished
- moment.
+ moment (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-video-replay"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -3406,7 +3413,14 @@ If it is not time but space that separates a Tobe from its owner, imagine
  sun rises in the timezone of your beloved one -- and you would wait for
  Tobe's vigilance to increase to a sufficient level before you pick up your
  phone for a chat, knowing that your soul mate is a bit grumpy at the beginning
- of the day.
+ of the day (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-long-distance"
+
+\end_inset
+
+).
  Besides this theoretical view, it has been hinted that even low-level physiolog
 ical signals could enhance telepresence 
 \begin_inset CommandInset citation
@@ -3416,6 +3430,121 @@ key "Lee2014"
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-video-replay-crop.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-video-replay"
+
+\end_inset
+
+Tobe as a support for playing back recorded internal states.
+ They can be synchronized with a video to view and reflect on cherished
+ memories.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-long-distance-crop.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-long-distance"
+
+\end_inset
+
+Tobe as an ambient display of the inner state of loved ones far away.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-applications"
+
+\end_inset
+
+Potential applications for our toolkit.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
