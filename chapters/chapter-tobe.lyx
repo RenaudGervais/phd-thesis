@@ -81,6 +81,10 @@ name "cha:tobe"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
@@ -90,6 +94,11 @@ status open
 
 \begin_layout Plain Layout
 Chapter overview
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -178,6 +187,10 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
@@ -188,6 +201,11 @@ status open
 
 \begin_layout Plain Layout
 Technology usage does not foster reflection.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -284,11 +302,20 @@ Great Thoughts
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Calm computing
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -343,11 +370,20 @@ reflection
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 The Quantified Self
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -466,11 +502,20 @@ key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Tobe: a tool to reflect on oneself and others
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -578,11 +623,20 @@ key "Golsteijn2012"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Towards a Qualified self
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -645,11 +699,20 @@ Feels a bit subjective but might be ok.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Previous work
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -707,11 +770,20 @@ key "Frey2014"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Contributions
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -766,12 +838,21 @@ key "Chanel2015"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Marginal
+\begin_inset Branch margin
 status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status collapsed
 
 \begin_layout Plain Layout
 Participants indicated that they were very aware of their mental states,
  even as a whole literature demonstrate how difficult this is.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -843,12 +924,21 @@ key "Valins1966,Kahneman2011"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
 \begin_inset Marginal
 status open
 
 \begin_layout Plain Layout
 Participants made an important variety of drawings, highlighting the benefit
  of having tools to tailor a personal feedback.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -939,6 +1029,28 @@ Toolkit
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+We created Tobe, a cute tangible avatar to foster social presence and likability.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We created a tangible anthropomorphic avatar, named Tobe as a host for displayin
 g real-time feedback.
  We chose this form factor because we found evidence in the literature that
@@ -984,6 +1096,20 @@ status open
 \end_layout
 
 \begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Low-cost and open components are used to encourage people to create their
+ own Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Our implementation uses open or low-cost hardware and we are releasing as
  open-source software the entire pipeline
 \begin_inset Foot
@@ -1021,6 +1147,29 @@ status open
 
 \begin_layout Subsection
 General Approach
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+There are 4 components: sensors and signal processing, metrics, feedback
+ and the user.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1145,6 +1294,29 @@ Metrics
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Metrics can be classified by who is able to detect them (me, others, no
+ one).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 There is a continuum in the visibility of the signals and mental states
  measured from physiological sensors, i.e.
  metrics.
@@ -1187,6 +1359,28 @@ key "Nisbett1977"
 
 \begin_layout Subsection
 Support: 3D Printing
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+3D printing enables customization of the avatar.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
