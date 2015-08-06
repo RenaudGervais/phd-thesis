@@ -3373,7 +3373,42 @@ status open
 \begin_layout Plain Layout
 @ADD: Detail the 'pensive' application and how it could be used as a way
  to relive memories.
- Data collection tool.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Data collection tool: can be used as a way to visualize data at a more concrete
+ level.
+ Data and graphs are good to see patterns and gain insight but playing back
+ the data using a character has the advantage of being able to empathize
+ with the past state.
+ There is this 
+\begin_inset Quotes eld
+\end_inset
+
+feel
+\begin_inset Quotes erd
+\end_inset
+
+ and it being 
+\begin_inset Quotes eld
+\end_inset
+
+alive
+\begin_inset Quotes erd
+\end_inset
+
+ that is difficult to recreate with charts and raw data.
+ They are complementary and can both benefit from each others (cite Victor
+ here: Up and Down the ladder of abstraction).
 \end_layout
 
 \end_inset
