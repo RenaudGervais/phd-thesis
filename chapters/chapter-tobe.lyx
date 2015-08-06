@@ -1402,29 +1402,20 @@ reference "fig:tobe-modular-body"
 \end_inset
 
 ).
+ 
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@ADD: talk a little bit more about customization.
- Idea of the balance to automatically set some features of the body (and
- mention potential 
-\begin_inset Quotes eld
-\end_inset
-
-ethical
-\begin_inset Quotes erd
-\end_inset
-
- problem of doing that).
-\end_layout
-
-\end_inset
-
-
+Alternatively, it could be possible to resolve some of the parameters of
+ the parametric 3D model based on physiological readings or body properties.
+ Although somewhat potentially sociably uncomfortable, the Body Mass Index
+ of the user could be retrieved from the combination of a video camera and
+ a balance and propose body proportions similar to the person's silhouette.
+ If the user wishes the create an avatar based on inner states, it could
+ for example be possible to alter the stance of the avatar based on the
+ user's real-time stress level.
+ This would allow a dynamic and playful exploration of inner states even
+ at the avatar creation stages.
 \end_layout
 
 \begin_layout Standard
@@ -3357,8 +3348,8 @@ Replay recorded internal states of past events.
 One could want to analyze or to recall inner states after an event.
  Tobe could be used as a visualization tool for physiological data, the
  same way as one record video footage of important moments.
- Instead of replaying what you could see with your eyes at that moment,
- you could visualize how you actually 
+ Instead of replaying what you could see with your eyes, you could visualize
+ how you actually 
 \emph on
 felt
 \emph default
