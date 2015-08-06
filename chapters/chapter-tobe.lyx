@@ -2467,6 +2467,8 @@ key "Wongsuphasawat2012"
 
  who observed that visual cues led to more respiratory change and less subjectiv
 e calm than auditory cues.
+ In hindsight, the respiratory guide should have been mapped to a sound
+ while we could have kept the visual feedback for the actual users' breathing.
  These two last issues could be resolved by giving users access to the signal
  processing through our toolkit.
 \end_layout
