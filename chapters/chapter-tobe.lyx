@@ -3355,8 +3355,16 @@ Replay recorded internal states of past events.
 
 \begin_layout Standard
 One could want to analyze or to recall inner states after an event.
- Tobe could replay how one actually felt alongside a video of a cherished
- moment (Figure 
+ Tobe could be used as a visualization tool for physiological data, the
+ same way as one record video footage of important moments.
+ Instead of replaying what you could see with your eyes at that moment,
+ you could visualize how you actually 
+\emph on
+felt
+\emph default
+ at that moment in time.
+ Moreover, it could be possible to display both data sources -- physiological
+ and video -- at the same time, in a synchronized way (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tobe-video-replay"
@@ -3364,56 +3372,25 @@ reference "fig:tobe-video-replay"
 \end_inset
 
 ).
+ As an example, playing back a video of your wedding would gain an important
+ and very humane dimension.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@ADD: Detail the 'pensive' application and how it could be used as a way
- to relive memories.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Data collection tool: can be used as a way to visualize data at a more concrete
- level.
- Data and graphs are good to see patterns and gain insight but playing back
- the data using a character has the advantage of being able to empathize
- with the past state.
- There is this 
-\begin_inset Quotes eld
-\end_inset
-
-feel
-\begin_inset Quotes erd
-\end_inset
-
- and it being 
-\begin_inset Quotes eld
-\end_inset
-
-alive
-\begin_inset Quotes erd
-\end_inset
-
- that is difficult to recreate with charts and raw data.
- They are complementary and can both benefit from each others (cite Victor
- here: Up and Down the ladder of abstraction).
-\end_layout
+Collecting large amount of data -- such as is often the case in the QS movement
+ -- is useful to gain insight over patterns happening over long stretches
+ of time.
+ However, charts and diagrams are not well suited to convey sensations and
+ feelings.
+ Both graphs and embodied representations are complementary and insight
+ is often created when doing back and forth in abstraction levels 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Victor2011"
 
 \end_inset
 
-
+.
 \end_layout
 
 \begin_layout Subsubsection
