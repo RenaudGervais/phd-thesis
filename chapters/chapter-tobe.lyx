@@ -1684,6 +1684,29 @@ Metrics were acquired from five physiological signals.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Wearable sensors were made to be used in a public settings.
+ Dry electrodes were favored over gel-based and wet ones.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We created the sensors with a wearable form factor in mind.
  Since we used Tobe in public settings, it was important that the sensors
  were non-invasive (no need to remove clothes or apply gel to the skin)
@@ -1691,6 +1714,28 @@ We created the sensors with a wearable form factor in mind.
  signal.
  With the setup described in this section, we were able to equip the users
  and record physiological signals in less than two minutes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The sensors were embedded inside a lab coat to shorten setup time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1833,6 +1878,29 @@ Signal Processing
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+A custom-made EEG helmet enables complete control on the signal processing
+ algorithms.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Consumers-oriented EEG headsets usually conceal signal processing behind
  proprietary algorithms, with little scientific evidence on what is truly
  measured.
@@ -1922,6 +1990,28 @@ happy
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+OpenViBE was used for signal processing and LSL for communication.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 We used OpenViBE to analyze physiological data in real time
 \begin_inset Foot
 status collapsed
@@ -1981,9 +2071,38 @@ Augmentation
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The visual feedback is created using SAR.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The visualization of users' signals are displayed onto Tobe using Spatial
  Augmented Reality (SAR), as introduced by Raskar et al.
- [@Raskar2001].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
+
+\end_inset
+
+.
  SAR adds dynamic graphics to real-world surfaces by the means of projected
  light.
  Despite external hardware -- i.e.
@@ -2025,6 +2144,29 @@ on function.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+It is possible to replace SAR with embedded electronics.
+ This reduces the flexibility but increase portability.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 As an alternative to SAR, Tobe can be embedded with small screens, LEDs,
  actuators and small electronics components so that it represents a standalone
  unit.
@@ -2038,6 +2180,19 @@ reference "fig:tobe-droid"
 \end_inset
 
 ).
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: embedded electronics are probably a better solution overall.
+ Mention our experience at the museum where people were too aware of the
+ projector and that it stopped them from touching the object, even though
+ it was tracked.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2132,6 +2287,29 @@ TODO: Make sure this is not too redundant with what has been mentioned in
 
 \begin_layout Subsection
 Feedback Customization
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+A simple multitouch animator can be used to created tailored feedback and
+ animations.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2250,6 +2428,28 @@ Tobe in a Public Exhibition
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+We tested Tobe in a scientific museum over the course of two half days.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Using a co-design approach, we intervened in a scientific museum over two
  half days, proposing to passersby to try out Tobe.
  We built the sensors and prepared the signal processing beforehand because
@@ -2262,6 +2462,29 @@ Using a co-design approach, we intervened in a scientific museum over two
  Due to the short duration of our exhibitions, we also set the corresponding
  feedback (both support and shape), according to the outcome of the questionnair
 es about people's representations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Users were given activity cards corresponding to the metrics available to
+ them in order to encourage self-investigation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2359,6 +2582,28 @@ We created the activity cards after our first intervention in the museum.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Users could control which feedback was displayed using a multitouch GUI.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 One degree of freedom was left to users by the mean of a graphical interface
  (see Figure 
 \begin_inset CommandInset ref
@@ -2412,6 +2657,36 @@ name "fig:tobe-gui"
 
 The touched-based GUI allowing visitors to customize the appearance of Tobe's
  eyes and to select which feedback was displayed on Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Tobe was tracked and could be awakened by placing it on a 
+\begin_inset Quotes eld
+\end_inset
+
+spotlight
+\begin_inset Quotes erd
+\end_inset
+
+, making it seem more alive.
 \end_layout
 
 \end_inset
