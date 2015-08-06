@@ -2502,8 +2502,223 @@ Overall these findings suggest that Tobe could be employed as a proxy for
 Applications
 \end_layout
 
+\begin_layout Standard
+We drew usages for Tobe by exploring different dimensions: on the one hand
+ the number of users, Tobes and external observers involved, and, on the
+ other hand the time and space separating the feedback and the recordings.
+\end_layout
+
+\begin_layout Subsubsection
+One User
+\end_layout
+
+\begin_layout Standard
+Tobe can be used as a biofeedback device with a specific goal -- e.g., reduce
+ stress -- or to gain knowledge about one self.
+ A feedback about workload and vigilance would prevent overwork.
+ Insights gathered from an introspection session with Tobe could also be
+ employed to 
+\emph on
+act
+\emph default
+ better.
+ For example, it might be useful to realize that you are irritated before
+ answering harshly to beloved ones.
+\end_layout
+
+\begin_layout Subsubsection
+One User and Observer(s)
+\end_layout
+
+\begin_layout Standard
+Scientists involved in stroke rehabilitation research suggested that Tobe
+ could be used in a medical context.
+ Indeed, patients with motor disabilities may regain mobility after long
+ and difficult sessions of reeducation.
+ However, occasional drawbacks may create anxiety and a counterproductive
+ attitude towards therapy, which leads to even more anxiety.
+ A Tobe could help patients and therapists acknowledge this affective state
+ and break this vicious circle.
+ Autistic persons could also benefit from using Tobe since it is difficult
+ for them and their relatives to gauge their inner state.
+ Explicit arousal could help their integration into society.
+ An offline experiment -- i.e.
+ after signals were recorded -- pointed to this direction 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hedman2012"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Multiple Users and Tobes
+\end_layout
+
+\begin_layout Standard
+Using Tobe as an alternate communication channel during casual interactions
+ would help to explore connections with relatives, discover and learn from
+ strangers or improve collaboration and efficiency with coworkers.
+ This has been partially explored through the "Reflect Table", which gives
+ a feedback about the affective state of meeting participants 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bachour2010"
+
+\end_inset
+
+; and a bicycle helmet that displays the heart rate of the wearer to the
+ other cyclists nearby has been proposed to support social interactions
+ during physical efforts 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Walmink2014"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Archetype of a Group
+\end_layout
+
+\begin_layout Standard
+Tobe could summarize the state of a group.
+ A real-time feedback from the audience would be a valuable tool for every
+ speaker or performer.
+ To pace a course, a teacher could use one Tobe as an overall index that
+ aggregates the attention level of every student in the classroom.
+ Through behavioral measures and with a feedback given afterward, this was
+ investigated in 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Raca2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Time
+\end_layout
+
+\begin_layout Standard
+One could want to analyze or to recall inner states after an event.
+ Tobe could replay how one actually felt alongside a video of a cherished
+ moment.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: Detail the 'pensive' application and how it could be used as a way
+ to relive memories.
+ Data collection tool.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Space
+\end_layout
+
+\begin_layout Standard
+If it is not time but space that separates a Tobe from its owner, imagine
+ a distant relationship where the Tobe on your desk slowly awakens as the
+ sun rises in the timezone of your beloved one -- and you would wait for
+ Tobe's vigilance to increase to a sufficient level before you pick up your
+ phone for a chat, knowing that your soul mate is a bit grumpy at the beginning
+ of the day.
+ Besides this theoretical view, it has been hinted that even low-level physiolog
+ical signals could enhance telepresence 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lee2014"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Section
-Discussion
+Future Work and Outlooks
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: Restructure this section as it should not be a complete conclusion.
+ It should details future work and sum up what we learned with tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+We have presented an open system aimed at externalizing physiological signals
+ and mental states in order to offer users a shared "out-of-body experience".
+ This system covers the entire pipeline, from signals' acquisition to their
+ visualization.
+ Its open nature may be used to introduce STEM discipline to the general
+ public through inquiry-based learning, while end usages can steer them
+ to cognitive science, psychology and humanities, bridging the gap between
+ "hard" and "soft" sciences.
+ Even if the modules we chose promote the inclusion of novices -- e.g., visual
+ programming that could be easily extended in OpenViBE or vvvv, they can
+ be switched to other components that would suits more experienced users
+ -- e.g., Matlab for signal processing.
+ The system is not reduced to a set of tools, though, and we emphasized
+ how such device is aimed at knowing better ourselves and others.
+\end_layout
+
+\begin_layout Standard
+We put the focus on one implementation of the system that consists in a
+ tangible puppet, Tobe, onto which signals are displayed.
+ Its anthropomorphic shape eases users' identification, improves readability
+ and enhances likability.
+ We tested how Tobe affected positively social interactions in a 2-users
+ scenario centered around a relaxation activity.
+ Our co-design approach relied on two interventions that occurred in a scientifi
+c museum, as well as on surveys assessing how people relate to physiological
+ signals and how they represent themselves various mental states.
+\end_layout
+
+\begin_layout Standard
+We have identified design dimensions that we used to propose potential applicati
+ons for our system.
+ Supporting rehabilitation in medical care and facilitating the life in
+ society of individuals with sensory challenges such as autism or ADHD --
+ with the possibility to include the therapists in the loop -- are use cases
+ that could benefit from a friendly way to expose inner states.
+ Moreover, it would be interesting to investigate how such a system could
+ be used to ease social interaction and collaboration or to foster empathy
+ towards others.
+\end_layout
+
+\begin_layout Standard
+Future work will include testing Tobe in classrooms or public workshops
+ where users will be invited to build their own self-representation from
+ the ground up, including the tangible support, sensors and the feedback
+ design.
+ Longer usages of the toolkit, over multiple days or weeks, will also be
+ the opportunity to strengthen signal processing in order to provide more
+ reliable mental states that could be displayed between users.
+ Giving users the tools and manuals to investigate their own bodies and
+ mind is a good way to empower them and prompt self-reflection.
+ 
 \end_layout
 
 \end_body
