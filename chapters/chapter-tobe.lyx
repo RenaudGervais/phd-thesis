@@ -990,10 +990,7 @@ Our implementation uses open or low-cost hardware and we are releasing as
 status open
 
 \begin_layout Plain Layout
-
 TO UPDATE:
-\lang english
-
 \begin_inset Flex URL
 status open
 
@@ -1504,8 +1501,13 @@ We created the sensors with a wearable form factor in mind.
 
 \begin_layout Standard
 The different sensors were embedded inside a lab coat (Figure 
-\backslash
-ref{fig:capsciences}) which could be put on quickly over daily clothes.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-capscience-setup"
+
+\end_inset
+
+) which could be put on quickly over daily clothes.
  This form factor provides enough room in the sleeves and the pockets to
  take care of the wiring and electronic components storage.
  The recording of the low-level physiological signals (i.e.
@@ -2263,6 +2265,235 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Tobe for Multi-Users Relaxation
+\end_layout
+
+\begin_layout Standard
+We tested Tobe as a relaxation device for two users (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-coherence"
+
+\end_inset
+
+).
+ The objective was to see if Tobe could be used both as a biofeedback tool
+ and for collaboration.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-coherence.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-coherence"
+
+\end_inset
+
+Two users synchronizing their heart rates through cardiac coherence, using
+ Tobe as a biofeedback device.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Implementation
+\end_layout
+
+\begin_layout Standard
+This version of Tobe relies only on respiration and heart rate variability.
+ It relates to cardiac coherence: when someone takes deep breaths, slowly
+ (
+\begin_inset Formula $\approx$
+\end_inset
+
+ 10s periods) and regularly, her or his heart rate (HR) varies accordingly
+ and the resulting state has positive impact on well-being 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "McCraty2009"
+
+\end_inset
+
+.
+ During cardiac coherence, HR increases slightly when one inhales and decreases
+ as much when one exhales.
+ We took the magnitude squared coherence between HR and breathing signals
+ over 10s time windows as a "relaxation" index.
+\end_layout
+
+\begin_layout Standard
+Sensors consisted in a breathing belt and in a pair of elastic bands around
+ the wrists to measure ECG.
+ We used OpenBCI instead of BITalino to measure ECG and breathing in order
+ to get more accurate readings.
+ Indeed, the OpenBCI amplifier has a resolution of 24 bits instead of 10
+ for the BITalino.
+\end_layout
+
+\begin_layout Standard
+There were two Tobes on the table, one for each participant.
+ They were not tracked.
+ Breathing activity was pictured with inflating lungs onto the torso; cardiac
+ coherence with a blooming flower onto the forehead.
+ The synchronicity 
+\emph on
+between
+\emph default
+ subjects -- users' heart rates varying at the same pace -- was represented
+ with a similar but bigger flower projected between both Tobes.
+ Additionally, "ripples" on the table, around Tobes' feet, matched heart
+ beats.
+\end_layout
+
+\begin_layout Subsubsection
+Protocol
+\end_layout
+
+\begin_layout Standard
+We asked 14 participants, by pairs, to come and use Tobe to reach cardiac
+ coherence -- 6 females, 8 males, mean age 25.3 (SD=2.8).
+ Participants were coworkers from the same research institute and already
+ knew each other.
+ Participants were seated on each side of a screen and instructed to not
+ talk to each other.
+ We presented them the cardiac coherence activity as a relaxation exercise.
+ Afterwards, we equipped them and turned the system on.
+\end_layout
+
+\begin_layout Standard
+The experiment comprised of three sessions of 5 minutes.
+ During the first session, participants had to individually learn how to
+ reach cardiac coherence.
+ A smaller screen on the table prevented them to see each other's Tobe.
+ They had to imitate the breathing pattern given by a gauge going up and
+ down in 5s cycles onto Tobe's body.
+ The lights of the room were dimmed to facilitate a relaxation state and
+ each participant was given headphones playing back rain sounds.
+\end_layout
+
+\begin_layout Standard
+After the training session, the screen separating the two Tobes was removed.
+ Participants were then instructed to repeat the same exercise as before,
+ but without the help of the gauge.
+ They could see their colleague's Tobe.
+ However, there was no interaction between them at this stage -- it served
+ as a transition between a self-centered task and a collaboration task.
+\end_layout
+
+\begin_layout Standard
+During the third session, participants were instructed to synchronize their
+ *hearts*.
+ In order to do so, they had to both reach cardiac coherence while breathing
+ on the same rhythm -- with no other way to communicate than using their
+ Tobes.
+\end_layout
+
+\begin_layout Standard
+After this final session, we gave questionnaires to participants and conducted
+ informal interviews with them to gather feedback about their experience.
+\end_layout
+
+\begin_layout Subsubsection
+Results and Discussion
+\end_layout
+
+\begin_layout Standard
+From the questionnaires, that took the form of 5-points Likert scales, participa
+nts reported that they were more relaxed after the end of the session: 4.36
+ on a scale ranging from 1 "much *less* relaxed" to 5 "much *more* relaxed"
+ (SD=0.74).
+ Beside the fact that Tobe acted as an effective biofeedback device, the
+ experiment was also a chance to introduce participants to activities centered
+ around well-being, as few of them were practicing relaxation or meditation
+ in their daily life -- 1.93 score (SD=1.44) with 1 "never" and 5 "regularly".
+\end_layout
+
+\begin_layout Standard
+During the interviews, the participants reported that they appreciated the
+ feedback, saying that it formed a coherent experience -- e.g.
+ ripples on the table and sounds of rain.
+ Among the few that were practicing yoga regularly, one praised how Tobe
+ favors learning-by-doing over wordy and disrupting instructions but had
+ troubles to follow the 10s breathing cycle since it differed from his usual
+ practice.
+ We had mixed reviews about the visualization associated to breathing, mostly
+ due to the mapping between Tobe's lungs and the measured thoracic circumference
+ being dynamically adapted over time rather than calibrated per user with
+ a min/max.
+ Because of that, some users had to draw their attention away from the breathing
+ patterns in order to achieve cardiac coherence.
+ This is coherent with the results of Wongsuphasawat et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wongsuphasawat2012"
+
+\end_inset
+
+ who observed that visual cues led to more respiratory change and less subjectiv
+e calm than auditory cues.
+ These two last issues could be resolved by giving users access to the signal
+ processing through our toolkit.
+\end_layout
+
+\begin_layout Standard
+We received comments about how a qualitative and ambient feedback (blooming
+ flower) fostered a better focus on the activity compared to the use of
+ quantitative metrics which are an incentive for competition.
+ Indeed, apart from some comparisons made during the second session, participant
+s did use their Tobes for collaboration.
+ Users described how they use the respiration of their partner to get in
+ sync during the third stage -- usually by waiting before inhaling.
+ One participant described how she tried to "help" her companion when he
+ struggled to follow.
+ Another retold how she quickly resumed her regular breathing when she saw
+ that a brief hold troubled her colleague.
+ More playful, a participant laughed afterward at how he purposely "tricked"
+ twice his partner.
+ Even with a communication channel as basic as the display of thoracic circumfer
+ence, rich interactions emerged between participants over a short period
+ -- 5 minutes that felt like less for many of them.
+\end_layout
+
+\begin_layout Standard
+Overall these findings suggest that Tobe could be employed as a proxy for
+ interpersonal communications and that it has an interesting potential for
+ enhancing well-being.
 \end_layout
 
 \begin_layout Section
