@@ -2804,6 +2804,30 @@ Implementation
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Tobe as biofeedback to reach cardiac coherence, a state in which heart rate
+ increases slightly while breathing in and slowing down while breathing
+ out.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 This version of Tobe relies only on respiration and heart rate variability.
  It relates to cardiac coherence: when someone takes deep breaths, slowly
  (
@@ -2826,12 +2850,57 @@ key "McCraty2009"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+OpenBCI was preferred to the BITalino because of the amplifier's resolution.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Sensors consisted in a breathing belt and in a pair of elastic bands around
  the wrists to measure ECG.
  We used OpenBCI instead of BITalino to measure ECG and breathing in order
  to get more accurate readings.
  Indeed, the OpenBCI amplifier has a resolution of 24 bits instead of 10
  for the BITalino.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Breathing activity shown as inflating lungs on each user's Tobe.
+ Water ripples at Tobe's feet represented heart beats.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2865,6 +2934,29 @@ We asked 14 participants, by pairs, to come and use Tobe to reach cardiac
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Three sessions of 5 minutes: solo training, seeing the other participant's
+ Tobe and a collaboration task.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 The experiment comprised of three sessions of 5 minutes.
  During the first session, participants had to individually learn how to
  reach cardiac coherence.
@@ -2886,7 +2978,11 @@ After the training session, the screen separating the two Tobes was removed.
 
 \begin_layout Standard
 During the third session, participants were instructed to synchronize their
- *hearts*.
+ 
+\emph on
+hearts
+\emph default
+.
  In order to do so, they had to both reach cardiac coherence while breathing
  on the same rhythm -- with no other way to communicate than using their
  Tobes.
@@ -2902,14 +2998,62 @@ Results and Discussion
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Participants reported feeling more relaxed after the session.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 From the questionnaires, that took the form of 5-points Likert scales, participa
 nts reported that they were more relaxed after the end of the session: 4.36
- on a scale ranging from 1 "much *less* relaxed" to 5 "much *more* relaxed"
- (SD=0.74).
+ on a scale ranging from 1 "much *less* relaxed" to 5 "much 
+\emph on
+more
+\emph default
+ relaxed" (SD=0.74).
  Beside the fact that Tobe acted as an effective biofeedback device, the
  experiment was also a chance to introduce participants to activities centered
  around well-being, as few of them were practicing relaxation or meditation
  in their daily life -- 1.93 score (SD=1.44) with 1 "never" and 5 "regularly".
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The feedback was appreciated and formed a coherent experience.
+ Some users had difficulty with the suggested rythm.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2940,6 +3084,29 @@ e calm than auditory cues.
  while we could have kept the visual feedback for the actual users' breathing.
  These two last issues could be resolved by giving users access to the signal
  processing through our toolkit.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+The qualitative nature of the feedback was appreciated.
+ Users worked together to synchronize their heart rates.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2982,6 +3149,28 @@ One User
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+As a biofeedback device to gain insight about own self.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Tobe can be used as a biofeedback device with a specific goal -- e.g., reduce
  stress -- or to gain knowledge about one self.
  A feedback about workload and vigilance would prevent overwork.
@@ -2997,6 +3186,29 @@ act
 
 \begin_layout Subsubsection
 One User and Observer(s)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+As a support for rehabilitation therapy or to explicit inner states of autistic
+ persons.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3024,6 +3236,28 @@ key "Hedman2012"
 
 \begin_layout Subsubsection
 Multiple Users and Tobes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Alternate communication channels in social settings.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3055,6 +3289,28 @@ Archetype of a Group
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Summarizing the state of a group.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Tobe could summarize the state of a group.
  A real-time feedback from the audience would be a valuable tool for every
  speaker or performer.
@@ -3073,6 +3329,28 @@ key "Raca2013"
 
 \begin_layout Subsubsection
 Time
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Replay recorded internal states of past events.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3098,6 +3376,28 @@ status open
 
 \begin_layout Subsubsection
 Space
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Helping partners in long distance relationships.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
