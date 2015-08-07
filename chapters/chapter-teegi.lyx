@@ -80,8 +80,392 @@ name "cha:teegi"
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Section
+Introduction 
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:teegi-introduction"
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Electroencephalography (EEG) measures the brain activity of participants
+ under the form of electrical currents, through use of a set of electrodes
+ connected to amplifiers and placed on the scalp 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Niedermeyer05"
+
+\end_inset
+
+.
+ This technology is widely used in medicine for diagnostic purposes.
+ It is also increasingly explored in the field of Brain-Computer Interfaces
+ (BCI), the goal of which is to enable a user to send input commands to
+ interactive systems without any physical motor activities, by using brain
+ activity alone 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wolpaw12"
+
+\end_inset
+
+.
+ BCI is an emerging research area in Human-Computer Interaction (HCI) that
+ offers new opportunities for interaction, beyond standard input devices
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tan10"
+
+\end_inset
+
+.
+ These emerging technologies are becoming increasingly more popular.
+ It feeds into fears and dreams in the general public where many fantasies
+ are linked to a misunderstanding of the strengths and weaknesses of such
+ new technologies.
+ 
+\emph on
+No, it is not possible to read thoughts!
+\emph default
+ But what can be done exactly? Our motivation is to provide a tool that
+ allows one to better learn how EEG works, and to better understand the
+ kinds of brain activity that can be detected in EEG signals.
+ Beyond the knowledge of the brain that a user can acquire, we believe that
+ a dedicated tool may help demystify BCI, and consequently, it may favor
+ the development of such a promising field.
+\end_layout
+
+\begin_layout Standard
+We followed a multidisciplinary approach, combining Human-Computer Interaction
+ (Spatial Augmented Reality, Tangible User Interfaces), Neurotechnologies
+ (EEG, brain signal processing) and Psychology/Human sciences (Human Learning
+ and Representations, Scientific Mediation) to design an interactive multimedia
+ system that enables novice users to get to know more about something as
+ complex as EEG signals and the brain, in an easy, engaging and informative
+ way.
+ Our final goal is to enhance learning efficiency and knowledge acquisition
+ by letting users actively and individually manipulate and investigate the
+ concept to be learned 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vosniadou01"
+
+\end_inset
+
+, i.e.
+ EEG signals.
+\end_layout
+
+\begin_layout Standard
+This gave birth to Teegi (Tangible EEG Interface), a physical character
+ that users can manipulate in a natural way to observe and analyze their
+ own brain activity projected in real-time on the character's head (see
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-trailer"
+
+\end_inset
+
+).
+ Beyond the technical description of Teegi, this paper depicts an exploratory
+ study we conducted, which provides an experimental basis for discussions
+ and future works.
+ Our major contribution for this paper is the design of the first system
+ to make EEG signals and brain activity easily accessible, interactive and
+ understandable.
+ This work is based on theoretical foundations, technical developments,
+ and preliminary investigations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-teaser.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-trailer"
+
+\end_inset
+
+Teegi (Tangible EEG Interface) is a friendly interactive character that
+ users can manipulate to observe and analyze their own brain activity in
+ real-time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Neuroimaging and EEG
+\end_layout
+
+\begin_layout Standard
+EEG signals are small electrical currents (in the 
+\begin_inset Formula $\mu$
+\end_inset
+
+V range) that can be measured on the surface of the scalp 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Niedermeyer05"
+
+\end_inset
+
+.
+ They reflect the synchronous activity of millions of neurons from the brain
+ cortex (i.e., the outer layer of the brain).
+ Compared to alternative neuroimaging techniques, such as MagnetoEncephaloGraphy
+ or functional Magnetic Resonance Imaging, EEG is simultaneously cheap,
+ portable and provides good time resolution.
+ Because of these advantages, EEG has been used for many years in medicine,
+ e.g., for the diagnosis of sleep disorders or epilepsy 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Niedermeyer05"
+
+\end_inset
+
+.
+ More recently, with the advance of computer processing performance, it
+ became possible to measure and analyze in real-time the content of these
+ EEG signals.
+ This paved the way for the rise of BCI which uses real-time analysis and
+ decoding of EEG signals in order to identify the mental state of the user
+ and translate it into a command for an application 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wolpaw12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+The currently available tools used to visualize and analyze such signals
+ are tailored for experts with a deep understanding of the brain, EEG principles
+ and EEG signal processing 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Niedermeyer05"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-openvibe"
+
+\end_inset
+
+ (left and center) shows some typical visualizations of EEG signals used
+ by experts, i.e., EEG signal traces and a 2D topographic map.
+ More complex visualizations have been proposed, such as 3D topographic
+ maps (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-openvibe"
+
+\end_inset
+
+, right), but they require many mouse inputs to be observed from all angles,
+ which make them inconvenient to use in practice.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-raw-eeg-trace.png
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-openvibe"
+
+\end_inset
+
+(Left) A trace of EEG signals collected from multiple sensors.
+ 2D (center) and 3D (right) topographic maps.
+ (Screenshots from OpenViBE 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Renard10"
+
+\end_inset
+
+).
+ The first two views are traditionally used by experts.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Although EEG visualizations are intended for experts only, the general public
+ is often compelled by how the brain works and how its activity is measured.
+ Anyone wondering about brain injuries, epilepsy, sleep or learning disorders,
+ aging, etc.
+ may want to seek further knowledge about how the brain works.
+ Currently, the public is increasingly exposed to neurotechnologies due
+ to the availability of consumer grade EEG devices, such as the Emotiv EPOC
+ or the Neurosky MindWave.
+ Consequently, it has become necessary to design tools and user interfaces
+ which will allow the general public to visualize, understand and interact
+ with EEG signals.
+ For instance, Mullen et al.
+ proposed a software solution to process EEG signals collected using wearable
+ EEG devices and visualize them in 3D 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mullen13"
+
+\end_inset
+
+.
+ This software enables the user to estimate brain activity sources and connectiv
+ity but is still mainly designed for brain signal and neuroscience experts,
+ and not so public-friendly.
+ Another recent work, more suited to lay persons, is the 
+\begin_inset Quotes eld
+\end_inset
+
+Portable Brain Scanner
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Stopczynski14"
+
+\end_inset
+
+.
+ This system makes use of a consumer-grade EEG device (the Emotiv EPOC)
+ and a smartphone to provide a cheap and portable solution enabling anyone
+ to visualize the sources of their brain activity on their smartphone in
+ 3D.
+ Another more attractive work, which is the most closely related to our
+ Teegi system, is the 
+\begin_inset Quotes eld
+\end_inset
+
+Mind-Mirror
+\begin_inset Quotes erd
+\end_inset
+
+ system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mercier-Ganady2014"
+
+\end_inset
+
+.
+ This system combines Augmented Reality (AR), 3D Visualization, and EEG
+ to enable users to visualize their own brain activity in real-time superimposed
+ to their own head, thanks to a semi-transparent mirror-based AR setup.
+\end_layout
+
+\begin_layout Standard
+This short review of the existing literature about making EEG accessible
+ to the general public revealed that this is still a vastly unexplored area.
+ Moreover, these solutions do not take into account any representation that
+ the general public may have regarding the brain and EEG signals -- many
+ lay people do not even know what EEG signals are -- in order to provide
+ suitable visualizations and interaction devices to better understand these
+ concepts.
+ Some rare studies have indicated that misconceptions about brain functions
+ prevail in general public 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dekker2012,Herculano02,Simons11"
+
+\end_inset
+
+.
+ These works stress the importance of popular scientific communication and
+ indicate that communication efforts should be focused on increasing public
+ awareness.
+ It is important to note that the existing works mentioned above are mostly
+ centered on visualization, with little or no interaction possibilities
+ to manipulate and understand the EEG signals in real-time and in a friendly
+ way.
+ This further deters the general public from understanding brain activity
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vosniadou1992"
+
+\end_inset
+
+.
+ Therefore, with the aim to enhance general public awareness, our work associate
+s technical innovation and user-centered design.
 \end_layout
 
 \end_body
