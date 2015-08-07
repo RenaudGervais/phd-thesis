@@ -1930,5 +1930,820 @@ status open
 
 \end_layout
 
+\begin_layout Subsection
+Physical Object
+\end_layout
+
+\begin_layout Standard
+This section presents the interaction techniques we have implemented to
+ support the use of physical objects: direct interaction, pointing on object
+ using the tangible viewport window and bimanual interaction.
+\end_layout
+
+\begin_layout Subsubsection
+Direct Interaction
+\end_layout
+
+\begin_layout Standard
+Working with physical objects has the benefit of enabling manipulation directly
+ with the hands.
+ No 2D to 3D mapping operations are required to create a desired point of
+ view as is required in desktop 3D applications.
+ Also, since the augmentation occurs on the surface of the object, changing
+ the viewpoint can simply be achieved my moving the head.
+ The user can thus observe the object in a natural way, which radically
+ differs from what he or she is used to do with a virtual version of models
+ displayed on flat screens.
+ Also, direct touch can be used whenever precision or specific tools are
+ not required.
+ For example, when creating interactive objects, one can use interactors
+ or trigger behaviors directly, similar to 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Akaoka2010"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Pointing on Objects
+\end_layout
+
+\begin_layout Standard
+In addition to direct manipulation of the tangible objects, our system supports
+ cursor-based indirect interaction for completing interaction tasks directly
+ onto the physical objects.
+ These tasks can be pointing, drawing, selecting or moving virtual elements.
+ Compared to an approach where the user would interact directly on the physical
+ object, indirect interaction offers several complementary advantages.
+ It does not require specific input devices, it is fast and accurate, and
+ it integrates within the desktop workflow.
+\end_layout
+
+\begin_layout Subsubsection
+Bimanual Interaction
+\end_layout
+
+\begin_layout Standard
+Handling the physical object and using the mouse can be achieved at the
+ same time following a bimanual interaction approach 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Balakrishnan1999"
+
+\end_inset
+
+.
+ The hand holding the object plays the role of reference frame and assists
+ the dominant hand which is dedicated to fine mouse movements.
+ This approach leverages the precision and stability of 2D pointing and
+ the easiness of 6 degree of freedom manipulations of 3D objects.
+\end_layout
+
+\begin_layout Subsection
+Hybrid Screen/Object
+\end_layout
+
+\begin_layout Standard
+Both the physical objects and the screen are part of the same working space.
+ Consequently, it is possible to directly link operations on the screen
+ with actions on the physical objects.
+ The converse is also true.
+ We present application examples that use both object and screen simultaneously.
+\end_layout
+
+\begin_layout Subsubsection
+Drag and Drop
+\end_layout
+
+\begin_layout Standard
+Since the viewport creates a seamless continuum between the screen and the
+ object, drag and drop operations can be used with the mouse cursor.
+ This operation would not be possible using touch and would have to be replaced
+ by pick and drop.
+\end_layout
+
+\begin_layout Subsubsection
+Hybrid Widgets
+\end_layout
+
+\begin_layout Standard
+The standard approach for applying transformations (e.g.
+ scaling and rotation) to visual elements displayed on a screen is to use
+ widgets centered on these elements.
+ The problem with standard SAR setups is that, although technically possible
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Benko2014"
+
+\end_inset
+
+, it is very difficult to create the illusion of floating visual elements
+ around the object as soon as no material can support the display.
+ We designed hybrid widgets that are operated on screen.
+ We reproject the position of the selected element on the screen based on
+ the user's viewpoint and we place 2D widgets centered on this location.
+ When moving the physical object, the position of the widgets is updated
+ accordingly on the screen.
+ These transformation widgets that allow the rotation and scaling of the
+ selected element are illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:virtual-elements"
+
+\end_inset
+
+.
+ They are relatively big and they do not touch directly the physical objects.
+ This design choice has been made to avoid problems of eye accommodation
+ between the depth of the object and the depth of the screen.
+ Hence, after selecting an object to modify, users can quickly grab and
+ manipulate the widgets, without eye fatigue.
+\end_layout
+
+\begin_layout Subsubsection
+Object Annotation
+\end_layout
+
+\begin_layout Standard
+Another opportunity offered by the fact that a screen stands behind the
+ physical object concern the display and the entry of text.
+ Indeed, these operations may be difficult to complete in many traditional
+ SAR setups.
+ In our case, it is easy to annotate a physical object by selecting an anchor
+ point (either with the mouse or direct touch) and typing a related note
+ being displayed on the screen, with the keyboard.
+ Inversely, one can select a note on the screen, and see the corresponding
+ area directly on the physical object.
+ This creates a text box positioned in an empty zone of the screen which
+ is linked to the projected position on the screen of the anchor point.
+\end_layout
+
+\begin_layout Subsubsection
+Physical Data Visualization
+\end_layout
+
+\begin_layout Standard
+Beyond annotations that can benefit to many fields (e.g.
+ inspection of manufactured objects), we have explored the use of a hybrid
+ approach in the scope of data visualization.
+ Data visualization (and especially 3D data visualization) has been shown
+ to gain from a physical representation 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jansen2013"
+
+\end_inset
+
+.
+ Using the tangible viewport window, it is possible to add interactivity
+ to physical visualization.
+ In particular, to query more information on some aspects of the visualization,
+ one can just point at the area of interest to see related data on the screen,
+ or she or he can select an entry on the screen to see the corresponding
+ elements on the physical visualization (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:dataviz"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsubsection
+Synchronized Views
+\end_layout
+
+\begin_layout Standard
+We also explored the synchronization between a virtual version of an object
+ displayed on screen and a physical one.
+ When the tangible object is not in front of the screen, the tangible viewport
+ window displays a virtual version of the augmented object (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:dataviz"
+
+\end_inset
+
+).
+ Modifying the virtual version updates the tangible version in real-time.
+ 
+\end_layout
+
+\begin_layout Standard
+Being able to have two representations of an augmented object, one on screen
+ and one physical opens possibilities, namely for collaboration.
+ For example, it would be possible to expose the view of a user handling
+ the physical object or providing advanced visualizations such as a heat
+ map of touched areas (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:synch-heatmap"
+
+\end_inset
+
+).
+ Also, multiple users can have their own duplicated augmented object (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:multiple-objects"
+
+\end_inset
+
+).
+ These users can be working either locally or remotely.
+ 
+\end_layout
+
+\begin_layout Standard
+The synchronization between real and virtual can be paused, for example
+ using a gesture (e.g.
+ pulling the object rapidly away from the window), to compare multiple versions.
+ Bringing back the physical object in front of the window merges the two
+ versions on the physical canvas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-synchro-dataviz.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "subfig:dataviz"
+
+\end_inset
+
+Direct painting on the object using the mouse cursor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-synchro-multi-objects.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "subfig:multiple-objects"
+
+\end_inset
+
+Virtual elements interaction
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-synchro-sync.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "subfig:painting-1"
+
+\end_inset
+
+Creative coding
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-synchro-heatmap.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "subfig:synch-heatmap"
+
+\end_inset
+
+UV painting using Photoshop
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:synchronization-screen-tangible"
+
+\end_inset
+
+Different synchronization modes between virtual on-screen and tangible versions.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Illustrative scenario
+\end_layout
+
+\begin_layout Standard
+To illustrate the use of Tangible Viewports, we describe here an object
+ design scenario where an artist is experimenting with new visual design
+ ideas for a product (see complementary video).
+\end_layout
+
+\begin_layout Standard
+She can start by sketching first ideas on a paper, and then use a modeling
+ tool to create a 3D sketch.
+ Equipped with a 3D printer, she can print one (or many) physical objects
+ to have in front of her.
+ She can first directly paint on the object using the mouse cursor.
+ Then, she can use a digital painting application such as Adobe Photoshop
+ or a vector graphics editor like Inkscape to draft a logo on her computer.
+ Then, using the mouse, seamlessly drag the logo from the editor directly
+ to the physical prototype she just printed.
+ The prototype can be physically manipulated to review the appearance.
+ Modification to the design on the desktop computer will be automatically
+ reflected in real-time onto the object.
+ She can scale and rotate the logo directly on the physical object to see
+ directly the impact of her modifications.
+ This way, the feedback loop between the design activities (which require
+ specialized software) and the validation of the effect it has in physical
+ form can be greatly reduced.
+ If required, new versions of physical objects can iteratively be 3D-printed,
+ as we currently do with 2D printers when working on 2D documents.
+ By making the interaction with the physical objects coherent with the tradition
+al way of manipulating 3D information on a desktop computer, it is possible
+ to leverage the experience of users with their professional tools, while
+ at the same time adding the richness of tangibility and physical visualization.
+\end_layout
+
+\begin_layout Standard
+In our scenario, we can also imagine one or several collaborators participating
+ to the design choices.
+ These collaborators can directly observe and manipulate the augmented object,
+ and ask the main designer to update the design in real time.
+ This kind of social collaboration is harder to obtain with traditional
+ design tools.
+\end_layout
+
+\begin_layout Section
+User Feedback and Discussion
+\end_layout
+
+\begin_layout Standard
+We conducted an exploratory study where we asked participants to manipulate
+ a preliminary version of the system, as well as a non-tangible version
+ of the tool.
+ The objective of this study was to assess how physical objects integrate
+ within a standard screen space.
+ We have designed a simple custom creation tool (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:painting"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subfig:virtual-elements"
+
+\end_inset
+
+) for this purpose.
+ Fourteen participants (9 males, 5 females, mean age 
+\begin_inset Formula $25.6$
+\end_inset
+
+ (
+\begin_inset Formula $SD=3.7$
+\end_inset
+
+)) took part in this study.
+ Half of the participants started the experiment with Tangible Viewport,
+ then they moved to the non-tangible one, and half did the opposite.
+ In both cases, participants were introduced to the main features of the
+ tool, and the experimenter explained what was expected from them.
+ Participants were asked to create a personal visual design of a clock.
+ The only difference between the two versions of the tool is that, in the
+ tangible version, the results of the creation was directly displayed on
+ a 3D printed clock, whereas the virtual representation of the model was
+ used in the standard viewport version.
+ For changing the view on the object, subjects had to either manipulate
+ the object and/or move the head 
+\begin_inset Quotes eld
+\end_inset
+
+naturally
+\begin_inset Quotes erd
+\end_inset
+
+ with Tangible Viewport, whereas they were using a trackball metaphor operated
+ with the mouse middle-button in the standard viewport version, as commonly
+ done in standard desktop 3D tools.
+\end_layout
+
+\begin_layout Standard
+Subjects were asked to follow a tutorial for customizing their clock (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:user-creations"
+
+\end_inset
+
+), which included: 1) choosing a background color and painting the front
+ face, 2) adding virtual elements and resize/rotate them, and 3) making
+ a drawing on the side and back of the object.
+ This scenario was designed to ensure that the main features of the tool
+ were used under different conditions.
+ For example, Step 3 tests the ability of the participants to draw freely
+ on curved surfaces.
+ 
+\end_layout
+
+\begin_layout Standard
+After the experiment, participants where asked to answer two questionnaires:
+ the User Experience Questionnaire 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Laugwitz2008"
+
+\end_inset
+
+ and a custom questionnaire aiming at obtaining user feedback about the
+ usability of the tested systems (5 points Likert scale) and their preferences
+ between the two.
+ Both questionnaires showed no significant difference between the two versions
+ of the system.
+ They were also invited to leave comments and feedback about what they liked
+ and disliked about each version of the system.
+ Overall, the majority of the participants preferred manipulating the tangible
+ version (12 out of 14) and were more satisfied with the final result (11/14).
+ No participant mentioned difficulties moving from the screen to the object.
+ These results seem to indicate that the tangible viewport metaphor works
+ well, and it is comfortable to use.
+\end_layout
+
+\begin_layout Standard
+Regarding the comments, among the most appreciated features spontaneously
+ cited by the subjects is the ability to work with a real object (9/14)
+ and to have a physical view on the final product (6/14).
+ For example S1 liked that 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+you can see the real object with the elements you draw.
+ That way, you can observe the final product before it is produced
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ S9 mentioned that 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+The creation feels much less virtual
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ and that 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+going from the screen to the object is fun
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+.
+ A few participants also insisted that they liked to be able to manipulate
+ the object with their hands (5/14), while others found it uncomfortable
+ (5/14): the tangible objects were attached to a tracked magnetic base that
+ could then be connected to an articulated arm; this was later corrected
+ by removing the base, and adding the markers directly on the object so
+ that the objects could be handled directly.
+ Complaints were made (5/14) regarding the fact that the editor lacked important
+ features such as 
+\begin_inset Quotes eld
+\end_inset
+
+undo
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+magic wand
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This highlights that the interaction between the screen and the object
+ was working well enough that the main focus was about the painting features.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-userstudy-3.jpg
+	lyxscale 10
+	width 24line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-userstudy-1.jpg
+	lyxscale 10
+	width 24line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-userstudy-4.jpg
+	lyxscale 10
+	width 24line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-userstudy-2.jpg
+	lyxscale 10
+	width 24line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:user-creations"
+
+\end_inset
+
+Examples of participants' creations using Tangible Viewports.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
