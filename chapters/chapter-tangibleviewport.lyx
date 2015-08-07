@@ -233,7 +233,7 @@ onto
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:teaser"
+reference "fig:tports-teaser"
 
 \end_inset
 
@@ -262,16 +262,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:teaser"
+name "fig:tports-teaser"
 
 \end_inset
 
-
-\lang american
  A workspace that allows the user to work both digitally (left) and physically
  (right).
  A real object can be placed in front of the screen to use it as a canvas
@@ -297,7 +293,7 @@ In this work, we emphasis the use of the desktop computer screen and its
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:teaser"
+reference "fig:tports-teaser"
 
 \end_inset
 
@@ -828,7 +824,7 @@ Our SAR setup is comprised of an augmented desktop environment and physical
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:sar-setup"
+reference "fig:tports-sar-setup"
 
 \end_inset
 
@@ -928,7 +924,7 @@ status open
 \lang english
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:sar-setup"
+name "fig:tports-sar-setup"
 
 \end_inset
 
@@ -992,7 +988,7 @@ A window dedicated to the interaction with the object is created on the
  illustrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:cursor-screen-obj-transition"
+reference "fig:tports-cursor-screen-obj-transition"
 
 \end_inset
 
@@ -1005,7 +1001,7 @@ reference "fig:cursor-screen-obj-transition"
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:sar-cursor-and-user"
+reference "fig:tports-sar-cursor-and-user"
 
 \end_inset
 
@@ -1123,7 +1119,7 @@ status open
 \lang english
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:cursor-screen-obj-transition"
+name "fig:tports-cursor-screen-obj-transition"
 
 \end_inset
 
@@ -1190,7 +1186,7 @@ In our hybrid workspace, interaction can either take place on the screen,
 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "tab:interaction-space"
+reference "tab:tports-interaction-space"
 
 \end_inset
 
@@ -1560,7 +1556,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "tab:interaction-space"
+name "tab:tports-interaction-space"
 
 \end_inset
 
@@ -1609,7 +1605,7 @@ We have designed a custom application based on such standard widgets for
  modifying the appearance of an augmented object (See Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:features"
+reference "fig:tports-features"
 
 \end_inset
 
@@ -1655,7 +1651,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:painting"
+name "subfig:tports-painting"
 
 \end_inset
 
@@ -1697,7 +1693,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:virtual-elements"
+name "subfig:tports-virtual-elements"
 
 \end_inset
 
@@ -1739,7 +1735,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:creative-coding"
+name "subfig:tports-creative-coding"
 
 \end_inset
 
@@ -1777,7 +1773,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:uv-painting"
+name "subfig:tports-uv-painting"
 
 \end_inset
 
@@ -1804,7 +1800,7 @@ UV painting using Photoshop
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:features"
+name "fig:tports-features"
 
 \end_inset
 
@@ -1839,7 +1835,7 @@ It is also possible to use native professional applications.
  The most straightforward use is UV painting (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:uv-painting"
+reference "subfig:tports-uv-painting"
 
 \end_inset
 
@@ -1886,7 +1882,7 @@ key "holman2013design"
  physical clock (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:creative-coding"
+reference "subfig:tports-creative-coding"
 
 \end_inset
 
@@ -2029,7 +2025,7 @@ key "Benko2014"
  selected element are illustrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:virtual-elements"
+reference "subfig:tports-virtual-elements"
 
 \end_inset
 
@@ -2084,7 +2080,7 @@ key "Jansen2013"
  elements on the physical visualization (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:dataviz"
+reference "subfig:tports-dataviz"
 
 \end_inset
 
@@ -2102,7 +2098,7 @@ We also explored the synchronization between a virtual version of an object
  window displays a virtual version of the augmented object (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:dataviz"
+reference "subfig:tports-dataviz"
 
 \end_inset
 
@@ -2119,7 +2115,7 @@ Being able to have two representations of an augmented object, one on screen
  map of touched areas (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:synch-heatmap"
+reference "subfig:tports-sync-heatmap"
 
 \end_inset
 
@@ -2128,7 +2124,7 @@ reference "subfig:synch-heatmap"
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:multiple-objects"
+reference "subfig:tports-multiple-objects"
 
 \end_inset
 
@@ -2176,7 +2172,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:dataviz"
+name "subfig:tports-dataviz"
 
 \end_inset
 
@@ -2214,7 +2210,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:multiple-objects"
+name "subfig:tports-multiple-objects"
 
 \end_inset
 
@@ -2256,7 +2252,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:painting-1"
+name "subfig:tports-sync-obj-screen"
 
 \end_inset
 
@@ -2294,7 +2290,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "subfig:synch-heatmap"
+name "subfig:tports-sync-heatmap"
 
 \end_inset
 
@@ -2317,7 +2313,7 @@ UV painting using Photoshop
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:synchronization-screen-tangible"
+name "fig:tports-synchronization-screen-tangible"
 
 \end_inset
 
@@ -2392,14 +2388,14 @@ We conducted an exploratory study where we asked participants to manipulate
  We have designed a simple custom creation tool (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:painting"
+reference "subfig:tports-painting"
 
 \end_inset
 
  and 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "subfig:virtual-elements"
+reference "subfig:tports-virtual-elements"
 
 \end_inset
 
@@ -2441,7 +2437,7 @@ Subjects were asked to follow a tutorial for customizing their clock (Figure
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:user-creations"
+reference "fig:tports-user-creations"
 
 \end_inset
 
@@ -2701,7 +2697,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:user-creations"
+name "fig:tports-user-creations"
 
 \end_inset
 
