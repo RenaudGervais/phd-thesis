@@ -134,31 +134,8 @@ Look at your work space right now.
  areas: one for working digitally (computer) and one for working physically
  (pen and paper, books, building materials).
  This dichotomy has been present in our work environments for a long time,
- and a lot of effort of the TEI
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-
-\lang english
-Tangible User Interfaces (TUI)
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-
-\lang english
-Alternatively, we could refer to the TEI community direclty.
-\end_layout
-
-\end_inset
-
- community has been directed towards a digitally enriched physical space.
+ and a lot of effort of the Tangible User Interfaces (TUI) community has
+ been directed towards a digitally enriched physical space.
  Compared to the traditional mouse-based paradigm of computers, tangible
  interaction 
 \begin_inset CommandInset citation
@@ -2743,6 +2720,87 @@ Examples of participants' creations using Tangible Viewports.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Regarding the technical solution, several participants (6/14) mentioned
+ that the augmentation calibration was not precise enough, which could be
+ improved by using more advanced known solutions such as the one used by
+ Jones 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Jones2014"
+
+\end_inset
+
+.
+ They also explicitly mentioned some delays and robustness issues on the
+ head tracking (5/14).
+ The second iteration of the system corrected these issues by replacing
+ face tracking by skeleton based head tracking and better Kinect positioning.
+ Regarding the cursor, some participants (4/14) did not like the fact that
+ changing the head position was moving the cursor on the object, a side
+ effect of using perspective cursor.
+ This issue could be addressed with a system that would prevent the cursor
+ on the object to move when the head position of the user changes and instead
+ correct the on-screen cursor's position when it reaches the edge of the
+ object's silhouette, from the user's point of view.
+ Such alternatives will be studied on the future
+\end_layout
+
+\begin_layout Section
+Conclusion and Future Work
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: Remove conclusion and focus on future work and discussion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this paper, we have introduced Tangible Viewports and we have described
+ an effective implementation of this concept.
+ A preliminary study showed that the overall usability of this system is
+ good.
+ Tangible Viewports do not aim at replacing existing systems.
+ Indeed, we have shown that, from a technical and user point of view, the
+ seamless integration of physical and virtual tools is not just feasible
+ but enriches both.
+\end_layout
+
+\begin_layout Standard
+One of the current limitations of a tangible approach is the rigidity of
+ the physical elements, which cannot (yet) be reshaped in real time.
+ Our vision is that 3D printing will become as efficient as 2D printing
+ in a near future.
+ Hence, one will be able to use the flexibility of virtual elements to explore
+ variations of geometries, and use physical elements as soon as he or she
+ will require a perception of the created shape that goes beyond a simple
+ rendering on a 2D screen.
+\end_layout
+
+\begin_layout Standard
+In the future, we would like to assess more precisely how Tangible Viewports
+ may leverage creativity in professional uses.
+ This will require dedicated user studies with targeted users for investigating
+ in more depth on how interactive physicality impacts performance.
+ Finally, Tangible Viewports leverage the desktop computer capabilities
+ as part of a set of tools to interact with physical matter.
+ In the future, we plan go further, by merging the desktop on the workbench
+ itself.
 \end_layout
 
 \end_body
