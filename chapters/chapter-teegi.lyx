@@ -1092,5 +1092,253 @@ A moving tangible cursor is controlling the amplitude of the visualization
 
 \end_layout
 
+\begin_layout Standard
+Finally, we developed a solution that highlights the relationship between
+ EEG signals and localized cortical sources, that is where the signals come
+ from 
+\emph on
+inside
+\emph default
+ the brain.
+ Using sLORETA inverse modeling 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pascual-Marqui02"
+
+\end_inset
+
+ and Brainstorm to compute the kernel matrix 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Tadel2011"
+
+\end_inset
+
+, we obtained a model of the cortex containing 2002 voxels linked to the
+ 32 EEG electrodes we used.
+ We can then project in real time the activity which arises from the outer
+ regions of the cortex on an object representing the brain, alongside with
+ Teegi (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-inverse-model"
+
+\end_inset
+
+).
+ Since both Teegi and the brain proxy are tracked, it becomes possible to
+ manipulate two synchronized representations of the same brain activity
+ (the source at the surface of the brain and the measures on the scalp).
+ This opens way to mediation activities that are more advanced all the while
+ keeping the simplicity and ease of use brought forth by using SAR and tangible
+ interaction.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-inverse-model.jpg
+	lyxscale 10
+	width 50line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-inverse-model"
+
+\end_inset
+
+Using an inverse model, the cortical activity and EEG measures are presented
+ together to users.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Technical Description
+\end_layout
+
+\begin_layout Subsection
+EEG
+\end_layout
+
+\begin_layout Standard
+We designed different EEG signal processing pipelines that each create a
+ specific visualization tailored to identify specific elements in the signal.
+ The details of these pipelines are transparent to the user.
+ Each pipeline corresponds to a mini-Teegi filter.
+ In particular, we set up the following EEG signal processing pipelines:
+\end_layout
+
+\begin_layout Description
+Wide-band
+\begin_inset space ~
+\end_inset
+
+EEG
+\begin_inset space ~
+\end_inset
+
+activity: EEG signals were band-pass filtered between 3 Hz and 26 Hz, in
+ order to filter DC drift and part of the artifacts (e.g., facial muscle activity
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Fatourechi07"
+
+\end_inset
+
+) that may pollute them.
+ Their power is then computed before being displayed.
+ This corresponds to unspecific brain signals, hence they were labeled as
+ 
+\begin_inset Quotes eld
+\end_inset
+
+raw
+\begin_inset Quotes erd
+\end_inset
+
+ signals.
+\end_layout
+
+\begin_layout Description
+Sensorimotor
+\begin_inset space ~
+\end_inset
+
+activity: EEG signals were first band-pass filtered in the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ band (16-24Hz), a brain rhythm highly involved in sensorimotor tasks 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pfurtscheller99b"
+
+\end_inset
+
+.
+ Then, they were spatially filtered, i.e., the signals from several neighboring
+ EEG sensors were combined in order to enhance the signal of interest.
+ In particular, we used and displayed Laplacian spatial filters around electrode
+s C3, C4 and Cz.
+ This enabled the users to visualize EEG activity changes due to movements
+ of the left hand, right hand and feet.
+ Indeed, it is known that the power of EEG signals in the 
+\begin_inset Formula $\beta$
+\end_inset
+
+ rhythm decreases in electrodes C3/Cz/C4 during right hand/feet/left hand
+ movements respectively, and increases just after the end of this movement
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Pfurtscheller99b"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+Visual
+\begin_inset space ~
+\end_inset
+
+activity: EEG signals were band-pass filtered in the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ band (8-12 Hz), then only electrodes P3, Pz, P4, PO3, POz, PO4, O1, Oz
+ and O2 (located on the back of the head, above the neck) were selected
+ and displayed.
+ These electrodes are indeed located over the visual cortex of the brain,
+ i.e., the brain area in charge of visual information processing.
+ The amplitude of the 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ rhythm is actually known to increase while the user is closing his/her
+ eyes and is thus not processing any visual information 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Niedermeyer05"
+
+\end_inset
+
+.
+ To ensure that the user could perceive this increase after he/she reopened
+ his/her eyes, the visualization was delayed by 0.5s.
+\end_layout
+
+\begin_layout Description
+Meditation: on a more exploratory note, we used the synchronization between
+ the signals from the anterior and posterior cortex (AFz/Pz), which was
+ measured in a 7-28 Hz band with instantaneous phase locking value 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lachaux2000"
+
+\end_inset
+
+.
+ There are different outcomes (increase/decrease in synchronization) depending
+ on meditation type.
+ Mindfulness and body focus practices decrease the synchronization while
+ transcendental practice increases it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lehmann2012"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+EEG signals were acquired with a 32-channels EEG device (made of two g.tec
+ g.USBAmp EEG amplifiers).
+ This professional-grade system ensured that our prototype had a good signal-to-
+noise ratio and accurate electrode location, avoiding unneeded uncertainties.
+ Signals were processed in real-time using OpenViBE 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Renard10"
+
+\end_inset
+
+.
+ For pipelines 1 to 3, the displayed colors correspond to signal power strength;
+ for pipeline 4 they correspond to the degree of synchronization.
+\end_layout
+
 \end_body
 \end_document
