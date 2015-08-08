@@ -1909,19 +1909,74 @@ so, Teegi is me!
  This identification suggests that an activation of associations between
  the perceived character's personality and self-perception may have occurred
  
-\backslash
-cite{Paiva05}.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Paiva05"
+
+\end_inset
+
+.
  It is known that identification can be associated with increasing loss
  of self-awareness, and its temporary replacement with elements of the perceived
  character's personality 
-\backslash
-cite{Cohen01}.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Cohen01"
+
+\end_inset
+
+.
  Therefore a human shaped, child-like character, made lifelike by animated
  projected eyes, could enhance both empathy and implicit self-perception
  of one's own brain activity, as provided by our interactive media.
  The anthropomorphic appearance of Teegi could explain the motivation and
  positive UX reported by the users.
  All these hypotheses would be the aim of a more extensive UX study.
+\end_layout
+
+\begin_layout Standard
+Regarding visual attention, the participants were apparently paying attention
+ to Teegi most of the time (83.3%, SD 7.6).
+ This supports the fact that Teegi mobilized user attention.
+ It also indicates a cognitive user engagement.
+ Personal investigations were permanent (only 1.9% of inactivity was measured
+ during the session duration; SD=1.7).
+ Behavior analyses indicate that participants made predictions, hypotheses
+ and tested them by conducting experiments.
+ Numerous trial and error strategies were frequently used.
+ This clearly indicates personal active control of the task and inquiry
+ processes.
+ Overall, Teegi stimulates investigations and encourages persistence in
+ task completion.
+\end_layout
+
+\begin_layout Section
+Conclusion
+\end_layout
+
+\begin_layout Standard
+In this paper, we presented Teegi, a tangible interface that makes EEG understan
+dable to non-expert users.
+ Our main contribution is the interface itself, which is built from both
+ theoretical foundations, notably from human learning and scientific mediation
+ and technical developments, including spatial augmented reality, tangible
+ interaction and real-time neurotechnologies.
+ We also demonstrated that this interface was well accepted by a first pool
+ of users.
+ In the future, we plan to make a more in-depth investigation into how well
+ users are able to learn about EEG and brain activity with Teegi.
+ To this end, we will conduct dedicated experiments with students and/or
+ visitors in scientific museums.
+ We would also like to precisely evaluate how Teegi benefits learning compared
+ to standard approaches.
+ For more advanced users, ad-hoc tangible filter creation could prove to
+ be of great interest, adding flexibility to the overall system.
+ Finally, it is known that BCI requires the user to learn to control his/her
+ own brain activity to input computer commands 
+\backslash
+cite{Wolpaw12}, which is a long and tedious task.
+ We expect Teegi to be a motivating and informative way to support this
+ training in the future.
 \end_layout
 
 \end_body
