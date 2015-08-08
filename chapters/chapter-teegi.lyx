@@ -1196,18 +1196,37 @@ We designed different EEG signal processing pipelines that each create a
  In particular, we set up the following EEG signal processing pipelines:
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+Use an ERT to put more than two words on the label.
+ Usually, it is done with a protected space (
+\begin_inset space ~
+\end_inset
+
+) but it does not seem to work well here.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
-Wide-band
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Wide-band EEG activity:
+\end_layout
+
 \end_inset
 
-EEG
-\begin_inset space ~
-\end_inset
-
-activity: EEG signals were band-pass filtered between 3 Hz and 26 Hz, in
- order to filter DC drift and part of the artifacts (e.g., facial muscle activity
- 
+ EEG signals were band-pass filtered between 3 Hz and 26 Hz, in order to
+ filter DC drift and part of the artifacts (e.g., facial muscle activity 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Fatourechi07"
@@ -1229,11 +1248,17 @@ raw
 \end_layout
 
 \begin_layout Description
-Sensorimotor
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Sensorimotor activity:
+\end_layout
+
 \end_inset
 
-activity: EEG signals were first band-pass filtered in the 
+ EEG signals were first band-pass filtered in the 
 \begin_inset Formula $\beta$
 \end_inset
 
@@ -1268,11 +1293,17 @@ key "Pfurtscheller99b"
 \end_layout
 
 \begin_layout Description
-Visual
-\begin_inset space ~
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Visual activity:
+\end_layout
+
 \end_inset
 
-activity: EEG signals were band-pass filtered in the 
+ EEG signals were band-pass filtered in the 
 \begin_inset Formula $\alpha$
 \end_inset
 
@@ -1973,8 +2004,13 @@ dable to non-expert users.
  be of great interest, adding flexibility to the overall system.
  Finally, it is known that BCI requires the user to learn to control his/her
  own brain activity to input computer commands 
-\backslash
-cite{Wolpaw12}, which is a long and tedious task.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wolpaw12"
+
+\end_inset
+
+, which is a long and tedious task.
  We expect Teegi to be a motivating and informative way to support this
  training in the future.
 \end_layout
