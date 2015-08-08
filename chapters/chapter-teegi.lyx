@@ -827,5 +827,98 @@ At the end of this chapter, we present an explorative study we conducted
  These advanced features were not evaluated during the study.
 \end_layout
 
+\begin_layout Subsection
+Advanced Features
+\end_layout
+
+\begin_layout Standard
+Visualizing the raw signal recorded on each electrode of the EEG is not
+ very informative for the general public.
+ However, this can be instructive for students who are learning EEG signal
+ processing and analysis.
+ In our approach, we can display on the table these raw data, as shown in
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-signal-table"
+
+\end_inset
+
+ (left).
+ This creates a visual link between what is recorded with the EEG system,
+ and the visualization that is provided on Teegi's head.
+ This is possible because we know the rough position of the user, and the
+ exact position of Teegi.
+ When applying a filter, as described in the previous section, the user
+ can see the effect of his or her action on the signal (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-signal-table"
+
+\end_inset
+
+, right).
+ Compared to a standard approach where everything takes place on a screen,
+ we believe that such a spatial and tangible approach might ease the understandi
+ng of the filters' effect.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-signal-table.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\emph on
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-signal-table"
+
+\end_inset
+
+Left
+\emph default
+: The raw EEG readings are displayed going from the user to the filter area
+ and then rerouted towards Teegi.
+ 
+\emph on
+Right
+\emph default
+: When a mini-Teegi (i.e.
+ a filter) is active, the corresponding filtered signals are displayed between
+ the filter area and Teegi instead.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
