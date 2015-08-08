@@ -468,5 +468,185 @@ key "Vosniadou1992"
 s technical innovation and user-centered design.
 \end_layout
 
+\begin_layout Section
+Introducing Teegi
+\end_layout
+
+\begin_layout Subsection
+Founding Principles
+\end_layout
+
+\begin_layout Standard
+Design choices were made according to pedagogical principles.
+ It has long been recognized that learner-centered education is much more
+ effective than transmission-based education, even in informal situations
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wellington90"
+
+\end_inset
+
+.
+ According to the constructivist paradigm, people create unique personal
+ meanings by reflecting on interactive learning experiences.
+ Therefore, people/learners should investigate and manipulate in order to
+ become conscious of complex phenomena, change their misconceptions and
+ construct scientific knowledge 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Vosniadou01"
+
+\end_inset
+
+.
+ In association, meaningful models play an important role in this type of
+ learning processes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fleck13"
+
+\end_inset
+
+.
+ This motivated the design of an anthropomorphic interface that can be freely
+ manipulated.
+\end_layout
+
+\begin_layout Standard
+Our user-centered interactive media uses Spatial Augmented Reality (SAR)
+ and tangible interaction.
+ SAR, introduced by Raskar et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2001a"
+
+\end_inset
+
+, adds dynamic graphics to real-world surfaces by the means of projected
+ light.
+ Many systems were designed using projectors to add 
+\begin_inset Quotes eld
+\end_inset
+
+painted
+\begin_inset Quotes erd
+\end_inset
+
+ surface 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2001a"
+
+\end_inset
+
+ or to give the illusion of virtual elements actually being there 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wilson2012,Benko2012"
+
+\end_inset
+
+.
+ A related approach is Tangible User Interface (TUI).
+ TUI is concerned with providing tangible (i.e.
+ physical) representations to digital information and controls 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Shaer2009"
+
+\end_inset
+
+.
+ One of the strengths of tangibles is their situatedness: the interaction
+ takes place in a real-world environment that often hides most of the technologi
+cal aspects to expose physical interaction components only.
+ They are particularly well suited for mediation purposes as they tend to
+ be more inviting compared to mouse-screen based interfaces 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Horn2009"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+SAR and TUIs are often found together 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Underkoffler1999,Piper2002"
+
+\end_inset
+
+.
+ They are very complementary in that they both take place in the real world,
+ in a common canvas.
+ The tangible interaction allows for a hands-on approach by offering different
+ input affordances (as well as physical constraints) to the user while the
+ SAR technology allows for a flexible and situated way to give feedback.
+ SAR can also be used as an affordable way to embed dynamic graphics on
+ a physical surface that would otherwise require curved displays 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Brockmeyer2013"
+
+\end_inset
+
+ or rear projection 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Benko2008"
+
+\end_inset
+
+.
+ There are examples of systems that use either tangible or AR principles
+ to interact or review physiological data.
+ Hinckley et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hinckley1994"
+
+\end_inset
+
+ designed a system which used tangible props to do neurosurgical planning.
+ A small tangible head was used in conjunction with a plastic plane to select
+ the cutting planes to be visualized on a screen.
+ Also mentioned above, the 
+\begin_inset Quotes eld
+\end_inset
+
+Mind-Mirror
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mercier-Ganady2014"
+
+\end_inset
+
+ is the work closest to Teegi.
+ However, with Teegi, the data is not co-localized with the data source.
+ It provides flexibility and easier visualization as the users can change
+ viewpoints by tangible interactions instead of rotating their head while
+ keeping their eyes on the mirror.
+ This 
+\begin_inset Quotes eld
+\end_inset
+
+out-of-body
+\begin_inset Quotes erd
+\end_inset
+
+ visualization also enables collaboration where multiple users can explore
+ the data.
+\end_layout
+
 \end_body
 \end_document
