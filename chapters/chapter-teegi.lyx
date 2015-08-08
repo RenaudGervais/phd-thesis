@@ -648,5 +648,184 @@ out-of-body
  the data.
 \end_layout
 
+\begin_layout Subsection
+General Description
+\end_layout
+
+\begin_layout Standard
+Teegi is a tangible interface that enables users to visualize and analyze
+ a representation of their own brain activity recorded via an EEG system
+ in real-time and displayed on a physical character.
+ After some processing of the raw signals, a dedicated visualization is
+ projected directly on top of the character.
+ This character is tracked, which allows us to co-locate the projection
+ with the character's head, at any time.
+ Hence, the user can easily visualize a realistic modeling of the EEG signals
+ in any part of the scalp by manipulating the character, while maintaining
+ a good spatial topology of the observed data.
+ Teegi was purposely given a child-like appearance, as well as animated
+ eyes (also projected) that blink at the same time as the users do, in order
+ to breathe life to the character and enhance attractiveness.
+ Indeed blinking can be easily detected in electrodes neighboring the eyes.
+\end_layout
+
+\begin_layout Standard
+Three different filters can be applied to the raw data (see the technical
+ section for details) enabling users to investigate influences of motor
+ motions, visual activities or meditation, on their brain activity in real-time.
+ To remain consistent with the tangible philosophy of this project, we decided
+ to control the filters by way of small tangible characters (mini-Teegis)
+ that can be moved on a 
+\begin_inset Quotes eld
+\end_inset
+
+filter area
+\begin_inset Quotes erd
+\end_inset
+
+, which is highlighted on the table by a projected halo (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-mini-teegis"
+
+\end_inset
+
+).
+ For example, if a user wants to apply a filter that will allow her to better
+ see what happens when moving her hand, she just needs to take the dedicated
+ mini-Teegi, i.e.
+ the one with the colored hands, and to move it to the filter area.
+ Then, by moving her right hand, she should see changes in EEG amplitude
+ on the left hemisphere of Teegi's head, as illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-filters"
+
+\end_inset
+
+.
+ The manipulation of Teegi requires a motor activity.
+ Therefore, when the motor filter is on, manipulating Teegi will obviously
+ lead to observable changes in brain activity.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-mini-teegis.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-mini-teegis"
+
+\end_inset
+
+Three mini-Teegis can be used to apply high-level EEG filters to highlight
+ brain processes associated to 
+\emph on
+Motor
+\emph default
+, 
+\emph on
+Vision
+\emph default
+ and 
+\emph on
+Meditation
+\emph default
+ activities.
+ To do so, the user simply needs to move the desired mini-Teegi into a specific
+ zone projected on the table (green circle).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-filters.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-filters"
+
+\end_inset
+
+Examples of the displayed visualizations on Teegi for each of the provided
+ filters.
+ Once a filter is active, the brain area corresponding to the selected and
+ processed activity is highlighted in colors while the remaining EEG signals
+ are displayed in grayscale.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+At the end of this chapter, we present an explorative study we conducted
+ to obtain feedback about the main features of Teegi.
+ However, Teegi is not limited to these first features.
+ In the next section, we describe additional interaction metaphors we have
+ explored, and that may benefit more advanced users.
+ These advanced features were not evaluated during the study.
+\end_layout
+
 \end_body
 \end_document
