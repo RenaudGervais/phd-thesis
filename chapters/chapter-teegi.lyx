@@ -1340,5 +1340,589 @@ key "Renard10"
  for pipeline 4 they correspond to the degree of synchronization.
 \end_layout
 
+\begin_layout Subsection
+Spatial Augmented Reality
+\end_layout
+
+\begin_layout Standard
+In order to create an augmented character, we have designed a tabletop augmentat
+ion setup (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-setup"
+
+\end_inset
+
+).
+ Teegi itself is a 25cm high Trexi DIY toy.
+ The mini-Teegis are also 10cm high Trexis.
+ The main program handling the whole installation was created with vvvv
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://vvvv.org
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ The primary projected content (Teegi augmentation and GUI display) is handled
+ with a single wide lens projector ProjectionDesign F20SX of resolution
+ 1024x768 located over the table in a top-down orientation.
+ The tracking of Teegi is achieved with an OptiTrack V120:Trio.
+ It runs at 120 FPS with an overall latency of 8.3ms and a precision of 0.8mm.
+ The OptiTrack is located in the same configuration as the main projector
+ and both devices are calibrated together manually.
+ The tracking data is sent to vvvv using OptiTrack's NatNet protocol.
+ Teegi's eyes are projected using a second projector (Vivitek Qumi Q2) that
+ is located on the side of the table.
+\end_layout
+
+\begin_layout Standard
+The filter selection is done using a Sony PSEye web camera pointed at the
+ position of the program selection GUI.
+ Each mini-teegi representing a filter has a fiducial marker attached to
+ it.
+ The library ARToolkitPlus 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Wagner2007"
+
+\end_inset
+
+ is used to detect which marker is currently selected.
+\end_layout
+
+\begin_layout Standard
+The EEG signals are processed by the OpenViBE software 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Renard10"
+
+\end_inset
+
+ that also generates a grayscale texture of the scalp signals.
+ This texture is then exported to a local shared samba folder which is then
+ fetched and remapped to an appropriate color scale in vvvv before being
+ mapped to Teegi's head.
+ In addition, the raw EEG signals are sent to vvvv over VRPN for display
+ purposes (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-signal-table"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-setup.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-setup"
+
+\end_inset
+
+Diagram of the installation.
+ (A) ProjectionDesign F20SX projector (B) Sony PSEye web camera (C) OptiTrack
+ V120:Trio (D) Vivitek Qumi Q2 projector (E) Teegi (F) Program selection
+ zone and mini-Teegis.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Exploratory Study and Discussion
+\end_layout
+
+\begin_layout Subsection
+Protocol
+\end_layout
+
+\begin_layout Standard
+We conducted an explorative study where participants had to manipulate Teegi
+ following a given scenario.
+ The objectives of this study were to i) evaluate the general usability
+ of the interface and ii) obtain initial feedback about the relevance of
+ the approach to help users understand EEG signals and the brain.
+ Ten participants (6 males, 4 females, mean age 28.6 (SD=9.7)) took part in
+ this study.
+ Pre-tests confirmed they were rather naive on the subject.
+ They manipulated the version of Teegi described in the General Description
+ section (no advanced features).
+ The general procedure was as follows:
+\end_layout
+
+\begin_layout Enumerate
+Pre-tests: The participant answered a first questionnaire assessing his
+ or her representation of the brain.
+ The participant then filled in different forms to measure his or her previous
+ knowledge; one form per studied brain process (motor, vision and meditation).
+\end_layout
+
+\begin_layout Enumerate
+Setting-up: The experimenter positioned the EEG cap on the participant's
+ head.
+ In parallel, the participant, guided by the experimenter, was made aware
+ of the four didactic 
+\begin_inset Quotes eld
+\end_inset
+
+cards
+\begin_inset Quotes erd
+\end_inset
+
+ explaining the different filters i.e., 
+\emph on
+Motor
+\emph default
+, 
+\emph on
+Vision
+\emph default
+, 
+\emph on
+Meditation
+\emph default
+ and 
+\emph on
+Raw
+\emph default
+.
+ Each card was comprised of an image of the mini-Teegi associated with the
+ filter along with basic instructions to follow (e.g.
+ the 
+\emph on
+Motor
+\emph default
+ card indicated to the participants to move their hands or feet while staying
+ relaxed).
+ There were also two cards describing the two types of visualization participant
+s could face, 
+\emph on
+signal strength
+\emph default
+ and 
+\emph on
+synchronization
+\emph default
+.
+ Once the participant was equipped, a quick calibration phase occurred.
+ While Teegi was still inactive, participants were asked to close their
+ eyes for a few seconds, and to move their hands and feet in order to identify
+ the baseline activity for visualization.
+\end_layout
+
+\begin_layout Enumerate
+Personal Investigation: The participant was asked to freely manipulate Teegi
+ as well as the filters to be able to answer the following questions:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What happens when you move your hands or feet?
+\end_layout
+
+\begin_layout Itemize
+What happens when you close your eyes?
+\end_layout
+
+\begin_layout Itemize
+What happens when you meditate?
+\end_layout
+
+\begin_layout Standard
+During the whole study the participant sat comfortably in a chair.
+ To avoid the occurrence of muscle artifacts that may pollute the signals,
+ the user was instructed to stay relaxed and to refrain from making strong
+ head movements.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Post-tests: The participant answered the questions above on dedicated forms,
+ the same that were given at the beginning of step 1.
+ Finally, he or she filled in a user survey questionnaire based on a 7-point
+ Likert scale.
+\end_layout
+
+\begin_layout Standard
+The whole session lasted approximately 1.5 hours per participant, with 15
+ to 20 minutes of hands-on time with Teegi.
+ Each session was video-recorded.
+ Video segments were separately visualized and labeled with the corresponding
+ behavior (i.e.
+ tangible and visual interactions, emotional expressions, and investigation
+ strategies) using The Observer XT® 11.5
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Noldus, Info Tech, Wageninen, The Netherlands
+\end_layout
+
+\end_inset
+
+.
+ After the session, the experimenter had an informal talk with the participant.
+ He corrected the answers, making sure the participant was not leaving with
+ false knowledge, and explained in more detail some aspects of the system
+ (e.g.
+ relationship between visual filter and attentional states, the various
+ effects of meditation, ...).
+ This phase lasted from 30 min to 1 hour depending on the participant's
+ curiosity.
+\end_layout
+
+\begin_layout Subsection
+Results and Discussion
+\end_layout
+
+\begin_layout Standard
+To better understand the inherent strengths of Teegi towards learning, we
+ assessed three main aspects of Teegi: its technical reliability, its relevance
+ to ease understanding for non-experts, and the User eXperience (UX) it
+ provides.
+ This evaluation is based on:
+\end_layout
+
+\begin_layout Enumerate
+The results of the questionnaire that are summarized in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-likert-data"
+
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+the analysis of the video recordings;
+\end_layout
+
+\begin_layout Enumerate
+the analysis of the forms the participants filled in to assess their pre
+ and post-knowledge of the brain and EEG.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-questions.jpg
+	lyxscale 30
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-likert-data"
+
+\end_inset
+
+Results of the questionnaire (selected questions).
+ Note that purple (resp.
+ orange) bars indicate questions measuring Teegi's qualities (resp.
+ limitations).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Technical Reliability
+\end_layout
+
+\begin_layout Standard
+Participants unanimously reported that the whole system worked properly.
+ The quality of the SAR display is valued by the participants.
+ In particular, they reported that the resolution was appropriate, and they
+ did not report problems of offset between the display and the physical
+ character.
+ Participants declared that they were not disturbed by occlusion problems.
+ The mild temporal delay between their action and their consequences seems
+ not to be an issue.
+\end_layout
+
+\begin_layout Standard
+Manipulations of Teegi were numerous and frequent.
+ Teegi was touched or moved on average 25% of the session's duration, twice
+ per minute.
+ These manipulations consisted mostly of rotations, and to a lesser extent
+ of lifting Teegi to enhance visual perception.
+ Two participants reported difficulties in grasping Teegi while the remaining
+ 8 were comfortable with the form of the character.
+ Video analyses did not show difficulties for the manipulation of Teegi.
+ Similarly, applying filters by manipulating the mini-Teegis seemed easy
+ for the participants.
+\end_layout
+
+\begin_layout Subsubsection
+Relevance of the Interface to Ease Understanding
+\end_layout
+
+\begin_layout Standard
+The participants reported that they understood the visualization associated
+ with the filters.
+ Video analyses indicated that they systematically used all filters several
+ times (3 times per session on average) for a similar duration (Raw filter
+ : 30.4% (SD 13.3) of session duration; Motor filter: 26.0% (8.3); visual filter:
+ 16.9% (5.5); meditation filter: 26.6% (8.7)).
+ Interestingly, the visual activity filter seemed slightly easier to understand
+ than the other filters.
+ Moreover, video analyses indicated that the participants did not have difficult
+y observing the signals on Teegi's head, as soon as they found the right
+ location to observe.
+ Overall, participants reported that they were able to use Teegi without
+ any difficulties.
+ 
+\end_layout
+
+\begin_layout Standard
+All participants completed the required tasks.
+ They used instruction cards 5 times
+\end_layout
+
+\begin_layout Standard
+per session on average.
+ They reported that they could focus on the tasks rather than on the mechanisms
+ used to achieve them.
+ This suggests that Teegi is a rather transparent interface.
+ Regarding learning of brain processes and EEG, participants reported that
+ they believed they had learned while doing the study.
+ This was confirmed by the results of the pre- and post-test assessments
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:teegi-marks"
+
+\end_inset
+
+).
+ These assessments focused on the recognition and the understanding of brain
+ activation during Motor activities, Visual activities and Meditation.
+ Understanding was marked as acquired if 1) the activated areas were correctly
+ localized and 2) the explanations of the brain process were correct.
+ It was marked as under way if only 1) or 2) was satisfied but not both;
+ and as not acquired if neither 1) nor 2) were satisfied.
+ The marks obtained by the participants improved after using Teegi.
+ Overall, this suggests that Teegi offers many interesting features to ease
+ learning and mediation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-marks.jpg
+	lyxscale 30
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-marks"
+
+\end_inset
+
+Marks obtained by the participants during the pre- and post-test assessments.
+ See text for details.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+All our results indicate that Teegi clearly promotes real-time tangible
+ interactions, which contributes to enhancing awareness.
+ Constructivism and inquiry-based science education principles indicate
+ that, to become conscious of complex phenomena and construct scientific
+ knowledge, people/learners have to experiment by interacting with and physicall
+y manipulating the content 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vosniadou1992"
+
+\end_inset
+
+.
+ This is particularly true for brain activity that is difficult to understand
+ because it cannot be sensed 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Damasio1994"
+
+\end_inset
+
+, contrary to other activities (e.g.
+ respiratory) that are perceived through sensory-motor mechanisms.
+ Hence, brain activities need to be conceptualized, and the success of learning
+ processes strongly depends on the interface.
+ Teegi, which has been largely promoted by the participants, seems to fulfill
+ this function.
+\end_layout
+
+\begin_layout Subsubsection
+User eXperience
+\end_layout
+
+\begin_layout Standard
+The general experience with Teegi was rated as pleasant, attractive and
+ stimulating, and participants did not feel stressed or oppressed.
+ Overall, participants reported that they liked interacting with Teegi.
+ The emotion expression analyses confirmed those statements.
+ They showed that on average participants expressed curiosity and questioning
+ about Teegi feedback during almost 20% (20.1% SD=9.1) of the manipulation
+ duration.
+ Other emotion expressions observed for all participants were joy and pleasure
+ (e.g.
+ smile, laugh, joyful verbal expression).
+ They occurred during almost 10% (9.8% SD= 6.7) of the interaction duration
+ with Teegi.
+ Surprise emotions were observed but less frequently.
+ Interestingly, boredom, weariness expressions occurred rarely (only for
+ 2 users) and only at the end of the manipulation time.
+ We did not observe any occurrence of exasperation or irritation.
+ These results suggest a high level of acceptance for Teegi.
+ This is a fundamental requirement for a tool aiming at improving access
+ to knowledge.
+ 
+\end_layout
+
+\begin_layout Standard
+Behavior observations indicated that the majority of participants spoke
+ with Teegi and used morphological zones specific to human interactions
+ while manipulating it.
+ For example, they held its hands and held it up by the waist as one would
+ do with a child.
+ Some users spoke in the first person when they observed changes on the
+ character's scalp for example 
+\begin_inset Quotes eld
+\end_inset
+
+so, when I move my hands, I light up on the sides
+\begin_inset Quotes erd
+\end_inset
+
+; many said aloud that Teegi was their own image, for example 
+\begin_inset Quotes eld
+\end_inset
+
+so, Teegi is me!
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This identification suggests that an activation of associations between
+ the perceived character's personality and self-perception may have occurred
+ 
+\backslash
+cite{Paiva05}.
+ It is known that identification can be associated with increasing loss
+ of self-awareness, and its temporary replacement with elements of the perceived
+ character's personality 
+\backslash
+cite{Cohen01}.
+ Therefore a human shaped, child-like character, made lifelike by animated
+ projected eyes, could enhance both empathy and implicit self-perception
+ of one's own brain activity, as provided by our interactive media.
+ The anthropomorphic appearance of Teegi could explain the motivation and
+ positive UX reported by the users.
+ All these hypotheses would be the aim of a more extensive UX study.
+\end_layout
+
 \end_body
 \end_document
