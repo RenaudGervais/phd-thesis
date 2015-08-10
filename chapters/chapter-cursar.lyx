@@ -80,8 +80,60 @@ name "cha:cursar"
 
 \end_layout
 
-\begin_layout Standard
-Ibis redibis numquam peribis in bello.
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Section
+Related Work
+\end_layout
+
+\begin_layout Section
+Pointing in SAR
+\end_layout
+
+\begin_layout Section
+User Study
+\end_layout
+
+\begin_layout Subsection
+Participants
+\end_layout
+
+\begin_layout Subsection
+Apparatus
+\end_layout
+
+\begin_layout Subsection
+Procedure
+\end_layout
+
+\begin_layout Subsection
+Design
+\end_layout
+
+\begin_layout Section
+Results and Discussion
+\end_layout
+
+\begin_layout Paragraph
+Time
+\end_layout
+
+\begin_layout Paragraph
+Inefficiency
+\end_layout
+
+\begin_layout Paragraph
+Error Rate
+\end_layout
+
+\begin_layout Paragraph
+Throughput
+\end_layout
+
+\begin_layout Section
+Conclusion
 \end_layout
 
 \end_body
