@@ -91,8 +91,15 @@ Spatial Augmented Reality (SAR) consists in projecting digital information
  projections, this approach opens new perspectives in numerous fields including
  design, education and mediation.
  Since the pioneering work of Raskar et al.
- [7], inherent problems of computer vision and computer graphics are being
- solved today.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
+
+\end_inset
+
+, inherent problems of computer vision and computer graphics are being solved
+ today.
  On the other hand, the problems related to interaction remain largely unexplore
 d.
  In this work, we have investigated the question of pointing in SAR.
@@ -198,10 +205,24 @@ As an example, we can imagine an inspection scenario where an engineer points
 \begin_layout Standard
 Pointing from mice and tablets has been extensively studied in traditional
  HCI contexts.
- In particular, Fitts' law [4] is able to predict the speed at which a user
- will be able to select a target depending on its distance and its size.
+ In particular, Fitts' law 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MacKenzie1992"
+
+\end_inset
+
+ is able to predict the speed at which a user will be able to select a target
+ depending on its distance and its size.
  Other works have been dedicated to pointing in 3D stereoscopic contexts
- [11,10].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Schemali2014,Teather2013"
+
+\end_inset
+
+.
  The current work is the first one that studies the question of pointing
  in SAR, from standard pointing devices.
  In this work, we are interested in a setup where the user is sitting at
@@ -224,17 +245,45 @@ Related Work
 \end_layout
 
 \begin_layout Standard
-Since SAR has been introduced [7,8], there have been some research projects
- exploring interaction with projected content.
+Since SAR has been introduced 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a,Raskar2001a"
+
+\end_inset
+
+, there have been some research projects exploring interaction with projected
+ content.
  Bandyopadhyay et al.
- [1] proposed the first interactive SAR prototype allowing users to “paint”
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bandyopadhyay2001"
+
+\end_inset
+
+ proposed the first interactive SAR prototype allowing users to “paint”
  physical objects with projected light using a six degrees of freedom tracked
  stylus.
- Physical-virtual tools [5] is a refinement of this concept, introducing
- more flexible editing tools inspired by real physical tools (e.g.
+ Physical-virtual tools 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Marner2009"
+
+\end_inset
+
+ is a refinement of this concept, introducing more flexible editing tools
+ inspired by real physical tools (e.g.
  an airbrush).
  Benko et al.
- [3] interacted with stereoscopic SAR using a mix of tangibles and gestures.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2012"
+
+\end_inset
+
+ interacted with stereoscopic SAR using a mix of tangibles and gestures.
  These systems aimed for interaction modalities close to real-world metaphors.
  However, while perhaps more natural, they might prove to be less suited
  for precise and prolonged work than traditional 2D input devices.
@@ -247,16 +296,44 @@ The concept of pointing in SAR is similar to pointing in other contexts,
  like a continuous space comprised of small display surfaces.
  As with MDEs, SAR might have some blind spots where the cursor will disappear
  because of a lack of projection support.
- Mouse Ether [2] and Perspective Cursor [6] are both systems that were developed
- to circumvent problems related to switching from one screen to another.
+ Mouse Ether 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baudisch2004"
+
+\end_inset
+
+ and Perspective Cursor 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nacenta2006"
+
+\end_inset
+
+ are both systems that were developed to circumvent problems related to
+ switching from one screen to another.
  The work of Xiao et al.
- [12] consists in projecting a cursor that can slide on any surface of the
- environment (which has been modeled in 3D beforehand).
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Xiao2011"
+
+\end_inset
+
+ consists in projecting a cursor that can slide on any surface of the environmen
+t (which has been modeled in 3D beforehand).
  However, the system has been designed as a way to give feedback on the
  cursor's position when transitioning between screens and no targets were
  located in the environment itself in their evaluation.
  Pointing on a stereoscopic display has been studied by Teather and Stuerzlinger
- [11].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Teather2013"
+
+\end_inset
+
+.
  They studied different cursor types in what is effectively a “2.5D”, or
  projected pointing task using a 3D Fitts' law pointing task.
  We also used projected pointing in this study.
@@ -265,9 +342,15 @@ The concept of pointing in SAR is similar to pointing in other contexts,
  2D interaction.
  Moreover, a SAR installation does not suffer from the vergence-accommodation
  conflict present when using stereoscopic screens.
- Closer to a SAR setup, Reikimoto and Saitoh [9] proposed a spatially continuous
- workspace, allowing users to drag and drop content across different surfaces
- and objects.
+ Closer to a SAR setup, Reikimoto and Saitoh 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rekimoto1999"
+
+\end_inset
+
+ proposed a spatially continuous workspace, allowing users to drag and drop
+ content across different surfaces and objects.
  However, the pointing activity was not studied.
 \end_layout
 
@@ -478,7 +561,14 @@ Procedure
 \end_layout
 
 \begin_layout Standard
-We followed the procedure described in [4].
+We followed the procedure described in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MacKenzie1992"
+
+\end_inset
+
+.
  The participants had first to position the cursor in a home area represented
  by a red circle.
  After one second, this circle moved from red to green and a target appeared
@@ -503,8 +593,15 @@ We used a 2×2 within-subjects design.
 \begin_inset Formula $\frac{Path_{actual}-Path_{optimal}}{Path_{optimal}}$
 \end_inset
 
- [13] and the number of errors, defined as the number of selections outside
- the target area.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zhai2004"
+
+\end_inset
+
+ and the number of errors, defined as the number of selections outside the
+ target area.
  For each condition, the participants had to acquire 40 targets, resulting
  in 160 target acquisitions by participant, and 2560 records in total.
  The order for the input and output were counter balanced following a latin
@@ -1074,7 +1171,14 @@ The target condition is reflected by the Index of Difficulty (
 \begin_inset Formula $ID=log_{2}(\frac{D}{W}+1)$
 \end_inset
 
- [4].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MacKenzie1992"
+
+\end_inset
+
+.
  
 \begin_inset Formula $D$
 \end_inset
@@ -1135,7 +1239,14 @@ reference "fig:cursar-fitts"
 \begin_inset Formula $Throughput=\frac{1}{b}$
 \end_inset
 
- [13].
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zhai2004"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1215,8 +1326,15 @@ ts with pointing in front of a screen whereas they were exposed to a SAR
  SAR to evaluate the impact of the frame of reference provided by the screen.
  Additionally, possible extensions of this work include studying the performance
  when moving the viewpoint of the user while using the Perspective Cursor
- [6] and evaluating if the performance drop observed in the SAR condition
- can be reproduced with other interaction techniques such as laser-pointer.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Nacenta2006"
+
+\end_inset
+
+ and evaluating if the performance drop observed in the SAR condition can
+ be reproduced with other interaction techniques such as laser-pointer.
 \end_layout
 
 \begin_layout Section
