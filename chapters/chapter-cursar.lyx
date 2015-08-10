@@ -84,12 +84,298 @@ name "cha:cursar"
 Introduction
 \end_layout
 
+\begin_layout Standard
+Spatial Augmented Reality (SAR) consists in projecting digital information
+ directly onto physical objects.
+ Beyond conventional display methods based on monitor screens or planar
+ projections, this approach opens new perspectives in numerous fields including
+ design, education and mediation.
+ Since the pioneering work of Raskar et al.
+ [7], inherent problems of computer vision and computer graphics are being
+ solved today.
+ On the other hand, the problems related to interaction remain largely unexplore
+d.
+ In this work, we have investigated the question of pointing in SAR.
+\end_layout
+
+\begin_layout Standard
+Several strategies to point at augmented objects exist.
+ One is to touch directly the area of interest.
+ This approach is very straightforward and, consequently, it may be valuable
+ in many contexts.
+ However, direct touch suffers from many drawbacks.
+ In particular, anatomical issues including the 
+\begin_inset Quotes eld
+\end_inset
+
+fat finger
+\begin_inset Quotes erd
+\end_inset
+
+ problem and the fatigue that is linked to mid-air interaction make direct
+ touch little adapted as soon as accurate and prolonged actions are required
+ (e.g.
+ professional object design).
+ In addition, direct touch is not possible when dealing with very fragile
+ objects (e.g.
+ relics in museums) or as soon as the objects are out of reach.
+ For distant interaction, laser pointers or virtual rays can be good alternative
+s, but they still suffer from similar accuracy and fatigue issues.
+ In our approach, we have explored the use of standard pointing devices
+ (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-teaser"
+
+\end_inset
+
+), namely mice and graphics tablets, to point at augmented objects.
+ Years of human-computer interaction (HCI) have shown that these devices
+ are decidedly well suited to point at visual objects displayed on 2D screens.
+ Our assumption is that they can benefit to SAR as well, as soon as precision
+ and prolonged work is required.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-teaser.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-teaser"
+
+\end_inset
+
+A user moving a cursor (represented in blue) to a target (represented in
+ red) on an aug-mented object by way of a standard mouse.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As an example, we can imagine an inspection scenario where an engineer points
+ at an augmented circuit board with a mouse to highlight defects on small
+ components.
+ Another example is a design scenario where the artist draws by way of a
+ tablet on a physical object, e.g.
+ a 3D-printed one, to give it a specific appearance.
+ For these two scenarios, it is interesting to note that the user equipped
+ with a standard pointing device is still able to interact efficiently with
+ standard GUI components displayed on a traditional screen, opening the
+ way to true hybrid applications.
+\end_layout
+
+\begin_layout Standard
+Pointing from mice and tablets has been extensively studied in traditional
+ HCI con-texts.
+ In particular, Fitts’ law [4] is able to predict the speed at which a user
+ will be able to select a target depending on its distance and its size.
+ Other works have been dedicated to pointing in 3D stereoscopic contexts
+ [11,10].
+ The current work is the first one that studies the question of pointing
+ in SAR, from standard pointing devices.
+ In this work, we are interested in a setup where the user is sitting at
+ a desk (desktop environment) and is interacting with objects located in
+ front of him or her, as illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-teaser"
+
+\end_inset
+
+.
+ Our contribution is the evaluation of the performance of pointing in a
+ SAR environment using a standard pointing device compared to a traditional
+ screen-based setup.
+\end_layout
+
 \begin_layout Section
 Related Work
 \end_layout
 
+\begin_layout Standard
+Since SAR has been introduced [7,8], there have been some research projects
+ exploring interaction with projected content.
+ Bandyopadhyay et al.
+ [1] proposed the first interactive SAR prototype allowing users to “paint”
+ physical objects with projected light using a six degrees of freedom tracked
+ stylus.
+ Physical-virtual tools [5] is a refinement of this concept, introducing
+ more flexible editing tools inspired by real physical tools (e.g.
+ an airbrush).
+ Benko et al.
+ [3] interacted with stereoscopic SAR using a mix of tangibles and gestures.
+ These systems aimed for interaction modalities close to real-world metaphors.
+ However, while perhaps more natural, they might prove to be less suited
+ for precise and prolonged work than traditional 2D input devices.
+\end_layout
+
+\begin_layout Standard
+The concept of pointing in SAR is similar to pointing in other contexts,
+ namely multi-display environments (MDEs) and stereoscopic displays.
+ In some ways, SAR can be compared to MDEs in that the physical world acts
+ like a continuous space comprised of small display surfaces.
+ As with MDEs, SAR might have some blind spots where the cursor will disappear
+ because of a lack of projection support.
+ Mouse Ether [2] and Perspective Cursor [6] are both systems that were developed
+ to circumvent problems related to switching from one screen to another.
+ The work of Xiao et al.
+ [12] consists in projecting a cursor that can slide on any surface of the
+ environment (which has been modeled in 3D beforehand).
+ However, the system has been designed as a way to give feedback on the
+ cursor’s position when transitioning between screens and no targets were
+ located in the environment itself in their evaluation.
+ Pointing on a stereoscopic display has been studied by Teather and Stuerzlinger
+ [11].
+ They studied different cursor types in what is effectively a “2.5D”, or
+ projected pointing task using a 3D Fitts’ law pointing task.
+ We also used projected pointing in this study.
+ However, working on a real-world canvas is different from working on a
+ screen since the real-world does not provide any reference frame for the
+ 2D interaction.
+ Moreover, a SAR installation does not suffer from the vergence-accommodation
+ conflict present when using stereoscopic screens.
+ Closer to a SAR setup, Reikimoto and Saitoh [9] proposed a spatially continuous
+ workspace, allowing users to drag and drop content across different surfaces
+ and objects.
+ However, the pointing activity was not studied.
+\end_layout
+
 \begin_layout Section
 Pointing in SAR
+\end_layout
+
+\begin_layout Standard
+Our SAR environment is comprised of a static scene laid out on a table in
+ front of the user.
+ A projector is then used to augment the objects.
+\end_layout
+
+\begin_layout Standard
+On a standard screen configuration, the mouse cursor is generally represented
+ as an arrow moving on the screen plane.
+ When a 3D scene is displayed, the user is able to select any visible part
+ of this virtual scene by picking the rendered result at the cursor location.
+ Since most people are already experienced with this way of pointing, we
+ wanted to know if this technique could be ported to a SAR environment albeit
+ the lack of a physical screen support.
+ Therefore, we used exactly the same metaphor in SAR, with the difference
+ that the 3D scene is physically there, while the screen plane becomes virtual.
+ The user moves the cursor on this virtual plane as he or she would do with
+ a physical screen, as illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-setup"
+
+\end_inset
+
+.
+ A line representing the intersection between the virtual plane and the
+ table is projected onto the table, and an arrow indicates the horizontal
+ position of the cursor (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-teaser"
+
+\end_inset
+
+).
+ Contrary to standard screen configurations where the cursor is displayed
+ on the screen plane, our SAR cursor is displayed directly on the physical
+ objects.
+ This cursor is represented as a cross within a 2D circle that is aligned
+ with the underlying surface.
+ Technically, we cast a ray formed by the eye and cursor position on the
+ virtual plane towards the scene.
+ We then position the cursor perpendicularly to the normal of the picked
+ point.
+ The visual feedback (line and arrows) helps to know where the cursor is
+ as soon as the latter does not project onto an object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-setup.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-setup"
+
+\end_inset
+
+Drawing of the experimental setup.
+ (A) Objects composing the scene to be aug-mented on which the cursor is
+ displayed (light blue halo).
+ (B) Plane on which the cursor is pro-jected.
+ This plane is either virtual in the SAR condition or physical (white wooden
+ panel) in the Screen condition.
+ (C) Feedback used in the SAR condition indicating the position of the virtual
+ plane with the tip of the triangle indicating the horizontal position of
+ the cursor.
+ (D) The position at which the user is viewing the scene.
+ (E) Projector.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
