@@ -165,7 +165,7 @@ name "fig:cursar-teaser"
 \end_inset
 
 A user moving a cursor (represented in blue) to a target (represented in
- red) on an aug-mented object by way of a standard mouse.
+ red) on an augmented object by way of a standard mouse.
 \end_layout
 
 \end_inset
@@ -197,8 +197,8 @@ As an example, we can imagine an inspection scenario where an engineer points
 
 \begin_layout Standard
 Pointing from mice and tablets has been extensively studied in traditional
- HCI con-texts.
- In particular, Fitts’ law [4] is able to predict the speed at which a user
+ HCI contexts.
+ In particular, Fitts' law [4] is able to predict the speed at which a user
  will be able to select a target depending on its distance and its size.
  Other works have been dedicated to pointing in 3D stereoscopic contexts
  [11,10].
@@ -253,12 +253,12 @@ The concept of pointing in SAR is similar to pointing in other contexts,
  [12] consists in projecting a cursor that can slide on any surface of the
  environment (which has been modeled in 3D beforehand).
  However, the system has been designed as a way to give feedback on the
- cursor’s position when transitioning between screens and no targets were
+ cursor's position when transitioning between screens and no targets were
  located in the environment itself in their evaluation.
  Pointing on a stereoscopic display has been studied by Teather and Stuerzlinger
  [11].
  They studied different cursor types in what is effectively a “2.5D”, or
- projected pointing task using a 3D Fitts’ law pointing task.
+ projected pointing task using a 3D Fitts' law pointing task.
  We also used projected pointing in this study.
  However, working on a real-world canvas is different from working on a
  screen since the real-world does not provide any reference frame for the
@@ -352,9 +352,9 @@ name "fig:cursar-setup"
 \end_inset
 
 Drawing of the experimental setup.
- (A) Objects composing the scene to be aug-mented on which the cursor is
+ (A) Objects composing the scene to be augmented on which the cursor is
  displayed (light blue halo).
- (B) Plane on which the cursor is pro-jected.
+ (B) Plane on which the cursor is projected.
  This plane is either virtual in the SAR condition or physical (white wooden
  panel) in the Screen condition.
  (C) Feedback used in the SAR condition indicating the position of the virtual
@@ -382,44 +382,862 @@ Drawing of the experimental setup.
 User Study
 \end_layout
 
+\begin_layout Standard
+We conducted a user study to assess the performance of the pointing technique
+ described in the previous section (SAR) in comparison to a screen-based
+ baseline (SCREEN).
+ Our research question was the following: What is the difference in performance
+ of a pointing task realized on a screen compared to one realized with a
+ SAR installation given that all other conditions are constant? Does pointing
+ in SAR follows Fitts' law?
+\end_layout
+
 \begin_layout Subsection
 Participants
+\end_layout
+
+\begin_layout Standard
+Sixteen participants took part in the study (12 males, 4 females, mean age
+ 28.75, SD 4.71).
+ All of them obtained a university degree.
+ Six participants were left-handed (the mouse used during the experiment
+ was adapted to both left- and right-handed users).
+ All the participants were familiar with mice, whereas they had very little
+ experience with tablets.
+ None of them had previous experience with SAR systems.
 \end_layout
 
 \begin_layout Subsection
 Apparatus
 \end_layout
 
+\begin_layout Standard
+The scene to be augmented was laid out on a table in front of the user.
+ Each object of the scene was manually measured and modeled in 3D.
+ A projector was located above and behind the user pointing at the scene.
+ The projector was calibrated using OpenCV's camera calibration functions.
+ We used a 3.6 GHz Core i7 PC with Windows 8 equipped with two GeForce GTX690
+ graphic boards.
+ The videoprojector was a ViewSonic Pro9000 with a resolution of 1920×1080
+ pixels.
+ The same setup was used for both SAR and SCREEN conditions.
+ In SAR, the virtual scene was projected directly onto the physical objects
+ whereas a white wooden surface located at the same position was used in
+ the SCREEN condition.
+ This ensured a similar frame rate (50 FPS), colorimetric configuration
+ (color, brightness, contrast) and approximately same pixel size in both
+ conditions.
+ The focus of the videoprojector was set on the screen plane.
+ On this plane, the resolution was effectively of 915×904 pixels.
+\end_layout
+
+\begin_layout Standard
+In the SAR condition, the objects were augmented by reprojecting the virtual
+ scene from the point of view of the projector.
+ In the SCREEN condition, the viewpoint of the user on the scene was virtually
+ reproduced and reprojected on the virtual counterpart of the physical screen.
+ Then, this reprojection was rendered from the point-of-view of the projector,
+ effectively making the viewed scene in both conditions identical (see Figure
+ 2 (right)).
+ We did not use real-time head tracking but the user head's position was
+ measured manually and thus accounted for.
+ The whole installation has been created using the creative coding framework
+ vvvv.
+\end_layout
+
+\begin_layout Standard
+For the input device, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
+ tablet (TABLET).
+ The screen of the tablet was not used for the experiment and therefore
+ was displaying a black viewport.
+ The button located on the pen was used for the selection action.
+ The mouse was used in a relative mode while an absolute mapping was associated
+ with the tablet.
+ The acceleration transfer function of the mouse was disabled.
+\end_layout
+
+\begin_layout Standard
+The 3D scene was composed of a 21×18×21 cm cube, as well as a more complex
+ shape with comparable dimensions (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-teaser"
+
+\end_inset
+
+).
+ The scene onto which the targets to acquire were laid out varied by rotating
+ the cube by an angle of 45º to provide more depth changes between trials.
+ The participants sat at a distance of 1 m from the screen or physical objects,
+ and the height of the chair was set in order for the participants' head
+ to be located at the ideal observer position.
+\end_layout
+
 \begin_layout Subsection
 Procedure
+\end_layout
+
+\begin_layout Standard
+We followed the procedure described in [4].
+ The participants had first to position the cursor in a home area represented
+ by a red circle.
+ After one second, this circle moved from red to green and a target appeared
+ in the scene.
+ The participants were instructed to select this target as quickly and accuratel
+y as possible.
+ The start time was recorded when the cursor left the home area and stopped
+ when the users clicked on the target.
+ The targets were spread on a circle centered on the home area.
 \end_layout
 
 \begin_layout Subsection
 Design
 \end_layout
 
+\begin_layout Standard
+We used a 2×2 within-subjects design.
+ The independent variables were the output modality (SCREEN, SAR) and the
+ input modality (MOUSE, TABLET).
+ The dependent variables were the completion time, the inefficiency defined
+ as 
+\begin_inset Formula $\frac{Path_{actual}-Path_{optimal}}{Path_{optimal}}$
+\end_inset
+
+ [13] and the number of errors, defined as the number of selections outside
+ the target area.
+ For each condition, the participants had to acquire 40 targets, resulting
+ in 160 target acquisitions by participant, and 2560 records in total.
+ The order for the input and output were counter balanced following a latin
+ square to avoid any learning effects.
+\end_layout
+
 \begin_layout Section
 Results and Discussion
+\end_layout
+
+\begin_layout Standard
+Because the homogeneity of variance couldn't be verified according to Levene's
+ test (
+\begin_inset Formula $p<0.001$
+\end_inset
+
+), we analyzed our data with non-parametric statistics, using multiple Wilcoxon
+ signed-rank tests and false rate discovery correction.
+ We retained trials which did not comprise errors to study time and inefficiency
+ across our factors.
+ Statistical results are reported in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:cursar-stats"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+resizebox{
+\backslash
+linewidth}{!}{
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features rotate="0" booktabs="true" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Table Headline
+status open
+
+\begin_layout Plain Layout
+Factors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Table Headline
+status open
+
+\begin_layout Plain Layout
+Time
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Table Headline
+status open
+
+\begin_layout Plain Layout
+Inefficiency
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Table Headline
+status open
+
+\begin_layout Plain Layout
+Errors
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Flex CT - Table Headline
+status open
+
+\begin_layout Plain Layout
+Throughput
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(ms)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size footnotesize
+(bits/sec)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Input
+\emph default
+:
+\end_layout
+
+\begin_layout Plain Layout
+Mouse/Tablet
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ns
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.16/0.22
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+(SD: 0.05/0.08)
+\size default
+*
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ns
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ns
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Output
+\emph default
+:
+\end_layout
+
+\begin_layout Plain Layout
+Screen/SAR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+846/959
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+(SD: 154/119)
+\size default
+**
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.17/0.21
+\end_layout
+
+\begin_layout Plain Layout
+
+\size small
+(SD: 0.07/0.07)
+\size default
+
+\begin_inset Formula $\cdot$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ns
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.75/3.84**
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Grand average
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+902 
+\size small
+(SD: 404)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.19 
+\size small
+(SD: 0.30)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.05 
+\size small
+(SD:0)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+---
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:cursar-stats"
+
+\end_inset
+
+Statistical results.
+ Marks: ** for 
+\begin_inset Formula $p<0.01$
+\end_inset
+
+, * for 
+\begin_inset Formula $p<0.05$
+\end_inset
+
+, 
+\begin_inset Formula $\cdot$
+\end_inset
+
+ for 
+\begin_inset Formula $p<0.1$
+\end_inset
+
+, ns: not significant, ---: not applicable.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 Time
 \end_layout
 
+\begin_layout Standard
+There was no significant effect of the input device on completion time.
+ However, output modality had a significant impact.
+ Users were 11% faster in the SCREEN condition compared to the SAR condition.
+ While having higher completion time, the drop in performance is relatively
+ low, especially considering that the cursor reference frame was virtual.
+\end_layout
+
 \begin_layout Paragraph
 Inefficiency
+\end_layout
+
+\begin_layout Standard
+Inefficiency is a measure of “wasted” cursor movement by the user.
+ Input modality had a significant effect, the tablet being more inefficient
+ than the mouse.
+ This difference can be explained by the lack of experience of almost all
+ participants with such a tablet.
+ Output did not have a clear significant effect on the inefficency of the
+ movements of the users.
+ When looking at Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-heatmap"
+
+\end_inset
+
+ one can observe that the participants tend to follow similar strategies
+ for reaching the target.
+ In both cases, straight lines are drawn, independently of the underlying
+ background (2D flat screen or physical 3D objects).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-heatmap.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-heatmap"
+
+\end_inset
+
+Trajectories of all the trials in the scene with maximum depth changes.
+ The center is the starting point of the trials and the tips are the location
+ of the targets.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
 Error Rate
 \end_layout
 
+\begin_layout Standard
+There was no significant effect of either input modality or output on the
+ error rate.
+ On average, the error rate was 5%.
+\end_layout
+
 \begin_layout Paragraph
 Throughput
 \end_layout
 
+\begin_layout Standard
+The target condition is reflected by the Index of Difficulty (
+\begin_inset Formula $ID$
+\end_inset
+
+), which indicates the overall pointing task difficulty.
+ 
+\begin_inset Formula $ID=log_{2}(\frac{D}{W}+1)$
+\end_inset
+
+ [4].
+ 
+\begin_inset Formula $D$
+\end_inset
+
+ is the projected target distance in the virtual screen and 
+\begin_inset Formula $W$
+\end_inset
+
+ is the perceived target size.
+ 
+\begin_inset Formula $W$
+\end_inset
+
+ varied according to the location and orientation of the target in the scene.
+ 
+\begin_inset Formula $ID$
+\end_inset
+
+ was discretised from 
+\begin_inset Formula $[1.91;4.92]$
+\end_inset
+
+ to 
+\begin_inset Formula $[2;5]$
+\end_inset
+
+ by steps of 0.5.
+ We averaged the completion time across 
+\begin_inset Formula $ID$
+\end_inset
+
+ and conditions (input
+\begin_inset Formula $\times$
+\end_inset
+
+output).
+ We modeled the movement time (
+\begin_inset Formula $MT$
+\end_inset
+
+) with a linear regression.
+ We obtained an adjusted 
+\begin_inset Formula $R^{2}$
+\end_inset
+
+ value of 0.8479 which shows that the completion time of pointing tasks in
+ SAR using mice and tablets still follows the Fitts' law (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-fitts"
+
+\end_inset
+
+), and consequently remains predictible.
+ We also computed associated measures of performance, also known as “throughput”
+, using the slope of the regression lines.
+ 
+\begin_inset Formula $Throughput=\frac{1}{b}$
+\end_inset
+
+ [13].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-fitts.png
+	lyxscale 30
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-fitts"
+
+\end_inset
+
+Fitts' law models.
+ 
+\begin_inset Formula $R^{2}=0.8479$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+There was no significant effect of the input device on the throughput, whereas
+ output device did have an effect.
+ The screen condition was significantly more efficient than the SAR condition
+ although, as it was the case for the completion time, the difference is
+ relatively low.
+\end_layout
+
+\begin_layout Standard
+Overall, the participants were slightly less efficient in the SAR condition
+ than the SCREEN one.
+ This difference could be explained by the years of experience of the participan
+ts with pointing in front of a screen whereas they were exposed to a SAR
+ setup for the first time.
+ Also, it is interesting that removing the physical reference frame (screen)
+ of the cursor does not prevent users to interact in the same way they are
+ used to, i.e.
+ as if a physical screen was there.
+ We can thus presume that with additional experience, participants may improve
+ their performance with SAR.
+ Another possible cause for the drop of performance is the presence of blind
+ spots where the cursor disappear because of a lack of projection support
+ (such zones were involved in about 1/4 of the trials).
+ It could be interesting to compare the effect of these gaps in MDEs vs
+ SAR to evaluate the impact of the frame of reference provided by the screen.
+ Additionally, possible extensions of this work include studying the performance
+ when moving the viewpoint of the user while using the Perspective Cursor
+ [6] and evaluating if the performance drop observed in the SAR condition
+ can be reproduced with other interaction techniques such as laser-pointer.
+\end_layout
+
 \begin_layout Section
 Conclusion
+\end_layout
+
+\begin_layout Standard
+We presented an approach for interacting with desktop SAR, i.e.
+ when the user interacts with physical objects in front of him/her by way
+ of standard pointing devices.
+ A user study has shown that Fitts' law remains valid even if no physical
+ screen is present.
+ Users are able to point at targets displayed on the augmented objects in
+ a manner that is comparable to what they used to do in front of a standard
+ screen.
+ This finding opens interesting perspectives, allowing desktop SAR applications
+ to be used to extend the current desktop setup with augmented physical
+ objects.
+ Beyond pointing tasks, interaction in SAR is still a domain that has been
+ little explored and, consequently, a large variety of HCI work is still
+ to be conducted.
 \end_layout
 
 \end_body
