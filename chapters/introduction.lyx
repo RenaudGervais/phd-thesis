@@ -173,6 +173,74 @@ key "Victor2014"
  instead help us think new ideas.
 \end_layout
 
+\begin_layout Section
+Context
+\end_layout
+
+\begin_layout Standard
+This section aims at giving the overall context into which this thesis takes
+ place.
+ It mainly builds on top of Tangible User Interfaces, Organic User Interfaces
+ and Spatial Augmented Reality.
+ All three fields take their roots in Ubiquitous Computing -- weaving the
+ real and the digital worlds together in different ways.
+ Mark Weiser is widely recognized at the father of this field proposing,
+ as soon as 1991, the idea computers disappearing into the environment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1991"
+
+\end_inset
+
+.
+ Later, he suggested the idea of 
+\begin_inset Quotes eld
+\end_inset
+
+calm technology
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1996"
+
+\end_inset
+
+, which would become the road map of the ubiquitous computing community
+ for the next decade.
+ The main idea that technology should disappear in the surroundings of users,
+ intervening only when required before 
+\begin_inset Quotes eld
+\end_inset
+
+getting out of the way
+\begin_inset Quotes erd
+\end_inset
+
+ again.
+ The main goal was that technology should support a state of calmness for
+ people, enabling them to navigate through the turmoils of daily life smoothly.
+ 
+\end_layout
+
+\begin_layout Subsection
+Tangible User Interfaces
+\end_layout
+
+\begin_layout Standard
+Tangible User Interfaces 
+\end_layout
+
+\begin_layout Subsection
+Organic User Interfaces
+\end_layout
+
+\begin_layout Subsection
+Spatial Augmented Reality
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
