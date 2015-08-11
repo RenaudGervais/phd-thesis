@@ -265,8 +265,32 @@ pagenumbering{arabic}
 
 \end_layout
 
+\begin_layout Part Introduction (ClassicThesis)
+This thesis is interested in tangible augmented objects, that is, physical
+ objects which have digital content embedded on them.
+ More specifically, we focus on the interaction with the augmented content
+ and its creation.
+ We investigate the use of already existing content creation tools for visual
+ appearances (graphics) and behavior (programming) on physical canvas.
+ For this purpose, we used the desktop computer environment as a starting
+ point for our investigations.
+ We also explore the use of tangible augmented objects as a mean to learn
+ more about the inner working of our bodies and to foster personal introspection
+, by creating real-time feedback for low- and high-level physiological signals.
+\end_layout
+
 \begin_layout Part
 Getting Out of Flatland
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "part:getting-out-of-flatland"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -314,6 +338,16 @@ Interaction
 \end_layout
 
 \begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "part:interaction"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/chapter-cursar.lyx"
@@ -347,6 +381,16 @@ Getting to know oneself is in itself a lifelong journey.
 
 \begin_layout Part
 Introspection
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset label
+LatexCommand label
+name "part:introspection"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
