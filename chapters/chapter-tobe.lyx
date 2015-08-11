@@ -337,8 +337,40 @@ key "Weiser1996"
 
 \end_inset
 
- first proposed the concept of displaying information relying on the periphery
- of the user's attention -- without having to focus on it deliberately.
+ proposed the concept of technology that would disappear in the background
+ of our daily lives, intervening only when required as to ensure a calm
+ state.
+ This view has been criticized by Rogers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rogers2006"
+
+\end_inset
+
+ for depicting the users as passive actors while the technology decided
+ when was the best time for it to intervene.
+ Instead, she proposes an alternative view where the users are proactive
+ toward technology: being empowered by technology in their own terms.
+ Weiser's vision also depicts an environment that would inform while in
+ the background by displaying information relying on the periphery of the
+ user's attention as proposed by Buxton 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Buxton1995"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: check this ref to make sure it is accurate
+\end_layout
+
+\end_inset
+
+ -- without having to focus on it deliberately.
  Ishii et al.
  
 \begin_inset CommandInset citation
