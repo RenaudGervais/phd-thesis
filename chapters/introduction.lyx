@@ -180,14 +180,19 @@ Context
 \begin_layout Standard
 This section aims at giving an overview of the research areas onto which
  this thesis builds.
- It mainly relates to Tangible User Interfaces, Organic User Interfaces
- and Spatial Augmented Reality.
+ It mainly relates to Ubiquitous Computing (Ubicomp), Tangible User Interfaces
+ (TUI), Organic User Interfaces (OUI) and Augmented Reality (AR) -- more
+ specifically 
+\emph on
+spatial
+\emph default
+ AR.
  
 \end_layout
 
 \begin_layout Standard
 The common thread unifying these fields are their goal of weaving the real
- and the digital worlds together in different ways.
+ and the digital worlds together, in different ways.
  In 1993, in a special issue of the Communications of the ACM, Wellner et
  al.
  
@@ -201,14 +206,64 @@ key "Wellner1993"
 \emph on
 computer-augmented environments
 \emph default
-.
- This is in opposition to virtual reality which seeks to replace the world
- in which we evolve daily with a simulated one.
+ in opposition to virtual reality (VR).
+ VR seeks to replace the world in which we evolve daily with a simulated
+ one.
  Instead, computer-augmented environments would merge both the real world
  and computational devices into a complete, real-world oriented experience.
+ Mark Weiser, widely recognized as the father of Ubiquitous Computing (Ubicomp),
+ was well part of this movement of computers disappearing into the environment
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1991"
+
+\end_inset
+
+.
+ In the same issue of the Communication of the ACM, he published what would
+ be the itinerary of the ubiquitous computing for the following decade 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1993"
+
+\end_inset
+
+.
+ He would later refine this vision by proposing the concept of 
+\begin_inset Quotes eld
+\end_inset
+
+calm technology
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1996"
+
+\end_inset
+
+ which main idea is that technology should disappear in the surroundings
+ of users, intervening only when required before 
+\begin_inset Quotes eld
+\end_inset
+
+getting out of the way
+\begin_inset Quotes erd
+\end_inset
+
+ again.
+ The main goal was that technology should support a state of calmness for
+ people, enabling them to navigate through the turmoils of daily life smoothly.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 All three fields take their roots in Ubiquitous Computing -- weaving the
  real and the digital worlds together in different ways.
  Mark Weiser is widely recognized at the father of this field proposing,
@@ -255,12 +310,82 @@ getting out of the way
  while being assisted by technology in the background.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Tangible User Interfaces
 \end_layout
 
 \begin_layout Standard
-Tangible User Interfaces 
+Tangible User Interfaces (TUI) evolved from the trend initiated by discussion
+ of the 
+\begin_inset Quotes eld
+\end_inset
+
+Back to the Real World
+\begin_inset Quotes erd
+\end_inset
+
+ issue 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wellner1993"
+
+\end_inset
+
+.
+ While all the pieces were there, it took a few years before it formed as
+ a interaction style.
+ Often cited as one of the first concept of TUI is the marble answering
+ machine 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CramptonSmith1995"
+
+\end_inset
+
+ where marbles embodied messages received while the recipient was away from
+ home.
+ Putting the marble in a dedicated groove on the device would play back
+ the message and propose to call back the original caller.
+ Fitzmaurice et al.
+ layed the foundation of the field with its 
+\emph on
+Graspable Interface
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fitzmaurice1995"
+
+\end_inset
+
+.
+ A few years later, Ishii and his collaborators proposed a defined vision
+ as 
+\emph on
+Tangible Bits
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii1997"
+
+\end_inset
+
+.
+ During the next decade, Ishii and his students at the MIT Tangible Media
+ Group pursued this vision and advanced the field significantly 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii2008"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
