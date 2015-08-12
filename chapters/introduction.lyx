@@ -178,11 +178,38 @@ Context
 \end_layout
 
 \begin_layout Standard
-This section aims at giving the overall context into which this thesis takes
- place.
- It mainly builds on top of Tangible User Interfaces, Organic User Interfaces
+This section aims at giving an overview of the research areas onto which
+ this thesis builds.
+ It mainly relates to Tangible User Interfaces, Organic User Interfaces
  and Spatial Augmented Reality.
- All three fields take their roots in Ubiquitous Computing -- weaving the
+ 
+\end_layout
+
+\begin_layout Standard
+The common thread unifying these fields are their goal of weaving the real
+ and the digital worlds together in different ways.
+ In 1993, in a special issue of the Communications of the ACM, Wellner et
+ al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wellner1993"
+
+\end_inset
+
+ suggested going towards 
+\emph on
+computer-augmented environments
+\emph default
+.
+ This is in opposition to virtual reality which seeks to replace the world
+ in which we evolve daily with a simulated one.
+ Instead, computer-augmented environments would merge both the real world
+ and computational devices into a complete, real-world oriented experience.
+\end_layout
+
+\begin_layout Standard
+All three fields take their roots in Ubiquitous Computing -- weaving the
  real and the digital worlds together in different ways.
  Mark Weiser is widely recognized at the father of this field proposing,
  as soon as 1991, the idea computers disappearing into the environment 
