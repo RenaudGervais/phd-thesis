@@ -334,8 +334,8 @@ Tangible User Interfaces
 \end_layout
 
 \begin_layout Standard
-Tangible User Interfaces (TUI) evolved from the trend initiated by the discussio
-n of the 
+Tangible User Interfaces evolved from the trend initiated by the discussion
+ of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -452,6 +452,66 @@ key "Victor2014"
 
 \begin_layout Subsection
 Organic User Interfaces
+\end_layout
+
+\begin_layout Standard
+Organic User Interfaces (OUI) are definitely related to the Radical Atoms
+ vision 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii2012"
+
+\end_inset
+
+ mentioned previously.
+ Where TUIs have been mostly about interacting with a collection of rigid
+ objects, OUIs emerged from an attempt to move towards more organic and
+ malleable materials.
+ It is mainly driven by advances in flexible input and output technologies.
+ This vision refers to interfaces using non-planar display that can change
+ shape via continuous physical inputs, either actively or passively 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Coelho2009a,Holman2008"
+
+\end_inset
+
+.
+ OUIs differ from TUIs in that their surface is always coated with a high-resolu
+tion display 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vertegaal2011"
+
+\end_inset
+
+.
+ OUIs are defined by three main themes:
+\end_layout
+
+\begin_layout Enumerate
+Input equals output: the display is the input device;
+\end_layout
+
+\begin_layout Enumerate
+Functions equals form: the display can take any shape;
+\end_layout
+
+\begin_layout Enumerate
+Form foloows flow: the displays can change their shape.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Holman2008"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this thesis, we are especially interested by the second aspect of this
+ definition, since we are interested in using real-world objects not as
+ proxy or handles but as real objects which form convey a meaning.
 \end_layout
 
 \begin_layout Subsection
