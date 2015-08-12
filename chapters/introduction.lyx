@@ -211,8 +211,8 @@ computer-augmented environments
  one.
  Instead, computer-augmented environments would merge both the real world
  and computational devices into a complete, real-world oriented experience.
- Mark Weiser, widely recognized as the father of Ubiquitous Computing (Ubicomp),
- was well part of this movement of computers disappearing into the environment
+ Mark Weiser, widely recognized as the father of Ubiquitous Computing, was
+ well part of this movement of computers disappearing into the environment
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -320,8 +320,8 @@ Tangible User Interfaces
 \end_layout
 
 \begin_layout Standard
-Tangible User Interfaces (TUI) evolved from the trend initiated by discussion
- of the 
+Tangible User Interfaces (TUI) evolved from the trend initiated by the discussio
+n of the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -352,7 +352,7 @@ key "CramptonSmith1995"
  Putting the marble in a dedicated groove on the device would play back
  the message and propose to call back the original caller.
  Fitzmaurice et al.
- layed the foundation of the field with its 
+ laid the foundation of the field with its 
 \emph on
 Graspable Interface
 \emph default
@@ -377,6 +377,19 @@ key "Ishii1997"
 \end_inset
 
 .
+ The transition from 
+\emph on
+graspable
+\emph default
+ to 
+\emph on
+tangible 
+\emph default
+was deliberate.
+ Graspable UI emphasized the ability to see and manipulate digital data
+ from physical handles.
+ Tangible bits also encompassed architectural and ambient feedback, emphasizing
+ the use of the whole real world as an interface.
  During the next decade, Ishii and his students at the MIT Tangible Media
  Group pursued this vision and advanced the field significantly 
 \begin_inset CommandInset citation
@@ -386,6 +399,41 @@ key "Ishii2008"
 \end_inset
 
 .
+ More recently, Ishii and his colleagues have updated their research agenda
+ to what they call 
+\begin_inset Quotes eld
+\end_inset
+
+Radical Atoms
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii2012"
+
+\end_inset
+
+.
+ Radical atoms is a vision that proposes a shift from tangible interaction
+ to 
+\emph on
+material
+\emph default
+ interaction.
+ It hypothesizes a new physical material which physical properties -- rigidity,
+ weight, volume, etc.
+ -- can be digitally controlled.
+ This vision is definitely the driving force behind Victor's agenda for
+ a dynamic medium of thoughts 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Victor2014"
+
+\end_inset
+
+ mentioned earlier.
 \end_layout
 
 \begin_layout Subsection
