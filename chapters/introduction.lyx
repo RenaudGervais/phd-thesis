@@ -813,7 +813,7 @@ reference "cha:cursar"
 .
  A Tangible Viewport is an on-screen window that allows interaction between
  a desktop computer application and an augmented object placed in front
- of it, using standard input device.
+ of it, using standard input devices.
  Effectively, it recreates the interactive behavior of a standard viewport
  rendering a 3D scene with the main exception that the 3D scene is composed
  of a real, tangible object.
@@ -832,18 +832,87 @@ reference "part:introspection"
 
 \end_inset
 
-, we present different systems using augmented objects as a way to foster
+, we present two different systems using augmented objects as a way to foster
  
 \emph on
 introspection
 \emph default
+ -- getting to know more about oneself and one's internal physiological
+ and mental processes.
+ Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:teegi"
+
+\end_inset
+
+ present a friendly little character named Teegi -- Tangible Electroncephalograp
+hy (EEG) Interface -- a tangible interface to learn more about the internal
+ working of the brain.
+ EEG is a technology that measures the electric current 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: check for accuracy
+\end_layout
+
+\end_inset
+
+ on the surface of the scalp.
+ It allows to infer the electrical activity of the brain and is commonly
+ used in Brain Computer Interfaces (BCI).
+ Teegi itself is an anthropomorphic character onto which a user's live EEG
+ reading is displayed.
+ The user can manipulate Teegi to explore the signals and change the different
+ filters applied to the EEG readings using small tangible character -- mini
+ Teegis.
+\end_layout
+
+\begin_layout Standard
+Expanding upon the work with Teegi, we created a broader toolkit to allow
+ anyone to actively and physically build a tangible representation of one's
+ inner state that is detailed in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tobe"
+
+\end_inset
+
 .
- 
+ This toolkit is named TOBE -- to be pronounced 
+\begin_inset IPA
+
+\begin_layout Standard
+[tobi]
+\end_layout
+
+\end_inset
+
+ -- a Tangible Out-of-Body Experience.
+ This work encompass the whole workflow: creation of a tangible support
+ using 3D printing, building the physiological sensors (e.g.
+ heart rate, breathing, EEG) using open hardware, the signal processing
+ pipelines and the creation of custom visual feedback.
 \end_layout
 
 \begin_layout Standard
 Note that we purposefully avoid a dedicated chapter for related work as
  we instead present them as appropriate alongside the work of each chapter.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: make sure tobe section is clear enough.
+ Finish the argumentation for why there is not related work chapter.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_body
