@@ -188,7 +188,7 @@ status open
 \end_layout
 
 \begin_layout Section
-Context
+Context and Contributions
 \end_layout
 
 \begin_layout Standard
@@ -202,6 +202,28 @@ spatial
 \emph default
  AR.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Going back to the real world and Ubiquitous Computing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -271,6 +293,41 @@ getting out of the way
  again.
  The main goal was that technology should support a state of calmness for
  people, enabling them to navigate through the turmoils of daily life smoothly.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Affordances
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@ADD: affordance discussion here
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -505,11 +562,14 @@ as a volume
 status open
 
 \begin_layout Plain Layout
-Things to talk about here:
-\end_layout
+@ADD: check if it would make sense to discuss 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hornbaek2015"
 
-\begin_layout Itemize
-affordances
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -522,6 +582,10 @@ Spatial Augmented Reality
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Note Note
 status open
 
@@ -540,7 +604,7 @@ example of "what is a phone" by bill boxton in designing user interfaces.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Note
 status open
 
@@ -555,7 +619,7 @@ Example with the ultimate display (Sutherland 1965).
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 This idea of anchoring digital interaction in the real world is by no mean
  novel.
  The field of Tangible User Interfaces (TUI) is especially interested in
@@ -597,7 +661,7 @@ key "Ishii2012"
  controlled.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 One way to move closer to physicality is to move part of the content of
  our flat screen displays in the real world itself.
  Spatial Augmented Reality (SAR) provides a technical mean towards this
@@ -641,7 +705,7 @@ key "Raskar2001a"
 Problem Statement
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Making the real and virtual cohabit on a physical medium represent an interactio
 n challenge.
  Direct touch can be a solution most of the time.
@@ -657,26 +721,129 @@ n challenge.
  is not appropriate for complex geometries.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 Augmented objects also have the potential to help us visualizing information
  in different ways, ways often more personal than just using virtual elements
  that cannot go outside of a screen's frame.
 \end_layout
 
-\begin_layout Subsection
-Research Questions
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
-Research Goals
-\end_layout
-
-\begin_layout Section
 Contributions
 \end_layout
 
 \begin_layout Section
 Structure of the Thesis
+\end_layout
+
+\begin_layout Standard
+This thesis is divided in three main parts.
+ Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:getting-out-of-flatland"
+
+\end_inset
+
+ lays out the overall motivation and context of this research (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:introduction"
+
+\end_inset
+
+) and go slightly more in depth on the topic of Spatial Augmented Reality
+ -- Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:sar"
+
+\end_inset
+
+ -- since it is the technological thread unifying the different projects.
+\end_layout
+
+\begin_layout Standard
+Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:interaction"
+
+\end_inset
+
+ focuses on the 
+\emph on
+interaction
+\emph default
+ with the digital content of tangible augmented objects.
+ Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+ present a study evaluating the performance of a pointing task on spatially
+ augmented objects using standard 2D input devices such as mice and graphic
+ tablets.
+ We were interested to see if it was possible to use the same pointing technique
+ used in standard computing with a real world scene.
+\end_layout
+
+\begin_layout Standard
+Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+ introduces the Tangible Viewports system which builds onto the pointing
+ task study presented in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+.
+ A Tangible Viewport is an on-screen window that allows interaction between
+ a desktop computer application and an augmented object placed in front
+ of it, using standard input device.
+ Effectively, it recreates the interactive behavior of a standard viewport
+ rendering a 3D scene with the main exception that the 3D scene is composed
+ of a real, tangible object.
+ The goal with this system is to leverage the power and flexiblity of standard
+ computer application for content creation while enriching the content creators
+ with physicality in their workflow.
+ We also present an exploration of the design space enabled by this way
+ of interacting with digital content hosted on physical objects.
+\end_layout
+
+\begin_layout Standard
+In Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:introspection"
+
+\end_inset
+
+, we present different systems using augmented objects as a way to foster
+ 
+\emph on
+introspection
+\emph default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Note that we purposefully avoid a dedicated chapter for related work as
+ we instead present them as appropriate alongside the work of each chapter.
 \end_layout
 
 \end_body
