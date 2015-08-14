@@ -281,6 +281,28 @@ with computational properties.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Branch margin
+status open
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+Affordances
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Augmented objects have the potential to conciliate the flexibility of the
  digital world with our expertise of the real world.
  Note that real world skills are not innate, but we get to hone them just
@@ -449,8 +471,14 @@ Affordances are perceived actionable properties of an object.
 
 \begin_layout Standard
 If we consider a future where our daily objects are augmented with digital
- functions and appearances, it raises questions about the content hosted
- by these objects.
+ functions and appearances (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:intro-mug-augmented"
+
+\end_inset
+
+), it raises questions about the content hosted by these objects.
  What should be displayed, how can this content be created, by whom? Holman
  et al.
  
@@ -487,6 +515,127 @@ Do-It-Yourself
  how to create content
 \emph default
 .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-mug-augmented.jpg
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:intro-mug-augmented"
+
+\end_inset
+
+A sketch of an augmented mug.
+ It displays the remaining steeping time for a perfect cup of tea.
+ The overlay shows the quantity and temperature of the liquid inside.
+ The handle will glow green when the tea is ready and that the temperature
+ is appropriate to avoid nasty tongue burns.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this dissertation, we explore this question using different angles.
+ As a first step, we investigated the 
+\emph on
+interaction
+\emph default
+ with augmented content in the context of standard input devices -- mouse
+ and keyboard -- and desktop environments (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:intro-ccoo-table"
+
+\end_inset
+
+).
+ The main idea of this approach was to leverage the use of already existing
+ tools that are already known of digital content creators.
+ For example, programming and visual design are activities well suited for
+ desktop platforms.
+ In a second time, we investigated the use of augmented objects as a way
+ to foster 
+\emph on
+introspection
+\emph default
+ in combination with physiological sensors -- heartbeats, breathing, electroence
+phalography.
+ 
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-ccoo-table.jpg
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:intro-ccoo-table"
+
+\end_inset
+
+An hypothetical development environment for augmented objects using a standard
+ desktop computer screen and mouse.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -595,41 +744,6 @@ getting out of the way
  again.
  The main goal was that technology should support a state of calmness for
  people, enabling them to navigate through the turmoils of daily life smoothly.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Affordances
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@ADD: affordance discussion here
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
