@@ -173,6 +173,10 @@ key "Victor2014"
  instead help us think new ideas.
 \end_layout
 
+\begin_layout Section
+Augmented Objects
+\end_layout
+
 \begin_layout Standard
 \begin_inset Note Note
 status open
@@ -288,6 +292,57 @@ Augmented objects have the potential to conciliate the flexibility of the
  The handle seems a good fit for your hand to hold it.
  Alternatively, the cylindrical shape of the main body could also be grasped
  easily.
+ The term 
+\emph on
+affordance
+\emph default
+ was proposed by Gibson 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gibson1977"
+
+\end_inset
+
+ to refer to the actionable properties between the world (object) and an
+ actor (user).
+ Objects not only convey affordances but also conventions, as introduced
+ by Gibson 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Gibson1979"
+
+\end_inset
+
+ and Norman 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Norman1988"
+
+\end_inset
+
+, conventions are often cultural and learned.
+ Whereas they do not physically prevent an activity, they prohibit some
+ activities and encourage others 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Norman1999"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+insert mug picture here
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
