@@ -345,6 +345,48 @@ insert mug picture here
 
 \end_layout
 
+\begin_layout Standard
+If we consider a future where our daily objects are augmented with digital
+ functions and appearances, it raises questions about the content hosted
+ by these objects.
+ What should be displayed, how can this content be created, by whom? Holman
+ et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Holman2013"
+
+\end_inset
+
+ argue that object designers will have a central role in this process and
+ will need new tools more adapted to organic design.
+ Nonetheless, we think that object designers are only one part of the equation.
+ As demonstrated by the rise in popularity of the “maker”, 
+\begin_inset Quotes eld
+\end_inset
+
+hacker
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+DIY
+\begin_inset Quotes erd
+\end_inset
+
+ cultures, users are not only interested in consuming content but also in
+ producing it.
+ Thus, another question that will be of great interest when these objects
+ become widely available is
+\emph on
+ how to create content
+\emph default
+.
+\end_layout
+
 \begin_layout Section
 Context
 \end_layout
