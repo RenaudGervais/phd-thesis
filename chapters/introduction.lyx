@@ -105,9 +105,9 @@ Flat Screens
 \begin_layout Standard
 Most of our waking hours are now spent staring at backlit rectangles of
  varying sizes.
- While the use of of computational devices has become ubiquitous in our
- daily life, flat and rectangular screens are still the de-facto output
- channel for consuming and interacting with digital content.
+ While the use of computational devices has become ubiquitous in our daily
+ life, flat and rectangular screens are still the de-facto output channel
+ for consuming and interacting with digital content.
  While they serve a great purpose at delivering digital content to their
  viewer(s), they fail to seamlessly merge with the environment in which
  they exist.
@@ -187,6 +187,51 @@ status open
 
 \end_layout
 
+\begin_layout Standard
+In this thesis, we are interested in the use of physical objects to interact
+ with digital information as a way to go 
+\emph on
+beyond the screens
+\emph default
+.
+ We do not argue that screens are devoid of any interest, but when considered
+ as the only mean to convey digital information, they are 
+\emph on
+limiting
+\emph default
+.
+ Different research visions consider the use of computational objects.
+ The 
+\emph on
+Internet of Things
+\emph default
+ is a paradigm in which objects are able to interact with each other and
+ cooperate to achieve common goals 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Atzori2010"
+
+\end_inset
+
+.
+ 
+\emph on
+Organic User Interfaces
+\emph default
+ (OUI) defined by Holman et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Holman2008"
+
+\end_inset
+
+ describe a future where thin and flexible displays and touch sensors will
+ wrap everyday objects.
+ Therefore, any part of an object can be a sensor and/or a display.
+ 
+\end_layout
+
 \begin_layout Section
 Context and Contributions
 \end_layout
@@ -213,7 +258,7 @@ status open
 status open
 
 \begin_layout Plain Layout
-Going back to the real world and Ubiquitous Computing
+Back to the real world and Ubiquitous Computing
 \end_layout
 
 \end_inset
