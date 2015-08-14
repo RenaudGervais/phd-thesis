@@ -285,8 +285,14 @@ Augmented objects have the potential to conciliate the flexibility of the
  digital world with our expertise of the real world.
  Note that real world skills are not innate, but we get to hone them just
  because our bodies are real world entities.
- For example, just by looking at a mug, you can already infer a lot of its
- properties.
+ For example, just by looking at a mug (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:intro-mug"
+
+\end_inset
+
+), you can already infer a lot of its properties and also its possible uses.
  Its round and hollow, allowing it to contain matter -- matter that potentially
  would be difficult to hold otherwise.
  The handle seems a good fit for your hand to hold it.
@@ -333,11 +339,107 @@ key "Norman1999"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-insert mug picture here
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-mug.png
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A mug.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-mug-affordance.png
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Possible perceived affordances.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:intro-mug"
+
+\end_inset
+
+Affordances are perceived actionable properties of an object.
+ For example, a mug can be held by its handle, or by its round body that
+ is approximately the size of the hand.
+ It is hollow, so it can be used as a container.
+ Its base is flat so that it can stand on the table.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -373,7 +475,7 @@ hacker
 \begin_inset Quotes eld
 \end_inset
 
-DIY
+Do-It-Yourself
 \begin_inset Quotes erd
 \end_inset
 
