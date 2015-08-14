@@ -201,7 +201,32 @@ limiting
 \emph default
 .
  Different research visions consider the use of computational objects.
- The 
+ 
+\emph on
+Tangible User Interfaces 
+\emph default
+is a vision where digital information can be handled physically through
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Tangible Bits
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii1997"
+
+\end_inset
+
+.
+ 
+\emph on
+The
+\emph default
+ 
 \emph on
 Internet of Things
 \emph default
@@ -230,10 +255,43 @@ key "Holman2008"
  wrap everyday objects.
  Therefore, any part of an object can be a sensor and/or a display.
  
+\emph on
+Augmented Reality 
+\emph default
+consists in overlaying a live view of the reality with computer generated
+ graphics to form a coherent and augmented view of the reality 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Azuma1997"
+
+\end_inset
+
+.
+ We position ourselves along these disciplines are are interested in physical
+ objects that are 
+\emph on
+embedded 
+\emph default
+with computational properties.
+ That is, augmented objects.
+\end_layout
+
+\begin_layout Standard
+Augmented objects have the potential to conciliate the flexibility of the
+ digital world with our expertise of the real world.
+ Note that real world skills are not innate, but we get to hone them just
+ because our bodies are real world entities.
+ For example, just by looking at a mug, you can already infer a lot of its
+ properties.
+ Its round and hollow, allowing it to contain matter -- matter that potentially
+ would be difficult to hold otherwise.
+ The handle seems a good fit for your hand to hold it.
+ Alternatively, the cylindrical shape of the main body could also be grasped
+ easily.
 \end_layout
 
 \begin_layout Section
-Context and Contributions
+Context
 \end_layout
 
 \begin_layout Standard
@@ -777,7 +835,7 @@ Augmented objects also have the potential to help us visualizing information
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Contributions
 \end_layout
 
