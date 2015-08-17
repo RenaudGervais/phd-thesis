@@ -1019,6 +1019,31 @@ Spatial Augmented Reality
 \end_layout
 
 \begin_layout Standard
+Augmented Reality (AR) consists in overlaying computer generated information
+ to our real world experience.
+ The concept has first been described by Sutherland in his description of
+ an hypothetical 
+\begin_inset Quotes eld
+\end_inset
+
+Ultimate Display
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutherland1965"
+
+\end_inset
+
+.
+ This display would be a room that have the power to control matter itself,
+ resulting in a complete weaving of the real and the virtual.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
@@ -1250,7 +1275,7 @@ reference "cha:cursar"
  Effectively, it recreates the interactive behavior of a standard viewport
  rendering a 3D scene with the main exception that the 3D scene is composed
  of a real, tangible object.
- The goal with this system is to leverage the power and flexiblity of standard
+ The goal with this system is to leverage the power and flexibility of standard
  computer application for content creation while enriching the content creators
  with physicality in their workflow.
  We also present an exploration of the design space enabled by this way
