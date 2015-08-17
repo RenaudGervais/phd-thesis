@@ -1040,6 +1040,14 @@ key "Sutherland1965"
 .
  This display would be a room that have the power to control matter itself,
  resulting in a complete weaving of the real and the virtual.
+ Traditionally, the visual information overlay have been conveyed using
+ see-through or video see-through AR.
+ See-through AR consists in having a semi-transparent display which allow
+ to display both the virtual elements and the real world scene.
+ Video see-through consists in augmenting a live video feed that is then
+ viewed either using a head mounted display or a mobile device equipped
+ with a camera -- e.g.
+ a smartphone or tablet.
  
 \end_layout
 
