@@ -515,6 +515,23 @@ Do-It-Yourself
  how to create content
 \emph default
 .
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: talk about self-describing objects 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2004"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
