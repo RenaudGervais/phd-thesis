@@ -80,6 +80,20 @@ name "cha:sar"
 
 \end_layout
 
+\begin_layout Standard
+This chapter provides an overview of Augmented Reality (AR) and, more specifical
+ly, Spatial Augmented Reality (SAR).
+ Since the work presented in all following chapters uses SAR, this chapter
+ aims at pooling the related work and implementation details in a single
+ place in order to avoid useless repetitions.
+ The goal is to explain enough background to provide a global understanding
+ of SAR principles and some details on the implementation used throughout
+ the thesis.
+ However, we will avoid doing a very extensive literature review of the
+ whole SAR field since more specific related work will be introduced in
+ each chapter as appropriate.
+\end_layout
+
 \begin_layout Section
 Background
 \end_layout
