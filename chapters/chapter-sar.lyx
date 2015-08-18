@@ -92,6 +92,17 @@ ly, Spatial Augmented Reality (SAR).
  However, we will avoid doing a very extensive literature review of the
  whole SAR field since more specific related work will be introduced in
  each chapter as appropriate.
+ Also, while we will cover some basic notions of SAR, an interested reader
+ can get a more thorough understanding of the different principles of this
+ AR paradigm in Bimber and Raskar's book 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bimber2005"
+
+\end_inset
+
+ on the topic.
+ 
 \end_layout
 
 \begin_layout Section
