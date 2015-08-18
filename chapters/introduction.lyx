@@ -1127,10 +1127,35 @@ reference "fig:intro-sar-mug"
 \end_inset
 
 ).
+ This paradigm is based on the vision laid out by their previous 
+\begin_inset Quotes eld
+\end_inset
+
+Office of the Future
+\begin_inset Quotes erd
+\end_inset
+
+ publication 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998"
+
+\end_inset
+
+.
+ A few years later, Raskar et al.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2001a"
+
+\end_inset
+
+ applied the same techniques to change the appearance of physical objects.
  The main advantage of SAR lies in the fact that it does not require the
  user to wear any special equipment -- objects and spaces are augmented
  in place.
  This also ease a shared experience between multiple users.
+ 
 \end_layout
 
 \begin_layout Standard
@@ -1218,10 +1243,6 @@ A projector augmenting a normal mug with digital content.
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -1246,13 +1267,26 @@ d in the user's environment.
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+All the work presented in this dissertation uses SAR to a certain extent.
+ It does not mean that SAR is necessarily the best choice for creating augmented
+ objects as final products.
+ However, it represents a flexible way to create and interact with such
+ objects.
+ For this reason, Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:sar"
+
+\end_inset
+
+ is reserved for going in further details about this technological choice's
+ inner working and background.
 \end_layout
 
 \begin_layout Standard
