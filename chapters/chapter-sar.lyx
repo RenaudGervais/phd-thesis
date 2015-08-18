@@ -80,8 +80,28 @@ name "cha:sar"
 
 \end_layout
 
-\begin_layout Standard
-Ibis redibis numquam peribis in bello.
+\begin_layout Section
+Background
+\end_layout
+
+\begin_layout Subsection
+Augmented Reality
+\end_layout
+
+\begin_layout Subsection
+Spatial Augmented Reality
+\end_layout
+
+\begin_layout Section
+How does it work?
+\end_layout
+
+\begin_layout Section
+What SAR is good for?
+\end_layout
+
+\begin_layout Section
+SAR vs Screens
 \end_layout
 
 \end_body
