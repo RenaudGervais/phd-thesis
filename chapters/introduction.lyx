@@ -1047,8 +1047,83 @@ key "Sutherland1965"
  Video see-through consists in augmenting a live video feed that is then
  viewed either using a head mounted display or a mobile device equipped
  with a camera -- e.g.
- a smartphone or tablet.
+ a smartphone or tablet (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:intro-ar-video-see-through"
+
+\end_inset
+
+).
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-ar-video-see-through.png
+	lyxscale 20
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:intro-ar-video-see-through"
+
+\end_inset
+
+AR is often achieved using a video see-through technique consisting in overlayin
+g computer generated graphics over a live video feed of the real-world.
+ Here, a smartphone is used to produce an augmented mug view.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+An alternative to these standard techniques appeared at the end of the 90s.
+ In 1998, Raskar and his colleagues proposed a new paradigm called 
+\emph on
+Spatial Augmented Reality
+\emph default
+ (SAR) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
+
+\end_inset
+
+ which used projectors or displays to create images that are integrated
+ in the user's 
+\emph on
+environment
+\emph default
+.
+ The main advantage of SAR lies in the fact that it does not require the
+ user to wear any special equipment -- objects and spaces are augmented
+ in place.
+ This also ease a shared experience between multiple users.
 \end_layout
 
 \begin_layout Standard
