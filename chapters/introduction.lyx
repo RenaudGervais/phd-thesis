@@ -178,20 +178,6 @@ Augmented Objects
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@ADD: Specify what we are going towards before laying the foundations.
- Talk about augmented objects, an image of what they look like (drawing?).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 In this thesis, we are interested in the use of physical objects to interact
  with digital information as a way to go 
 \emph on
@@ -653,10 +639,6 @@ An hypothetical development environment for augmented objects using a standard
 \end_inset
 
 
-\end_layout
-
-\begin_layout Section
-Contributions
 \end_layout
 
 \begin_layout Section
@@ -1438,6 +1420,38 @@ Augmented objects also have the potential to help us visualizing information
 \end_inset
 
 
+\end_layout
+
+\begin_layout Section
+Contributions
+\end_layout
+
+\begin_layout Standard
+The contributions of this thesis are the following:
+\end_layout
+
+\begin_layout Enumerate
+The evaluation of the use of 2D pointing devices -- mouse and graphics tablet
+ -- in a pointing task in a SAR context compared to a screen condition.
+\end_layout
+
+\begin_layout Enumerate
+The design, implementation and evaluation of a system enabling the interaction
+ between a typical desktop computer environment -- traditional screens,
+ mouse and keyboard -- with tangible augmented objects, considering a object
+ design scenario as a mean thread.
+\end_layout
+
+\begin_layout Enumerate
+The design, implementation and evaluation of a tangible interface enabling
+ users to visualize and interact with their real-time electroencephalography
+ (EEG) readings in order to explore different brain processes.
+\end_layout
+
+\begin_layout Enumerate
+The design, implementation and evaluation of a toolkit enabling useres to
+ create tangible augmented avatars providing feedback from real-time low
+ and high level physiological readings.
 \end_layout
 
 \begin_layout Section
