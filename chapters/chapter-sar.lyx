@@ -112,6 +112,8 @@ Background
 \begin_layout Standard
 This section covers the main concepts and definitions related to AR and
  SAR.
+ AR is first defined and a brief overview of its history is given.
+ Then we will focus on one of its subset -- SAR.
 \end_layout
 
 \begin_layout Subsection
@@ -139,8 +141,8 @@ Ultimate Display
 \end_inset
 
 : a room within which the computer could control the existence of matter.
- A few year later, he was also the first one to build a head-mounted display
- 
+ A few years later, he was also the first AR system, taking the form of
+ a head-mounted display (HMD) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutherland1968"
@@ -148,8 +150,9 @@ key "Sutherland1968"
 \end_inset
 
 .
- While surveying the field, Azuma provided an definition of an AR system
- so that it would be flexible enough to not be technology dependent 
+ However, using a HMD is only one way to visually augment the real world.
+ Azuma later provided a definition of AR that is flexible enough so not
+ to be technology dependent 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Azuma1997"
@@ -157,7 +160,7 @@ key "Azuma1997"
 \end_inset
 
 .
- It comprised of three criteria:
+ An AR system would then have the following properties:
 \end_layout
 
 \begin_layout Enumerate
@@ -170,6 +173,67 @@ Is interactive in real-time
 
 \begin_layout Enumerate
 Is registered in three dimensions
+\end_layout
+
+\begin_layout Standard
+AR is neither purely a real-world experience nor is it pure virtual reality.
+ Milgram and Kishino 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Milgram1994"
+
+\end_inset
+
+ proposed a taxonomy for mixed reality display technologies taking the form
+ of a continuum between reality and virtual reality.
+ At the left extremity is unaltered reality.
+ On the other side lies virtual reality, which replaces reality completely
+ relying different sensory channels -- usually visual and auditory.
+ Augmented reality is located on the left-hand spectrum of mixed reality.
+ Indeed, AR is centered on real-world elements onto which digital information
+ is added.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-mr-continuum.jpg
+	lyxscale 50
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Milgram's virtuality continuum as described in 
+\begin_inset CommandInset citation
+LatexCommand Citep
+key "Milgram1994"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
