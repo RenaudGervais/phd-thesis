@@ -188,10 +188,12 @@ key "Milgram1994"
  of a continuum between reality and virtual reality.
  At the left extremity is unaltered reality.
  On the other side lies virtual reality, which replaces reality completely
- relying different sensory channels -- usually visual and auditory.
+ relying on different sensory channels -- usually visual and auditory.
  Augmented reality is located on the left-hand spectrum of mixed reality.
  Indeed, AR is centered on real-world elements onto which digital information
  is added.
+ Note that Milgram, in his virtuality continuum, did not explore the different
+ display devices for AR.
 \end_layout
 
 \begin_layout Standard
@@ -229,6 +231,46 @@ key "Milgram1994"
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This proximity to reality is very well illustrated by the title of the issue
+ of the Communication of ACM in 1993 -- 
+\begin_inset Quotes eld
+\end_inset
+
+Computer Augmented Environments: Back to the Real World
+\begin_inset Quotes erd
+\end_inset
+
+ -- which contributed in establishing the AR research agenda 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wellner1993"
+
+\end_inset
+
+.
+ In 1998, Mackay 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mackay1998"
+
+\end_inset
+
+ reflected back on this issue and describes the three basic approaches to
+ augmented real-world objects.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+1) augment the user, 2) augment the physical object 3) augment the environment
+ surrounding the user and the object.
 \end_layout
 
 \end_inset
