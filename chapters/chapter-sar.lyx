@@ -109,8 +109,67 @@ key "Bimber2005"
 Background
 \end_layout
 
+\begin_layout Standard
+This section covers the main concepts and definitions related to AR and
+ SAR.
+\end_layout
+
 \begin_layout Subsection
 Augmented Reality
+\end_layout
+
+\begin_layout Standard
+As mentioned previously, augmented reality consists in overlaying computer
+ generated information on a real-world experience.
+ The overarching goal of AR is to create a seamless experience, merging
+ both real and digital information.
+ Sutherland 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutherland1965"
+
+\end_inset
+
+, as soon as 1965, proposed the idea of an 
+\begin_inset Quotes eld
+\end_inset
+
+Ultimate Display
+\begin_inset Quotes erd
+\end_inset
+
+: a room within which the computer could control the existence of matter.
+ A few year later, he was also the first one to build a head-mounted display
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sutherland1968"
+
+\end_inset
+
+.
+ While surveying the field, Azuma provided an definition of an AR system
+ so that it would be flexible enough to not be technology dependent 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Azuma1997"
+
+\end_inset
+
+.
+ It comprised of three criteria:
+\end_layout
+
+\begin_layout Enumerate
+Combines real and virtual
+\end_layout
+
+\begin_layout Enumerate
+Is interactive in real-time
+\end_layout
+
+\begin_layout Enumerate
+Is registered in three dimensions
 \end_layout
 
 \begin_layout Subsection
@@ -122,7 +181,7 @@ How does it work?
 \end_layout
 
 \begin_layout Section
-What SAR is good for?
+What is SAR good for?
 \end_layout
 
 \begin_layout Section

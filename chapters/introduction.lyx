@@ -1126,13 +1126,15 @@ key "Raskar1998"
 
 .
  A few years later, Raskar et al.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Raskar2001a"
 
 \end_inset
 
- applied the same techniques to change the appearance of physical objects.
+ applied the same set of techniques to change the appearance of physical
+ objects.
  The main advantage of SAR lies in the fact that it does not require the
  user to wear any special equipment -- objects and spaces are augmented
  in place.
