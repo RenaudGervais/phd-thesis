@@ -557,6 +557,19 @@ key "Raskar1998"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Spatially AR of raskar based on the office of the future paragraph here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Projection of digital information in the environment was done before.
  Wellner 
 \begin_inset CommandInset citation
@@ -571,7 +584,7 @@ key "Wellner1993a"
  This work was essentially closing the loop of the Desktop metaphor used
  ubiquitously in computing since the 1970s
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset CommandInset citation
@@ -623,10 +636,24 @@ key "Underkoffler1999"
 \emph on
 I/O Bulb
 \emph default
- for their capacity to use light as input and output -- to create a urban
+ for its capacity to use light as input and output -- to create a urban
  planning tool which projected simulated shadows of physical wooden structures
  laid out on a table.
  Other types of simulations, such as fluid flow, was possible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Shader lamps + interaction with shader lamps + shader printer (?: not sure
+ for shader printer here)
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
