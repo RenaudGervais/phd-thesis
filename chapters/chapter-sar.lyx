@@ -310,7 +310,7 @@ reference "sub:intro-oui"
 \end_inset
 
 ).
- This hardware modification with computational devices is also reminescent
+ This hardware modification with computational devices is also reminiscent
  of the Internet of Things trend 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -336,8 +336,8 @@ Augment the environment:
  from their surroundings and display information onto objects.
  They also handle the users interaction.
  This approach leaves both the users and the physical objects unaffected.
- This approach is the one taken by SAR which will be explored in more depth
- in the rest of this chapter.
+ This approach is the one leveraged by SAR which will be explored in more
+ depth in the rest of this chapter.
 \end_layout
 
 \begin_layout Standard
@@ -385,6 +385,166 @@ place picture of baudisch ball game
 
 \begin_layout Subsection
 Spatial Augmented Reality
+\end_layout
+
+\begin_layout Standard
+SAR is subset of AR that consists in displaying the augmented content 
+\emph on
+in
+\emph default
+ the environment using projectors or displays.
+ The first steps in this direction have been highlighted in the 
+\begin_inset Quotes eld
+\end_inset
+
+Office of the Future
+\begin_inset Quotes erd
+\end_inset
+
+ vision 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-ootf"
+
+\end_inset
+
+ provides a good illustration of the authors' vision.
+ It described ideas and techniques for creating immersive in-situ displays,
+ building upon the notions of the CAVE system, in a normal office environment.
+ By using computer vision to compute the depth of every pixel in a camera,
+ they could correct the projected images according to the topology of the
+ projection support.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-ootf-off-raskar.jpg
+	lyxscale 20
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-ootf-off"
+
+\end_inset
+
+A normal office space where part of the walls and table can be used as spatial
+ displays.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-ootf-raskar.png
+	lyxscale 20
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-ootf-on"
+
+\end_inset
+
+When the displays are active, they can be for example used to create a virtual
+ shared office.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-ootf"
+
+\end_inset
+
+Conceptual sketch of the Office of the future, as presented in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998"
+
+\end_inset
+
+.
+ Image courtesy of Raskar et al.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
