@@ -141,8 +141,8 @@ Ultimate Display
 \end_inset
 
 : a room within which the computer could control the existence of matter.
- A few years later, he was also the first AR system, taking the form of
- a head-mounted display (HMD) 
+ A few years later, he was also the first to build an AR system, taking
+ the form of a head-mounted display (HMD) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Sutherland1968"
@@ -239,8 +239,12 @@ key "Milgram1994"
 \end_layout
 
 \begin_layout Standard
-This proximity to reality is very well illustrated by the title of the issue
- of the Communication of ACM in 1993 -- 
+This proximity to reality is very well illustrated by the title of the special
+ issue of the 
+\emph on
+Communication of ACM
+\emph default
+ in 1993 -- 
 \begin_inset Quotes eld
 \end_inset
 
@@ -332,6 +336,38 @@ Augment the environment:
  from their surroundings and display information onto objects.
  They also handle the users interaction.
  This approach leaves both the users and the physical objects unaffected.
+ This approach is the one taken by SAR which will be explored in more depth
+ in the rest of this chapter.
+\end_layout
+
+\begin_layout Standard
+It is important to note that while the vast majority of the AR research
+ community focused on augmenting the visual sensory channel, it is not restricte
+d to it in any way.
+ For example, Dobler et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Dobler2002"
+
+\end_inset
+
+ used AR to enable users to see and place sound sources in space.
+ Another example is the imaginary reality game of Baudisch and his colleagues
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Baudisch2013"
+
+\end_inset
+
+.
+ In this game, two teams played a basketball game with the exception that
+ there is no physical ball to manipulate.
+ Instead, there is only an imaginary ball that only exists via a computer
+ analysing the playing area in real-time.
+ The location of the ball has to be inferred by the player using sound cues
+ given by the system managing the game.
 \end_layout
 
 \begin_layout Standard
@@ -339,8 +375,7 @@ Augment the environment:
 status open
 
 \begin_layout Plain Layout
-1) augment the user, 2) augment the physical object 3) augment the environment
- surrounding the user and the object.
+place picture of baudisch ball game
 \end_layout
 
 \end_inset
