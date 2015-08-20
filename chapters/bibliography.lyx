@@ -181,7 +181,7 @@ name "app:bibliography"
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
-bibfiles "C:/papers/phd-thesis/PhD"
+bibfiles "../PhD"
 options "plainnat"
 
 \end_inset
