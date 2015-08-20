@@ -365,7 +365,7 @@ key "Baudisch2013"
  In this game, two teams played a basketball game with the exception that
  there is no physical ball to manipulate.
  Instead, there is only an imaginary ball that only exists via a computer
- analysing the playing area in real-time.
+ analyzing the playing area in real-time.
  The location of the ball has to be inferred by the player using sound cues
  given by the system managing the game.
 \end_layout
@@ -419,9 +419,18 @@ reference "fig:sar-ootf"
  provides a good illustration of the authors' vision.
  It described ideas and techniques for creating immersive in-situ displays,
  building upon the notions of the CAVE system, in a normal office environment.
- By using computer vision to compute the depth of every pixel in a camera,
+ By using computer vision to compute the depth of every pixel of a camera,
  they could correct the projected images according to the topology of the
  projection support.
+ Their dream was to have a room in which the light of 
+\emph on
+every millimeter
+\emph default
+ could be controlled at 
+\emph on
+every millisecond
+\emph default
+.
 \end_layout
 
 \begin_layout Standard
@@ -545,6 +554,79 @@ key "Raskar1998"
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Projection of digital information in the environment was done before.
+ Wellner 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wellner1993a"
+
+\end_inset
+
+ presented his DigitalDesk in 1993 which projected digital documents on
+ physical paper laid out on a desk and with which it was possible to interact
+ with a pen.
+ This work was essentially closing the loop of the Desktop metaphor used
+ ubiquitously in computing since the 1970s
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Johnson1989"
+
+\end_inset
+
+ (not sure this reference is really required here)
+\end_layout
+
+\end_inset
+
+, by displaying back the digital desktop on a real desk.
+ Mackay 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Mackay1998"
+
+\end_inset
+
+ also worked with augmented paper using projection for engineering drawings,
+ video edition and flight control.
+ While not creating augmented objects per se, Underkoffler and Ishii used
+ a combination of tangibles and projection in the environment to create
+ simulations.
+ They presented an optical prototyping tool where various optical elements
+ were controlled by physical objects while the a simulation of the light
+ behavior was projected on a worktable 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Underkoffler1998"
+
+\end_inset
+
+.
+ In 
+\emph on
+Urp
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Underkoffler1999"
+
+\end_inset
+
+, they re-used the same underlying technology -- which they named 
+\emph on
+I/O Bulb
+\emph default
+ for their capacity to use light as input and output -- to create a urban
+ planning tool which projected simulated shadows of physical wooden structures
+ laid out on a table.
+ Other types of simulations, such as fluid flow, was possible.
 \end_layout
 
 \begin_layout Section
