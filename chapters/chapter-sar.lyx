@@ -263,8 +263,78 @@ key "Mackay1998"
 
 \end_inset
 
- reflected back on this issue and describes the three basic approaches to
- augmented real-world objects.
+ reflected back on this issue and described the three basic approaches to
+ augmenting real-world objects:
+\end_layout
+
+\begin_layout Description
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Augment the user:
+\end_layout
+
+\end_inset
+
+ The user has either to wear or carry a device which is used to see the
+ augmented information.
+ This usually takes the form of a HMD or a mobile device, using see-through
+ or video see-through approaches.
+\end_layout
+
+\begin_layout Description
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Augment the physical object:
+\end_layout
+
+\end_inset
+
+ Physically modify the objects themselves with different input/ouput components.
+ For example, an object's surface could be covered by a thin film display,
+ such as what is described in the Organic User Interfaces vision (see Section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:intro-oui"
+
+\end_inset
+
+).
+ This hardware modification with computational devices is also reminescent
+ of the Internet of Things trend 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Atzori2010"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Description
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+Augment the environment:
+\end_layout
+
+\end_inset
+
+ Independent devices are installed in the environment which collect information
+ from their surroundings and display information onto objects.
+ They also handle the users interaction.
+ This approach leaves both the users and the physical objects unaffected.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 

@@ -751,6 +751,13 @@ getting out of the way
 
 \begin_layout Subsection
 Tangible User Interfaces
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:intro-tui"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -872,6 +879,13 @@ key "Victor2014"
 
 \begin_layout Subsection
 Organic User Interfaces
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:intro-oui"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -998,6 +1012,13 @@ key "Hornbaek2015"
 
 \begin_layout Subsection
 Spatial Augmented Reality
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:intro-sar"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
