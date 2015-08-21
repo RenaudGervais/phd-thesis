@@ -877,7 +877,14 @@ I/O Bulb
 
 \begin_layout Standard
 SAR can also be used to change the appearance of objects by mapping different
- textures to its surface.
+ textures to its surface (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-shader-lamps"
+
+\end_inset
+
+).
  This idea was introduced under the term 
 \begin_inset Quotes eld
 \end_inset
@@ -929,6 +936,124 @@ key "Bandyopadhyay2001"
 
  made those shader lamps dynamic, using them in conjunction with a tracked
  pen to allow users to digitally paint a tracked physical object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-shader-lamps-off.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-shader-lamps-on.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-shader-lamps"
+
+\end_inset
+
+Using a projected light to change the appearance of a physical object.
+ Image courtesy of Raskar et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2001a"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
