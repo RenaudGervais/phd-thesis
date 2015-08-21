@@ -600,6 +600,33 @@ reference "fig:sar-anamorphic-mug"
 \end_inset
 
 .
+ Other work using SAR to produce anamorphic illusions include 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lee2009"
+
+\end_inset
+
+ which used a mobile robot mounted with a projector.
+ More recently, Benko et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2014"
+
+\end_inset
+
+ proposed a dyadic SAR system: a room for two users where each person, facing
+ each other, have a view on common virtual elements.
+ Interestingly, the system also uses the users themselves as a projection
+ surface for the other user's view (see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-dyadic-sar"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Standard
@@ -618,19 +645,9 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Graphics
-	filename ../img/sar-anamorphic-mug-flat.jpg
-	lyxscale 5
+	filename ../img/sar-anamorphic-mug-photo.jpg
+	lyxscale 25
 	width 49line%
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: change picture with photo of piece of paper in environment
-\end_layout
 
 \end_inset
 
@@ -709,14 +726,14 @@ A simple example of anamorphic illusion.
 \emph on
 (a)
 \emph default
- When the viewpoint of the camera is exactly at the right spot, the mug
- appears to be part of the environment, even given the sketchy appearance.
+ When the viewpoint of the camera is exactly at the right spot, the image
+ of the augmented mug appears as intended.
  
 \emph on
 (b)
 \emph default
- The printed piece of paper displaying the deformation required in order
- to create the illusion.
+ The actual image printed on the sheet of paper used in order to produce
+ the image on the left.
 \end_layout
 
 \end_inset
@@ -725,6 +742,58 @@ A simple example of anamorphic illusion.
 \end_layout
 
 \begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-dyadic-sar.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-dyadic-sar"
+
+\end_inset
+
+The Mano-a-Mano system using a dyadic projection system to create anamorphic
+ illusions in a room for two users.
+ Image courtesy of Benko et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2014"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -837,7 +906,7 @@ shader
  the illusion of different materials and simulate artificial illuminations
  on the augmented objects.
  One of the advantage of this technique over anamorphic illusion is that
- it does not require the head position of the users
+ it does not require the users' head position
 \begin_inset Foot
 status collapsed
 
@@ -848,21 +917,18 @@ Note that simulating artificial lighting still requires the head position
 
 \end_inset
 
-, therefore allowing multiple users to see the same augmentation simultaneously.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Shader lamps + interaction with shader lamps + shader printer (?: not sure
- for shader printer here)
-\end_layout
+.
+ Therefore, it allows multiple users to see the same augmentation simultaneously.
+ Bandyopadhyay et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bandyopadhyay2001"
 
 \end_inset
 
-
+ made those shader lamps dynamic, using them in conjunction with a tracked
+ pen to allow users to digitally paint a tracked physical object.
 \end_layout
 
 \begin_layout Section
