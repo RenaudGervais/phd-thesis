@@ -1296,7 +1296,7 @@ reference "cha:sar"
 
 \begin_layout Standard
 \begin_inset Note Note
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Note Note
@@ -1315,103 +1315,6 @@ example of "what is a phone" by bill boxton in designing user interfaces.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Example with the ultimate display (Sutherland 1965).
- Not only a display but a room where you walk in, move around.
- It involves the whole body (see reference for this)
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-This idea of anchoring digital interaction in the real world is by no mean
- novel.
- The field of Tangible User Interfaces (TUI) is especially interested in
- giving form to digital matter.
- The first concept of TUI was a marble answering machine 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "CramptonSmith1995"
-
-\end_inset
-
- where marbles embodied messages received while the recipient was away from
- home.
- Professor Iroshi Ishii has been promoting this vision for more than two
- decades now.
- Starting with the proposal of Graspable Interfaces 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Fitzmaurice1995"
-
-\end_inset
-
- followed by the Tangible Bits 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Ishii1997,Ishii2008"
-
-\end_inset
-
- vision where physical handles on the digital information was offered, it
- has now evolved to the concept of what Ishii calls Radical Atoms 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Ishii2012"
-
-\end_inset
-
- which hypothesize a physical material which properties can be digitally
- controlled.
-\end_layout
-
-\begin_layout Plain Layout
-One way to move closer to physicality is to move part of the content of
- our flat screen displays in the real world itself.
- Spatial Augmented Reality (SAR) provides a technical mean towards this
- idea by using projectors to shed digitally controlled light onto real-world
- objects and spaces to augment them with functionalities and content.
- Since the pioneering work of Raskar 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar1998a"
-
-\end_inset
-
-, SAR has been used to augment planar surfaces such as in the 
-\emph on
-Office of the Future
-\emph default
- vision 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar1998"
-
-\end_inset
-
- to giving different appearances to everyday objects comprised of curved
- and complex surfaces 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar2001a"
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Section
