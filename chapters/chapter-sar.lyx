@@ -625,6 +625,16 @@ status open
 \end_inset
 
 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: change picture with photo of piece of paper in environment
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Plain Layout
@@ -724,7 +734,7 @@ A simple example of anamorphic illusion.
 \end_layout
 
 \begin_layout Standard
-Projection of digital information in the environment was done before.
+Projection of digital information in the environment has been done before.
  Wellner 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -794,6 +804,51 @@ I/O Bulb
  planning tool which projected simulated shadows of physical wooden structures
  laid out on a table.
  Other types of simulations, such as fluid flow, was possible.
+\end_layout
+
+\begin_layout Standard
+SAR can also be used to change the appearance of objects by mapping different
+ textures to its surface.
+ This idea was introduced under the term 
+\begin_inset Quotes eld
+\end_inset
+
+Shader Lamps
+\begin_inset Quotes erd
+\end_inset
+
+ by Raskar and his colleagues in 2001 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar2001a"
+
+\end_inset
+
+.
+ The term 
+\begin_inset Quotes eld
+\end_inset
+
+shader
+\begin_inset Quotes erd
+\end_inset
+
+ was used to highlight the fact that this technique could be used to create
+ the illusion of different materials and simulate artificial illuminations
+ on the augmented objects.
+ One of the advantage of this technique over anamorphic illusion is that
+ it does not require the head position of the users
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Note that simulating artificial lighting still requires the head position
+ of the viewer.
+\end_layout
+
+\end_inset
+
+, therefore allowing multiple users to see the same augmentation simultaneously.
 \end_layout
 
 \begin_layout Standard
