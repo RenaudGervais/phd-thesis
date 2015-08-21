@@ -557,16 +557,34 @@ key "Raskar1998"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Spatially AR of raskar based on the office of the future paragraph here
-\end_layout
+Based on the vision of the Office of the Future, Raskar and his colleagues
+ formalized these techniques into a new paradigm to achieve AR, which they
+ named 
+\emph on
+Spatially
+\emph default
+ AR 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
 
 \end_inset
 
-
+ (now more often referred to as 
+\emph on
+Spatial
+\emph default
+ AR or SAR).
+ They put emphasis on augmenting the 
+\emph on
+environment
+\emph default
+ instead of the users' field of view.
+ By tracking the user's head position, they proposed a set of techniques
+ to project on irregular surfaces in the environment so as to generate perceptua
+l illusions for the user.
+ When updating the projection in real-time, it is possible to make it appear
+ as if virtual objects are registered in 3D to physical objects.
 \end_layout
 
 \begin_layout Standard
