@@ -694,7 +694,19 @@ name "fig:sar-anamorphic-mug"
 
 \end_inset
 
-
+A simple example of anamorphic illusion.
+ 
+\emph on
+(a)
+\emph default
+ When the viewpoint of the camera is exactly at the right spot, the mug
+ appears to be part of the environment, even given the sketchy appearance.
+ 
+\emph on
+(b)
+\emph default
+ The printed piece of paper displaying the deformation required in order
+ to create the illusion.
 \end_layout
 
 \end_inset
