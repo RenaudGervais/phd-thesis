@@ -1063,7 +1063,21 @@ This section is taking a closer look at how SAR is actually achieved.
  Basically, in order to create an augmented scene you need to have a virtual
  counterpart of every real-world component that is used to create the augmented
  experience.
- This pipeline is summarized in Figure 
+ Indeed, we want to create the illusion that augmented graphics displayed
+ on the object's surface are actually 
+\emph on
+part of
+\emph default
+ the object.
+ This requires a virtual version of the real-world scene where all the digital
+ operations and animations will take place.
+ Then, we replicate the real world projector's projection cone virtually
+ using a virtual camera.
+ We finally reproject this virtual camera view using the projector.
+\end_layout
+
+\begin_layout Standard
+This pipeline is summarized in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-pipeline"
