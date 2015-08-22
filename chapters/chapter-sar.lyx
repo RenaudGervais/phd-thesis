@@ -1057,6 +1057,42 @@ How does it work?
 \end_layout
 
 \begin_layout Standard
+This section is taking a closer look at how SAR is actually achieved.
+ While most of the concepts presented here can be generalized from a standard
+ AR pipeline, we will focus on its spatial specialization.
+ Basically, in order to create an augmented scene you need to have a virtual
+ counterpart of every real-world component that is used to create the augmented
+ experience.
+ This pipeline is summarized in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline"
+
+\end_inset
+
+.
+ It can be broken down in four main components which will be described in
+ further details in the following subsections:
+\end_layout
+
+\begin_layout Enumerate
+Augmented object geometry.
+\end_layout
+
+\begin_layout Enumerate
+Position of the augmented object in the world: tracking.
+\end_layout
+
+\begin_layout Enumerate
+Position of the projector(s) in the world: extrinsic calibration.
+\end_layout
+
+\begin_layout Enumerate
+How the pixels of the projector are traveling through physical space: intrinsic
+ calibration.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1078,7 +1114,48 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-<caption>
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-pipeline"
+
+\end_inset
+
+A summary of a SAR pipeline.
+ 
+\emph on
+(1)
+\emph default
+ The exact geometry of the augmented object must be known, either by using
+ 3D scanning of an existing object or by creating a 3D model and building
+ it using, for example, 3D printing.
+ 
+\emph on
+(2)
+\emph default
+ The position and orientation of the object in world space (
+\begin_inset Formula $M_{W\rightarrow Obj}$
+\end_inset
+
+) must be known via a tracking solution or manual measurements.
+ 
+\emph on
+(3)
+\emph default
+ The position and orientation of the projector in world space (
+\begin_inset Formula $M_{W\rightarrow Proj}$
+\end_inset
+
+) must also be known.
+ 
+\emph on
+(4)
+\emph default
+ The intrinsic parameters of the projector (
+\begin_inset Formula $M_{Proj}$
+\end_inset
+
+) is required to know how the pixels are being distributed in the real-world
+ environment.
 \end_layout
 
 \end_inset
@@ -1086,13 +1163,21 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Geometry of the Object
+\end_layout
+
+\begin_layout Subsection
+Tracking
+\end_layout
+
+\begin_layout Subsection
+Projector Calibration
 \end_layout
 
 \begin_layout Section
