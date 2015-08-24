@@ -1057,7 +1057,7 @@ How does it work?
 \end_layout
 
 \begin_layout Standard
-This section is taking a closer look at how SAR is actually achieved.
+In this section, we are taking a closer look at how SAR is actually achieved.
  While most of the concepts presented here can be generalized from a standard
  AR pipeline, we will focus on its spatial specialization.
  Basically, in order to create an augmented scene you need to have a virtual
@@ -1136,6 +1136,11 @@ name "fig:sar-pipeline"
 
 A summary of a SAR pipeline.
  
+\begin_inset Formula $W$
+\end_inset
+
+ represents the world's coordinate system's origin.
+ 
 \emph on
 (1)
 \emph default
@@ -1174,6 +1179,76 @@ A summary of a SAR pipeline.
 
 \end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-pipeline-virtual.png
+	lyxscale 50
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-pipeline-virtual"
+
+\end_inset
+
+The virtual counterpart of the SAR pipeline shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline"
+
+\end_inset
+
+.
+ The 3D model of the real object is moved to the right location in virtual
+ space 
+\begin_inset Formula $M_{W\rightarrow Obj}$
+\end_inset
+
+ as fed by the tracking solution.
+ Then a virtual camera is created using the parameters returned from the
+ extrinsic (
+\begin_inset Formula $M_{W\rightarrow Proj}$
+\end_inset
+
+) and intrinsic (
+\begin_inset Formula $M_{Proj}$
+\end_inset
+
+) calibration of the projector.
+ Finally, the image seen by the virtual camera is sent to the projector
+ to create the augmented scene.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
