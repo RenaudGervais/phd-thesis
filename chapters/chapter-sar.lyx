@@ -1148,8 +1148,15 @@ reference "fig:sar-pipeline-virtual"
 \end_inset
 
 .
- It can be broken down in four main components which will be described in
- further details in the following subsections:
+ It can be broken down in four main components -- labeled from 1 to 4 in
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline"
+
+\end_inset
+
+ -- which will be described in further details in the following subsections:
 \end_layout
 
 \begin_layout Enumerate
@@ -1322,6 +1329,46 @@ reference "fig:sar-pipeline"
 
 \begin_layout Subsubsection
 Geometry of the Object
+\end_layout
+
+\begin_layout Standard
+The first step in order to create an augmented object is to have a 3D model
+ corresponding to the physical object to be augmented.
+ It is possible to approach the problem from two different angles:
+\end_layout
+
+\begin_layout Itemize
+From real to virtual
+\end_layout
+
+\begin_layout Itemize
+From virtual to real
+\end_layout
+
+\begin_layout Paragraph
+From real to virtual
+\end_layout
+
+\begin_layout Standard
+This approach consists in starting from a real object and then creating
+ a virtual version of it.
+ One of the most straightforward way to achieve this is by simply measuring
+ -- using of example a measuring tape and a protractor -- different key
+ points of the object and entering these points in a 3D Computer Assisted
+ Design (CAD) software to form a more or less complete geometric shape.
+ This method works fine is the measurements are made carefully and if the
+ object is relatively simple.
+ However, as the geometry of the object increases, this method becomes painstaki
+ngly slow and error prone.
+\end_layout
+
+\begin_layout Standard
+Recent advances in computer vision techniques and the democratization of
+ depth camera such as the Microsoft Kinect has 
+\end_layout
+
+\begin_layout Paragraph
+From virtual to real
 \end_layout
 
 \begin_layout Subsubsection
