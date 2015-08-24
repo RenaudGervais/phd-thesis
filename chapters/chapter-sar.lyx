@@ -1412,6 +1412,25 @@ key "Moreno2012"
 From virtual to real
 \end_layout
 
+\begin_layout Standard
+In typical industrial settings, object fabrication starts with a digital
+ design which is then physically built either manually -- mainly during
+ the design stage -- or with machines such as CNC mills.
+ Recent advances in digital fabrication technologies, such as 3D printing
+ and laser cutting has widened considerably the accessibility 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Paragraph being built...
+ to refactor.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Tracking
 \end_layout
@@ -1424,16 +1443,16 @@ Projector Calibration
 Anamorphic Illusions
 \end_layout
 
-\begin_layout Subsection
-Tools of the Trade
-\end_layout
-
 \begin_layout Section
 What is SAR good for?
 \end_layout
 
 \begin_layout Section
 SAR vs Screens
+\end_layout
+
+\begin_layout Section
+Tools of the Trade
 \end_layout
 
 \end_body
