@@ -1060,9 +1060,64 @@ How does it work?
 In this section, we are taking a closer look at how SAR is actually achieved.
  While most of the concepts presented here can be generalized from a standard
  AR pipeline, we will focus on its spatial specialization.
- Basically, in order to create an augmented scene you need to have a virtual
- counterpart of every real-world component that is used to create the augmented
- experience.
+ As discussed in the previous section, there are mainly two different types
+ of augmentation that can be done with SAR: texture mapping and anamorphic
+ illusions.
+ The creation of augmented objects rely more heavily on texture mapping.
+ It is the main technique used in Chapters 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:teegi"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tobe"
+
+\end_inset
+
+.
+ However, since Chapters 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+ also rely slightly on anamorphic illusions, they will also be briefly covered
+ in this section.
+\end_layout
+
+\begin_layout Subsection
+Texture Mapping
+\end_layout
+
+\begin_layout Standard
+In order to create an augmented scene, a virtual counterpart of every real-world
+ component that is used to create the augmented experience is required.
  Indeed, we want to create the illusion that augmented graphics displayed
  on the object's surface are actually 
 \emph on
@@ -1077,10 +1132,18 @@ part of
 \end_layout
 
 \begin_layout Standard
-This pipeline is summarized in Figure 
+This pipeline and its virtual counterpart are respectively summarized in
+ Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-pipeline"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline-virtual"
 
 \end_inset
 
@@ -1116,7 +1179,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ../img/sar-pipeline.png
-	lyxscale 50
+	lyxscale 30
 	width 100line%
 
 \end_inset
@@ -1197,7 +1260,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename ../img/sar-pipeline-virtual.png
-	lyxscale 50
+	lyxscale 30
 	width 100line%
 
 \end_inset
@@ -1239,7 +1302,7 @@ reference "fig:sar-pipeline"
 \end_inset
 
 ) calibration of the projector.
- Finally, the image seen by the virtual camera is sent to the projector
+ Finally, the image produced by the virtual camera is sent to the projector
  to create the augmented scene.
 \end_layout
 
@@ -1257,16 +1320,20 @@ reference "fig:sar-pipeline"
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Geometry of the Object
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Tracking
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Projector Calibration
+\end_layout
+
+\begin_layout Subsection
+Anamorphic Illusions
 \end_layout
 
 \begin_layout Section
