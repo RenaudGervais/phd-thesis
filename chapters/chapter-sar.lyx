@@ -1365,8 +1365,47 @@ ngly slow and error prone.
 \begin_layout Standard
 An alternative way to achieve this is to rely on an automatic process that
  will generate the 3D points for us by scanning the object in 3D.
+ Scanning can be done in many different ways including cameras and lasers
+ -- such as LiDAR systems.
  Recent advances in computer vision techniques and the democratization of
- depth camera such as the Microsoft Kinect has 
+ depth cameras such as the Microsoft Kinect
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttrademark{}
+\end_layout
+
+\end_inset
+
+ has enabled 3D scanning at very low costs 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Newcombe2011"
+
+\end_inset
+
+.
+ However, the Kinect's sensors are still relatively low resolution and do
+ not operate well below a certain distance -- 0.5 meters for the Kinect v2.
+ Consequently, relatively small objects do not produce high fidelity 3D
+ models.
+ While it might be sufficient for certain types of augmentation, anything
+ related to design and precision applications will suffer greatly from a
+ lack of precision in the 3D model.
+ Scanning can also be achieved using structured light patterns captured
+ by a camera 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Moreno2012"
+
+\end_inset
+
+.
+ This method will produce a 3D point cloud which will then need to be meshed.
 \end_layout
 
 \begin_layout Paragraph
