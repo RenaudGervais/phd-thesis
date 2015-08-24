@@ -1363,7 +1363,9 @@ ngly slow and error prone.
 \end_layout
 
 \begin_layout Standard
-Recent advances in computer vision techniques and the democratization of
+An alternative way to achieve this is to rely on an automatic process that
+ will generate the 3D points for us by scanning the object in 3D.
+ Recent advances in computer vision techniques and the democratization of
  depth camera such as the Microsoft Kinect has 
 \end_layout
 
@@ -1381,6 +1383,10 @@ Projector Calibration
 
 \begin_layout Subsection
 Anamorphic Illusions
+\end_layout
+
+\begin_layout Subsection
+Tools of the Trade
 \end_layout
 
 \begin_layout Section
