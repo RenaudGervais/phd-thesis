@@ -1806,8 +1806,8 @@ There are multiple ways to tackle the tracking problem in a variety of contexts:
 \end_layout
 
 \begin_layout Standard
-It is important to note that SAR impose certain constraints on the chosen
- tracking solution.
+It is important to note that the choice of using SAR imposes certain constraints
+ on the chosen tracking solution.
  This is because the object being tracked is also the 
 \emph on
 display
@@ -1818,30 +1818,66 @@ display
  displayed.
  Moreover, since we are projecting dynamic content onto the object, any
  methods relying on a static object texture should be avoided.
- Also, since we are interested in the interaction with augmented objects,
- our installation involves a 
-\emph on
-static
-\emph default
- projector -- environment is static while the objects are dynamic
-\begin_inset Foot
-status open
-
-\begin_layout Plain Layout
-By opposition to systems where to goal is to track a 
-\end_layout
-
-\end_inset
-
-.
 \end_layout
 
 \begin_layout Paragraph
 Point Cloud Alignment
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Check 
+\begin_inset Quotes eld
+\end_inset
+
+Tracking 3D objects with Point Cloud Library
+\begin_inset Quotes erd
+\end_inset
+
+ from PCL.
+ Not sure that covering this here is pertinent as it is quite a vast field
+ that we are not that interested in.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Paragraph
 Fiducial Markers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I would include ART+ markers and optitrack here since the rigid bodies of
+ the optitrack kind of acts in the same way as the markers.
+ Although, they rely on stereoscopy to determine the depth of each marker.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Cameras need to be calibrated for these tools to work.
+ Maybe add a small section on camera calibration in the annex?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Paragraph
@@ -1859,20 +1895,28 @@ name "sub:sar-projector-calibration"
 
 \end_layout
 
+\begin_layout Paragraph
+Extrinsics
+\end_layout
+
+\begin_layout Paragraph
+Intrinsics
+\end_layout
+
 \begin_layout Subsection
 Anamorphic Illusions
+\end_layout
+
+\begin_layout Section
+Tools of the Trade
 \end_layout
 
 \begin_layout Section
 What is SAR good for?
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 SAR vs Screens
-\end_layout
-
-\begin_layout Section
-Tools of the Trade
 \end_layout
 
 \end_body
