@@ -1413,10 +1413,10 @@ From virtual to real
 \end_layout
 
 \begin_layout Standard
-This method is more typical of industrial settings where object fabrication
- starts with a digital design.
+This method is typical of industrial settings where object fabrication starts
+ with a digital design.
  The object is then physically built either manually -- for example with
- clay during the design stage -- or with machines such as CNC mills.
+ clay during the design stages -- or with machines such as CNC mills.
  However, recent advances in digital fabrication technologies, such as 3D
  printing and laser cutting, has widened considerably the accessibility
  object making.
@@ -1425,7 +1425,7 @@ This method is more typical of industrial settings where object fabrication
 \emph on
 exactly
 \emph default
- to the 3D model since it was created from it (Figure 
+ to the 3D model (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-3d-printing-polyclock"
@@ -1438,9 +1438,9 @@ reference "fig:sar-3d-printing-polyclock"
  Indeed, in SAR settings, the properties of the material receiving the projector
 's light is crucial.
  That is, a diffuse white material is often best.
- Moreover, advances in 3D printing technologies allow for more and more
- fine grained control over the material being used at very specific locations
- in the object.
+ Moreover, advances in 3D printing technologies allow for more fine grained
+ control over the material being used at very specific locations in the
+ object.
  More recently, it has even been used as a way to create interactive components
  by printing embedded optical components 
 \begin_inset CommandInset citation
@@ -1488,7 +1488,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-<caption>
+
 \end_layout
 
 \end_inset
@@ -1524,7 +1524,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-<caption>
+
 \end_layout
 
 \end_inset
@@ -1551,7 +1551,7 @@ name "fig:sar-3d-printing-polyclock"
 
 \end_inset
 
-
+3D printing allows to create an exact replica of a digital model.
 \end_layout
 
 \end_inset
@@ -1570,6 +1570,45 @@ name "fig:sar-3d-printing-polyclock"
 
 \begin_layout Subsubsection
 Tracking
+\end_layout
+
+\begin_layout Standard
+Tracking is the process by which the position and orientation -- which we
+ will call 
+\emph on
+pose
+\emph default
+ from now on -- of the physical object to be augmented is retrieved in world
+ space.
+ This corresponds to step 2 in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline"
+
+\end_inset
+
+.
+ Once the exact geometry of the object is known, we must replicate its pose
+ in the real world in the virtual environment.
+ The requirements in precision and performance depend of the application
+ at hand.
+ The precision is typically expressed in meters although it is often found
+ expressed in pixels when the tracking solution relies on computer vision.
+ Note that when talking about precision, we mean it in a way that encompass
+ both precision and accuracy.
+ A visual representation of the difference between the two concepts is shown
+ in Figure 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: figure ref here
+\end_layout
+
+\end_inset
+
+.
+ 
 \end_layout
 
 \begin_layout Subsubsection
