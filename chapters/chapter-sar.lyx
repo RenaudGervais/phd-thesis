@@ -1592,22 +1592,35 @@ reference "fig:sar-pipeline"
  in the real world in the virtual environment.
  The requirements in precision and performance depend of the application
  at hand.
- The precision is typically expressed in meters although it is often found
- expressed in pixels when the tracking solution relies on computer vision.
- Note that when talking about precision, we mean it in a way that encompass
- both precision and accuracy.
- A visual representation of the difference between the two concepts is shown
- in Figure 
-\begin_inset Note Note
+ The precision 
+\begin_inset Foot
 status open
 
 \begin_layout Plain Layout
-@TODO: figure ref here
-\end_layout
+Note that when talking about precision, we mean it in a way that encompasses
+ both 
+\emph on
+precision
+\emph default
+ and 
+\emph on
+accuracy
+\emph default
+.
+ The difference between these two concepts are highlighted in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:0a-precision-and-accuracy"
 
 \end_inset
 
 .
+\end_layout
+
+\end_inset
+
+ is typically expressed in meters and degrees although it is often found
+ expressed in pixels when the tracking solution relies on computer vision.
  
 \end_layout
 

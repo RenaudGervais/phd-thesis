@@ -429,18 +429,9 @@ Appendix
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand include
-filename "./chapters/Chapter0A.lyx"
-
-\end_inset
-
-
-\end_layout
+filename "./chapters/chapter-0A.lyx"
 
 \end_inset
 
