@@ -1413,17 +1413,154 @@ From virtual to real
 \end_layout
 
 \begin_layout Standard
-In typical industrial settings, object fabrication starts with a digital
- design which is then physically built either manually -- mainly during
- the design stage -- or with machines such as CNC mills.
- Recent advances in digital fabrication technologies, such as 3D printing
- and laser cutting has widened considerably the accessibility 
-\begin_inset Note Note
+This method is more typical of industrial settings where object fabrication
+ starts with a digital design.
+ The object is then physically built either manually -- for example with
+ clay during the design stage -- or with machines such as CNC mills.
+ However, recent advances in digital fabrication technologies, such as 3D
+ printing and laser cutting, has widened considerably the accessibility
+ object making.
+ One of the main advantage of digital fabrication is that it ensures that
+ the physical object corresponds 
+\emph on
+exactly
+\emph default
+ to the 3D model since it was created from it (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-3d-printing-polyclock"
+
+\end_inset
+
+).
+ Moreover, 3D printing also has the benefit of providing some control over
+ the material that is used for the object creation.
+ Indeed, in SAR settings, the properties of the material receiving the projector
+'s light is crucial.
+ That is, a diffuse white material is often best.
+ Moreover, advances in 3D printing technologies allow for more and more
+ fine grained control over the material being used at very specific locations
+ in the object.
+ More recently, it has even been used as a way to create interactive components
+ by printing embedded optical components 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Willis2012"
+
+\end_inset
+
+ and curved displays 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Brockmeyer2013"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-Paragraph being built...
- to refactor.
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-polyclock-wireframe.png
+	lyxscale 10
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+<caption>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-3dprinting-clock.jpg
+	lyxscale 30
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+<caption>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-3d-printing-polyclock"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
