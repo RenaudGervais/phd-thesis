@@ -1592,9 +1592,12 @@ reference "fig:sar-pipeline"
  in the real world in the virtual environment.
  The requirements in precision and performance depend of the application
  at hand.
- The precision 
+\end_layout
+
+\begin_layout Standard
+The precision
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 Note that when talking about precision, we mean it in a way that encompasses
@@ -1621,7 +1624,62 @@ reference "sec:0a-precision-and-accuracy"
 
  is typically expressed in meters and degrees although it is often found
  expressed in pixels when the tracking solution relies on computer vision.
- 
+ Having a precise tracking system is important to avoid augmentation artefacts
+ such as bleeding or misregistrations between the augmented content and
+ the physical object (Figure 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: ref figure for bleeding and misregistration
+\end_layout
+
+\end_inset
+
+).
+ Performance is is often evaluated in milliseconds and is indicative of
+ the system's capacity to sustain real-time updates.
+ That is, when the physical object is moved, how much latency is created
+ by the system having to compute the new pose of the object.
+ Naturally, high tracking performance is required whenever the physical
+ object is to be manipulated and moved around a lot.
+ On the opposite, some setups require very little manipulation and can even
+ fare well without any dynamic tracking solution if the object never needs
+ to be manipulated physically
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+For example, the study reported in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+ did not require any tracking.
+\end_layout
+
+\end_inset
+
+.
+ Tracking is one the most challenging aspect of the AR pipeline and has
+ been the main focus of the ISMAR community 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Duh2008"
+
+\end_inset
+
+ for a long time.
+\end_layout
+
+\begin_layout Standard
+There are multiple ways to tackle the tracking problem: magnetic sensors,
+ MEMS, GNSS, sonar and computer vision, to name only a few.
+ It is however not our goal to go in depth on this topic since it is not
+ the main interest of this dissertation.
+ We will 
 \end_layout
 
 \begin_layout Subsubsection
