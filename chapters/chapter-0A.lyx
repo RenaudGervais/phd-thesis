@@ -1,0 +1,238 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass classicthesis
+\use_default_options true
+\maintain_unincluded_children false
+\language american
+\language_package default
+\inputencoding default
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Notes and Clarifications
+\end_layout
+
+\begin_layout Section
+Precision and Accuracy
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:0a-precision-and-accuracy"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Precision and accuracy are two different concepts that are often use as
+ synonyms in a normal discourse.
+ However, in scientific contexts, their difference is important to highlight.
+ The Oxford English dictionary defines the terms as such:
+\end_layout
+
+\begin_layout Description
+Accuracy The closeness of a measurement, calculation, or specification to
+ the correct value.
+\end_layout
+
+\begin_layout Description
+Precision The degree of refinement in a measurement, calculation, or specificati
+on, esp.
+ as represented by the number of digits given.
+ 
+\end_layout
+
+\begin_layout Standard
+In terms of tracking, a precise system would not jitter and an accurate
+ system would provide a pose that is as close as possible to the true pose
+ of the physical object being tracked.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:0a-precision-accuracy"
+
+\end_inset
+
+ visually highlights the difference between the two concepts.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/0a-accuracy.png
+	lyxscale 50
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+An accurate but imprecise distribution.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/0a-precision.png
+	lyxscale 50
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+A precise but inaccurate distribution.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:0a-precision-accuracy"
+
+\end_inset
+
+A visual representation of the difference between 
+\emph on
+accuracy
+\emph default
+ and 
+\emph on
+precision
+\emph default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
