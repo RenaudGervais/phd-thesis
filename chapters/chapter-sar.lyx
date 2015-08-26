@@ -1821,33 +1821,6 @@ display
 \end_layout
 
 \begin_layout Paragraph
-Point Cloud Alignment
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Check 
-\begin_inset Quotes eld
-\end_inset
-
-Tracking 3D objects with Point Cloud Library
-\begin_inset Quotes erd
-\end_inset
-
- from PCL.
- Not sure that covering this here is pertinent as it is quite a vast field
- that we are not that interested in.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Paragraph
 Fiducial Markers
 \end_layout
 
@@ -1910,19 +1883,6 @@ key "Klokmose2014"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-mention IR markers and marner's fimo material /w embedded markers
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2119,21 +2079,6 @@ key "Maas2012,Willis2013"
 .
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-I would include ART+ markers and optitrack here since the rigid bodies of
- the optitrack kind of acts in the same way as the markers.
- Although, they rely on stereoscopy to determine the depth of each marker.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Paragraph
 Natural Feature Tracking
 \end_layout
@@ -2242,7 +2187,102 @@ This approach is difficult to use in SAR contexts for obvious reasons: by
 \end_layout
 
 \begin_layout Paragraph
-Stereo-based Tracking
+Depth-Based Tracking
+\end_layout
+
+\begin_layout Standard
+This category is relatively broad as it encompasses a lot of different technique
+s.
+ We will only discuss the ones that has been considered for our work with
+ SAR.
+ It consists in using 3D -- or 2.5D -- data to track an object in space.
+ As mentioned above, the democratization of depth sensors such as the Microsoft
+ Kinect
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttrademark{}
+\end_layout
+
+\end_inset
+
+ or the Asus Xtion
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+texttrademark{}
+\end_layout
+
+\end_inset
+
+, has made depth sensing a realistic approach with off-the-shelf components.
+ Generating depth information 2D sensors such as cameras can also be achieved
+ by using multiple sensors together.
+ First, stereo pairs -- two devices that have partially the same view on
+ an environment and that are calibrated together -- need to be created.
+ Stereo calibration is done in order to determine the relative positions
+ of the two cameras' frustums.
+ Then, any matching point located in each camera's field of view can be
+ triangulated to determine its depth.
+\end_layout
+
+\begin_layout Standard
+One approach is to 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+point cloud based tracking
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Check 
+\begin_inset Quotes eld
+\end_inset
+
+Tracking 3D objects with Point Cloud Library
+\begin_inset Quotes erd
+\end_inset
+
+ from PCL.
+ Not sure that covering this here is pertinent as it is quite a vast field
+ that we are not that interested in.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another approach is 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+motion tracking systems
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
