@@ -1834,8 +1834,8 @@ visual trademark
 \end_inset
 
  of AR.
- They are comprised of patterns that are easy for computer vision algorithms
- to detect and identify.
+ They are comprised of patterns that are easy to detect and identify for
+ computer vision algorithms.
  Moreover, their easily distinguishable square shape is used to compute
  their pose in 6 degrees of freedom (DoF) -- position and rotation -- in
  the camera's coordinate system.
