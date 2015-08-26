@@ -2254,29 +2254,6 @@ ly expensive and the tracking precision is highly dependent on the quality
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Check 
-\begin_inset Quotes eld
-\end_inset
-
-Tracking 3D objects with Point Cloud Library
-\begin_inset Quotes erd
-\end_inset
-
- from PCL.
- Not sure that covering this here is pertinent as it is quite a vast field
- that we are not that interested in.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Another approach in this category is the use of motion capture systems.
  These includes professional solutions used in movie studios such as OptiTrack
 \begin_inset ERT
@@ -2350,9 +2327,77 @@ http://www.vicon.com/
 
  systems.
  They work on the same basic principles as the depth sensing cameras --
- using multiple cameras to create a tracking volume -- but are highlighly
- optimized for speed and stability.
- This 
+ using multiple infrared (IR) cameras to create a tracking volume -- but
+ are highly optimized for speed and stability.
+ By tracking only small reflective markers affixed to the physical object,
+ which are illuminated with IR light, these systems can reach refresh rates
+ of 120 frames per second and millimetric precisions.
+ By comparison, most displays refresh between 50-75 per second since most
+ persons have a perceptual time resolution of 50-Hz 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ware2012"
+
+\end_inset
+
+.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-reflective-markers"
+
+\end_inset
+
+ shows an example of an object tracked using multiple reflective balls attached
+ to its base.
+ The markers are tracked as a group and therefore tracking is robust to
+ partial occlusions when enough markers and/or cameras are used.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-reflective-markers.jpg
+	lyxscale 20
+	width 35line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-reflective-markers"
+
+\end_inset
+
+Multiple reflective balls are attached to an object's base.
+ IR light is shed on them and tracked by multiple IR cameras.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
