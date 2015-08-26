@@ -2096,6 +2096,8 @@ status open
  This process essentially consists of transforming pixel measurements in
  real-world coordinate system -- i.e.
  meters.
+ This tracking solution has the obvious advantages of being cheap, accessible
+ and can achieve good and robust precision.
  The markers are required to be planar, therefore it is important that they
  are not folded or distorted in any way.
  They also require to be fully visible in the camera's frustrum in order
