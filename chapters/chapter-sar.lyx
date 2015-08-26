@@ -2138,6 +2138,113 @@ I would include ART+ markers and optitrack here since the rigid bodies of
 Natural Feature Tracking
 \end_layout
 
+\begin_layout Standard
+Tracking natural features is based on image features -- characteristic points
+ that are processed in certain ways which are easier to match for computer
+ vision algorithms -- extraction and matching.
+ Commonly used are SIFT 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Lowe1999"
+
+\end_inset
+
+, SURF 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bay2006"
+
+\end_inset
+
+ or ORB 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rublee2011"
+
+\end_inset
+
+.
+ This approach can be used in a variety of ways.
+ For instance, it can be used following the same principles of fiducial
+ marker based pose estimation.
+ It mainly consists in replacing the very obvious markers, such as the ones
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-artoolkit-markers"
+
+\end_inset
+
+, by more natural images such as logo, a photograph or the natural texture
+ of an object.
+ Professional solutions, such as the Vuforia
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+textsuperscript{
+\backslash
+textregistered}
+\end_layout
+
+\end_inset
+
+ framework
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.qualcomm.com/products/vuforia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, are now available based on this technology.
+ Alternatively, natural feature tracking is often used in scenarios where
+ you have to track the camera pose where the camera is evolving in an environmen
+t to be augmented using video see-through techniques.
+ Approaches such as Simultaneous Localization and Mapping (SLAM) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Leonard1991"
+
+\end_inset
+
+ can leverage the use of these images features, even when using a single
+ camera 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Davison2007"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This approach is difficult to use in SAR contexts for obvious reasons: by
+ augmenting the object using projected light, we alter its appearance.
+ Hence, the tracking is based on the object's appearance in order to provide
+ stable pose estimation.
+\end_layout
+
+\begin_layout Paragraph
+Stereo-based Tracking
+\end_layout
+
 \begin_layout Subsubsection
 Projector Calibration
 \begin_inset CommandInset label
