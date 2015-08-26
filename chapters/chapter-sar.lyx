@@ -1817,7 +1817,7 @@ display
  should avoid occluding the surface onto which the augmentation will be
  displayed.
  Moreover, since we are projecting dynamic content onto the object, any
- methods relying on a static object texture should be avoided.
+ method relying on a static object texture should be avoided.
 \end_layout
 
 \begin_layout Paragraph
@@ -1852,13 +1852,50 @@ Fiducial Markers
 \end_layout
 
 \begin_layout Standard
+The use of markers detected by a camera has become the 
+\begin_inset Quotes eld
+\end_inset
+
+visual trademark
+\begin_inset Quotes erd
+\end_inset
+
+ of AR.
+ They are comprised of patterns that are easy for computer vision algorithms
+ to detect and identify.
+ Moreover, their easily distinguishable square shape is used to compute
+ their pose in the camera's coordinate system.
+ Enabling libraries in this area are ARToolkit 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kato1999"
+
+\end_inset
+
+ and ARToolkitPlus 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wagner2007"
+
+\end_inset
+
+.
+ An example of marker for each of these library is shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-artoolkit-markers"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-I would include ART+ markers and optitrack here since the rigid bodies of
- the optitrack kind of acts in the same way as the markers.
- Although, they rely on stereoscopy to determine the depth of each marker.
+mention IR markers and marner's fimo material /w embedded markers
 \end_layout
 
 \end_inset
@@ -1867,12 +1904,187 @@ I would include ART+ markers and optitrack here since the rigid bodies of
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-artoolkit-marker.png
+	lyxscale 50
+	width 35line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ARToolkit marker 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kato1999"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-artoolkitplus-marker.png
+	lyxscale 50
+	width 35line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+ARToolkitPlus marker 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wagner2007"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-artoolkit-markers"
+
+\end_inset
+
+Example of fiducial markers commonly used.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Using fiducial markers require having a calibrated camera
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Camera calibration is a process very similar, yet simpler, to projector
+ calibration (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-projector-calibration"
+
+\end_inset
+
+).
+ 
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Cameras need to be calibrated for these tools to work.
- Maybe add a small section on camera calibration in the annex?
+Interested readers can also refer to Section 
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: decide if we do an appendix section for camera calibration
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ This process essentially consists of transforming pixel measurements in
+ real-world coordinate system -- i.e.
+ meters.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I would include ART+ markers and optitrack here since the rigid bodies of
+ the optitrack kind of acts in the same way as the markers.
+ Although, they rely on stereoscopy to determine the depth of each marker.
 \end_layout
 
 \end_inset
