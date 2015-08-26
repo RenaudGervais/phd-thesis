@@ -2164,9 +2164,9 @@ key "Rublee2011"
 \end_inset
 
 .
- This approach can be used in a variety of ways.
+ Natural feature tracking can be used in a variety of ways.
  For instance, it can be used following the same principles of fiducial
- marker based pose estimation.
+ marker based pose estimation presented in the previous section.
  It mainly consists in replacing the very obvious markers, such as the ones
  in Figure 
 \begin_inset CommandInset ref
@@ -2175,7 +2175,7 @@ reference "fig:sar-artoolkit-markers"
 
 \end_inset
 
-, by more natural images such as logo, a photograph or the natural texture
+, by more natural images such as a logo, a photograph or the natural texture
  of an object.
  Professional solutions, such as the Vuforia
 \begin_inset ERT
@@ -2212,7 +2212,7 @@ http://www.qualcomm.com/products/vuforia
 
 \end_inset
 
-, are now available based on this technology.
+, propose AR solution based on this technology.
  Alternatively, natural feature tracking is often used in scenarios where
  you have to track the camera pose where the camera is evolving in an environmen
 t to be augmented using video see-through techniques.
@@ -2237,8 +2237,8 @@ key "Davison2007"
 \begin_layout Standard
 This approach is difficult to use in SAR contexts for obvious reasons: by
  augmenting the object using projected light, we alter its appearance.
- Hence, the tracking is based on the object's appearance in order to provide
- stable pose estimation.
+ Hence, it disturbs the tracking since it is based on the object's texture
+ in order to provide stable pose estimation.
 \end_layout
 
 \begin_layout Paragraph
