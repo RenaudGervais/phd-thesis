@@ -1864,7 +1864,8 @@ visual trademark
  They are comprised of patterns that are easy for computer vision algorithms
  to detect and identify.
  Moreover, their easily distinguishable square shape is used to compute
- their pose in the camera's coordinate system.
+ their pose in 6 degrees of freedom (DoF) -- position and rotation -- in
+ the camera's coordinate system.
  Enabling libraries in this area are ARToolkit 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1885,6 +1886,27 @@ key "Wagner2007"
 LatexCommand ref
 reference "fig:sar-artoolkit-markers"
 
+\end_inset
+
+.
+ Other libraries -- e.g.
+ reacTIVision 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kaltenbrunner2007"
+
+\end_inset
+
+ and BullsEyes 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Klokmose2014"
+
+\end_inset
+
+ -- are more specifically designed for tabletop use and are limited to 3
+ DoF 
+\begin_inset Formula $(x,y,θ)$
 \end_inset
 
 .
@@ -2074,7 +2096,25 @@ status open
  This process essentially consists of transforming pixel measurements in
  real-world coordinate system -- i.e.
  meters.
- 
+ The markers are required to be planar, therefore it is important that they
+ are not folded or distorted in any way.
+ They also require to be fully visible in the camera's frustrum in order
+ to be detected.
+ To overcome this limitation, it is possible to combine multiple markers
+ together that acts like a single tracked body.
+ Their form factor make them difficult to affix on complex 3D objects.
+ Another drawback is their visual clutter.
+ Indeed, their appearance and form factor can be disturbing for users when
+ manipulating a physical object.
+ Some research project have worked in greatly reducing their visibility
+ to the naked eye by relying on the infrared spectrum 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Maas2012,Willis2013"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
