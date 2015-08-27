@@ -2443,8 +2443,8 @@ seeing
 \end_layout
 
 \begin_layout Standard
-The pixels of a projector or camera can typically be characterized by two
- components: 
+A projector or camera can typically be characterized by two components:
+ 
 \emph on
 extrinsic
 \emph default
@@ -2461,15 +2461,39 @@ reference "fig:sar-pipeline"
 \end_inset
 
 .
- 
+ A simplified explanation of these parameters are described below.
+ An interested reader can refer to Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:0a-pinhole-camera-model"
+
+\end_inset
+
+ for more details on the pinhole camera model used here.
 \end_layout
 
 \begin_layout Paragraph
 Extrinsics
 \end_layout
 
+\begin_layout Standard
+The extrinsic parameters of a projector simply refer to the position and
+ orientation of the imaging component, in the chosen world coordinate system.
+ This can be modeled as a matrix allowing to convert a point's position,
+ expressed in world coordinates, in the projector's local coordinate system.
+\end_layout
+
 \begin_layout Paragraph
 Intrinsics
+\end_layout
+
+\begin_layout Standard
+The intrinsic parameters refer to the projection cone of the optical system
+ as well as the modeling of deformation in the image caused by the imperfection
+ of the optic components.
+ This can be modeled as a matrix enabling to convert the position of a point,
+ expressed in the projector's coordinate system in meters, in a position
+ on the imaging plane expressed in pixels.
 \end_layout
 
 \begin_layout Subsection
