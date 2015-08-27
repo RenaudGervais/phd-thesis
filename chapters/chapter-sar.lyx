@@ -2411,6 +2411,59 @@ name "sub:sar-projector-calibration"
 
 \end_layout
 
+\begin_layout Standard
+Calibration is the process of characterizing the behavior of the light in
+ relation to the optical device we are using.
+ Essentially, a projector can be seen as an inverse camera: it emits light
+ instead of capturing it but the optical components are more or less the
+ same.
+ However, calibrating a projector is slightly more difficult than calibrating
+ a camera since it has no mean to 
+\begin_inset Quotes eld
+\end_inset
+
+see
+\begin_inset Quotes erd
+\end_inset
+
+ the real world.
+ In an AR context, our overarching goal is to be able to determine exactly
+ what the projector is 
+\begin_inset Quotes eld
+\end_inset
+
+seeing
+\begin_inset Quotes erd
+\end_inset
+
+ so that we can create a corresponding virtual camera to correctly display
+ the augmented content.
+ We will therefore have to tackle the problem in an indirect way compared
+ to a camera calibration process.
+\end_layout
+
+\begin_layout Standard
+The pixels of a projector or camera can typically be characterized by two
+ components: 
+\emph on
+extrinsic
+\emph default
+ parameters and 
+\emph on
+intrinsic
+\emph default
+ parameters.
+ They respectively refer to steps 3 and 4 of Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-pipeline"
+
+\end_inset
+
+.
+ 
+\end_layout
+
 \begin_layout Paragraph
 Extrinsics
 \end_layout
