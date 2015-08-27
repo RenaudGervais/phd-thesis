@@ -2496,6 +2496,28 @@ The intrinsic parameters refer to the projection cone of the optical system
  on the imaging plane expressed in pixels.
 \end_layout
 
+\begin_layout Paragraph
+Calibration
+\end_layout
+
+\begin_layout Standard
+The calibration process can be conducted in a number of ways.
+ The majority of them are based or inspired by Zhang's method 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Zhang2000"
+
+\end_inset
+
+.
+ It consists in creating correspondences between 2D points located on the
+ imaging sensor of the projector or camera with their positions in world
+ space.
+ Obviously, we could consider selecting points in the imaging plane and
+ manually measure their location in world space.
+ However, manual measurements are very tedious and error prone.
+\end_layout
+
 \begin_layout Subsection
 Anamorphic Illusions
 \end_layout
