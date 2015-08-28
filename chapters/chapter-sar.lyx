@@ -2622,6 +2622,31 @@ key "Audet2009,Moreno2012"
 Anamorphic Illusions
 \end_layout
 
+\begin_layout Standard
+The process to generate anamorphic illusions is different than texture mapping.
+ However, it requires the same basic components: knowledge of the physical
+ world's geometry in real time and the location of pixels in space -- i.e.
+ calibration.
+ Texture mapping consists in merging the physical world and a virtual replica
+ of it.
+ The augmented content is generated in the virtual world and then displayed
+ on the corresponding real world object.
+ Anamorphic illusions, on the other hand, leverage the user's point of view
+ to emulate an image plane that does not physically exists.
+ That is, an image will appear to the user even though there is no flat,
+ physical perpendicular image plane located on his or her optical axis.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+I find this way to explaining very confusing.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Section
 Tools of the Trade
 \end_layout
