@@ -2545,13 +2545,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
 \begin_inset Graphics
 	filename ../img/sar-chessboard-detection.jpg
 	width 49line%
@@ -2568,75 +2561,6 @@ status open
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:sar-chessboard-detection"
-
-\end_inset
-
-Chessboard detection
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/sar-chessboard-optitrack.jpg
-	lyxscale 40
-	width 49line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:sar-chessboard-optitrack"
-
-\end_inset
-
-Chessboard and reflective markers
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:sar-chessboards"
 
 \end_inset
 
