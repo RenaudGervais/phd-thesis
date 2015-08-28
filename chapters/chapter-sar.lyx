@@ -2510,12 +2510,179 @@ key "Zhang2000"
 \end_inset
 
 .
- It consists in creating correspondences between 2D points located on the
- imaging sensor of the projector or camera with their positions in world
- space.
+ It estimates both the intrinsic and extrinsic parameters using a set of
+ correspondences between 2D points located on the imaging sensor of the
+ projector or camera with their positions in world space.
  Obviously, we could consider selecting points in the imaging plane and
  manually measure their location in world space.
  However, manual measurements are very tedious and error prone.
+ Alternatively, we can consider a semi-automatic method to help us generate
+ these correspondences more quickly.
+\end_layout
+
+\begin_layout Standard
+In the case of a camera, you can use a predefined pattern which contains
+ points of physically known positions that is also easily detectable using
+ computer vision.
+ A black and white chessboard is usually a good choice.
+ Therefore, since we can automatically detect the chessboard corners in
+ the image -- as seen in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-chessboard-detection"
+
+\end_inset
+
+ --, correspondences between image plane positions and real-world positions
+ can be generated quickly by simply moving the chessboard to different locations.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-chessboard-detection.jpg
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-chessboard-detection"
+
+\end_inset
+
+Chessboard detection
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-chessboard-optitrack.jpg
+	lyxscale 40
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-chessboard-optitrack"
+
+\end_inset
+
+Chessboard and reflective markers
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-chessboards"
+
+\end_inset
+
+A chessboard typically used in camera calibration.
+ The physical size of the squares are known and can be automatically detected
+ using computer vision.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Calibrating a projector is similar.
+ However, since the projector cannot 
+\begin_inset Quotes eld
+\end_inset
+
+see
+\begin_inset Quotes erd
+\end_inset
+
+, the problem has to be tackled in a slightly different way.
+ First, a standard camera is calibrated so that it is possible to convert
+ pixel positions in real-world distances.
+ Then, instead of using a printed chessboard, we project one on a planar
+ surface using the projector.
+ Since we are projecting the chessboard ourselves, we already 
+\emph on
+know
+\emph default
+ the corners' positions on the image plane.
+ Since the chessboard corners can be detected automatically by the camera
+ and that their pose can be determined using the camera calibration, corresponde
+nces between the image plane of the projector and the real world coordinate
+ system can be generated.
 \end_layout
 
 \begin_layout Subsection
