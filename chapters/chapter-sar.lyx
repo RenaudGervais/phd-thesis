@@ -2607,6 +2607,15 @@ know
  and that their pose can be determined using the camera calibration, corresponde
 nces between the image plane of the projector and the real world coordinate
  system can be generated.
+ Different tools and methods exists to calibrate a camera-projector pair
+ together -- for example, see 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Audet2009,Moreno2012"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Subsection
