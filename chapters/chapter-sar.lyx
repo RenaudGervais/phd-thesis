@@ -3067,7 +3067,7 @@ This section give a quick overview of the tools used for the different projects
 \end_layout
 
 \begin_layout Subsection
-vvvv
+Programming: vvvv
 \end_layout
 
 \begin_layout Standard
@@ -3304,6 +3304,14 @@ https://www.derivative.ca/
 \end_inset
 
 .
+\end_layout
+
+\begin_layout Subsection
+Tracking: OptiTrack
+\end_layout
+
+\begin_layout Subsection
+Calibration
 \end_layout
 
 \begin_layout Section
