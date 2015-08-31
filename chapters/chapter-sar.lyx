@@ -3101,7 +3101,14 @@ general purpose
 \begin_inset Quotes erd
 \end_inset
 
-, has a strong focus on visual installations.
+, has a strong focus on visual installations -- see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-vvvv"
+
+\end_inset
+
+.
  Everything is done in real-time and avoid the dichotomy of 
 \begin_inset Quotes eld
 \end_inset
@@ -3124,6 +3131,51 @@ y helpful with systems dealing both with digital and real world components.
  In a projection setup for example, each projector can be assigned its own
  computer and have the processing be done in parallel.
  It is free to use for non-commercial and educational projects.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-vvvv.png
+	lyxscale 30
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-vvvv"
+
+\end_inset
+
+A view of the vvvv visual programming environment.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
