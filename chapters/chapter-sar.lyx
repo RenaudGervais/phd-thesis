@@ -3059,6 +3059,80 @@ key "Benko2012"
 Tools of the Trade
 \end_layout
 
+\begin_layout Standard
+This section give a quick overview of the tools used for the different projects
+ highlighted in the following chapters.
+ Note that they could easily be swapped for other tools achieving the same
+ purpose, but we will justify their choice briefly.
+\end_layout
+
+\begin_layout Subsection
+vvvv
+\end_layout
+
+\begin_layout Standard
+vvvv
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://vvvv.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ is a general purpose, visual programming toolkit.
+ It is the backbone framework of all the projects described further.
+ vvvv, while being 
+\begin_inset Quotes eld
+\end_inset
+
+general purpose
+\begin_inset Quotes erd
+\end_inset
+
+, has a strong focus on visual installations.
+ Everything is done in real-time and avoid the dichotomy of 
+\begin_inset Quotes eld
+\end_inset
+
+code first then debug
+\begin_inset Quotes erd
+\end_inset
+
+ of standard integrated development environments (IDEs).
+ Therefore, it is easy to make fix in real-time which is especially helpful
+ when tackling projection.
+ The framework is built on Microsoft DirectX 9/11 and plugins can be created,
+ again in real-time, using the C# language.
+ Shaders can also be written in HLSL, in the same way leveraging the immediate
+ feedback properties of visual programming.
+ 
+\end_layout
+
+\begin_layout Standard
+vvvv is part of a movement called 
+\begin_inset Quotes eld
+\end_inset
+
+creative coding
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Creative coding 
+\end_layout
+
 \begin_layout Section
 What is SAR good for?
 \end_layout
