@@ -3111,13 +3111,19 @@ code first then debug
 \end_inset
 
  of standard integrated development environments (IDEs).
- Therefore, it is easy to make fix in real-time which is especially helpful
- when tackling projection.
+ Therefore, it is easy to experiment or make fix in real-time which is especiall
+y helpful with systems dealing both with digital and real world components.
  The framework is built on Microsoft DirectX 9/11 and plugins can be created,
  again in real-time, using the C# language.
  Shaders can also be written in HLSL, in the same way leveraging the immediate
  feedback properties of visual programming.
- 
+ Moreover, it natively supports networks of computer devices for installations
+ that require more processing power.
+ From the master computer, it is possible to control to seamlessly assign
+ certain parts of the program to slaves.
+ In a projection setup for example, each projector can be assigned its own
+ computer and have the processing be done in parallel.
+ It is free to use for non-commercial and educational projects.
 \end_layout
 
 \begin_layout Standard
@@ -3130,7 +3136,122 @@ creative coding
 \end_inset
 
 .
- Creative coding 
+ It put emphasis on code as a mean of expression and of artistic creation.
+ Usually, these frameworks try to present high level APIs enabling their
+ users to experiment and tinker quickly -- a process essential to creative
+ work as is highlighted in Victor's talk 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Victor2014"
+
+\end_inset
+
+.
+ Often, this take the form of very easy access to computer vision algorithms,
+ interactive devices such as the Microsoft Kinect and the Leap Motion and
+ the easiness of controlling graphics pipelines which, in their basic forms,
+ are really difficult to handle to novice programmers and artists.
+ Examples of popular creative coding toolkits include Processing
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://processing.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, openFrameworks
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.openframeworks.cc/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Pure Data 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://puredata.info/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, Max MSP
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://cycling74.com/products/max/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ and TouchDesigner
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.derivative.ca/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
