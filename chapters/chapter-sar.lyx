@@ -2628,6 +2628,7 @@ The process to generate anamorphic illusions is slightly different than
  However, it requires the same basic components: knowledge of the physical
  world's geometry in real time and the location of pixels in space -- i.e.
  calibration.
+ In addition, we also need the user's viewpoint.
  Texture mapping consists in projecting 
 \emph on
 flat
@@ -2648,7 +2649,7 @@ key "Ware1993"
 \end_layout
 
 \begin_layout Standard
-To illustrate the process of creating such 3D illusion, we will take the
+To illustrate the process of creating such 3D illusions, we will take the
  example of a simple physical cube.
  We will create the illusion that, on one of its face, there is a cubic
  hole -- as shown in Figure 
@@ -3013,6 +3014,40 @@ name "fig:sar-anamorphic-walkthrough"
 
 \begin_layout Plain Layout
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: Check if discussion about anamorphosis and distance is pertinent.
+ I would have liked to say that anamorphosis might work best when the illusion
+ is projected on a flat surface.
+ If not, it works probably best from a distance since stereo cues can be
+ in conflict for what is seen.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2014"
+
+\end_inset
+
+ indicate that the illusion is better for distance evaluation when the virtual
+ object is closer to the projection surface.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2012"
+
+\end_inset
+
+ also investigate sar, but uses stereo.
 \end_layout
 
 \end_inset
