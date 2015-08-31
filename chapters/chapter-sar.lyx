@@ -3310,6 +3310,23 @@ https://www.derivative.ca/
 Tracking: OptiTrack
 \end_layout
 
+\begin_layout Standard
+The tracking of the augmented objects were handled with OptiTrack cameras.
+ As mentioned before, this tracking solution provide real-time performance
+ and precision which is required when working with augmented objects of
+ small size -- often smaller than 10 centimeters.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: Is this really important to mention?
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Calibration
 \end_layout
