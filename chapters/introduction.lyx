@@ -275,7 +275,7 @@ key "Azuma1997"
 \end_inset
 
 .
- We position ourselves along these disciplines are are interested in physical
+ We position ourselves along these disciplines and are interested in physical
  objects that are 
 \emph on
 embedded 
@@ -309,8 +309,8 @@ Affordances
 \begin_layout Standard
 Augmented objects have the potential to conciliate the flexibility of the
  digital world with our expertise of the real world.
- Note that real world skills are not innate, but we get to hone them just
- because our bodies are real world entities.
+ Note that real world skills are not innate, but we get to hone them naturally,
+ simply because our bodies are real world entities.
  For example, just by looking at a mug (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -319,8 +319,9 @@ reference "fig:intro-mug"
 \end_inset
 
 ), you can already infer a lot of its properties and also its possible uses.
- Its round and hollow, allowing it to contain matter -- matter that potentially
- would be difficult to hold otherwise.
+ Its hollow and the material it is made of does not seem porous, allowing
+ it to contain matter -- matter that potentially would be difficult to hold
+ otherwise, like liquids.
  The handle seems a good fit for your hand to hold it.
  Alternatively, the cylindrical shape of the main body could also be grasped
  easily.
@@ -362,6 +363,9 @@ key "Norman1999"
 \end_inset
 
 .
+ For example, in most western countries, the red color will indicate that
+ an action is forbidden or not recommended as the green color will suggest
+ something that is allowed.
 \end_layout
 
 \begin_layout Standard
