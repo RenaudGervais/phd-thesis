@@ -3648,6 +3648,38 @@ name "sub:sar-drawbacks"
 
 \end_layout
 
+\begin_layout Standard
+While SAR comes with many advantages and flexibility, it suffers from different
+ shortcomings.
+ Already identified by Raskar et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
+
+\end_inset
+
+ upon the presentation of the SAR paradigm is the important reliance on
+ the display surface properties.
+ That is, projecting on highly specular or dark colored diffuse materials
+ render the projected content almost invisible.
+ Another mentioned problem is the shadow cast by a user manipulating an
+ object.
+ This problem breaks the illusion in two ways: it casts a shadow on the
+ object and it the displays the projected content onto the user's hand.
+ The first problem can be tackled to an extent by increasing the number
+ of projectors used to augment the scene.
+ Indeed, with careful placement and blending, it is possible to avoid shadows
+ to appear on the surface of the augmented object 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Audet2007"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 SAR vs Screens
 \end_layout
