@@ -3498,12 +3498,102 @@ presence
 Presence
 \end_layout
 
+\begin_layout Standard
+Presence is defined as the subjective experience of being in an environment,
+ even though one is not physically located in said environment 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Witmer1998"
+
+\end_inset
+
+.
+ It is associated to virtual reality which whole purpose is often to immerse
+ one or many persons in computer generated artificial worlds and providing
+ the experience of 
+\begin_inset Quotes eld
+\end_inset
+
+being there
+\begin_inset Quotes erd
+\end_inset
+
+.
+ However, one of the reason we are interested in SAR is its potential to
+ anchor the digital information 
+\emph on
+in the real world
+\emph default
+.
+ Therefore, presence, the way it is defined, is not appropriate for our
+ context.
+ For this reason, Stevens and his colleagues 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Stevens2002"
+
+\end_inset
+
+ proposed the 
+\emph on
+object-presence
+\emph default
+ concept.
+ Inspired by the definition of presence given by Witmer and Singer 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Witmer1998"
+
+\end_inset
+
+, they define object-presence as 
+\begin_inset Quotes eld
+\end_inset
+
+the subjective experience that a particular object exists in a user's environmen
+t, even when that object does not
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Bennet and Stevens 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bennett2005"
+
+\end_inset
+
+ then evaluated the effect of touching physical objects augmented with front
+ projection.
+ They found that directly touching -- either with direct touch or using
+ a TUI -- an augmented object lowers object presence significantly.
+ They hypothesize that it might be due to the occlusion of the projection
+ created by the hand -- onto which projected content appears -- and the
+ fact that the weight and texture of the physical props does not correspond
+ to the visual augmented representation.
+ We will discuss this issue more in the following section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-drawbacks"
+
+\end_inset
+
+.
+\end_layout
+
 \begin_layout Subsection
 Benefits
 \end_layout
 
 \begin_layout Subsection
 Drawbacks
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:sar-drawbacks"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
