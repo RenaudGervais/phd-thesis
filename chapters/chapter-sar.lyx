@@ -2505,6 +2505,13 @@ The intrinsic parameters refer to the projection cone of the optical system
 
 \begin_layout Paragraph
 Calibration
+\begin_inset CommandInset label
+LatexCommand label
+name "par:sar-calibration"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2627,6 +2634,13 @@ key "Audet2009,Moreno2012"
 
 \begin_layout Subsection
 Anamorphic Illusions
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:sar-anamorphic-illusions"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3670,10 +3684,97 @@ key "Raskar1998a"
  The first problem can be tackled to an extent by increasing the number
  of projectors used to augment the scene.
  Indeed, with careful placement and blending, it is possible to avoid shadows
- to appear on the surface of the augmented object 
+ to appear on the surface of the augmented surface 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Audet2007"
+
+\end_inset
+
+.
+ Concerning the second issue, it should be relatively easy to create an
+ occlusion mask to avoid projecting on the user occluding an augmented object.
+ This could for example be achieved using the Kinect camera point cloud
+ combined with its skeleton tracking capabilities.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+TODO: I would be really surprise if no work tackle this issue, especially
+ as 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Bennett2005"
+
+\end_inset
+
+ mention this issue as a component lowering object presence.
+\end_layout
+
+\end_inset
+
+ The overall issue with shadows can alternatively be worked around by using
+ rear-projection system such as in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2008"
+
+\end_inset
+
+.
+ Note however that rear-projection systems require a lot more space and
+ constraints.
+ Small objects would require having a pico projector embedded in them in
+ a very stable manner.
+ As of today, this is difficult to achieve.
+\end_layout
+
+\begin_layout Standard
+Using a single or many projectors also make installations more complex to
+ install and calibrate in comparison to see-through or video see-through
+ AR.
+ Projectors are more complex to calibrate than camera for the simple reason
+ that they are output devices that are not equipped with sensing capabilities
+ -- as is explained in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:sar-calibration"
+
+\end_inset
+
+.
+ Moreover, multi-projection installations require overlapping sections to
+ be carefully blended together to create a uniform augmentation.
+ Finally, SAR makes it difficult to display things in 
+\begin_inset Quotes eld
+\end_inset
+
+mid-air
+\begin_inset Quotes erd
+\end_inset
+
+ compared to other means of achieving AR.
+ One of the way to achieve this is to resort to 3D illusions involving anamorpho
+sis (as discussed in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-anamorphic-illusions"
+
+\end_inset
+
+).
+ Alternatively, it is possible to create a temporary mid-air diffusion medium
+ on which to project such as smoke 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Seah2014"
+
+\end_inset
+
+ or mist
+\begin_inset CommandInset citation
+LatexCommand citep
+key "MartinezPlasencia2014"
 
 \end_inset
 
