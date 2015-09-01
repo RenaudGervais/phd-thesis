@@ -3063,7 +3063,7 @@ key "Benko2012"
 \end_layout
 
 \begin_layout Section
-Tools of the Trade
+Tools of the trade
 \end_layout
 
 \begin_layout Standard
@@ -3364,8 +3364,8 @@ see
  Some camera models, however, have an IR filter switch, allowing to turn
  off the IR filter.
  However, the resolution of these cameras are relatively low -- 640x480
- in the case of the model V120:Trio -- making it difficult to obtain high
- quality calibrations.
+ pixels in the case of the V120:Trio model -- making it difficult to obtain
+ high quality calibrations.
  
 \end_layout
 
@@ -3409,7 +3409,7 @@ status open
 \begin_inset Graphics
 	filename ../img/sar-chessboard-optitrack.jpg
 	lyxscale 50
-	width 40line%
+	width 50line%
 
 \end_inset
 
@@ -3445,6 +3445,35 @@ A chessboard pattern with reflective markers attached to it.
 
 \begin_layout Section
 What is SAR good for?
+\end_layout
+
+\begin_layout Standard
+Spatial augmented reality in the context of this thesis is a technological
+ choice.
+ It presents advantages as well as challenges both in terms of technology
+ and interaction.
+ This section will first discuss the concept of 
+\begin_inset Quotes eld
+\end_inset
+
+presence
+\begin_inset Quotes erd
+\end_inset
+
+ which is important to any technology aiming at creating a seamless experience.
+ Then, the benefits and drawbacks of SAR will be discussed.
+\end_layout
+
+\begin_layout Subsection
+Presence
+\end_layout
+
+\begin_layout Subsection
+Benefits
+\end_layout
+
+\begin_layout Subsection
+Drawbacks
 \end_layout
 
 \begin_layout Subsection
