@@ -3585,6 +3585,58 @@ reference "sub:sar-drawbacks"
 Benefits
 \end_layout
 
+\begin_layout Standard
+First and foremost, SAR presents the benefit of being anchored in the real
+ world, which is a key component for our line of research.
+ By displaying digital elements 
+\emph on
+onto
+\emph default
+ the reality directly, it has the potential to leverage all the others cues
+ we are used to have in the physical realm.
+ Moreover, it is worth mentioning its capabilities to enhance or complement
+ physical artifacts which are physically 
+\emph on
+invaluable
+\emph default
+ and 
+\emph on
+unique
+\emph default
+, such as the ones presented in museums -- e.g.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ridel2014"
+
+\end_inset
+
+.
+ Using projected light also has the benefit of being to scale relatively
+ easily in size.
+ For example, it is possible to create dynamic rendering over huge buildings
+ or very small objects.
+\end_layout
+
+\begin_layout Standard
+When first introducing SAR, Raskar et al.
+ made a list of the different advantages of SAR in comparison to standard
+ AR 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Raskar1998a"
+
+\end_inset
+
+.
+ Namely, they mention the fact that the user does not need to wear any device
+ such as a HMD.
+ Larger field of view can also be supported; using multiple projectors allows
+ for covering an entire room with projected light.
+ Also, since the virtual objects are displayed near their real world location,
+ eye accommodation is made easier.
+\end_layout
+
 \begin_layout Subsection
 Drawbacks
 \begin_inset CommandInset label
