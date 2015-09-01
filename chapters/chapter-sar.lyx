@@ -1822,6 +1822,13 @@ display
 
 \begin_layout Paragraph
 Fiducial Markers
+\begin_inset CommandInset label
+LatexCommand label
+name "par:sar-fiducial-markers"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -3329,6 +3336,111 @@ status open
 
 \begin_layout Subsection
 Calibration
+\end_layout
+
+\begin_layout Standard
+Calibrating an installation with an OptiTrack camera is slightly different
+ than if the tracking would be provided by a standard RGB camera such as
+ is the case for fiducial marker based tracking (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "par:sar-fiducial-markers"
+
+\end_inset
+
+).
+ Indeed, OptiTrack cameras are IR cameras, which means that they do not
+ 
+\begin_inset Quotes eld
+\end_inset
+
+see
+\begin_inset Quotes erd
+\end_inset
+
+ visible light.
+ Therefore, it is impossible to capture the light projected from a standard
+ projector and thus, a projected chessboard required for calibration.
+ Some camera models, however, have an IR filter switch, allowing to turn
+ off the IR filter.
+ However, the resolution of these cameras are relatively low -- 640x480
+ in the case of the model V120:Trio -- making it difficult to obtain high
+ quality calibrations.
+ 
+\end_layout
+
+\begin_layout Standard
+For these reasons, we calibrated the tracking system with the projector
+ with a semi-manual method.
+ Reflective markers were installed on a standard printed chessboard pattern
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-chessboard-markers"
+
+\end_inset
+
+).
+ That way, using the pose of the rigid body returned by the tracking system,
+ we are able to infer the world position of each chessboard corner.
+ Then, we manually create corresponding point pairs by selecting points
+ 
+\emph on
+using the projector
+\emph default
+.
+ That is, for each given chessboard corner expressed in world position,
+ we select the corresponding point in the real world by looking at a projected
+ cursor 
+\emph on
+onto the chessboard
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/sar-chessboard-optitrack.jpg
+	lyxscale 50
+	width 40line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-chessboard-markers"
+
+\end_inset
+
+A chessboard pattern with reflective markers attached to it.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
