@@ -3607,7 +3607,7 @@ unique
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Ridel2014"
+key "Basballe2010,Ridel2014"
 
 \end_inset
 
@@ -3678,10 +3678,6 @@ key "Audet2007"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Subsection
-SAR vs Screens
 \end_layout
 
 \end_body
