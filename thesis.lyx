@@ -317,23 +317,17 @@ filename "chapters/chapter-sar.lyx"
 \end_layout
 
 \begin_layout Part Introduction (ClassicThesis)
-Lorem ipsum at nusquam appellantur his, ut eos erant homero concludaturque.
- Albucius appellantur deterruisset id eam, vivendum partiendo dissentiet
- ei ius.
- Vis melius facilisis ea, sea id convenire referrentur, takimata adolescens
- ex duo.
- Ei harum argumentum per eam.
-\begin_inset Newline newline
-\end_inset
-
-Errem omnium ea per, pro congue populo ornatus cu, ex qui dicant nemore
- melius.
- No pri diam iriure euismod.
- Graecis eleifend appellantur quo.
- Id corpora inimicus nam, facer nonummy ne pro, kasd repudiandae ei mei.
- Mea menandri mediocrem dissentiet cu, ex nominati imperdiet nec, sea odio
- duis vocent ei.
- Tempor everti appareat cu ius, ridens audiam an qui.
+When combining real objects with digital content displayed onto them, interactin
+g with the digital content is not trivial.
+ How to interact with a medium that is virtual but that is hosted on reachable
+ and manipulable physical objects? We investigate the possibility to use
+ traditional interaction devices and computer environment -- the desktop
+ -- as a starting point.
+ We first investigate if it is possible to interact with augmented objects
+ with such devices, even without the presence of a screen.
+ Then, we propose a system leveraging both the use of screens and traditional
+ input devices in combination with physical augmented objects to allow the
+ creation and customization of content for these objects.
 \end_layout
 
 \begin_layout Part
