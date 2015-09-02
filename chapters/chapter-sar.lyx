@@ -230,6 +230,16 @@ key "Milgram1994"
 \end_inset
 
 .
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Milgram's virtuality continuum
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -548,6 +558,17 @@ key "Raskar1998"
 
 .
  Image courtesy of Raskar et al.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Conceptual sketch of Raskar's et al.
+ the Office of the future
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -738,6 +759,16 @@ A simple example of anamorphic illusion.
 \emph default
  The actual image printed on the sheet of paper used in order to produce
  the image on the left.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A simple example of anamorphic illusion
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -794,6 +825,16 @@ key "Benko2014"
 
 .
  
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Dyadic projection system
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1044,6 +1085,16 @@ key "Raskar2001a"
 \end_inset
 
 .
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Shader lamps
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1252,6 +1303,16 @@ A summary of a SAR pipeline.
 
 ) is required to know how the pixels are being distributed in the real-world
  environment.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A summary of a SAR pipeline
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1318,6 +1379,16 @@ reference "fig:sar-pipeline"
 ) calibration of the projector.
  Finally, the image produced by the virtual camera is sent to the projector
  to create the augmented scene.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The virtual counterpart of the SAR pipeline
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1560,6 +1631,16 @@ name "fig:sar-3d-printing-polyclock"
 \end_inset
 
 3D printing allows to create an exact replica of a digital model.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+3D printing
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1785,6 +1866,16 @@ Bleeding of some of the projected pixels outside of the object's surfaces.
  Misregistration artifacts where part of the objects are clearly misaligned.
  The projection on the feet of the clock are offset from their intended
  position.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Typical artifacts encountered in SAR
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2035,6 +2126,16 @@ name "fig:sar-artoolkit-markers"
 \end_inset
 
 Example of fiducial markers commonly used.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Fiducial markers used for tracking
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2419,6 +2520,16 @@ name "fig:sar-reflective-markers"
 
 Multiple reflective balls are attached to an object's base.
  IR light is shed on them and tracked by multiple IR cameras.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Motion tracking system markers
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2609,6 +2720,16 @@ name "fig:sar-chessboard-detection"
 A chessboard typically used in camera calibration.
  The physical size of the squares are known and can be automatically detected
  using computer vision.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A chessboard typically used in camera calibration
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3054,6 +3175,16 @@ Final view for the user
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:sar-anamorphic-walkthrough"
+
+\end_inset
+
+
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Walkthrough on creating projected anamorphic illusions
+\end_layout
 
 \end_inset
 
