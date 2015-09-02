@@ -268,6 +268,16 @@ name "fig:tports-teaser"
  (right).
  A real object can be placed in front of the screen to use it as a canvas
  for digital applications.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A workspace that allows the user to work both digitally and physically
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -930,6 +940,16 @@ The SAR installation: A) The desktop environment using a standard screen
  and input devices, B) 6DOF tracking system (OptiTrack Trio and Microsoft
  Kinect v2), C) Projector and D) Physical objects that are being augmented.
  
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The installation for Tangible Viewports
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1134,6 +1154,16 @@ jumping
 
  from the screen onto the object when being occluded by the object from
  the user's viewpoint.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sketch demonstrating the cursor behavior of Tangible Viewports
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
