@@ -348,6 +348,16 @@ key "Renard10"
 
 ).
  The first two views are traditionally used by experts.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Traditional views of EEG signals
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -753,6 +763,16 @@ Meditation
  activities.
  To do so, the user simply needs to move the desired mini-Teegi into a specific
  zone projected on the table (green circle).
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Mini-Teegis are used to apply high-level EEG filters
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -802,6 +822,17 @@ Examples of the displayed visualizations on Teegi for each of the provided
  Once a filter is active, the brain area corresponding to the selected and
  processed activity is highlighted in colors while the remaining EEG signals
  are displayed in grayscale.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Examples of the displayed visualizations on Teegi for each of the provided
+ filters
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1490,6 +1521,16 @@ Diagram of the installation.
  (A) ProjectionDesign F20SX projector (B) Sony PSEye web camera (C) OptiTrack
  V120:Trio (D) Vivitek Qumi Q2 projector (E) Teegi (F) Program selection
  zone and mini-Teegis.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Diagram of the Teegi installation
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1713,6 +1754,16 @@ Results of the questionnaire (selected questions).
  Note that purple (resp.
  orange) bars indicate questions measuring Teegi's qualities (resp.
  limitations).
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Results of the questionnaire measuring Teegi's qualities
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1840,6 +1891,16 @@ name "fig:teegi-marks"
 
 Marks obtained by the participants during the pre- and post-test assessments.
  See text for details.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Marks obtained by the participants during the pre- and post-test assessments
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
