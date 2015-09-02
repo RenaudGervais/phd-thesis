@@ -162,16 +162,6 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Tobe: Tangible Out-of-Body Experiences teaser
-\end_layout
-
-\end_inset
-
-
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:tobe-and-gui"
@@ -2408,9 +2398,19 @@ name "fig:tobe-animator"
 
 \end_inset
 
-Multitouch animator that let users draw a picture and animate.
+Multitouch animator that let users draw a picture and animate it.
  The live biosignal of their choice is then used as a way to playback the
  animation.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Multitouch animator that let users draw a picture and animate it
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2597,6 +2597,17 @@ In a scientific museum, various activities were proposed to visitors in
  order to prompt self-investigation.
  The setup consists of a projector handling the augmentation and an OptiTrack
  for the tracking.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Installation of Tobe in a scientific museum activities prompting self-investigat
+ion
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -2699,6 +2710,16 @@ name "fig:tobe-gui"
 
 The touched-based GUI allowing visitors to customize the appearance of Tobe's
  eyes and to select which feedback was displayed on Tobe.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+GUI allowing visotors to customize Tobe's appearance and select feedback
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -3589,6 +3610,16 @@ name "fig:tobe-applications"
 \end_inset
 
 Potential applications for our toolkit.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Potential applications for Tobe
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
