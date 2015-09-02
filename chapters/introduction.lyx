@@ -706,7 +706,12 @@ This section aims at giving an overview of the research areas onto which
 spatial
 \emph default
  AR.
- 
+ The common thread unifying these fields are their goal of weaving the real
+ and the digital worlds together, in different ways.
+\end_layout
+
+\begin_layout Subsection
+Ubiquitous Computing
 \end_layout
 
 \begin_layout Standard
@@ -732,9 +737,7 @@ Back to the real world and Ubiquitous Computing
 \end_layout
 
 \begin_layout Standard
-The common thread unifying these fields are their goal of weaving the real
- and the digital worlds together, in different ways.
- In 1993, in a special issue of the Communications of the ACM, Wellner et
+In 1993, in a special issue of the Communications of the ACM, Wellner et
  al.
  
 \begin_inset CommandInset citation
@@ -950,11 +953,12 @@ key "Ishii2012"
 
 \end_inset
 
- mentioned previously.
+.
  Where TUIs have been mostly about interacting with a collection of rigid
  objects, OUIs emerged from an attempt to move towards more organic and
  malleable materials.
- It is mainly driven by advances in flexible input and output technologies.
+ This field of research is mainly driven by advances in flexible input and
+ output technologies.
  This vision refers to interfaces using non-planar display that can change
  shape via continuous physical inputs, either actively or passively 
 \begin_inset CommandInset citation
@@ -996,7 +1000,7 @@ key "Holman2008"
 \end_layout
 
 \begin_layout Standard
-In this thesis, we are especially interested by the second aspect of this
+In this thesis, we are especially inspired by the second aspect of this
  definition, since we want to use real-world objects not as proxy or handles
  but as real objects which form convey a meaning.
  A few years after giving a definition for these types of interface, Holman
@@ -1022,7 +1026,7 @@ functions equals form
 \end_inset
 
  part of the OUIs definition.
- Hypercontext is this idea that the interactive behavior of some types of
+ Hypercontext is the idea that the interactive behavior of some types of
  organic designs should express only a small amount of essential actions,
  which are strongly linked to their form factor.
  As an example, they consider a credit card which is wrapped by thin interactive
@@ -1098,8 +1102,9 @@ key "Sutherland1965"
  resulting in a complete weaving of the real and the virtual.
  Traditionally, the visual information overlay have been conveyed using
  see-through or video see-through AR.
- See-through AR consists in having a semi-transparent display which allow
- to display both the virtual elements and the real world scene.
+ See-through AR consists in having a semi-transparent display which allows
+ to both display the virtual elements and let the user see through it to
+ observe the real world scene simulatenously.
  Video see-through consists in augmenting a live video feed that is then
  viewed either using a head mounted display or a mobile device equipped
  with a camera -- e.g.
@@ -1418,7 +1423,7 @@ The evaluation of the use of 2D pointing devices -- mouse and graphics tablet
 The design, implementation and evaluation of a system enabling the interaction
  between a typical desktop computer environment -- traditional screens,
  mouse and keyboard -- with tangible augmented objects, considering a object
- design scenario as a mean thread.
+ design scenario as a main thread.
 \end_layout
 
 \begin_layout Enumerate
@@ -1428,7 +1433,7 @@ The design, implementation and evaluation of a tangible interface enabling
 \end_layout
 
 \begin_layout Enumerate
-The design, implementation and evaluation of a toolkit enabling useres to
+The design, implementation and evaluation of a toolkit enabling users to
  create tangible augmented avatars providing feedback from real-time low
  and high level physiological readings.
 \end_layout
@@ -1453,8 +1458,8 @@ reference "cha:introduction"
 
 \end_inset
 
-) and go slightly more in depth on the topic of Spatial Augmented Reality
- -- Chapter 
+) and provides details on the topic of Spatial Augmented Reality -- Chapter
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:sar"
@@ -1489,10 +1494,7 @@ reference "cha:cursar"
  tablets.
  We were interested to see if it was possible to use the same pointing technique
  used in standard computing with a real world scene.
-\end_layout
-
-\begin_layout Standard
-Chapter 
+ Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:tangible-viewports"
@@ -1564,10 +1566,7 @@ status open
  The user can manipulate Teegi to explore the signals and change the different
  filters applied to the EEG readings using small tangible character -- mini
  Teegis.
-\end_layout
-
-\begin_layout Standard
-Expanding upon the work with Teegi, we created a broader toolkit to allow
+ Expanding upon the work with Teegi, we created a broader toolkit to allow
  anyone to actively and physically build a tangible representation of one's
  inner state that is detailed in Chapter 
 \begin_inset CommandInset ref
