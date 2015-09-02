@@ -477,6 +477,16 @@ Affordances are perceived actionable properties of an object.
  is approximately the size of the hand.
  It is hollow, so it can be used as a container.
  Its base is flat so that it can stand on the table.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+An example or perceived affordances.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -591,6 +601,16 @@ A sketch of an augmented mug.
  The overlay shows the quantity and temperature of the liquid inside.
  The handle will glow green when the tea is ready and that the temperature
  is appropriate to avoid nasty tongue burns.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A sketch of an augmented mug.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1150,6 +1170,16 @@ name "fig:intro-ar-video-see-through"
 AR is often achieved using a video see-through technique consisting in overlayin
 g computer generated graphics over a live video feed of the real-world.
  Here, a smartphone is used to produce an augmented mug view.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sketch of video see-through augmented mug.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1323,6 +1353,16 @@ name "fig:intro-sar-mug"
 
 SAR is achieved using projectors or displays to create images that are integrate
 d in the user's environment.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sketch of spatially augmented mug.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
