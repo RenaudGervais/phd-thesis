@@ -468,6 +468,16 @@ optical axis
 \end_inset
 
  represents the coordinate system of the image.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The pinhole or perspective camera model
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
