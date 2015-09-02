@@ -86,22 +86,19 @@ ly, Spatial Augmented Reality (SAR).
  Since the work presented in all following chapters uses SAR, this chapter
  aims at pooling the related work and implementation details in a single
  place in order to avoid useless repetitions.
- The goal is to explain enough background to provide a global understanding
+ The goal is also to explain enough background to provide a global understanding
  of SAR principles and some details on the implementation used throughout
  the thesis.
- However, we will avoid doing a very extensive literature review of the
- whole SAR field since more specific related work will be introduced in
- each chapter as appropriate.
- Also, while we will cover some basic notions of SAR, an interested reader
- can get a more thorough understanding of the different principles of this
- AR paradigm in Bimber and Raskar's book 
+ While we will cover some basic notions of SAR, an interested reader can
+ get a more thorough understanding of the different principles of this AR
+ paradigm in Bimber and Raskar's book on the topic 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Bimber2005"
 
 \end_inset
 
- on the topic.
+.
  
 \end_layout
 
@@ -113,7 +110,7 @@ Background
 This section covers the main concepts and definitions related to AR and
  SAR.
  AR is first defined and a brief overview of its history is given.
- Then we will focus on one of its subset -- SAR.
+ Then we will focus on one of its subset: SAR.
 \end_layout
 
 \begin_layout Subsection
@@ -121,8 +118,15 @@ Augmented Reality
 \end_layout
 
 \begin_layout Standard
-As mentioned previously, augmented reality consists in overlaying computer
- generated information on a real-world experience.
+As mentioned in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:introduction"
+
+\end_inset
+
+, augmented reality consists in overlaying computer generated information
+ on a real-world experience.
  The overarching goal of AR is to create a seamless experience, merging
  both real and digital information.
  Sutherland 
@@ -364,7 +368,7 @@ key "Baudisch2013"
 .
  In this game, two teams played a basketball game with the exception that
  there is no physical ball to manipulate.
- Instead, there is only an imaginary ball that only exists via a computer
+ Instead, there is only an imaginary ball that exists solely via a computer
  analyzing the playing area in real-time.
  The location of the ball has to be inferred by the player using sound cues
  given by the system managing the game.
@@ -417,7 +421,7 @@ reference "fig:sar-ootf"
 \end_inset
 
  provides a good illustration of the authors' vision.
- It described ideas and techniques for creating immersive in-situ displays,
+ It describes ideas and techniques for creating immersive in-situ displays,
  building upon the notions of the CAVE system, in a normal office environment.
  By using computer vision to compute the depth of every pixel of a camera,
  they could correct the projected images according to the topology of the
@@ -570,19 +574,19 @@ key "Raskar1998a"
 
 \end_inset
 
- (now more often referred to as 
+ -- nowadays, it is more often referred to as 
 \emph on
 Spatial
 \emph default
- AR or SAR).
+ AR or SAR.
  They put emphasis on augmenting the 
 \emph on
 environment
 \emph default
  instead of the users' field of view.
- By tracking the user's head position, they proposed a set of techniques
- to project on irregular surfaces in the environment so as to generate perceptua
-l illusions for the user.
+ By tracking a user's head position, they proposed a set of techniques to
+ project on irregular surfaces in the environment so as to generate perceptual
+ illusions for the user.
  When updating the projection in real-time, it is possible to make it appear
  as if virtual objects are registered in 3D to physical objects.
  This process is often used in art to create surreal and surprising illusions
@@ -618,8 +622,8 @@ key "Benko2014"
 
  proposed a dyadic SAR system: a room for two users where each person, facing
  each other, have a view on common virtual elements.
- Interestingly, the system also uses the users themselves as a projection
- surface for the other user's view (see Figure 
+ Interestingly, the system also uses the users themselves as projection
+ surfaces for the other user's view (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-dyadic-sar"
@@ -1061,8 +1065,8 @@ In this section, we are taking a closer look at how SAR is actually achieved.
  While most of the concepts presented here can be generalized from a standard
  AR pipeline, we will focus on its spatial specialization.
  As discussed in the previous section, there are mainly two different types
- of augmentation that can be done with SAR: texture mapping and anamorphic
- illusions.
+ of augmentation that can be done with SAR: texture mapping -- Shader Lamps
+ -- and anamorphic illusions.
  The creation of augmented objects rely more heavily on texture mapping.
  It is the main technique used in Chapters 
 \begin_inset CommandInset ref
