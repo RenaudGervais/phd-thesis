@@ -622,8 +622,8 @@ reference "fig:intro-ccoo-table"
 \end_inset
 
 ).
- The main idea of this approach is to leverage the use of already existing
- tools that are already known of digital content creators.
+ The main motivation for this approach is to leverage the use of already
+ existing digital tools that are already known of content creators.
  For example, programming and visual design are activities well suited for
  desktop platforms.
  In a second time, we investigated the use of augmented objects as a way
@@ -631,8 +631,10 @@ reference "fig:intro-ccoo-table"
 \emph on
 introspection
 \emph default
- in combination with physiological sensors -- heartbeats, breathing, electroence
-phalography.
+.
+ We explored ways to allow users to create and investigate representations
+ of their inner selves by using physiological sensors -- heartbeats, breathing,
+ electroencephalography.
  
 \begin_inset Note Note
 status open
@@ -784,8 +786,9 @@ key "Weiser1996"
 
 \end_inset
 
- which main idea is that technology should disappear in the surroundings
- of users, intervening only when required before 
+.
+ The main idea of calm technology is that technology should disappear in
+ the surroundings of users, intervening only when required before 
 \begin_inset Quotes eld
 \end_inset
 
@@ -794,8 +797,9 @@ getting out of the way
 \end_inset
 
  again.
- The main goal was that technology should support a state of calmness for
- people, enabling them to navigate through the turmoils of daily life smoothly.
+ Weiser envisioned a type of technology that would support a state of calmness
+ for people, enabling them to navigate through the turmoils of daily life
+ smoothly.
 \end_layout
 
 \begin_layout Subsection
