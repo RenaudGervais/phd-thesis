@@ -172,9 +172,9 @@ key "Victor2014"
 , Bret Victor makes a convincing case for designing interfaces that leverages
  the vast amount of human senses 
 \emph on
-as
+as ways of thinking
 \emph default
- ways of thinking.
+.
  He argues that technology right now confines us in thinking only using
  ways that a computer can easily understand while we have evolved to think
  
@@ -182,13 +182,29 @@ as
 with
 \emph default
  a multitude of different senses that involves our whole body.
- In order to create a humane media, focusing on the real world itself seems
- a promising idea: if we have evolved to think within a real, physical world,
- leveraging these millions of years of evolution should not only be logical
- but a sustainable option as well.
+ This is limiting.
+ Not only that, but it also prevents good ideas to come to fruition because
+ digital matter is right now stiff and 
+\begin_inset Quotes eld
+\end_inset
+
+glassy
+\begin_inset Quotes erd
+\end_inset
+
+.
+ You cannot shape an idea with your hands freely if you do not speak the
+ computer's language.
+ In order to create a humane medium -- a medium enabling and encouraging
+ the different human capabilities and ways of thinking -- , focusing on
+ the real world itself seems a promising idea: if we have evolved to think
+ within a real, physical world, leveraging these millions of years of evolution
+ should not only be logical but a sustainable option as well.
  Indeed, instead of letting our bodies sit at a desk all day to atrophy
  while our head and fingers do all the work, we should put them to use to
  instead help us think new ideas.
+ As a way to contribute to this vision, we will focus on physical objects
+ and their use in combination with technology.
 \end_layout
 
 \begin_layout Section
@@ -606,7 +622,7 @@ reference "fig:intro-ccoo-table"
 \end_inset
 
 ).
- The main idea of this approach was to leverage the use of already existing
+ The main idea of this approach is to leverage the use of already existing
  tools that are already known of digital content creators.
  For example, programming and visual design are activities well suited for
  desktop platforms.
