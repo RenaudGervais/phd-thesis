@@ -2450,8 +2450,8 @@ name "sub:sar-projector-calibration"
 Calibration is the process of characterizing the behavior of the light in
  relation to the optical device we are using.
  Essentially, a projector can be seen as an inverse camera: it emits light
- instead of capturing it but the optical components are more or less the
- same.
+ instead of capturing it.
+ Nonetheless, the optical components are more or less the same.
  However, calibrating a projector is slightly more difficult than calibrating
  a camera since it has no mean to 
 \begin_inset Quotes eld
@@ -2525,7 +2525,7 @@ Intrinsics
 \begin_layout Standard
 The intrinsic parameters refer to the projection cone of the optical system
  as well as the modeling of deformation in the image caused by the imperfection
- of the optic components.
+ of the optics.
  This can be modeled as a matrix enabling to convert the position of a point,
  expressed in the projector's coordinate system in meters, in a position
  on the imaging plane expressed in pixels.
@@ -2675,17 +2675,21 @@ name "sub:sar-anamorphic-illusions"
 The process to generate anamorphic illusions is slightly different than
  texture mapping.
  However, it requires the same basic components: knowledge of the physical
- world's geometry in real time and the location of pixels in space -- i.e.
+ world's geometry, in real time, and the location of pixels in space --
+ i.e.
  calibration.
- In addition, we also need the user's viewpoint.
+ In addition, we also need to know the user's viewpoint.
  Texture mapping consists in projecting 
 \emph on
 flat
 \emph default
  textures on the surface of real world objects.
  Therefore, the object will appear correctly augmented from any viewpoint.
- If we are interested in the creation of 3D illusions, this is where we
- have to rely on anamorphosis.
+ If we are interested in the creation of 
+\emph on
+3D illusions
+\emph default
+, this is where we have to rely on anamorphosis.
  The process is very similar to the creation of a fishtank VR 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2693,7 +2697,7 @@ key "Ware1993"
 
 \end_inset
 
- experience, except that SAR gives more flexibility since the whole environment
+ experience, except that SAR gives more flexibility -- the whole environment
  can act as the display.
 \end_layout
 
@@ -3182,7 +3186,7 @@ y helpful with systems dealing both with digital and real world components.
 \emph on
 while
 \emph default
- interacting with the system proaves invaluable.
+ interacting with the system proves invaluable.
  The framework is built on Microsoft DirectX 9/11 and plugins can be created,
  again in real-time, using the C# language.
  Shaders can also be written in HLSL, in the same way leveraging the immediate
@@ -3569,18 +3573,18 @@ in the real world
 .
  Therefore, presence, the way it is defined, is not appropriate for our
  context.
- For this reason, Stevens and his colleagues 
+ For this reason, Stevens and his colleagues proposed the 
+\emph on
+object-presence
+\emph default
+ concept 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Stevens2002"
 
 \end_inset
 
- proposed the 
-\emph on
-object-presence
-\emph default
- concept.
+.
  Inspired by the definition of presence given by Witmer and Singer 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3609,10 +3613,10 @@ key "Bennett2005"
  projection.
  They found that directly touching -- either with direct touch or using
  a TUI -- an augmented object lowers object presence significantly.
- They hypothesize that it might be due to the occlusion of the projection
- created by the hand -- onto which projected content appears -- and the
- fact that the weight and texture of the physical props does not correspond
- to the visual augmented representation.
+ They hypothesize that it is due to the occlusion of the projection created
+ by the hand -- onto which projected content appears -- and the fact that
+ the weight and texture of the physical props does not correspond to the
+ visual augmented representation.
  We will discuss this issue more in the following section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -3654,10 +3658,21 @@ key "Basballe2010,Ridel2014"
 \end_inset
 
 .
- Using projected light also has the benefit of being to scale relatively
- easily in size.
+ Using projected light also has the benefit of being being flexible in terms
+ of the installation size.
  For example, it is possible to create dynamic rendering over huge buildings
- or very small objects.
+ or very small objects with relatively similar setups
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Of course, projecting over buildings often require more projectors and higher
+ lumens output, but the techniques remain the same.
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -3708,7 +3723,7 @@ key "Raskar1998a"
  Another mentioned problem is the shadow cast by a user manipulating an
  object.
  This problem breaks the illusion in two ways: it casts a shadow on the
- object and it the displays the projected content onto the user's hand.
+ object and it displays the projected content onto the user's hand.
  The first problem can be tackled to an extent by increasing the number
  of projectors used to augment the scene.
  Indeed, with careful placement and blending, it is possible to avoid shadows
@@ -3750,7 +3765,7 @@ key "Benko2008"
 \end_inset
 
 .
- Note however that rear-projection systems require a lot more space and
+ Note, however, that rear-projection systems require a lot more space and
  constraints.
  Small objects would require having a pico projector embedded in them in
  a very stable manner.
@@ -3758,10 +3773,9 @@ key "Benko2008"
 \end_layout
 
 \begin_layout Standard
-Using a single or many projectors also make installations more complex to
- install and calibrate in comparison to see-through or video see-through
- AR.
- Projectors are more complex to calibrate than camera for the simple reason
+Using many projectors also make installations more complex to install and
+ calibrate in comparison to see-through or video see-through AR.
+ Projectors are more complex to calibrate than cameras for the simple reason
  that they are output devices that are not equipped with sensing capabilities
  -- as is explained in Section 
 \begin_inset CommandInset ref
@@ -3792,7 +3806,7 @@ reference "sub:sar-anamorphic-illusions"
 
 ).
  Alternatively, it is possible to create a temporary mid-air diffusion medium
- on which to project such as smoke 
+ on which to project, such as smoke 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Seah2014"
