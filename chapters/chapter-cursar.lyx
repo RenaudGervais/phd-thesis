@@ -173,6 +173,16 @@ name "fig:cursar-teaser"
 
 A user moving a cursor (represented in blue) to a target (represented in
  red) on an augmented object by way of a standard mouse.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Moving a cursor on an augmented object using a mouse
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -445,6 +455,16 @@ Drawing of the experimental setup.
  the cursor.
  (D) The position at which the user is viewing the scene.
  (E) Projector.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Drawing of the experimental setup for the CurSAR study
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1051,6 +1071,16 @@ Statistical results.
 \end_inset
 
 , ns: not significant, ---: not applicable.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Statistical results of the CurSAR study
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1131,6 +1161,16 @@ name "fig:cursar-heatmap"
 Trajectories of all the trials in the scene with maximum depth changes.
  The center is the starting point of the trials and the tips are the location
  of the targets.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Trajectories all the trials for pointing to targets
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
