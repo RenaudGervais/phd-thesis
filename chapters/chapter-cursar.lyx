@@ -540,8 +540,15 @@ In the SAR condition, the objects were augmented by reprojecting the virtual
  In the SCREEN condition, the viewpoint of the user on the scene was virtually
  reproduced and reprojected on the virtual counterpart of the physical screen.
  Then, this reprojection was rendered from the point-of-view of the projector,
- effectively making the viewed scene in both conditions identical (see Figure
- 2 (right)).
+ effectively making the viewed scene in both conditions identical, as shown
+ in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-sar-screen"
+
+\end_inset
+
+.
  We did not use real-time head tracking but the user head's position was
  measured manually and thus accounted for.
  The whole installation has been created using the creative coding framework
@@ -557,6 +564,128 @@ For the input device, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
  The mouse was used in a relative mode while an absolute mapping was associated
  with the tablet.
  The acceleration transfer function of the mouse was disabled.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-sar.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+SAR condition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-screen.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+SCREEN condition
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-sar-screen"
+
+\end_inset
+
+Comparison between the SAR and SCREEN conditions, captured from the same
+ point of view.
+ The SCREEN condition is made to be a replica of the view of the reality
+ -- note the virtual and real table that are aligned.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Comparison between the SAR and SCREEN conditions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
