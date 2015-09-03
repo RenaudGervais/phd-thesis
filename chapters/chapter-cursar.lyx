@@ -80,8 +80,104 @@ name "cha:cursar"
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-teaser-drawing.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-teaser-drawing"
+
+\end_inset
+
+A sketch describing a standard desktop environment which would allow a mouse
+ pointer to travel out of the screen and into the surrounding environment
+ to acquire targets.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sketch of a desktop environment which cursor would be able to travel in
+ the physical environment
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the previous chapters, we have discussed the idea that augmented physical
+ objects could be an interesting way to mesh together digital capabilities
+ while being anchored in the physical world, which our bodies and minds
+ inhabit everyday.
+ However, this raises the question on how content for these mixed reality
+ objects will be created and interacted with.
+ A central concept in interaction is the ability to select an element or
+ position.
+ In this chapter, we investigate the question of pointing -- more specifically
+ using standard 2D pointing devices as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-teaser-drawing"
+
+\end_inset
+
+ -- in a SAR context.
+\end_layout
+
 \begin_layout Section
-Introduction
+Background and Related Works
+\end_layout
+
+\begin_layout Standard
+One very interesting property of SAR as a way to infuse digital properties
+ in an environment compared to physical displays is the ability to use the
+ whole environment as a display support.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+focus on interaction: touch, etc.
+ the focus on content creation should be tackled later in chapter 4
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
