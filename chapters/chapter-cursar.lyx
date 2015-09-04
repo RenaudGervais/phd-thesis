@@ -142,10 +142,17 @@ Sketch of a desktop environment which cursor would be able to travel in
 \begin_layout Standard
 In the previous chapters, we have discussed the idea that augmented physical
  objects could be an interesting way to mesh together digital capabilities
- while being anchored in the physical world, which our bodies and minds
+ while remaining anchored in the physical world, which our bodies and minds
  inhabit everyday.
  However, this raises the question on how content for these mixed reality
- objects will be created and interacted with.
+ objects will be created and 
+\emph on
+interacted
+\emph default
+ with.
+ While technical issues related to the augmentation of objects are being
+ solved progressively, the problems related to interaction remain largely
+ unexplored.
  A central concept in interaction is the ability to select an element or
  position.
  In this chapter, we investigate the question of pointing -- more specifically
@@ -164,15 +171,13 @@ Background and Related Works
 \end_layout
 
 \begin_layout Standard
-One very interesting property of SAR as a way to infuse digital properties
- in an environment compared to physical displays is the ability to use the
- whole environment as a display support.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-focus on interaction: touch, etc.
- the focus on content creation should be tackled later in chapter 4
+One very interesting property of SAR as a way to infuse digital properties
+ in an environment compared to physical displays is the ability to use the
+ whole environment as a display support.
 \end_layout
 
 \end_inset
@@ -181,6 +186,10 @@ focus on interaction: touch, etc.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Spatial Augmented Reality (SAR) consists in projecting digital information
  directly onto physical objects.
  Beyond conventional display methods based on monitor screens or planar
@@ -201,12 +210,52 @@ d.
  In this work, we have investigated the question of pointing in SAR.
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
 \begin_layout Standard
-Several strategies to point at augmented objects exist.
+There is many components to interaction.
+ One of the basic one is pointing.
+ Several strategies to point at augmented objects exist.
  One is to touch directly the area of interest.
- This approach is very straightforward and, consequently, it may be valuable
- in many contexts.
- However, direct touch suffers from many drawbacks.
+ Technological means to achieve precise touch detection on physical object
+ are becoming more mature and versatile.
+ For example, the field of OUIs -- see Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:intro-oui"
+
+\end_inset
+
+ for an overview -- envisions augmented objects covered by thin film diplays
+ which are multitouch.
+ Touché is a system that enables the detection of different types of touch
+ -- one finger, two fingers, palm, knuckles, etc -- on almost any object
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Sato2012"
+
+\end_inset
+
+.
+ OmniTouch uses a depth sensor to add touch capabilities on any surface
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harrison2011"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Direct touch, as an approach, is very straightforward and, consequently,
+ it may be valuable in many contexts.
+ However, it suffers from many drawbacks.
  In particular, anatomical issues including the 
 \begin_inset Quotes eld
 \end_inset
@@ -224,75 +273,24 @@ fat finger
  relics in museums) or as soon as the objects are out of reach.
  For distant interaction, laser pointers or virtual rays can be good alternative
 s, but they still suffer from similar accuracy and fatigue issues.
- In our approach, we have explored the use of standard pointing devices
- (see Figure 
+ This motivated our approach to consider the use of standard pointing devices,
+ namely mice and graphics tablets, to point at augmented objects.
+ One of the thing we had in mind while for considering this approach is
+ the possibility to create hybrid applications -- as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:cursar-teaser"
+reference "fig:cursar-teaser-drawing"
 
 \end_inset
 
-), namely mice and graphics tablets, to point at augmented objects.
- Years of human-computer interaction (HCI) have shown that these devices
- are decidedly well suited to point at visual objects displayed on 2D screens.
+; applications that could leverage the power and flexibility of professional
+ tools, currently hosted on traditional computing platforms, and the real
+ world surrounding these platforms.
+ Years of human-computer interaction (HCI) have shown that mouse and graphic
+ tablets are decidedly well suited to point at visual objects displayed
+ on 2D screens.
  Our assumption is that they can benefit to SAR as well, as soon as precision
  and prolonged work is required.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/cursar-teaser.jpg
-	lyxscale 20
-	width 100line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:cursar-teaser"
-
-\end_inset
-
-A user moving a cursor (represented in blue) to a target (represented in
- red) on an augmented object by way of a standard mouse.
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Moving a cursor on an augmented object using a mouse
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -344,6 +342,58 @@ reference "fig:cursar-teaser"
  Our contribution is the evaluation of the performance of pointing in a
  SAR environment using a standard pointing device compared to a traditional
  screen-based setup.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-teaser.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-teaser"
+
+\end_inset
+
+A user moving a cursor (represented in blue) to a target (represented in
+ red) on an augmented object by way of a standard mouse.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Moving a cursor on an augmented object using a mouse
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
