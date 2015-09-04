@@ -1608,7 +1608,7 @@ reference "fig:cursar-fitts"
 
 \end_inset
 
-), and consequently remains predictible.
+), and consequently remains predictable.
  We also computed associated measures of performance, also known as “throughput”
 , using the slope of the regression lines.
  
@@ -1729,9 +1729,6 @@ We presented an approach for interacting with desktop SAR, i.e.
  This finding opens interesting perspectives, allowing desktop SAR applications
  to be used to extend the current desktop setup with augmented physical
  objects.
- Beyond pointing tasks, interaction in SAR is still a domain that has been
- little explored and, consequently, a large variety of HCI work is still
- to be conducted.
 \end_layout
 
 \end_body
