@@ -167,7 +167,7 @@ reference "fig:cursar-teaser-drawing"
 \end_layout
 
 \begin_layout Section
-Background and Related Works
+Context
 \end_layout
 
 \begin_layout Standard
@@ -221,7 +221,7 @@ There is many components to interaction.
  Several strategies to point at augmented objects exist.
  One is to touch directly the area of interest.
  Technological means to achieve precise touch detection on physical object
- are becoming more mature and versatile.
+ are becoming mature and versatile.
  For example, the field of OUIs -- see Section 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -275,16 +275,16 @@ fat finger
 s, but they still suffer from similar accuracy and fatigue issues.
  This motivated our approach to consider the use of standard pointing devices,
  namely mice and graphics tablets, to point at augmented objects.
- One of the thing we had in mind while for considering this approach is
- the possibility to create hybrid applications -- as shown in Figure 
+ One of the thing we had in mind is the possibility to create hybrid application
+s -- as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cursar-teaser-drawing"
 
 \end_inset
 
-; applications that could leverage the power and flexibility of professional
- tools, currently hosted on traditional computing platforms, and the real
+; applications that could both leverage the power and flexibility of professiona
+l tools, currently hosted on traditional computing platforms, and the real
  world surrounding these platforms.
  Years of human-computer interaction (HCI) have shown that mouse and graphic
  tablets are decidedly well suited to point at visual objects displayed
@@ -401,15 +401,8 @@ Related Work
 \end_layout
 
 \begin_layout Standard
-Since SAR has been introduced 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Raskar1998a,Raskar2001a"
-
-\end_inset
-
-, there have been some research projects exploring interaction with projected
- content.
+Some research projects explored interaction with projected content, in a
+ SAR context.
  Bandyopadhyay et al.
  
 \begin_inset CommandInset citation
@@ -485,7 +478,7 @@ t (which has been modeled in 3D beforehand).
  
 \begin_inset CommandInset citation
 LatexCommand citep
-key "Teather2013"
+key "Teather2011,Teather2013"
 
 \end_inset
 
