@@ -517,7 +517,15 @@ Our SAR environment is comprised of a static scene laid out on a table in
 On a standard screen configuration, the mouse cursor is generally represented
  as an arrow moving on the screen plane.
  When a 3D scene is displayed, the user is able to select any visible part
- of this virtual scene by picking the rendered result at the cursor location.
+ of this virtual scene by picking the rendered result at the cursor location
+ (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-virtual-pointing"
+
+\end_inset
+
+).
  Since most people are already experienced with this way of pointing, we
  wanted to know if this technique could be ported to a SAR environment albeit
  the lack of a physical screen support.
@@ -534,14 +542,21 @@ reference "fig:cursar-setup"
 .
  A line representing the intersection between the virtual plane and the
  table is projected onto the table, and an arrow indicates the horizontal
- position of the cursor (see Figure 
+ position of the cursor -- see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cursar-teaser"
 
 \end_inset
 
-).
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:cursar-setup"
+
+\end_inset
+
+ (C item).
  Contrary to standard screen configurations where the cursor is displayed
  on the screen plane, our SAR cursor is displayed directly on the physical
  objects.
@@ -553,6 +568,63 @@ reference "fig:cursar-teaser"
  point.
  The visual feedback (line and arrows) helps to know where the cursor is
  as soon as the latter does not project onto an object.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/cursar-virtual-pointing.png
+	lyxscale 10
+	width 70line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:cursar-virtual-pointing"
+
+\end_inset
+
+The standard way to point on a 3D scene displayed on a screen.
+ The cursor moves in the window plane and a virtual point is selected by
+ picking the rendered scene at the cursor location.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+The standard way to point on a 3D scene displayed on a screen.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
