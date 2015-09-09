@@ -120,6 +120,34 @@ systemnamens
 
 \end_layout
 
+\begin_layout Standard
+This chapter presents Tangible Viewports, a proof-of-concept system that
+ builds on the ideas presented in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+.
+ With CurSAR, we studied the performance of a standard pointing technique
+ using 2D indirect devices, like the mouse, to reach targets displayed in
+ the real world using SAR.
+ We found out that pointing in SAR remains fully usable with a very reasonable
+ performance drop of 11% compared to a screen condition.
+ However, performance still is impacted negatively when removing the screen
+ context.
+ One of the research objective tackled in this thesis is digital content
+ creation for tangible augmented objects.
+ Since most digital content creation tools are designed for being used on
+ standard input devices, we combined traditional computer screens, physical
+ objects and the pointing technique studied with CurSAR in a single system.
+ Effectively, it enables a seamless integration between desktop applications
+ and physical objects.
+ The objects behave in the same way as they would if they would be rendered
+ in a traditional viewport.
+\end_layout
+
 \begin_layout Section
 Introduction
 \end_layout
