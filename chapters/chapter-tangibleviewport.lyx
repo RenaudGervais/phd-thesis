@@ -129,7 +129,8 @@ reference "cha:cursar"
 
 \end_inset
 
-.
+ to create digital content on physical objects that are augmented using
+ SAR.
  With CurSAR, we studied the performance of a standard pointing technique
  using 2D indirect devices, like the mouse, to reach targets displayed in
  the real world using SAR.
@@ -179,6 +180,10 @@ key "Shaer2009"
 .
 \end_layout
 
+\begin_layout Subsection
+Tool-Based Interaction with SAR
+\end_layout
+
 \begin_layout Standard
 Many different works are inspired by the use of physical tools for interaction
  with digital content and for its creation.
@@ -217,13 +222,66 @@ key "Vogel2011"
 
  is a tangible tool inspired by the multiple ways an artist uses a drawing
  instrument such as the crayon.
- 
 \end_layout
 
 \begin_layout Standard
-On the other hand, even when tangibility hold great promises for interaction,
- its use in real-world contexts remains rare, while we still use standard
- computers for the majority of our daily tasks involving digital information.
+Many SAR systems rely on TUIs for interacting with the digital content.
+ They include tools for editing the appearance of physical objects 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Bandyopadhyay2001,Marner2009"
+
+\end_inset
+
+, sculpting 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Piper2002,Marner2010"
+
+\end_inset
+
+ and educational purposes 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Frey2014"
+
+\end_inset
+
+.
+ TUIs are especially well suited for collaborative tasks and provide a strong
+ situatedness 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Shaer2009"
+
+\end_inset
+
+.
+ The previously mentioned approaches are deeply rooted in physicality and
+ stay away from traditional computer environments.
+ Closer to the system described in this chapter, Akoaka et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Akaoka2010"
+
+\end_inset
+
+ created a platform for designing interactive augmented objects using 
+\emph on
+either
+\emph default
+ natural interaction 
+\emph on
+or
+\emph default
+ a standard desktop computer.
+\end_layout
+
+\begin_layout Standard
+However, even when tangibility hold great promises for interaction, its
+ use in real-world contexts remains rare, while we still use standard computers
+ for the majority of our daily tasks involving digital information.
  The desktop computer is still a relevant tool to work with digital and
  physical matter, but we also think that its place on our desks should be
  rethought 
@@ -238,6 +296,94 @@ key "Raskar1998,Rekimoto1999"
  be installed on a desk and its reach limited to the extent of its screen,
  it should be considered as a tool part of the whole toolset laid onto the
  desk, aware and capable of interacting with its surroundings.
+\end_layout
+
+\begin_layout Subsection
+Augmented and Smart Spaces
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Augmented and smart spaces
+\emph default
+ are systems that use see-through augmented reality or projectors, often
+ in an office environment, to enhance the workspace.
+ Raskar 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Raskar1998"
+
+\end_inset
+
+ proposed the idea of a hybrid workspace that would combine the physical
+ environment with a spatially augmented display system in order to create
+ a continuous mixed-reality space.
+ Similarly, Augmented Surfaces 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Rekimoto1999"
+
+\end_inset
+
+ is a system that creates interactive surfaces on a table, wall and laptop
+ using projectors.
+ Users could use their mouse cursor to drag information between the different
+ surfaces.
+ Moving towards desktop systems, Kane 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Kane2009"
+
+\end_inset
+
+ present a hybrid laptop-tabletop system that uses two pico-projectors mounted
+ to a laptop computer to add interactive areas on the table around the device.
+ The system is able to detect tangible objects on the table but does not
+ augment them in any way.
+ HoloDesk 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Hilliges2012"
+
+\end_inset
+
+ is a situated see-through display where virtual and tangible objects can
+ be manipulated directly with the users' hands, but does not integrate any
+ traditional computer-related tasks.
+ From an interaction point of view, the work of Lee 
+\emph on
+et al.
+
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Lee2013"
+
+\end_inset
+
+ is closer to ours.
+ They present a see-through desktop environment that supports transitioning
+ from 2D and spatial 3D interactions easily.
+ The system allows users to see the content of the screen and their hands
+ behind it at the same time, only focusing on virtual elements.
+ We are instead interested in bringing interaction with physical objects
+ to a traditional desktop workspace.
+\end_layout
+
+\begin_layout Subsection
+Combining Tangible Objects and Desktop Computers
 \end_layout
 
 \begin_layout Standard
@@ -411,340 +557,6 @@ systemnamens
  of an integrated workspace that combines augmented physical objects and
  native applications, and 3) the exploration of the interaction space of
  this hybrid work environment.
-\end_layout
-
-\begin_layout Section
-Related Work
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: Find an appropriate place for this content.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Our work is related to several overlapping research areas, which explore
- the interaction around augmented objects.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Spatial Augmented Reality (SAR)
-\emph default
- consists in projecting digitally controlled light onto physical objects.
- SAR was first introduced by Raskar 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar2001a,Raskar1998a"
-
-\end_inset
-
-.
- It was then followed by Underkoffler 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Underkoffler1999"
-
-\end_inset
-
- where they used a projector to display spatially coherent information with
- the projection space and objects laid onto it.
- A first interactive application of SAR on 3D objects 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Bandyopadhyay2001"
-
-\end_inset
-
- consisted in 
-\begin_inset Quotes eld
-\end_inset
-
-painting
-\begin_inset Quotes erd
-\end_inset
-
- an object by using a tracked stylus.
- Extending this work, Marner 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Marner2009"
-
-\end_inset
-
- created Physical-Virtual tools for editing the appearance of a tangible
- object.
- Other works 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Benko2012,Wilson2012,Benko2014"
-
-\end_inset
-
- instead focused in creating the illusion of virtual objects being part
- of the scene using projective texturing and anamorphosis, which consists
- in projecting viewpoint corrected images taking into account the geometry
- of the real-world scene in such a way as to create illusions for this specific
- viewpoint.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Tangible User Interfaces (TUI)
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Ishii1997,Ishii2012"
-
-\end_inset
-
- are often found along SAR.
- TUIs are concerned with providing tangible (i.e.
- physical) representations to digital information and controls.
- Systems using both TUI and SAR include tools for editing the appearance
- of physical objects 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Bandyopadhyay2001,Marner2009"
-
-\end_inset
-
-, sculpting 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Piper2002,Marner2010"
-
-\end_inset
-
- and educational purposes 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Frey2014"
-
-\end_inset
-
-.
- TUIs are especially well suited for collaborative tasks and provide a strong
- situatedness 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Shaer2009"
-
-\end_inset
-
-.
- The previously mentioned approaches are deeply rooted in physicality and
- stay away from traditional computer environments.
- Closer to our work, Akoaka et al.
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Akaoka2010"
-
-\end_inset
-
- created a platform for designing interactive augmented objects using 
-\emph on
-either
-\emph default
- natural interaction 
-\emph on
-or
-\emph default
- a standard desktop computer.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Augmented and smart spaces
-\emph default
- are systems that use see-through augmented reality or projectors, often
- in an office environment, to enhance the workspace.
- Raskar 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar1998"
-
-\end_inset
-
- proposed the idea of a hybrid workspace that would combine the physical
- environment with a spatially augmented display system in order to create
- a continuous mixed-reality space.
- Similarly, Augmented Surfaces 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Rekimoto1999"
-
-\end_inset
-
- is a system that creates interactive surfaces on a table, wall and laptop
- using projectors.
- Users could use their mouse cursor to drag information between the different
- surfaces.
- Moving towards desktop systems, Kane 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Kane2009"
-
-\end_inset
-
- present a hybrid laptop-tabletop system that uses two pico-projectors mounted
- to a laptop computer to add interactive areas on the table around the device.
- The system is able to detect tangible objects on the table but does not
- augment them in any way.
- HoloDesk 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Hilliges2012"
-
-\end_inset
-
- is a situated see-through display where virtual and tangible objects can
- be manipulated directly with the users' hands, but does not integrate any
- traditional computer-related tasks.
- From an interaction point of view, the work of Lee 
-\emph on
-et al.
-
-\emph default
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Lee2013"
-
-\end_inset
-
- is closer to ours.
- They present a see-through desktop environment that supports transitioning
- from 2D and spatial 3D interactions easily.
- The system allows users to see the content of the screen and their hands
- behind it at the same time, only focusing on virtual elements.
- We are instead interested in bringing interaction with physical objects
- to a traditional desktop workspace.
-\end_layout
-
-\begin_layout Standard
-
-\emph on
-Pointing
-\emph default
- in SAR 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Gervais2015"
-
-\end_inset
-
- is related to pointing in other contexts, namely 
-\emph on
-multi-display environments (MDE) 
-\emph default
-and
-\emph on
- stereoscopic displays
-\emph default
-.
- It is possible to compare SAR to MDE in that the tangible objects that
- are being augmented acts like multiple continuous (and potentially small)
- displays.
- Works most related to 
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-systemname
-\end_layout
-
-\end_inset
-
- include Ubiquitous Cursor 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Xiao2011"
-
-\end_inset
-
-, which uses the geometry of the room to display the cursor when transitioning
- from two different screens, and Perspective Cursor 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Nacenta2006,Nacenta2007"
-
-\end_inset
-
-, which takes into account the user's position in relation to the screen
- in order to give the illusion of a coherent movement from the user's viewpoint.
- We directly use the principles of Perspective Cursor in our work, the main
- difference being that we use the cursor on more complex 3D shapes instead
- of being limited to planar displays.
- Pointing on a stereoscopic display has been studied by Teather and Stuerzlinger
- 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Teather2013"
-
-\end_inset
-
- where they evaluated different cursor types in what is effectively a 
-\begin_inset Quotes eld
-\end_inset
-
-2.5D
-\begin_inset Quotes erd
-\end_inset
-
-, or projected pointing task.
- Again, we use a similar pointing technique but use real objects instead
- of virtual ones.
- Beyond the benefit of tangibility, using SAR also does not require the
- users to wear any glasses or cause discomfort due to the vergence-accommodation
- conflict as it is the case when using stereoscopic technology.
-\end_layout
-
-\begin_layout Standard
-Our work contributes to the state of the art by leveraging the flexibility
- and power of desktop-based tools while still benefiting from tangible interacti
-on, in a seamless manner.
 \end_layout
 
 \begin_layout Section
