@@ -1109,6 +1109,13 @@ Shader lamps
 
 \begin_layout Section
 How does it work?
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:sar-how-does-it-work"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1168,6 +1175,13 @@ reference "cha:tangible-viewports"
 
 \begin_layout Subsection
 Texture Mapping
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:sar-texture-mapping"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
