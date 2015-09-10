@@ -137,11 +137,11 @@ reference "cha:cursar"
  performance drop of 11% compared to a screen condition.
  However, performance still is impacted negatively when removing the screen
  context.
- One of the research objective tackled in this thesis is digital content
- creation for tangible augmented objects.
- Since most digital content creation tools are designed for being used on
- standard input devices, we combined traditional computer screens, physical
- objects and the pointing technique studied with CurSAR in a single system.
+ One of the research objective tackled in this thesis is the digital content
+ creation and interaction for tangible augmented objects.
+ Since most digital content creation tools are designed for standard input
+ devices, we combined traditional computer screens, physical objects and
+ the pointing technique studied with CurSAR in a single system.
  Effectively, it enables a seamless integration between desktop applications
  and physical objects.
  The objects behave in the same way as they would if they would be rendered
@@ -149,7 +149,7 @@ reference "cha:cursar"
 \end_layout
 
 \begin_layout Section
-Introduction
+Context
 \end_layout
 
 \begin_layout Standard
@@ -177,7 +177,51 @@ key "Shaer2009"
 \end_inset
 
 .
- On the other hand, even when tangibility hold great promises for interaction,
+\end_layout
+
+\begin_layout Standard
+Many different works are inspired by the use of physical tools for interaction
+ with digital content and for its creation.
+ Touch Tools leverage the muscle memory of our hands when using physical
+ tools such as holding a pen or a camera to trigger the proper behavior
+ on a multitouch surface 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Harrison2014"
+
+\end_inset
+
+.
+ IntuPaint 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vandoren2008"
+
+\end_inset
+
+ and MAI painting brush 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Otsuki2010"
+
+\end_inset
+
+ are both systems that uses a physical paint brush to digitally paint real
+ objects, while at the same time keeping the feeling of using a real brush.
+ In the same line of thought, Conté 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vogel2011"
+
+\end_inset
+
+ is a tangible tool inspired by the multiple ways an artist uses a drawing
+ instrument such as the crayon.
+ 
+\end_layout
+
+\begin_layout Standard
+On the other hand, even when tangibility hold great promises for interaction,
  its use in real-world contexts remains rare, while we still use standard
  computers for the majority of our daily tasks involving digital information.
  The desktop computer is still a relevant tool to work with digital and
