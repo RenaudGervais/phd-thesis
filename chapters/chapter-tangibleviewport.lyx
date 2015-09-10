@@ -337,36 +337,7 @@ key "Shaer2009"
 .
  The previously mentioned approaches are deeply rooted in physicality and
  stay away from traditional computer environments.
- Closer to the system described in this chapter, Akoaka et al.
  
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Akaoka2010"
-
-\end_inset
-
- created a platform for designing interactive augmented objects using 
-\emph on
-either
-\emph default
- natural interaction 
-\emph on
-or
-\emph default
- a standard desktop computer.
- Also worth mentioning is the work of Saakes et al.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Saakes2012"
-
-\end_inset
-
-, a physical material that can retain its appearance after being exposed
- to visible light.
- For object design applications, this has the potential to make the use
- of SAR a serious contenter to generate visual designs that are not limited
- to dark environments and dependent on projectors being located in the room.
 \end_layout
 
 \begin_layout Standard
@@ -464,17 +435,49 @@ key "Lee2013"
 
 \end_inset
 
- is closer to ours.
+ is close to ours.
  They present a see-through desktop environment that supports transitioning
  from 2D and spatial 3D interactions easily.
  The system allows users to see the content of the screen and their hands
  behind it at the same time, only focusing on virtual elements.
  We are instead interested in bringing interaction with physical objects
  to a traditional desktop workspace.
+ 
+\end_layout
+
+\begin_layout Standard
+There are different frameworks for interaction leveraging the use of SAR
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Verlinden2003,Spindler2012a,Xiao2013"
+
+\end_inset
+
+.
+ Especially worth mentioning, and closer to the system described in this
+ chapter, Akoaka et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Akaoka2010"
+
+\end_inset
+
+ created a platform for designing interactive augmented objects using 
+\emph on
+either
+\emph default
+ natural interaction 
+\emph on
+or
+\emph default
+ a standard desktop computer.
+ We instead merge both together.
 \end_layout
 
 \begin_layout Subsection
-Combining Tangible Objects and Desktop Computers
+Combining Physical Objects and Desktop Computers
 \end_layout
 
 \begin_layout Standard
@@ -498,15 +501,7 @@ systemnamens
  Contrary to many tangible user interfaces where tokens and generic props
  are used, we use the physical objects as canvases that are also the results
  of the creative or visualization process.
- These objects are augmented with Spatial Augmented Reality (SAR) 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Raskar1998a"
-
-\end_inset
-
-, a technique consisting of displaying content onto the real world by the
- mean of projectors.
+ These objects are augmented with Spatial Augmented Reality (SAR).
  SAR is especially well suited for creating a hybrid work environment where
  digital workspaces can be combined with physical tools and canvases 
 \begin_inset CommandInset citation
@@ -601,11 +596,7 @@ Tangible Viewports in action
 
 \begin_layout Standard
 In this work, we emphasis the use of the desktop computer screen and its
- relation to augmented physical objects (Figure
-\begin_inset space ~
-\end_inset
-
-
+ relation to augmented physical objects (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tports-teaser"
@@ -681,8 +672,8 @@ systemname
 
 \end_inset
 
-In our approach, we consider the screen and chosen physical objects on the
- desk as spatial canvases where digital information can be displayed.
+We consider the screen and chosen physical objects on the desk as spatial
+ canvases where digital information can be displayed.
  This design differs from other approaches (e.g.
  
 \begin_inset CommandInset citation
@@ -701,10 +692,7 @@ key "Rekimoto1999"
 in front
 \emph default
  of the screen to reduce this change of context, as illustrated in Figure
-\begin_inset space ~
-\end_inset
-
-
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tports-sar-cursor-and-user"
@@ -2365,6 +2353,24 @@ She can start by sketching first ideas on a paper, and then use a modeling
 al way of manipulating 3D information on a desktop computer, it is possible
  to leverage the experience of users with their professional tools, while
  at the same time adding the richness of tangibility and physical visualization.
+\end_layout
+
+\begin_layout Standard
+For this illustrative scenario, it is worth mentioning the work of Saakes
+ et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saakes2012"
+
+\end_inset
+
+, consisting in a physical material that can retain its appearance after
+ being exposed to visible light.
+ For an object design application, this has the potential to make the use
+ of SAR a serious contender to generate visual designs that are not limited
+ to dark environments and dependent on projectors being located in the room.
+ 
 \end_layout
 
 \begin_layout Standard
