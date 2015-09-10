@@ -121,8 +121,57 @@ systemnamens
 \end_layout
 
 \begin_layout Standard
-This chapter presents Tangible Viewports, a proof-of-concept system that
- builds on the ideas presented in Chapter 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-video-teaser.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tports-video-teaser"
+
+\end_inset
+
+Sketch of Tangible Viewports 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This chapter presents Tangible Viewports (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-video-teaser"
+
+\end_inset
+
+), a proof-of-concept prototype that builds on the ideas presented in Chapter
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:cursar"
@@ -158,6 +207,21 @@ Look at your work space right now.
  There is a high probability that the space is divided into two different
  areas: one for working digitally (computer) and one for working physically
  (pen and paper, books, building materials).
+ Figures 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-video-teaser"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-teaser"
+
+\end_inset
+
+ highlight such a typical desk.
  This dichotomy has been present in our work environments for a long time,
  and a lot of effort of the Tangible User Interfaces (TUI) community has
  been directed towards a digitally enriched physical space.
