@@ -646,6 +646,19 @@ Creating a Seamless Hybrid Space
 \end_layout
 
 \begin_layout Standard
+This section describes the design considerations and implementation details
+ of the system.
+ More specifically, we will discuss the screen position in relation to the
+ physical objects and give details about the augmentation setup, the behavior
+ of the cursor and how it is handled as well as the use of direct touch
+ and tools to interact with the augmented objects.
+\end_layout
+
+\begin_layout Subsection
+Screen Positioning
+\end_layout
+
+\begin_layout Standard
 The general idea of our system is to embed physical objects within the standard
  desktop paradigm.
  
@@ -834,8 +847,6 @@ key "Newcombe2011"
 \end_layout
 
 \begin_layout Standard
-
-\lang english
 \begin_inset Float figure
 wide false
 sideways false
@@ -843,8 +854,6 @@ status open
 
 \begin_layout Plain Layout
 \align center
-
-\lang english
 \begin_inset Graphics
 	filename ../img/tports-sar-setup.png
 	lyxscale 40
@@ -856,8 +865,6 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
