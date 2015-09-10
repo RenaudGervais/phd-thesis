@@ -697,7 +697,45 @@ key "Rekimoto1999"
 
 ) that extend the reach of the cursor to the environment, while we bring
  the physical objects within reach of the screen cursor.
- The transition from a 2D cursor located inside the screen to a cursor following
+ We tested different ways to position the screen in relation to the augmented
+ objects: in front, on the side and behind.
+\end_layout
+
+\begin_layout Subsubsection
+Screen 
+\emph on
+in front
+\emph default
+ object
+\end_layout
+
+\begin_layout Subsubsection
+Screen 
+\emph on
+beside
+\emph default
+ object
+\end_layout
+
+\begin_layout Subsubsection
+Screen 
+\emph on
+behind
+\emph default
+ object
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+HERE
+\end_layout
+
+\end_inset
+
+The transition from a 2D cursor located inside the screen to a cursor following
  the 3D geometry of the surrounding physical environment requires a change
  in paradigm for the users.
  Instead, we embed the object 
