@@ -354,6 +354,19 @@ either
 or
 \emph default
  a standard desktop computer.
+ Also worth mentioning is the work of Saakes et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Saakes2012"
+
+\end_inset
+
+, a physical material that can retain its appearance after being exposed
+ to visible light.
+ For object design applications, this has the potential to make the use
+ of SAR a serious contenter to generate visual designs that are not limited
+ to dark environments and dependent on projectors being located in the room.
 \end_layout
 
 \begin_layout Standard
