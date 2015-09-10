@@ -149,7 +149,21 @@ name "fig:tports-video-teaser"
 
 \end_inset
 
-Sketch of Tangible Viewports 
+A workspace that allows the user to work both digitally (left) and physically
+ (right).
+ A tangible viewport (middle) allows physical objects to be used in the
+ context of a screen.
+ 
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A workspace that allows the user to work both digitally and physically
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -546,15 +560,15 @@ name "fig:tports-teaser"
 
 \end_inset
 
- A workspace that allows the user to work both digitally (left) and physically
- (right).
  A real object can be placed in front of the screen to use it as a canvas
  for digital applications.
+ Digital content is added using SAR.
+ 
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-A workspace that allows the user to work both digitally and physically
+Tangible Viewports in action
 \end_layout
 
 \end_inset
