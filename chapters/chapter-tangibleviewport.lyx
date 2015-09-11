@@ -716,6 +716,31 @@ in front
 \end_layout
 
 \begin_layout Standard
+In this configuration, we positioned the augmented object 
+\emph on
+behind
+\emph default
+ the screen -- see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-screen-front-obj"
+
+\end_inset
+
+.
+ The screen was a graphics tablet replicating the user's view on the physical
+ object.
+ It was possible for the user to draw on the screen to digitally paint the
+ object.
+ The digital paint was reprojected in real-time on the physical object in
+ the back.
+ Also, both the user's head and the physical object was tracked which enabled
+ the user to manipulate his viewpoint freely -- the viewpoint is updated
+ for both the graphics tablet and the real view.
+ 
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -737,7 +762,25 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-<caption>
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tports-screen-front-obj"
+
+\end_inset
+
+An augmented object is located behind a graphics tablet on which the user's
+ view of the object is replicated.
+ The user can draw on the object using the tablet.
+ The drawings are synchronized on the physical object in real-time.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Screen located 
+\emph on
+in front
+\emph default
+ of augmented object
 \end_layout
 
 \end_inset
@@ -745,7 +788,8 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
+\end_inset
+
 
 \end_layout
 
@@ -789,10 +833,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
