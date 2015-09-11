@@ -708,11 +708,7 @@ behind
 \end_layout
 
 \begin_layout Subsubsection
-Screen 
-\emph on
-in front
-\emph default
- object
+Screen in front object
 \end_layout
 
 \begin_layout Standard
@@ -808,7 +804,7 @@ The idea with this design was to ease the activity of drawing on an object
  The ability to handle the object with the hands also provided a good option
  to quickly place the object in the desired viewpoint.
  However, our first tests with this design encouraged the use of the physical
- object, not as a canvas, but simply as a props to control the orientation
+ object, not as a canvas, but simply as a proxy to control the orientation
  of the virtual model in 6 DoF.
  We instead wanted to put emphasis on the physical object itself because,
  even though the 3D virtual rendering often looks 
@@ -824,11 +820,40 @@ nicer
 \end_layout
 
 \begin_layout Subsubsection
-Screen 
-\emph on
-beside
-\emph default
- object
+Screen beside object
+\end_layout
+
+\begin_layout Standard
+An alternate configuration is to use the reality itself as an 
+\begin_inset Quotes eld
+\end_inset
+
+extended desktop
+\begin_inset Quotes erd
+\end_inset
+
+.
+ This can be seen as a mix of multi-display environments and the work presented
+ in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+ with CurSAR -- an illustration of this configuration is shown in Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-screen-beside-obj"
+
+\end_inset
+
+.
+ It consists in having a main display, a screen, where all the standard
+ digital operations take place.
+ When the cursor reaches the edge of the screen, it can seamlessly slide
+ on the neighboring surfaces and geometries.
 \end_layout
 
 \begin_layout Standard
@@ -853,8 +878,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-<caption>
-\end_layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tports-screen-beside-obj"
 
 \end_inset
 
@@ -864,14 +890,31 @@ status open
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This design is interesting as it keeps a familiar interaction context with
+ the use of indirect 2D pointing methods.
+ That is, pointing with a mouse inside a screen is familiar since the screen
+ provides a physical 2D plane on which the cursor is constrained.
+ When moving outside the screen, the physical screen still acts like a reference
+ system for the interaction scheme, which in some casual tests, seemed to
+ prove useful.
+ However, as demonstrated in the study of the last chapter, interaction
+ of the screen still has some costs in terms of performance.
+ Moreover, the transition from a 2D cursor located inside the screen to
+ a cursor following the 3D geometry of the surrounding physical environment
+ requires a change in paradigm for the users, which proved to be slightly
+ unsettling.
 \end_layout
 
 \begin_layout Subsubsection
-Screen 
-\emph on
-behind
-\emph default
- object
+Screen behind object
 \end_layout
 
 \begin_layout Standard
@@ -884,9 +927,6 @@ HERE
 
 \end_inset
 
-The transition from a 2D cursor located inside the screen to a cursor following
- the 3D geometry of the surrounding physical environment requires a change
- in paradigm for the users.
  Instead, we embed the object 
 \emph on
 in front
