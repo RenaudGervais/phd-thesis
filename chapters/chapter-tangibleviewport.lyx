@@ -698,7 +698,13 @@ key "Rekimoto1999"
 ) that extend the reach of the cursor to the environment, while we bring
  the physical objects within reach of the screen cursor.
  We tested different ways to position the screen in relation to the augmented
- objects: in front, on the side and behind.
+ objects before settling for the current design: in front, on the side and
+ behind.
+ We ended up selecting to position the screen 
+\emph on
+behind
+\emph default
+ the object.
 \end_layout
 
 \begin_layout Subsubsection
@@ -754,6 +760,45 @@ Screen
 beside
 \emph default
  object
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-obj-beside-screen.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+<caption>
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
