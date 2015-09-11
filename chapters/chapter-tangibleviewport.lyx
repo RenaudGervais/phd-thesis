@@ -734,10 +734,9 @@ reference "fig:tports-screen-front-obj"
  object.
  The digital paint was reprojected in real-time on the physical object in
  the back.
- Also, both the user's head and the physical object was tracked which enabled
+ Also, both the user's head and the physical object were tracked which enabled
  the user to manipulate his viewpoint freely -- the viewpoint is updated
  for both the graphics tablet and the real view.
- 
 \end_layout
 
 \begin_layout Standard
@@ -796,6 +795,32 @@ in front
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+The idea with this design was to ease the activity of drawing on an object
+ by providing a flat surface onto which to draw -- which is often easier
+ to use for stability and flexibility, such as the capability to zoom on
+ the drawing, purposes -- while retaining the haptic properties of having
+ a real object.
+ Moreover, the synchronized views would allow for reviewing the design using
+ the real object instead of a virtual rendering.
+ The ability to handle the object with the hands also provided a good option
+ to quickly place the object in the desired viewpoint.
+ However, our first tests with this design encouraged the use of the physical
+ object, not as a canvas, but simply as a props to control the orientation
+ of the virtual model in 6 DoF.
+ We instead wanted to put emphasis on the physical object itself because,
+ even though the 3D virtual rendering often looks 
+\begin_inset Quotes eld
+\end_inset
+
+nicer
+\begin_inset Quotes erd
+\end_inset
+
+, the result of the object design process will evolve in the real physical
+ world.
 \end_layout
 
 \begin_layout Subsubsection
