@@ -821,6 +821,13 @@ nicer
 
 \begin_layout Subsubsection
 Screen beside object
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:tports-screen-beside-object"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -905,8 +912,8 @@ This design is interesting as it keeps a familiar interaction context with
  When moving outside the screen, the physical screen still acts like a reference
  system for the interaction scheme, which in some casual tests, seemed to
  prove useful.
- However, as demonstrated in the study of the last chapter, interaction
- of the screen still has some costs in terms of performance.
+ However, as demonstrated in the study of the last chapter, pointing without
+ a screen still has some costs in terms of performance.
  Moreover, the transition from a 2D cursor located inside the screen to
  a cursor following the 3D geometry of the surrounding physical environment
  requires a change in paradigm for the users, which proved to be slightly
@@ -918,24 +925,13 @@ Screen behind object
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-HERE
-\end_layout
-
-\end_inset
-
- Instead, we embed the object 
-\emph on
-in front
-\emph default
- of the screen to reduce this change of context, as illustrated in Figure
- 
+Finally, we considered using the screen as a backdrop for the physical objects
+ that lay in front of it.
+ This configuration reduces the change of context required compared to having
+ the screen beside the object -- as discussed in the previous Section 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:tports-sar-cursor-and-user"
+reference "sub:tports-screen-beside-object"
 
 \end_inset
 
@@ -950,14 +946,29 @@ key "Tan2003,Cauchard2011"
 \end_inset
 
 .
- In our current system configuration, normal use causes shallow depth of
- scene (
+ Moreover, in our current system configuration, normal use causes shallow
+ depth of scene --
 \begin_inset Formula $<50cm$
 \end_inset
 
- -- a working space created by a typically recommended distance between
- the user and the screen) and users are not required to rotate the head
- position.
+, a working space created by a typically recommended distance between the
+ user and the screen -- and users are not required to rotate the head position.
+ When the screen is behind the physical object, the latter now appears to
+ belong to the screen's interaction space.
+ This is the configuration that was used to create 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+systemnamens
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
