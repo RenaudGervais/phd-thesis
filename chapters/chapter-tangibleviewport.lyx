@@ -2085,22 +2085,62 @@ Programming
 \begin_layout Standard
 In addition to the connection of existing tools, we also included Creative
  Coding capabilities.
- In practice, creative coding is often comprised of programming toolkits
- that are focused on visual results and short feedback loops.
- For these reasons, it is often used for prototyping.
- Examples of such toolkits include Processing, OpenFrameworks and vvvv.
- These approaches make it possible to envision a near future where physical
- objects are comprised of thin and flexible screens 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "holman2013design"
+ In practice, creative coding is often comprised of programming toolkits,
+ such as the one discussed in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-programming-vvvv"
 
 \end_inset
 
- and with which users could tinker with their augmented content (dynamic
- appearances and behaviors).
- Programming is an activity that is almost exclusively conveyed on standard
- computers.
+, that are focused on visual results and short feedback loops.
+ For these reasons, they are often used for prototyping.
+ Taken in combination with the future envisioned by the OUIs community,
+ where everyday physical objects are wrapped in thin and flexible screens
+ (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:intro-oui"
+
+\end_inset
+
+), we could imagine users being able to quickly tinker with the augmented
+ content of their objects.
+ Such content could be comprised of visual appearances, but also 
+\emph on
+behaviors
+\emph default
+.
+ Reality Editor 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Heun2013a,Heun2013"
+
+\end_inset
+
+ and the derived open source toolkit Open Hybrid 
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.openhybrid.org/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ are good examples of such programming frameworks.
+ However, more complex programming is an activity that is almost exclusively
+ conveyed on standard computers.
  It is possible, then, to create a program and visualize its execution in
  real-time on a tangible object.
  As an example, we programmed a short example where the appearance of a
@@ -2114,20 +2154,6 @@ reference "subfig:tports-creative-coding"
 \end_inset
 
 ).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: OUI should have been brought up before in Part I of the thesis.
- Refer to it and mention that it would relates well to the CCoO concept.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
