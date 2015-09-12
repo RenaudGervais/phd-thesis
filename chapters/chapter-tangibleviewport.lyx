@@ -568,7 +568,7 @@ name "fig:tports-teaser"
 
 \end_inset
 
- A real object can be placed in front of the screen to use it as a canvas
+A real object can be placed in front of the screen to use it as a canvas
  for digital applications.
  Digital content is added using SAR.
  
@@ -891,6 +891,33 @@ name "fig:tports-screen-beside-obj"
 
 \end_inset
 
+An augmented object is located 
+\emph on
+beside
+\emph default
+ a screen.
+ When the cursor reaches the edge of the screen, it 
+\begin_inset Quotes eld
+\end_inset
+
+leaks
+\begin_inset Quotes erd
+\end_inset
+
+ out in the enviroment.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+An augmented object is located 
+\emph on
+beside
+\emph default
+ a screen
+\end_layout
+
+\end_inset
+
 
 \end_layout
 
@@ -926,7 +953,14 @@ Screen behind object
 
 \begin_layout Standard
 Finally, we considered using the screen as a backdrop for the physical objects
- that lay in front of it.
+ that lay in front of it, as illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-sar-cursor-and-user"
+
+\end_inset
+
+.
  This configuration reduces the change of context required compared to having
  the screen beside the object -- as discussed in the previous Section 
 \begin_inset CommandInset ref
@@ -1004,7 +1038,7 @@ name "fig:tports-sar-cursor-and-user"
 
 
 \lang american
- The user can interact with the augmented object when located in front of
+The user can interact with the augmented object when located in front of
  the screen, emulating the behavior of a 3D viewport.
  
 \end_layout
@@ -1021,19 +1055,6 @@ name "fig:tports-sar-cursor-and-user"
 
 \begin_layout Subsection
 Spatial Augmented Reality Setup
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: Move the redundant stuff to the SAR chapter
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
