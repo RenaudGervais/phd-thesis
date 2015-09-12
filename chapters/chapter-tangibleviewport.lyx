@@ -1844,7 +1844,7 @@ reference "fig:tports-features"
 For example, selecting the background color of an augmented object can be
  done directly by way of a color palette.
  This application served as a basis for the evaluation of the system that
- we present later in this paper.
+ we present later in this chapter.
 \end_layout
 
 \begin_layout Standard
@@ -3021,7 +3021,7 @@ key "Jones2014"
 \end_layout
 
 \begin_layout Section
-Conclusion and Future Work
+Summary
 \end_layout
 
 \begin_layout Standard
@@ -3038,21 +3038,45 @@ status open
 \end_layout
 
 \begin_layout Standard
-In this paper, we have introduced Tangible Viewports and we have described
+In this chapter, we have introduced Tangible Viewports and we have described
  an effective implementation of this concept.
  A preliminary study showed that the overall usability of this system is
  good.
- Tangible Viewports do not aim at replacing existing systems.
+ It is important to note that Tangible Viewports do not aim at replacing
+ existing systems.
  Indeed, we have shown that, from a technical and user point of view, the
  seamless integration of physical and virtual tools is not just feasible
- but enriches both.
+ but can enrich both.
 \end_layout
 
 \begin_layout Standard
 One of the current limitations of a tangible approach is the rigidity of
  the physical elements, which cannot (yet) be reshaped in real time.
  Our vision is that 3D printing will become as efficient as 2D printing
- in a near future.
+ in a near future
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+A good example of this progress is the technology proposed by the company
+ Carbon3D (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://carbon3d.com/
+\end_layout
+
+\end_inset
+
+) which advertise a printing speed increase ranging from 25 to 100 times
+ compared to traditional material deposit methods.
+\end_layout
+
+\end_inset
+
+.
  Hence, one will be able to use the flexibility of virtual elements to explore
  variations of geometries, and use physical elements as soon as he or she
  will require a perception of the created shape that goes beyond a simple
