@@ -80,6 +80,20 @@ name "cha:teegi"
 
 \end_layout
 
+\begin_layout Standard
+In the last two chapters, we have explored different ways to interact with
+ augmented content hosted on physical objects.
+ AR is especially useful to add information to real-world objects and environmen
+t that would otherwise be inaccessible to us.
+ Its combination with tangible elements, and by using spatial displays,
+ reinforce even more this link to reality.
+ One interesting aspect of our lives that is both personal but at the same
+ time mostly hidden to us is the internal processes of our body and mind.
+ More specifically, in this chapter we will focus on letting users explore
+ what happens in their brain in real-time using a combination of Electroencephal
+ography -- EEG -- and tangible interfaces.
+\end_layout
+
 \begin_layout Section
 Introduction 
 \begin_inset CommandInset label
@@ -92,9 +106,9 @@ name "sec:teegi-introduction"
 \end_layout
 
 \begin_layout Standard
-Electroencephalography (EEG) measures the brain activity of participants
- under the form of electrical currents, through use of a set of electrodes
- connected to amplifiers and placed on the scalp 
+EEG measures the brain activity of participants under the form of electrical
+ currents, through use of a set of electrodes connected to amplifiers and
+ placed on the scalp 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Niedermeyer05"
