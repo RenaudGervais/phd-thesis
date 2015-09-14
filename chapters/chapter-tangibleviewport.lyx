@@ -3017,24 +3017,11 @@ key "Jones2014"
  on the object to move when the head position of the user changes and instead
  correct the on-screen cursor's position when it reaches the edge of the
  object's silhouette, from the user's point of view.
- Such alternatives will be studied on the future
+ Such alternatives will be studied on the future.
 \end_layout
 
 \begin_layout Section
 Summary
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: Remove conclusion and focus on future work and discussion
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3055,7 +3042,7 @@ One of the current limitations of a tangible approach is the rigidity of
  Our vision is that 3D printing will become as efficient as 2D printing
  in a near future
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 A good example of this progress is the technology proposed by the company
@@ -3088,8 +3075,36 @@ In the future, we would like to assess more precisely how Tangible Viewports
  may leverage creativity in professional uses.
  This will require dedicated user studies with targeted users for investigating
  in more depth on how interactive physicality impacts performance.
- Finally, Tangible Viewports leverage the desktop computer capabilities
- as part of a set of tools to interact with physical matter.
+\end_layout
+
+\begin_layout Standard
+One of the current limitation of Tangible Viewports is the fact that interaction
+ with physical objects is only possible when they are located 
+\emph on
+in front
+\emph default
+ of the screen.
+ It would be important to investigate how to provide more spatial freedom
+ to users: being able to interact with the physical object in any given
+ location.
+ A potentially good starting point for this investigation would be the combinati
+on of CurSAR with the system described in this chapter.
+ Indeed, during our experimentation with the system, we realized that the
+ ability to slide the cursor off the screen onto a physical object laid
+ in front of it change the perception of the screen itself.
+ Instead of being considered as a self-contained space, the screen suddenly
+ becomes a 
+\emph on
+spatial element
+\emph default
+.
+ Combining a perspective-based cursor and the technique used in our system
+ could further extent the interaction space of traditional desktop environments.
+\end_layout
+
+\begin_layout Standard
+Finally, Tangible Viewports leverage the desktop computer capabilities as
+ part of a set of tools to interact with physical matter.
  In the future, we plan go further, by merging the desktop on the workbench
  itself.
 \end_layout
