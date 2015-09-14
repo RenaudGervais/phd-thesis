@@ -84,18 +84,28 @@ name "cha:teegi"
 In the last two chapters, we have explored different ways to interact with
  augmented content hosted on physical objects.
  AR is especially useful to add information to real-world objects and environmen
-t that would otherwise be inaccessible to us.
+ts that would otherwise be unavailable to us.
  Its combination with tangible elements, and by using spatial displays,
  reinforce even more this link to reality.
  One interesting aspect of our lives that is both personal but at the same
- time mostly hidden to us is the internal processes of our body and mind.
- More specifically, in this chapter we will focus on letting users explore
- what happens in their brain in real-time using a combination of Electroencephal
-ography -- EEG -- and tangible interfaces.
+ time mostly hidden to us is the internal processes of our bodies and minds.
+ In this chapter, we will more specifically focus on letting users explore
+ what happens in their brain in real-time, using a combination of Electroencepha
+lography -- EEG -- and tangible interfaces.
+ Instead of directly augmenting the body, we recreate a proxy persona --
+ a tangible avatar -- which acts like a 
+\begin_inset Quotes eld
+\end_inset
+
+tangible brain mirror
+\begin_inset Quotes erd
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section
-Introduction 
+Context 
 \begin_inset CommandInset label
 LatexCommand label
 name "sec:teegi-introduction"
@@ -176,7 +186,7 @@ key "Vosniadou01"
 \end_layout
 
 \begin_layout Standard
-This gave birth to Teegi (Tangible EEG Interface), a physical character
+This gave birth to Teegi -- Tangible EEG Interface --, a physical character
  that users can manipulate in a natural way to observe and analyze their
  own brain activity projected in real-time on the character's head (see
  Figure 
@@ -187,12 +197,11 @@ reference "fig:teegi-trailer"
 \end_inset
 
 ).
- Beyond the technical description of Teegi, this paper depicts an exploratory
+ Beyond the technical description of Teegi, this chapter depicts an exploratory
  study we conducted, which provides an experimental basis for discussions
  and future works.
- Our major contribution for this paper is the design of the first system
- to make EEG signals and brain activity easily accessible, interactive and
- understandable.
+ To our knowledge, Teegi is the first system to make EEG signals and brain
+ activity easily accessible, interactive and understandable.
  This work is based on theoretical foundations, technical developments,
  and preliminary investigations.
 \end_layout
