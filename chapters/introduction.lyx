@@ -618,10 +618,6 @@ A sketch of an augmented mug.
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
@@ -646,6 +642,10 @@ reference "fig:intro-ccoo-table"
  existing digital tools that are already known of content creators.
  For example, programming and visual design are activities well suited for
  desktop platforms.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
  In a second time, we investigated the use of augmented objects as a way
  to foster 
 \emph on
@@ -655,13 +655,6 @@ introspection
  We explored ways to allow users to create and investigate representations
  of their inner selves by using physiological sensors -- heartbeats, breathing,
  electroencephalography.
- 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: see if it would be possible to insert nice drawing for pointing in
- SAR
 \end_layout
 
 \end_inset
@@ -705,6 +698,45 @@ An hypothetical development environment for augmented objects using a standard
 \end_inset
 
 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Know Thyself
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Import most of the story from Tobe chapter
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In a second time, we investigated the use of augmented objects as a way
+ to foster 
+\emph on
+introspection
+\emph default
+.
+ We explored ways to allow users to create and investigate representations
+ of their inner selves by using physiological sensors -- heartbeats, breathing,
+ electroencephalography.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+This part comes from the last part of the paragraph of the previous section
 \end_layout
 
 \end_inset
