@@ -2047,12 +2047,12 @@ Regarding visual attention, the participants were apparently paying attention
 \end_layout
 
 \begin_layout Section
-Conclusion
+Summary
 \end_layout
 
 \begin_layout Standard
-In this paper, we presented Teegi, a tangible interface that makes EEG understan
-dable to non-expert users.
+In this chapter, we presented Teegi, a tangible interface that makes EEG
+ understandable to non-expert users.
  Our main contribution is the interface itself, which is built from both
  theoretical foundations, notably from human learning and scientific mediation
  and technical developments, including spatial augmented reality, tangible
@@ -2067,7 +2067,7 @@ dable to non-expert users.
  to standard approaches.
  For more advanced users, ad-hoc tangible filter creation could prove to
  be of great interest, adding flexibility to the overall system.
- Finally, it is known that BCI requires the user to learn to control his/her
+ It is also known that BCI requires the user to learn to control his/her
  own brain activity to input computer commands 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2078,6 +2078,14 @@ key "Wolpaw12"
 , which is a long and tedious task.
  We expect Teegi to be a motivating and informative way to support this
  training in the future.
+\end_layout
+
+\begin_layout Standard
+Finally, while Teegi is focused on EEG visualization, it offers a good starting
+ point and initial platform to widen its purpose.
+ Indeed, in the next chapter, we will discuss how we applied our experience
+ with Teegi to create an open platform that exposes a greater range of physiolog
+ical states and metrics.
 \end_layout
 
 \end_body
