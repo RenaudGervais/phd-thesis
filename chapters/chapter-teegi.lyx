@@ -602,6 +602,34 @@ key "Hinckley1994"
  designed a system which used tangible props to do neurosurgical planning.
  A small tangible head was used in conjunction with a plastic plane to select
  the cutting planes to be visualized on a screen.
+ BodyViz is a wearable system with organs represented as textile elements
+ that are animated through embedded LEDs and screens to illustrate the inner
+ working of bodily functions such as digestion to kids 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Norooz2015"
+
+\end_inset
+
+.
+ SWARM is also a modular wearable scarf that reacts to the wearer's emotional
+ states by changing its temperature, emits vibration or sounds 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Williams2015"
+
+\end_inset
+
+.
+ In a more sport-oriented context, Walmink et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Walmink2014"
+
+\end_inset
+
+ proposed a bicycle helmet equipped with LEDs to display heart-rate information.
  Also mentioned above, the 
 \begin_inset Quotes eld
 \end_inset
