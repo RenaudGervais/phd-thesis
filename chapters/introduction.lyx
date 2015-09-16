@@ -710,29 +710,7 @@ Know Thyself
 \end_layout
 
 \begin_layout Standard
-Augmented objects, especially tangible ones, have the potential of creating
- experiences that both complement the real world and provide an accessible
- way to interact with its content.
- Augmented reality has the capability to expose hidden information about
- the world.
- More specifically, it can be used to gain more insight about one of the
- most personal aspect of lives: our own selves -- bodies and minds.
- Indeed, while we are using our bodies and minds everyday of our lives,
- we are most often unaware of their inner working and states.
-\end_layout
-
-\begin_layout Standard
-It strikes me how technology is almost exclusively associated with performance
- and efficiency.
- How, as knowledge workers, getting better tools to accomplish more and
- more difficult and complex tasks, our satisfaction towards our efficiency
- is not increasing.
- Instead, technology often makes us see all the tasks that we are unable
- to accomplish in one day.
- Email is operating 24h a day while we clearly cannot.
- Overall, we try to adapt to the tools we have instead of them being adapted
- to our humane nature.
- As the form factor of our computational devices gets increasingly personal
+As the form factor of our computational devices gets increasingly personal
  -- smartphones and smartwatches are quickly becoming ubiquitous and are
  with us all the time -- it is important to reflect on the effect they have
  in our lives.
@@ -748,8 +726,10 @@ key "turkle2012alone"
 \end_inset
 
  -- leaves little time for our minds for calmness and contemplation.
- While these might appear to be important only for an overall feeling of
- well-being, it is also central in fostering creativity and innovation.
+ Email is operating 24h a day while we clearly cannot.
+ While calmness and contemplation might appear to be important only for
+ an overall feeling of well-being -- which is very important on its own
+ --, it is also central in fostering creativity and innovation.
  In his book 
 \begin_inset Quotes eld
 \end_inset
@@ -802,6 +782,46 @@ Great Thoughts
  It is indeed hard to imagine any Nobel prize laureate reflecting on important
  problems while answering emails or disturbed by yet another notification
  from their smartphone.
+\end_layout
+
+\begin_layout Standard
+Augmented objects, especially tangible ones, have the potential of creating
+ experiences that both complement the real world and provide an accessible
+ way to interact with its content.
+ Augmented reality has the capability to expose hidden information about
+ the world.
+ More specifically, it can be used to gain more insight about one of the
+ most personal aspect of lives: our own selves -- bodies and minds.
+ Indeed, while we are using our bodies and minds everyday of our lives,
+ we are most often unaware of their inner working and states.
+ Physiological computing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fairclough2009a"
+
+\end_inset
+
+is getting mature enough to not only measure basic physiological signals
+ such as heart beats and breathing, but also mental states 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Picard1995"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In the second part of this thesis, we investigated the use of augmented
+ objects as a way to foster 
+\emph on
+introspection
+\emph default
+.
+ We explored ways to allow users to create and investigate representations
+ of their inner selves by using physiological sensors -- heartbeats, breathing,
+ electroencephalography.
 \end_layout
 
 \begin_layout Standard
@@ -880,28 +900,6 @@ slow
 reflection
 \emph default
 .
-\end_layout
-
-\begin_layout Standard
-In a second time, we investigated the use of augmented objects as a way
- to foster 
-\emph on
-introspection
-\emph default
-.
- We explored ways to allow users to create and investigate representations
- of their inner selves by using physiological sensors -- heartbeats, breathing,
- electroencephalography.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-This part comes from the last part of the paragraph of the previous section
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -1822,6 +1820,7 @@ reference "cha:tobe"
  using 3D printing, building the physiological sensors (e.g.
  heart rate, breathing, EEG) using open hardware, the signal processing
  pipelines and the creation of custom visual feedback.
+ 
 \end_layout
 
 \begin_layout Standard
