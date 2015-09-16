@@ -1824,6 +1824,58 @@ reference "cha:tobe"
 \end_layout
 
 \begin_layout Standard
+The work presented in Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:introspection"
+
+\end_inset
+
+ has been realized in close collaboration with Jérémy Frey
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://jfrey.info
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+.
+ It is important to emphasis and recognize this collaboration since the
+ projects presented in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:teegi"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tobe"
+
+\end_inset
+
+ could not have been possible without the skills and knowledge of the both
+ of us.
+ Jeremy brought to the table a deep knowledge of physiological computing,
+ electronics and signal processing.
+ My personal contributions to these projects were focused on the tangible,
+ interactive and visual aspects of the systems.
+\end_layout
+
+\begin_layout Standard
 Note that we purposefully avoid a dedicated chapter for related work as
  we instead present them as appropriate alongside the work of each chapter.
 \end_layout
