@@ -824,84 +824,6 @@ introspection
  electroencephalography.
 \end_layout
 
-\begin_layout Standard
-A movement in computer science is interested in producing technology that
- has a 
-\emph on
-calming 
-\emph default
-impact.
- Weiser and Brown 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Weiser1996"
-
-\end_inset
-
- proposed the concept of technology that would disappear in the background
- of our daily lives, intervening only when required as to ensure a calm
- state.
- This view has been criticized by Rogers 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Rogers2006"
-
-\end_inset
-
- for depicting the users as passive actors while the technology decided
- when was the best time for it to intervene.
- Instead, she proposes an alternative view where the users are proactive
- toward technology: being empowered by technology in their own terms.
- Weiser's vision also depicts an environment that would inform while in
- the background by displaying information relying on the periphery of the
- user's attention as proposed by Buxton 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Buxton1995"
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: check this ref to make sure it is accurate
-\end_layout
-
-\end_inset
-
- -- without having to focus on it deliberately.
- Ishii et al.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Ishii1998"
-
-\end_inset
-
- used this concept in conjunction with architectural space to design a room
- where information was represented as subtle visual and auditory cues.
- These work are interesting because they do not claim our limited attention
- in order to work well.
- In the same line of thought, Hallnäs and Redström 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Hallnas2001"
-
-\end_inset
-
- proposed the idea of a technology that is purposely 
-\emph on
-slow
-\emph default
- and is designed to foster 
-\emph on
-reflection
-\emph default
-.
-\end_layout
-
 \begin_layout Section
 Context
 \end_layout
@@ -921,7 +843,7 @@ spatial
 \end_layout
 
 \begin_layout Subsection
-Ubiquitous Computing
+Ubiquitous Computing and Calm Technology
 \end_layout
 
 \begin_layout Standard
@@ -1013,6 +935,65 @@ getting out of the way
  Weiser envisioned a type of technology that would support a state of calmness
  for people, enabling them to navigate through the turmoils of daily life
  smoothly.
+ This view has been criticized by Rogers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rogers2006"
+
+\end_inset
+
+ for depicting the users as passive actors while the technology decided
+ when was the best time for it to intervene.
+ Instead, she proposes an alternative view where the users are proactive
+ toward technology: being empowered by technology in their own terms.
+ Weiser's vision also depicts an environment that would inform while in
+ the background by displaying information relying on the periphery of the
+ user's attention as proposed by Buxton 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Buxton1995"
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+@TODO: check this ref to make sure it is accurate
+\end_layout
+
+\end_inset
+
+ -- without having to focus on it deliberately.
+ Ishii et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ishii1998"
+
+\end_inset
+
+ used this concept in conjunction with architectural space to design a room
+ where information was represented as subtle visual and auditory cues.
+ These work are interesting because they do not claim our limited attention
+ in order to work well.
+ In the same line of thought, Hallnäs and Redström 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hallnas2001"
+
+\end_inset
+
+ proposed the idea of a technology that is purposely 
+\emph on
+slow
+\emph default
+ and is designed to foster 
+\emph on
+reflection
+\emph default
+.
 \end_layout
 
 \begin_layout Subsection
@@ -1629,6 +1610,23 @@ n challenge.
 Augmented objects also have the potential to help us visualizing information
  in different ways, ways often more personal than just using virtual elements
  that cannot go outside of a screen's frame.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Physiological and Affective Computing
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+wolpaw, fairclough, picard
 \end_layout
 
 \end_inset
