@@ -187,6 +187,10 @@ Introduction
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
 \begin_inset Branch margin
 status open
 
@@ -218,7 +222,7 @@ Technology usage does not foster reflection.
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 It strikes me how technology is almost exclusively associated with performance
  and efficiency.
  How, as knowledge workers, getting better tools to accomplish more and
@@ -301,7 +305,7 @@ Great Thoughts
  from their smartphone.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Branch margin
 status open
 
@@ -323,7 +327,7 @@ Calm computing
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 A movement in computer science is interested in producing technology that
  has a 
 \emph on
@@ -399,6 +403,11 @@ slow
 reflection
 \emph default
 .
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
