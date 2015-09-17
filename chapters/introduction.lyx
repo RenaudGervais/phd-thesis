@@ -1563,60 +1563,6 @@ reference "cha:sar"
  inner working and background.
 \end_layout
 
-\begin_layout Standard
-\begin_inset Note Note
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-example of "what is a phone" by bill boxton in designing user interfaces.
- Gets into a car, throw his phone on the passenger seat, phone connect via
- bluetooth to radio, continue conversation, drive the car, arrive at destination
- an pick up the phone to continue conversation while walking.
- In this example, what is a "phone", is it the mobile phone, the car? What
- is important is the *conversation*.
- In the same idea, what is a screen?
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Section
-Problem Statement
-\end_layout
-
-\begin_layout Plain Layout
-Making the real and virtual cohabit on a physical medium represent an interactio
-n challenge.
- Direct touch can be a solution most of the time.
- Indeed, manipulating physical objects with our hands is something we have
- a lot of experience with in our daily lives and thus can express a lot
- of subtle and expressive gestures and operations.
- Nonetheless, interacting with the virtual content of an object can sometime
- be difficult, especially because the virtual content itself does not have
- a physical embodiment: we are interacting with light that happens to be
- displayed on the a complex surface.
- Interacting with touch also suffers from the "fat finger" problem where
- the finger is occluding the very area where we are interested in and therefore
- is not appropriate for complex geometries.
-\end_layout
-
-\begin_layout Plain Layout
-Augmented objects also have the potential to help us visualizing information
- in different ways, ways often more personal than just using virtual elements
- that cannot go outside of a screen's frame.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Subsection
 Physiological and Affective Computing
 \end_layout
