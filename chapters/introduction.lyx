@@ -831,9 +831,9 @@ Context
 \begin_layout Standard
 This section aims at giving an overview of the research areas onto which
  this thesis builds.
- It mainly relates to Ubiquitous Computing (Ubicomp), Tangible User Interfaces
- (TUI), Organic User Interfaces (OUI) and Augmented Reality (AR) -- more
- specifically 
+ It mainly relates to Ubiquitous Computing (Ubicomp), Physiological and
+ Affective Computing, Tangible User Interfaces (TUI), Organic User Interfaces
+ (OUI) and Augmented Reality (AR) -- more specifically 
 \emph on
 spatial
 \emph default
@@ -993,6 +993,75 @@ slow
 \emph on
 reflection
 \emph default
+.
+\end_layout
+
+\begin_layout Subsection
+Physiological and Affective Computing
+\end_layout
+
+\begin_layout Standard
+Technology is built by and for human individuals.
+ However, too often, the interaction between the technology and said individuals
+ take the form of psychopathic monologues -- a serie of commands and feedbacks
+ disregarding any distress, frustration or pleasure the users express.
+ This is because of the inability of machines to understand and express
+ human emotions.
+ This realization motivated Rosalind Picard to develop the concept of 
+\emph on
+Affective Computing
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Picard1995"
+
+\end_inset
+
+ along with a whole research agenda.
+ Picard defines this concept as 
+\begin_inset Quotes eld
+\end_inset
+
+computing that relates to, arises from, or deliberately influences emotions
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Among the many potential technical ways to understand human emotions is
+ 
+\emph on
+Physiological Computing
+\emph default
+.
+ Fairclough et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Fairclough2009a"
+
+\end_inset
+
+ defines it as a type of computing which uses real-time psychophysiology
+ to represent the state of the user -- e.g.
+ cognitions, motivation, emotion).
+ It then uses this knowledge of the user's internal state to adapt the interacti
+ve system in real-time.
+ Physiological computing rely on different types of bodily signals, such
+ as heart rate, breathing or electrodermal activity that can be detected
+ in different ways.
+ It is also possible to measure brain activity using varying method; one
+ of the most popular one consists in measuring the electrical current at
+ the surface of the scalp -- electroencephalography (EEG).
+ Measuring brain activity as a communication and control channel for interactive
+ systems is a research area on its own: Brain Computer Interfaces (BCI)
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Wolpaw2000,Wolpaw12"
+
+\end_inset
+
 .
 \end_layout
 
@@ -1561,23 +1630,6 @@ reference "cha:sar"
 
  is reserved for going in further details about this technological choice's
  inner working and background.
-\end_layout
-
-\begin_layout Subsection
-Physiological and Affective Computing
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-wolpaw, fairclough, picard
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
