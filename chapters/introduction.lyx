@@ -1560,7 +1560,11 @@ Contributions
 \end_layout
 
 \begin_layout Standard
-The contributions of this thesis are the following:
+In this thesis, we explore methods and systems to interact with tangible
+ augmented objects.
+ Additionally, we investigate ways to leverage these augmented objects in
+ combination with physiological computing to foster introspection.
+ More specifically, our contributions are the following:
 \end_layout
 
 \begin_layout Enumerate
