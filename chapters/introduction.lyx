@@ -1611,7 +1611,7 @@ reference "cha:introduction"
 
 \end_inset
 
-) and provides details on the topic of Spatial Augmented Reality -- Chapter
+) and provides details on the topic of Spatial Augmented Reality (Chapter
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1619,7 +1619,9 @@ reference "cha:sar"
 
 \end_inset
 
- -- since it is the technological thread unifying the different projects.
+) since it is the technological thread unifying the different projects.
+ Note that we purposefully avoid a dedicated chapter for related work as
+ we instead present them as appropriate alongside the work of each chapter.
 \end_layout
 
 \begin_layout Standard
@@ -1717,8 +1719,8 @@ status open
  Teegi itself is an anthropomorphic character onto which a user's live EEG
  reading is displayed.
  The user can manipulate Teegi to explore the signals and change the different
- filters applied to the EEG readings using small tangible character -- mini
- Teegis.
+ filters applied to the EEG readings using small tangible characters --
+ mini Teegis.
  Expanding upon the work with Teegi, we created a broader toolkit to allow
  anyone to actively and physically build a tangible representation of one's
  inner state that is detailed in Chapter 
@@ -1796,25 +1798,6 @@ reference "cha:tobe"
  electronics and signal processing.
  My personal contributions to these projects were focused on the tangible,
  interactive and visual aspects of the systems.
-\end_layout
-
-\begin_layout Standard
-Note that we purposefully avoid a dedicated chapter for related work as
- we instead present them as appropriate alongside the work of each chapter.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: make sure tobe section is clear enough.
- Finish the argumentation for why there is not related work chapter.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_body
