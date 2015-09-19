@@ -189,7 +189,14 @@ key "Milgram1994"
 \end_inset
 
  proposed a taxonomy for mixed reality display technologies taking the form
- of a continuum between reality and virtual reality.
+ of a continuum between reality and virtual reality as shown in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sar-virtuality-continuum"
+
+\end_inset
+
+.
  At the left extremity is unaltered reality.
  On the other side lies virtual reality, which replaces reality completely
  relying on different sensory channels -- usually visual and auditory.
@@ -222,6 +229,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sar-virtuality-continuum"
+
+\end_inset
+
 Milgram's virtuality continuum as described in 
 \begin_inset CommandInset citation
 LatexCommand Citep
@@ -376,12 +389,12 @@ key "Baudisch2013"
 \end_inset
 
 .
- In this game, two teams played a basketball game with the exception that
- there is no physical ball to manipulate.
- Instead, there is only an imaginary ball that exists solely via a computer
- analyzing the playing area in real-time.
- The location of the ball has to be inferred by the player using sound cues
- given by the system managing the game.
+ In this game, two teams played a basketball game in which there is no physical
+ ball to manipulate.
+ Instead, there is an imaginary ball that exists solely via a computer analyzing
+ the playing area in real-time.
+ The location of the ball has to be inferred by the players using sound
+ cues given by the system managing the game.
 \end_layout
 
 \begin_layout Standard
@@ -599,7 +612,7 @@ key "Raskar1998a"
 \emph on
 Spatial
 \emph default
- AR or SAR.
+ Augmented Reality or projection mapping in artistic communities.
  They put emphasis on augmenting the 
 \emph on
 environment
@@ -625,7 +638,7 @@ reference "fig:sar-anamorphic-mug"
 \end_inset
 
 .
- Other work using SAR to produce anamorphic illusions include 
+ Other works using SAR to produce anamorphic illusions include 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Lee2009"
@@ -1119,7 +1132,8 @@ name "sec:sar-how-does-it-work"
 \end_layout
 
 \begin_layout Standard
-In this section, we are taking a closer look at how SAR is actually achieved.
+In this section, we are taking a closer look at how SAR is actually achieved
+ in practice.
  While most of the concepts presented here can be generalized from a standard
  AR pipeline, we will focus on its spatial specialization.
  As discussed in the previous section, there are mainly two different types
@@ -1169,7 +1183,7 @@ reference "cha:tangible-viewports"
 
 \end_inset
 
- also rely slightly on anamorphic illusions, they will also be briefly covered
+ also slightly rely on anamorphic illusions, they will also be briefly covered
  in this section.
 \end_layout
 
@@ -1188,7 +1202,7 @@ name "sub:sar-texture-mapping"
 In order to create an augmented scene, a virtual counterpart of every real-world
  component that is used to create the augmented experience is required.
  Indeed, we want to create the illusion that augmented graphics displayed
- on the object's surface are actually 
+ on the physical object's surface are actually 
 \emph on
 part of
 \emph default
@@ -1197,7 +1211,7 @@ part of
  All the digital operations and animations will be created and handled in
  the virtual world using this virtual object.
  Then, we model the projection cone of our projectors in the real-world.
- This consists in knowing the behaviors of the pixels in space.
+ This consists in characterizing the behaviors of the pixels in space.
  A virtual camera is then created based on the projector's parameters.
  We finally reproject this virtual camera view on the real world environment
  using the projector.
@@ -1232,7 +1246,7 @@ reference "fig:sar-pipeline"
 \end_layout
 
 \begin_layout Enumerate
-Augmented object geometry.
+Geometry of the augmented object.
 \end_layout
 
 \begin_layout Enumerate
@@ -1381,7 +1395,7 @@ reference "fig:sar-pipeline"
 \end_inset
 
  as fed by the tracking solution.
- Then a virtual camera is created using the parameters returned from the
+ Then, a virtual camera is created using the parameters returned from the
  extrinsic (
 \begin_inset Formula $M_{W\rightarrow Proj}$
 \end_inset
@@ -1445,7 +1459,7 @@ From real to virtual
 This approach consists in starting from a real object and then creating
  a virtual version of it.
  One of the most straightforward way to achieve this is by simply measuring
- -- using of example a measuring tape and a protractor -- different key
+ -- using for example a measuring tape and a protractor -- different key
  points of the object.
  They are then processed in a 3D Computer Assisted Design (CAD) software
  to form a more or less complete geometric shape.
