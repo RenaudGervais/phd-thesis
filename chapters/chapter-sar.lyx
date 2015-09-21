@@ -3346,7 +3346,7 @@ live
 \begin_inset Quotes eld
 \end_inset
 
-code first 
+code 
 \emph on
 then
 \emph default
@@ -3611,7 +3611,7 @@ see
 
  visible light.
  Therefore, it is impossible to capture the light projected from a standard
- projector and thus, a projected chessboard required for calibration.
+ projector and consequently, a projected chessboard required for calibration.
  Some camera models, however, have an IR filter switch, allowing to turn
  off the IR filter.
  However, the resolution of these cameras are relatively low -- 640x480
@@ -3730,8 +3730,8 @@ key "Witmer1998"
 
 .
  It is associated to virtual reality which whole purpose is often to immerse
- one or many persons in computer generated artificial worlds and providing
- the experience of 
+ one or many persons in computer generated artificial worlds and giving
+ the illusion of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3852,15 +3852,15 @@ Of course, projecting over buildings often require more projectors and higher
 
 \begin_layout Standard
 When first introducing SAR, Raskar et al.
- made a list of the different advantages of SAR in comparison to standard
- AR 
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Raskar1998a"
 
 \end_inset
 
-.
+ made a list of the different advantages of SAR in comparison to standard
+ AR.
  Namely, they mention the fact that the user does not need to wear any device
  such as a HMD.
  Larger field of view can also be supported; using multiple projectors allows
@@ -3996,6 +3996,35 @@ key "MartinezPlasencia2014"
 \end_inset
 
 .
+ Usually, such 3D illusions rely on stereoscopic projection such as the
+ MirageTable installation of Benko et al.
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Benko2012"
+
+\end_inset
+
+.
+ However, this has the main drawback of requiring that the user wears glasses
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+In addition to the other drawbacks related to the use of stereoscopy such
+ as discomfort, fatigue, stereoanomaly, etc 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Patterson2007,Lambooij2009"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+, which is something we wanted to avoid in the first place.
 \end_layout
 
 \end_body
