@@ -2139,6 +2139,15 @@ http://www.openhybrid.org/
 \end_inset
 
  are good examples of such programming frameworks.
+ Holman and Benko 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Holman2011"
+
+\end_inset
+
+ also combined tangible objects with programming in an installation that
+ enabled the prototyping of tangible interfaces.
  However, more complex programming is an activity that is almost exclusively
  conveyed on standard computers.
  It is possible, then, to create a program and visualize its execution in
