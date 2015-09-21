@@ -96,6 +96,64 @@ tion.
 Summary of Contributions
 \end_layout
 
+\begin_layout Standard
+The different work presented in this thesis has focused on two different
+ areas related to tangible augmented objects.
+ First, it explored the 
+\emph on
+interaction
+\emph default
+ with the digital content.
+ We have approached this investigation using traditional 2D indirect input
+ devices.
+ While it may at first seem contradictory with an overall tangible approach,
+ our motivation was to build upon already existing -- and rich -- digital
+ systems by bridging them with physical objects.
+ In a second time, we used these augmented objects as ways to encourage
+ 
+\emph on
+introspection
+\emph default
+ activities involving user's internal body states.
+ Overall, we have investigated techniques and created systems that aimed
+ to go beyond traditional screens, involving the physical space around our
+ working environments as well as our own bodies.
+\end_layout
+
+\begin_layout Standard
+This thesis presented the following four contributions:
+\end_layout
+
+\begin_layout Enumerate
+A study on the performance of a pointing task using 2D indirect pointing
+ devices in a SAR condition compared to a screen condition (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+).
+ It replicated the interaction technique of a standard desktop computer
+ to a real world scene to see if interacting with real world object could
+ an appropriate choice.
+ We found a drop of 11% in completion time in the SAR condition which still
+ remained predictable using Fitts' law.
+\end_layout
+
+\begin_layout Enumerate
+A system enabling the seamless interaction between standard screen-based
+ 3D applications and physical objects (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+).
+ 
+\end_layout
+
 \begin_layout Section
 Future Works
 \end_layout
