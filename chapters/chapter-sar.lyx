@@ -1764,12 +1764,15 @@ reference "fig:sar-projection-artifacts"
 \end_inset
 
 ).
- Performance is is often evaluated in milliseconds and is indicative of
- the system's capacity to sustain real-time updates.
+ Performance is often evaluated in milliseconds and is indicative of the
+ system's capacity to sustain real-time updates.
  That is, when the physical object is moved, how much latency is created
  by the system having to compute the new pose of the object.
  Naturally, high tracking performance is required whenever the physical
  object is to be manipulated and moved around a lot.
+ Moreover, delays between a change in the physical object's pose and the
+ augmentation will break the illusion of a coherent world, which we want
+ to avoid as much as possible.
  On the opposite, some setups require very little manipulation and can even
  fare well without any dynamic tracking solution, for example if the object
  never needs to be manipulated physically
@@ -1951,8 +1954,9 @@ GNSS.
 , sonar and computer vision, to name only a few.
  It is however not our goal to go in depth on this topic since it is not
  the main interest of this dissertation.
- We will discuss some of the techniques relying on computer vision since
- they are the most commonly found for small object tracking in an AR context.
+ We will instead only discuss some of the techniques relying on computer
+ vision since they are the most commonly found for small object tracking
+ in an AR context.
  The main tracking technology used in the different projects highlighted
  in this thesis is based on computer vision.
 \end_layout
@@ -2013,7 +2017,7 @@ key "Wagner2007"
 \end_inset
 
 .
- An example of marker for each of these library is shown in Figure 
+ An example of marker for each of these libraries is shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-artoolkit-markers"
@@ -2182,7 +2186,7 @@ Fiducial markers used for tracking
 \end_layout
 
 \begin_layout Standard
-Using fiducial markers require having a calibrated camera
+Using fiducial markers requires having a calibrated camera
 \begin_inset Foot
 status collapsed
 
@@ -2232,7 +2236,7 @@ status open
  They also require to be fully visible in the camera's frustrum in order
  to be detected.
  To overcome this limitation, it is possible to combine multiple markers
- together that acts like a single tracked body.
+ together that acts like a single tracked target.
  Their form factor make them difficult to affix on complex 3D objects.
  Another drawback is their visual clutter.
  Indeed, their appearance and form factor can be disturbing for users when
@@ -2253,9 +2257,8 @@ Natural Feature Tracking
 \end_layout
 
 \begin_layout Standard
-Tracking natural features is based on image features -- characteristic points
- that are processed in certain ways which are easier to match for computer
- vision algorithms -- extraction and matching.
+Image features are characteristic points processed in certain ways that
+ renders them easier to detect and match together for computer vision algorithms.
  Commonly used are SIFT 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2326,10 +2329,10 @@ http://www.qualcomm.com/products/vuforia
 
 \end_inset
 
-, propose AR solution based on this technology.
+, propose AR solutions based on this technology.
  Alternatively, natural feature tracking is often used in scenarios where
- you have to track the camera pose where the camera is evolving in an environmen
-t to be augmented using video see-through techniques.
+ you have to track a camera's pose which is evolving in an environment to
+ be augmented using video see-through techniques.
  Approaches such as Simultaneous Localization and Mapping (SLAM) 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2349,8 +2352,9 @@ key "Davison2007"
 \end_layout
 
 \begin_layout Standard
-This approach is difficult to use in SAR contexts for obvious reasons: by
- augmenting the object using projected light, we alter its appearance.
+Natural feature tracking is difficult to use in SAR contexts for obvious
+ reasons: by augmenting the object using projected light, we alter its appearanc
+e.
  Hence, it disturbs the tracking since it is based on the object's texture
  in order to provide stable pose estimation.
 \end_layout
@@ -2393,8 +2397,8 @@ texttrademark{}
 \end_inset
 
 , has made depth sensing a realistic approach with off-the-shelf components.
- Generating depth information 2D sensors such as cameras can also be achieved
- by using multiple sensors together.
+ Generating depth information from 2D sensors such as cameras can also be
+ achieved by using multiple sensors together.
  First, stereo pairs -- two devices that have partially the same view on
  an environment and that are calibrated together -- need to be created.
  Stereo calibration is done in order to determine the relative positions
@@ -2419,7 +2423,7 @@ key "Besl1992"
  While these methods can work in real-time in some cases, they are computational
 ly expensive and the tracking precision is highly dependent on the quality
  of the camera's sensor.
- However, higher resolution camera obviously require more processing power.
+ However, higher resolution cameras obviously require more processing power.
 \end_layout
 
 \begin_layout Standard
