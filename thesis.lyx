@@ -410,6 +410,10 @@ filename "chapters/chapter-tobe.lyx"
 
 \end_layout
 
+\begin_layout Part
+Conclusion
+\end_layout
+
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
