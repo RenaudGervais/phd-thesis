@@ -137,6 +137,31 @@ reference "cha:cursar"
  It replicated the interaction technique of a standard desktop computer
  to a real world scene to see if interacting with real world object could
  an appropriate choice.
+\begin_inset Branch margin
+status collapsed
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../img/conclusion-cursar.jpg
+	lyxscale 5
+	width 25mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
  We found a drop of 11% in completion time in the SAR condition which still
  remained predictable using Fitts' law.
 \end_layout
@@ -151,7 +176,65 @@ reference "cha:tangible-viewports"
 \end_inset
 
 ).
+ This took the form of an on-screen window -- that we called Tangible Viewport
+ -- which enable the mouse cursor to slide back and forth between the screen
+ and a physical object held before it.
+\begin_inset Branch margin
+status collapsed
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../img/conclusion-tports.jpg
+	lyxscale 20
+	width 25mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ We also explored the interaction space provided by this interplay between
+ traditional screens -- and the applications hosted on them -- and the augmented
+ objects.
+\end_layout
+
+\begin_layout Enumerate
+A Tangible ElectroEncephaloGraphy Interface -- Teegi -- (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:teegi"
+
+\end_inset
+
+).
+ This is the first system enabling novices to easily visualize and interact
+ with EEG signals in an easy and friendly way.
+ We have shown its use for learning about different brain processes, using
+ the user's own EEG readings in real-time as a basis.
+\end_layout
+
+\begin_layout Enumerate
+A toolkit for creating tangible avatars displaying the real-time low level
+ physiological signals as well as different mental states of the user (Chapter
  
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tobe"
+
+\end_inset
+
+).
 \end_layout
 
 \begin_layout Section
