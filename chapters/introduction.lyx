@@ -1741,7 +1741,7 @@ reference "cha:tobe"
 \end_inset
 
  -- a Tangible Out-of-Body Experience.
- This work encompass the whole workflow: creation of a tangible support
+ This work encompasses the whole workflow: creation of a tangible support
  using 3D printing, building the physiological sensors (e.g.
  heart rate, breathing, EEG) using open hardware, the signal processing
  pipelines and the creation of custom visual feedback.
