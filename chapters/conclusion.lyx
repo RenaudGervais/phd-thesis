@@ -222,6 +222,34 @@ reference "cha:teegi"
  with EEG signals in an easy and friendly way.
  We have shown its use for learning about different brain processes, using
  the user's own EEG readings in real-time as a basis.
+ The interface is controlled through mini-teegis which apply specific filters
+ in order to investigate specific brain activity: 
+\begin_inset Branch margin
+status collapsed
+
+\begin_layout Standard
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../img/teegi-inverse-model.jpg
+	lyxscale 5
+	width 25mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+motor activity, vision and meditation.
 \end_layout
 
 \begin_layout Enumerate
