@@ -137,6 +137,7 @@ reference "cha:cursar"
  It replicated the interaction technique of a standard desktop computer
  to a real world scene to see if interacting with real world object could
  an appropriate choice.
+ We found a
 \begin_inset Branch margin
 status collapsed
 
@@ -162,8 +163,8 @@ status open
 
 \end_inset
 
- We found a drop of 11% in completion time in the SAR condition which still
- remained predictable using Fitts' law.
+ drop of 11% in completion time in the SAR condition which still remained
+ predictable using Fitts' law.
 \end_layout
 
 \begin_layout Enumerate
@@ -179,6 +180,7 @@ reference "cha:tangible-viewports"
  This took the form of an on-screen window -- that we called Tangible Viewport
  -- which enable the mouse cursor to slide back and forth between the screen
  and a physical object held before it.
+ We also explored the interaction space provided by this interplay
 \begin_inset Branch margin
 status collapsed
 
@@ -204,9 +206,8 @@ status open
 
 \end_inset
 
- We also explored the interaction space provided by this interplay between
- traditional screens -- and the applications hosted on them -- and the augmented
- objects.
+ between traditional screens -- and the applications hosted on them -- and
+ the augmented objects.
 \end_layout
 
 \begin_layout Enumerate
@@ -263,6 +264,40 @@ reference "cha:tobe"
 \end_inset
 
 ).
+ This set of tools -- named Tobe (Tangible Out-of-Body Experience) -- encompasse
+s a complete workflow: from the fabrication of the sensors up to the creation
+ and animation of the different visualizations, including signal processing
+ and the physical avatar creation.
+ We created an instance of Tobe which took the shape of a tangible character
+ that was animated according
+\begin_inset Branch margin
+status collapsed
+
+\begin_layout Standard
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ../img/conclusion-tobe.jpg
+	lyxscale 5
+	width 25mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ to a user's mental states and physiological responses -- e.g.
+ frustration, attention, arousal, heart rate, breathing, ...) -- which has
+ been tested in a scientific museum.
 \end_layout
 
 \begin_layout Section
