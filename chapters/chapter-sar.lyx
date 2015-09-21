@@ -1471,9 +1471,9 @@ ngly slow and error prone.
 
 \begin_layout Standard
 An alternative way to achieve this is to rely on an automatic process that
- will generate the 3D points for us by scanning the object in 3D.
- Scanning can be done in many different ways including cameras and lasers
- -- such as LiDAR systems.
+ will generate the 3D points for us by scanning the object.
+ Scanning can be conducted in many different ways including using cameras
+ and lasers -- such as LiDAR systems.
  Recent advances in computer vision techniques and the democratization of
  depth cameras such as the Microsoft Kinect
 \begin_inset ERT
@@ -1520,19 +1520,15 @@ From virtual to real
 \end_layout
 
 \begin_layout Standard
-This method is typical of industrial settings where object fabrication starts
- with a digital design.
+This method is typically used in industrial settings where object fabrication
+ starts with a digital design.
  The object is then physically built either manually -- for example with
  clay during the design stages -- or with machines such as CNC mills.
  However, recent advances in digital fabrication technologies, such as 3D
  printing and laser cutting, has widened considerably the accessibility
  object making.
  One of the main advantage of digital fabrication is that it ensures that
- the physical object corresponds 
-\emph on
-exactly
-\emph default
- to the 3D model (Figure 
+ the physical object corresponds to the 3D model (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sar-3d-printing-polyclock"
@@ -1548,6 +1544,15 @@ reference "fig:sar-3d-printing-polyclock"
  Moreover, advances in 3D printing technologies allow for more fine grained
  control over the material being used at very specific locations in the
  object.
+ For example, translucent glass has been used in combination with 3D printing
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Klein2015"
+
+\end_inset
+
+.
  More recently, it has even been used as a way to create interactive components
  by printing embedded optical components 
 \begin_inset CommandInset citation
