@@ -1017,10 +1017,7 @@ Exposing the signal filtering process.
 
 \begin_layout Standard
 Another dimension we explored is the use of tangible actions to control
-\end_layout
-
-\begin_layout Standard
-some parameters of the EEG signal processing.
+ some parameters of the EEG signal processing.
  As an example, we have implemented a technique where the user can control
  the amplitude of the visualization color map by moving a tangible object
  on the table (Figure 
