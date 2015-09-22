@@ -328,5 +328,53 @@ Fostering Wellbeing and Self-Reflexion
 Final Remarks
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+As Brown 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Brown2012"
+
+\end_inset
+
+ puts it in his talk, the most important aspect of Weiser and Brown's vision
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1996"
+
+\end_inset
+
+ of ubiquitous computing has been overlooked: a technology that would create
+ 
+\emph on
+calm
+\emph default
+.
+ Rogers 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rogers2006"
+
+\end_inset
+
+, for example, has instead been advocating focusing on making the user engaged
+ with technology.
+\end_layout
+
+\begin_layout Plain Layout
+Calm is different than apathy.
+ A quaterback in the pocket is calm to make the good decision (cite from
+ talk on Breath).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
