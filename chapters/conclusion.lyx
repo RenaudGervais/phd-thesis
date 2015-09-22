@@ -351,11 +351,25 @@ reference "cha:cursar"
  hypothesis that the implicit coordinate system created screen bezel is
  important.
  From there, we could investigate ways to infer this coordinate system when
- using indirect pointing techniques in the real world as was done in CurSAR.
+ using indirect pointing techniques in the real world as it was done in
+ CurSAR.
 \end_layout
 
 \begin_layout Subsubsection
 Pointing techniques
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Maybe talks object bound cursor idea.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
@@ -406,8 +420,35 @@ key "Ullmer1997"
 Improvised Interaction Surfaces
 \end_layout
 
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Check idea from journal of yesterday.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsubsection
 Towards a Unified Input
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+Talk about using a pen to do both virtual and real operations on different
+ planes (20140520_TangibleTextureDrawing.jpg).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
