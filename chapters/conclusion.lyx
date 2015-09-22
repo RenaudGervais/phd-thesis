@@ -255,7 +255,7 @@ motor activity, vision and meditation.
 
 \begin_layout Enumerate
 A toolkit for creating tangible avatars displaying the real-time low level
- physiological signals as well as different mental states of the user (Chapter
+ physiological signals as well as different mental states of the users (Chapter
  
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -302,6 +302,26 @@ status open
 
 \begin_layout Section
 Future Works
+\end_layout
+
+\begin_layout Subsection
+Away from the Desktop, Towards the Desk
+\end_layout
+
+\begin_layout Subsubsection
+Improvised Interaction Surfaces
+\end_layout
+
+\begin_layout Subsubsection
+Towards a Unified Input
+\end_layout
+
+\begin_layout Subsection
+Democratization of Physiological Data Visualization
+\end_layout
+
+\begin_layout Subsection
+Fostering Wellbeing and Self-Reflexion
 \end_layout
 
 \begin_layout Section
