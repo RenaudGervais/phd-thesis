@@ -310,6 +310,55 @@ We conclude this thesis by presenting future works to the different projects
 \end_layout
 
 \begin_layout Subsection
+Tangible Viewports
+\end_layout
+
+\begin_layout Standard
+With the Tangible Viewports system (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+), we have created a way for users to interact with tangible augmented objects
+ in a similar way that they interact with them using a 3D view on a screen,
+ with the added benefit of direct manipulation.
+\end_layout
+
+\begin_layout Subsubsection
+Performance Evaluation
+\end_layout
+
+\begin_layout Standard
+The exploratory study we conducted enabled us to validate that the metaphor
+ seemed to work well enough so that all participants understood and interacted
+ with the system without showing any sign of being destabilized by the chosen
+ interaction technique; every user went on to work on their design without
+ hesitations.
+ However, it would be interesting to quantify the performance of the pointing
+ technique compared to pointing on a 3D rendering inside a window.
+ Moreover, it would also be worth comparing with the study done with CurSAR
+ (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+).
+ A lower decrease in completion time performance would point towards the
+ hypothesis that the implicit coordinate system created screen bezel is
+ important.
+ From there, we could investigate ways to infer this coordinate system when
+ using indirect pointing techniques in the real world as was done in CurSAR.
+\end_layout
+
+\begin_layout Subsubsection
+Pointing techniques
+\end_layout
+
+\begin_layout Subsection
 Away from the Desktop, Towards the Desk
 \end_layout
 
@@ -406,7 +455,10 @@ key "Rogers2006"
 
 \end_inset
 
-, for example, has instead been advocating focusing on making the user engaged
+, for example, has instead been advocating focusing on making the user 
+\emph on
+engaged
+\emph default
  with technology.
 \end_layout
 
