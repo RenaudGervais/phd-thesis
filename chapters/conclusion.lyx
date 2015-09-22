@@ -304,8 +304,53 @@ status open
 Future Works
 \end_layout
 
+\begin_layout Standard
+We conclude this thesis by presenting future works to the different projects
+ discussed in the previous chapters.
+\end_layout
+
 \begin_layout Subsection
 Away from the Desktop, Towards the Desk
+\end_layout
+
+\begin_layout Standard
+With CurSAR (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+) and Tangible Viewports (Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+), we presented a working environment that leveraged the traditional ways
+ to interact with digital information and combined it with real world objects
+ and environments.
+ More specifically, Tangible Viewports is an attempt at reducing the gap
+ between the world of screens-based software and tangible objects.
+ However, this approach has some limitations.
+ Most notably is the constraint of having to position the physical object
+ in front of the screen in order to interact with it using the mouse cursor.
+ Following the general approach of ubiquitous computing and tangible interaction
+, we think that fusing the desktop computer inside the desk it is laid on
+ would be a promising direction.
+ Of course, much work has already been done under the form of workbenches
+ such as the pioneering work of Ullmer and Ishii with the metaDESK 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ullmer1997"
+
+\end_inset
+
+.
+ However, it would be interesting to consider a workbench not as non-immersive
+ virtual workspace, but as a real world work area onto which tools have
+ both digital and physical purposes.
 \end_layout
 
 \begin_layout Subsubsection
