@@ -310,7 +310,7 @@ We conclude this thesis by presenting future works to the different projects
 \end_layout
 
 \begin_layout Subsection
-Tangible Viewports
+Tangible Viewports Performance Evaluation
 \end_layout
 
 \begin_layout Standard
@@ -324,10 +324,6 @@ reference "cha:tangible-viewports"
 ), we have created a way for users to interact with tangible augmented objects
  in a similar way that they interact with them using a 3D view on a screen,
  with the added benefit of direct manipulation.
-\end_layout
-
-\begin_layout Subsubsection
-Performance Evaluation
 \end_layout
 
 \begin_layout Standard
@@ -353,23 +349,6 @@ reference "cha:cursar"
  From there, we could investigate ways to infer this coordinate system when
  using indirect pointing techniques in the real world as it was done in
  CurSAR.
-\end_layout
-
-\begin_layout Subsubsection
-Pointing techniques
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-Maybe talks object bound cursor idea.
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Subsection
@@ -417,6 +396,49 @@ key "Ullmer1997"
 \end_layout
 
 \begin_layout Subsubsection
+Complementary Pointing techniques
+\end_layout
+
+\begin_layout Standard
+When studying the performance of a pointing task in real world using indirect
+ pointing device in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+, we directly ported the technique from what is typically used when pointing
+ from a 3D viewport rendered on screen.
+ However, other indirect
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+The consideration for indirect techniques remains justified for precision
+ and prolonged work purposes.
+ However, it would be interesting to combine both direct and indirect methods
+ in a single device.
+ It could take the form of Kienzle and Hinckley's LightRing 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kienzle2014"
+
+\end_inset
+
+ combined with an Leap Motion for example.
+\end_layout
+
+\end_inset
+
+ techniques might also be worth considering.
+\end_layout
+
+\begin_layout Standard
+One 
+\end_layout
+
+\begin_layout Subsubsection
 Improvised Interaction Surfaces
 \end_layout
 
@@ -434,7 +456,15 @@ Check idea from journal of yesterday.
 \end_layout
 
 \begin_layout Subsubsection
-Towards a Unified Input
+Towards 
+\begin_inset Quotes eld
+\end_inset
+
+Enchanted
+\begin_inset Quotes erd
+\end_inset
+
+ Tools
 \end_layout
 
 \begin_layout Standard
@@ -446,6 +476,11 @@ Talk about using a pen to do both virtual and real operations on different
  planes (20140520_TangibleTextureDrawing.jpg).
 \end_layout
 
+\begin_layout Plain Layout
+Can refer to Enchanted Objects (see the synopsis of the book talking about
+ a woodworker's workbench and the amount of tools on there).
+\end_layout
+
 \end_inset
 
 
@@ -453,6 +488,25 @@ Talk about using a pen to do both virtual and real operations on different
 
 \begin_layout Subsection
 Democratization of Physiological Data Visualization
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Ugur2013"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
