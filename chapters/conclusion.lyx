@@ -410,15 +410,70 @@ reference "cha:cursar"
 
 , we directly ported the technique from what is typically used when pointing
  from a 3D viewport rendered on screen.
- However, other indirect
+ However, other indirect techniques
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 The consideration for indirect techniques remains justified for precision
  and prolonged work purposes.
- However, it would be interesting to combine both direct and indirect methods
- in a single device.
+\end_layout
+
+\end_inset
+
+ might also be worth considering.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+object centric cursor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Among the different ways to interact with augmented objects, we would like
+ to investigate the use of an object-bound cursors.
+ As is the case when pointing in 3D from 2D input devices, the 3D space
+ has to be collapsed by one dimension.
+ In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:cursar"
+
+\end_inset
+
+, we mapped the 2D motion to a plane placed perpendicularly between the
+ user and the scene and raycasted the 3D scene from there.
+ With an object bound cursor, the raycasting could be made from a bounding
+ surface around the physical object -- e.g.
+ a sphere -- towards the object.
+ This could prove to be interesting, especially in cases where the augmented
+ object is relatively small and held in the hand of the user.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+hybrid cursor
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Another interesting approach would be to combine both direct and indirect
+ methods in a single device.
  It could take the form of Kienzle and Hinckley's LightRing 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -426,16 +481,10 @@ key "Kienzle2014"
 
 \end_inset
 
- combined with an Leap Motion for example.
-\end_layout
-
-\end_inset
-
- techniques might also be worth considering.
-\end_layout
-
-\begin_layout Standard
-One 
+ combined with a Leap Motion for example.
+ That way, it would be possible for users to use direct pointing for tasks
+ requiring short operation time and low accuracy while they could simply
+ lay down their dominant hand on the table to move the cursor indirectly.
 \end_layout
 
 \begin_layout Subsubsection
