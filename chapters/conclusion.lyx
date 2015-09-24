@@ -681,6 +681,37 @@ Anamorphic illusions typically do not work well at close distance.
  in certain interaction contexts.
 \end_layout
 
+\begin_layout Standard
+One example of such use in the context of the work presented in Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:interaction"
+
+\end_inset
+
+ of this thesis would be in trying to improve indirect pointing in the absence
+ of a physical screen.
+ Since a 2D window -- as it was used in Tangible Viewports -- acts like
+ a good reference plane for interacting using a 2D indirect input devices,
+ we could project a 3D illusion of a virtual window.
+ Since it only acts like context for the cursor behavior, users might not
+ have to put their focus on it.
+ That way, it might be helpful in supporting hybrid operations -- that both
+ leverage screen-based interactor and tangible augmented objects -- without
+ having to deliberately position the physical object in front of the screen.
+ Instead, we could render the 2D window outside the screen.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+add sketch of idea (see journal entry sept-03)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
 Democratization of Physiological Data Visualization
 \end_layout
