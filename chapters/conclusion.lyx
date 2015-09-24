@@ -851,6 +851,10 @@ reference "cha:tobe"
  Our goal with Tobe was to democratize even more the access and understanding
  of physiological data by engaging users in creating their own representation
  of their inner selves.
+ We already tested the use of the toolkit in a scientific museum but we
+ want to give the toolkit to actual users -- for example in FabLabs and
+ different maker spaces -- and see where it can be improved upon and what
+ kind of applications people are interested in.
  One future perspective we are particularly excited about is the use of
  such a tangible avatar in medical settings and health applications.
  Indeed, we want to study if displaying medical readings on a physical puppet
@@ -867,7 +871,7 @@ at-a-glance
  view of the patient's readings.
  Since the form factor can be customized, we could think of ways to make
  health monitoring more engaging and positive for kids -- by 3D printing
- avatars taking the form of their favorite super heros for example.
+ avatars shaped as their favorite super heros, for example.
 \end_layout
 
 \begin_layout Standard
@@ -890,7 +894,7 @@ key "Ugur2013"
 \end_layout
 
 \begin_layout Subsection
-Fostering Wellbeing and Self-Reflexion
+Fostering Wellbeing and Self-Reflection
 \end_layout
 
 \begin_layout Section
