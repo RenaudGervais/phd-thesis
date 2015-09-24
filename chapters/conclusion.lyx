@@ -569,11 +569,68 @@ Improvised Interaction Surfaces
 \end_layout
 
 \begin_layout Standard
+In Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tangible-viewports"
+
+\end_inset
+
+, we discussed the different screen positions in relation to the augmented
+ object (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:tports-screen-positioning"
+
+\end_inset
+
+).
+ The choice we made for the system was made according to the fact that we
+ wanted to leverage the use of the computer screen.
+ However, in an installation where the computer is fused in the desk itself,
+ we could imagine a way to improvise working surfaces in order to realize
+ certain operations.
+ 
+\end_layout
+
+\begin_layout Standard
+Taking inspiration from the Paper Windows
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Holman2005"
+
+\end_inset
+
+ and Tangible Viewports systems, we imagine a workspace where a user could
+ create an interactive window anywhere on the desk using a pen or using
+ a sheet of paper.
+ Then positioning a physical object in front of the newly drawn window and
+ adjusting his head position, he could take a 
+\begin_inset Quotes eld
+\end_inset
+
+snapshot
+\begin_inset Quotes erd
+\end_inset
+
+ of his view of the physical object.
+ This snapshot would be displayed on the window.
+ He could then easily draw over the object comfortably on a sheet of paper,
+ as it was done in the PapARt system 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laviole2012"
+
+\end_inset
+
+.
+ The appearance of the tangible object would then be synchronized in real
+ time.
 \begin_inset Note Note
 status open
 
 \begin_layout Plain Layout
-Check idea from journal of yesterday.
+create img draft here (journal 2015-09-22)
 \end_layout
 
 \end_inset
@@ -612,7 +669,7 @@ Can refer to Enchanted Objects (see the synopsis of the book talking about
 
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Peripheral Anamorphic Illusions
 \end_layout
 
