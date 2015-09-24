@@ -454,13 +454,73 @@ reference "cha:cursar"
  With an object bound cursor, the raycasting could be made from a bounding
  surface around the physical object -- e.g.
  a sphere -- towards the object.
+ A simple draft is illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:conclusion-obj-bound-cursor"
+
+\end_inset
+
+.
  This could prove to be interesting, especially in cases where the augmented
  object is relatively small and held in the hand of the user.
-\begin_inset Note Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-create img draft here
+\align center
+\begin_inset Graphics
+	filename ../img/conclusion-obj-bound-cursor.jpg
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:conclusion-obj-bound-cursor"
+
+\end_inset
+
+A sketch of a cursor that would be mapped to a bounding volume encompassing
+ the physical object.
+ In this example, the volume is a sphere and the 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ mouse coordinates could be mapped to the 
+\begin_inset Formula $(φ,\lambda)$
+\end_inset
+
+ coordinate of the sphere, raycasting a tangential ray towards the object.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A sketch of a cursor that would be mapped to a bounding volume encompassing
+ the physical object
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
