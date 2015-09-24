@@ -456,6 +456,16 @@ reference "cha:cursar"
  a sphere -- towards the object.
  This could prove to be interesting, especially in cases where the augmented
  object is relatively small and held in the hand of the user.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+create img draft here
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -485,6 +495,73 @@ key "Kienzle2014"
  That way, it would be possible for users to use direct pointing for tasks
  requiring short operation time and low accuracy while they could simply
  lay down their dominant hand on the table to move the cursor indirectly.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+create img draft here
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The previous two suggestions are only examples of possible investigation
+ directions for pointing on augmented content hosted on tangible objects.
+ It is important to note that the overall approach to pointing when using
+ a SAR system can be very different than one using see-through or video
+ see-through AR.
+ For one, video see-through, often being hosted on multitouch device, offer
+ a surface on which to point, effectively making the camera view acts like
+ a 3D rendering window.
+ This enable a variety of pointing techniques that can take place on the
+ multitouch surface 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vincent2013"
+
+\end_inset
+
+.
+ On the other hand, optical see-through devices, such as the Microsoft Hololens
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.microsoft.com/microsoft-hololens/en-us
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, rely on gestures and eye tracking.
+ This is because these AR techniques are mostly used to display 3D illusions
+ -- things that are 
+\begin_inset Quotes eld
+\end_inset
+
+not there
+\begin_inset Quotes erd
+\end_inset
+
+.
+ SAR is more limited in this regard.
+ However, this means that digital content is most often than not hosted
+ on physical objects; the location of the virtual objects are close to their
+ physical hosted location.
+ This provides opportunities for interaction to be much closer to real world
+ metaphors, such as the one used in TUI techniques.
 \end_layout
 
 \begin_layout Subsubsection
