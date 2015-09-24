@@ -613,6 +613,75 @@ Can refer to Enchanted Objects (see the synopsis of the book talking about
 \end_layout
 
 \begin_layout Subsection
+Peripheral Anamorphic Illusions
+\end_layout
+
+\begin_layout Standard
+We discussed the use of anamorphic illusions in the introductory chapters
+ (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:introduction"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:sar"
+
+\end_inset
+
+) and presented the working principle in Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-anamorphic-illusions"
+
+\end_inset
+
+.
+ While not using the anamorphic principle to create a 3D illusion, we used
+ the principles of perspective in the design of the hybrid widgets (Section
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:sar-hybrid-widgets"
+
+\end_inset
+
+) within the Tangible Viewports system.
+ While we experimented with the design of these, we found out that it was
+ uncomfortable the anamorphosis/perspective principle when you required
+ the user to swicth his or her focus from the task to the 
+\begin_inset Quotes eld
+\end_inset
+
+illusion
+\begin_inset Quotes erd
+\end_inset
+
+ back and forth.
+ Instead, we think that these types of illusions could be leveraged when
+ their purposes is meant to be working within the 
+\emph on
+periphery
+\emph default
+ of the user's field of view.
+ It could potentially be used as ambient indicators or guides.
+\end_layout
+
+\begin_layout Standard
+Anamorphic illusions typically do not work well at close distance.
+ This is because of the stereo cues -- each eye is seeing a slightly different
+ image, enabling the viewer to infer the depth of the objects in sight --
+ that are strong when the observed objects are relatively close to the viewer.
+ However, if the user is not focusing on the illusion itself, it might be
+ possible to perceive it, even if it will obviously be blurry.
+ Nevertheless, interesting uses of this principles could prove to be useful
+ in certain interaction contexts.
+\end_layout
+
+\begin_layout Subsection
 Democratization of Physiological Data Visualization
 \end_layout
 

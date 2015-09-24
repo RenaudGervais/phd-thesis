@@ -2262,6 +2262,13 @@ Since the viewport creates a seamless continuum between the screen and the
 
 \begin_layout Subsubsection
 Hybrid Widgets
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:sar-hybrid-widgets"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
