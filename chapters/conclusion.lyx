@@ -638,11 +638,11 @@ create img draft here (journal 2015-09-22)
 
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Standard
 \begin_inset Note Note
 status open
 
-\begin_layout Plain Layout
+\begin_layout Subsubsection
 Towards 
 \begin_inset Quotes eld
 \end_inset
@@ -654,12 +654,7 @@ Enchanted
  Tools
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Comment
 status open
 
@@ -673,7 +668,7 @@ I think this future work idea might be too far away from what I actually
 
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 \begin_inset Note Note
 status open
 
@@ -685,6 +680,11 @@ Talk about using a pen to do both virtual and real operations on different
 \begin_layout Plain Layout
 Can refer to Enchanted Objects (see the synopsis of the book talking about
  a woodworker's workbench and the amount of tools on there).
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
