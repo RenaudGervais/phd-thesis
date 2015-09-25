@@ -1042,10 +1042,6 @@ Final Remarks
 \end_layout
 
 \begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
 As Brown 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1061,8 +1057,8 @@ key "Weiser1996"
 
 \end_inset
 
- of ubiquitous computing has been overlooked: a technology that would create
- 
+ of ubiquitous computing might have been overlooked: a technology that would
+ create 
 \emph on
 calm
 \emph default
@@ -1079,7 +1075,16 @@ key "Rogers2006"
 engaged
 \emph default
  with technology.
+ Engagement is an important factor with technology.
+ It makes users involved with what they are seeing, potentially shaping
+ the digital content for themselves and other.
+ However, I sincerely believe that engaged experiences should be interweaved
+ with calm.
 \end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
 
 \begin_layout Plain Layout
 Calm is different than apathy.
@@ -1090,6 +1095,37 @@ Calm is different than apathy.
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Each time I find myself cut from technology for an extended period of time,
+ for example when doing a bicycle tour of multiple weeks, it always strike
+ me how I do not miss it for a second.
+ Never do I wonder what is happening on the internet or if my emails are
+ piling up.
+ The real world is engaging me on its own, rarely being overwhelming.
+ However, upon coming back home, the technology is suddenly retrieving its
+ exhilarating appeal.
+ Even though I feel very stimulated and engaged with the technology, rarely
+ does it make me feel calm.
+ Reducing this dichotomy is something I think is worthwhile pursuing: how
+ can we use technology to sometimes feel engaged an productive while at
+ other times slowing down and be mindful to what matters to us personally.
+\end_layout
+
+\begin_layout Standard
+In this thesis, I have focused on the use of physical objects in conjunction
+ with digital content.
+ I believe, as David Rose puts it in his book 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rose2014"
+
+\end_inset
+
+, that merging both the digital and real worlds, with a special emphasis
+ on reality, has the potential for technology to stay closer to our humane
+ nature.
 \end_layout
 
 \end_body
