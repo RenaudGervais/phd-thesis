@@ -957,6 +957,86 @@ key "Ugur2013"
 Fostering Wellbeing and Self-Reflection
 \end_layout
 
+\begin_layout Standard
+One of the main underlying motivation while developing both Teegi and Tobe
+ (respectively Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:teegi"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:tobe"
+
+\end_inset
+
+) was anchored in a desire to know more about our inner selves.
+ Of course, physiological computing does not consists in an open door to
+ the mind -- it is not possible to read thoughts.
+ However, it consists in an interesting technological mean to gain insight
+ about how our bodies and minds work.
+ Interestingly, while demoing Tobe in a scientific museum and presenting
+ the technology as a mean to know more about ourselves, one of the visitors
+ stayed a moment to discuss it.
+ She was emphasizing the fact that technology was unnecessarily and that
+ introspection came from deliberate practice like meditation and contemplation.
+ In that we agree.
+ However, while not completely necessary, we believe that it can be a powerful
+ tool to 
+\emph on
+support 
+\emph default
+and 
+\emph on
+encourage
+\emph default
+ meditative, contemplative and self-reflective practices.
+ Some works have started to point in this direction, for example using conscious
+ breathing patterns 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Moraveji2011,Moraveji2012"
+
+\end_inset
+
+.
+ We also used this type of exercise with Tobe (Section 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:tobe-multi-users-relaxation"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+One aspect we are very interested in is the combination of slow technology
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hallnas2001"
+
+\end_inset
+
+ and physiological computing.
+ In the same way Weiser and Brown envisioned it 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Weiser1996"
+
+\end_inset
+
+, we think that this combination of fields could present great opportunities
+ for fostering calm and wellbeing.
+ Even more so, with technology designed for self-reflection, people could
+ investigate how their own inner states are affected by different stimuli
+ and events.
+\end_layout
+
 \begin_layout Section
 Final Remarks
 \end_layout
