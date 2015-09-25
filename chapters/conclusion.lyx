@@ -655,7 +655,15 @@ name "fig:conclusion-direct-indirect-combination"
 
 A sketch illustration a combination of direct and indirect interaction for
  drawing on an object.
+ 
+\emph on
+(a)
+\emph default
  It would be possible to start drawing directly onto the objects surface.
+ 
+\emph on
+(b)
+\emph default
  For doing a more complicated drawing or just to be able to work on a more
  stable surface, a user could seamlessly use an indirect cursor handling,
  using the same input device.
