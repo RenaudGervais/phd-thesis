@@ -551,7 +551,7 @@ key "Kienzle2014"
 
 \end_inset
 
- combined with a Leap Motion for example.
+ combined with a Leap Motion or a tracked pen, for example.
  That way, it would be possible for users to use direct pointing for tasks
  requiring short operation time and low accuracy while they could simply
  lay down their dominant hand on the table to move the cursor indirectly.
