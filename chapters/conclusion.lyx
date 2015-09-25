@@ -551,15 +551,130 @@ key "Kienzle2014"
 
 \end_inset
 
- combined with a Leap Motion or a tracked pen, for example.
+ combined with a Leap Motion or a tracked pen, for example -- see Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:conclusion-direct-indirect-combination"
+
+\end_inset
+
+ for an illustration of the intended principle.
  That way, it would be possible for users to use direct pointing for tasks
  requiring short operation time and low accuracy while they could simply
  lay down their dominant hand on the table to move the cursor indirectly.
-\begin_inset Note Note
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-create img draft here
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/conclusion-direct-indirect-combination-direct.jpg
+	lyxscale 15
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Direct drawing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/conclusion-direct-indirect-combination-indirect.jpg
+	lyxscale 15
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Indirect drawing
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:conclusion-direct-indirect-combination"
+
+\end_inset
+
+A sketch illustration a combination of direct and indirect interaction for
+ drawing on an object.
+ It would be possible to start drawing directly onto the objects surface.
+ For doing a more complicated drawing or just to be able to work on a more
+ stable surface, a user could seamlessly use an indirect cursor handling,
+ using the same input device.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+A sketch illustration a combination of direct and indirect interaction for
+ drawing on an object
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
