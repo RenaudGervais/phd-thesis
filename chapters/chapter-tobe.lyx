@@ -2810,6 +2810,13 @@ status open
 
 \begin_layout Subsection
 Tobe for Multi-Users Relaxation
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:tobe-multi-users-relaxation"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
