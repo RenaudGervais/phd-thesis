@@ -86,10 +86,10 @@ This thesis explored the use of tangible objects as hosts for digital content,
  More specifically, we have focused on the interaction with the digital
  content as well as using these augmented objects as a basis to foster introspec
 tion.
- Each chapter presented thus far have presented and discussed their individual
- contributions.
+ Each chapter thus far have presented and discussed their individual contributio
+ns.
  In this chapter, we summarize these contributions and discuss potential
- future works, with a more global approach.
+ future works.
 \end_layout
 
 \begin_layout Section
@@ -135,8 +135,8 @@ reference "cha:cursar"
 
 ).
  It replicated the interaction technique of a standard desktop computer
- to a real world scene to see if interacting with real world object could
- an appropriate choice.
+ to a real world scene to see if interacting with real world object in that
+ way could an appropriate choice.
  We found a
 \begin_inset Branch margin
 status collapsed
@@ -169,7 +169,7 @@ status open
 
 \begin_layout Enumerate
 A system enabling the seamless interaction between standard screen-based
- 3D applications and physical objects (Chapter 
+ applications and physical objects (Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:tangible-viewports"
@@ -178,9 +178,10 @@ reference "cha:tangible-viewports"
 
 ).
  This took the form of an on-screen window -- that we called Tangible Viewport
- -- which enable the mouse cursor to slide back and forth between the screen
+ -- which enables the mouse cursor to slide back and forth between the screen
  and a physical object held before it.
- We also explored the interaction space provided by this interplay
+ We also explored the interaction space provided by this interplay between
+ traditional screens -- and the applications hosted
 \begin_inset Branch margin
 status collapsed
 
@@ -206,8 +207,7 @@ status open
 
 \end_inset
 
- between traditional screens -- and the applications hosted on them -- and
- the augmented objects.
+ on them -- and the augmented objects.
 \end_layout
 
 \begin_layout Enumerate
@@ -222,9 +222,10 @@ reference "cha:teegi"
  This is the first system enabling novices to easily visualize and interact
  with EEG signals in an easy and friendly way.
  We have shown its use for learning about different brain processes, using
- the user's own EEG readings in real-time as a basis.
- The interface is controlled through mini-teegis which apply specific filters
- in order to investigate specific brain activity: 
+ the user's own real-time EEG readings as a basis.
+ The interface is controlled through mini-teegis -- small tangible puppets
+ -- which apply specific filters in order to investigate specific brain
+ activity: 
 \begin_inset Branch margin
 status collapsed
 
@@ -321,21 +322,21 @@ reference "cha:tangible-viewports"
 
 \end_inset
 
-), we have created a way for users to interact with tangible augmented objects
- in a similar way that they interact with them using a 3D view on a screen,
- with the added benefit of direct manipulation.
+), we have enabled users to interact with tangible augmented objects in
+ a similar way than what they are used to when manipulating 3D objects rendered
+ on screen, with the added benefit of direct manipulation.
 \end_layout
 
 \begin_layout Standard
-The exploratory study we conducted enabled us to validate that the metaphor
- seemed to work well enough so that all participants understood and interacted
- with the system without showing any sign of being destabilized by the chosen
- interaction technique; every user went on to work on their design without
- hesitations.
+The exploratory study we conducted indicated that the metaphor seemed to
+ work well.
+ All participants understood and interacted with the system without showing
+ any sign of being destabilized by the chosen interaction technique; every
+ user went on to work on their design without hesitations.
  However, it would be interesting to quantify the performance of the pointing
  technique compared to pointing on a 3D rendering inside a window.
- Moreover, it would also be worth comparing with the study done with CurSAR
- (Chapter 
+ Moreover, it would also be worth comparing with the study conducted with
+ CurSAR (Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:cursar"
@@ -344,8 +345,8 @@ reference "cha:cursar"
 
 ).
  A lower decrease in completion time performance would point towards the
- hypothesis that the implicit coordinate system created screen bezel is
- important.
+ hypothesis that the implicit coordinate system created by screen bezel
+ is important.
  From there, we could investigate ways to infer this coordinate system when
  using indirect pointing techniques in the real world as it was done in
  CurSAR.
@@ -393,6 +394,8 @@ key "Ullmer1997"
  However, it would be interesting to consider a workbench not as non-immersive
  virtual workspace, but as a real world work area onto which tools have
  both digital and physical purposes.
+ In this section, we present a few ideas that we think could be interesting
+ to pursue in this direction.
 \end_layout
 
 \begin_layout Subsubsection
