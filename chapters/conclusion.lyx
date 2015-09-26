@@ -411,8 +411,8 @@ reference "cha:cursar"
 
 \end_inset
 
-, we directly ported the technique from what is typically used when pointing
- from a 3D viewport rendered on screen.
+, we ported the technique that is typically used interacting with 3D elements
+ rendered on screen.
  However, other indirect techniques
 \begin_inset Foot
 status collapsed
@@ -442,7 +442,7 @@ object centric cursor
 
 \begin_layout Standard
 Among the different ways to interact with augmented objects, we would like
- to investigate the use of an object-bound cursors.
+ to investigate the use of an object-bound cursor.
  As is the case when pointing in 3D from 2D input devices, the 3D space
  has to be collapsed by one dimension.
  In Chapter 
@@ -554,18 +554,18 @@ key "Kienzle2014"
 
 \end_inset
 
- combined with a Leap Motion or a tracked pen, for example -- see Figure
- 
+ combined with a Leap Motion or a tracked pen, for example.
+ That way, it would be possible for users to use direct pointing for tasks
+ requiring short operation time and low accuracy while they could simply
+ lay down their dominant hand on the table to move the cursor indirectly.
+ Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:conclusion-direct-indirect-combination"
 
 \end_inset
 
- for an illustration of the intended principle.
- That way, it would be possible for users to use direct pointing for tasks
- requiring short operation time and low accuracy while they could simply
- lay down their dominant hand on the table to move the cursor indirectly.
+ depicts the intended principle.
 \end_layout
 
 \begin_layout Standard
@@ -696,10 +696,10 @@ A sketch illustration a combination of direct and indirect interaction for
 \begin_layout Standard
 The previous two suggestions are only examples of possible investigation
  directions for pointing on augmented content hosted on tangible objects.
- It is important to note that the overall approach to pointing when using
- a SAR system can be very different than one using see-through or video
- see-through AR.
- For one, video see-through, often being hosted on multitouch device, offer
+ It is important to note that the overall pointing approach when using a
+ SAR system can be very different than one using see-through or video see-throug
+h AR.
+ For one, video see-through, often being used on multitouch devices, offer
  a surface on which to point, effectively making the camera view acts like
  a 3D rendering window.
  This enable a variety of pointing techniques that can take place on the
@@ -743,9 +743,9 @@ not there
 
 .
  SAR is more limited in this regard.
- However, this means that digital content is most often than not hosted
- on physical objects; the location of the virtual objects are close to their
- physical hosted location.
+ However, this means that the digital content is mostly hosted on physical
+ objects; the location of the virtual objects are close to their physical
+ hosted location.
  This provides opportunities for interaction to be much closer to real world
  metaphors, such as the one used in TUI techniques.
 \end_layout
