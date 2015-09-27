@@ -1087,9 +1087,9 @@ reference "sub:sar-anamorphic-illusions"
 \end_inset
 
 .
- While not using the anamorphic principle to create a 3D illusion, we used
- the principles of perspective in the design of the hybrid widgets (Section
- 
+ While we did not extensively relied on 3D anamorphic illusions throughout
+ this thesis, we used the principles of perspective in the design of the
+ hybrid widgets (Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:sar-hybrid-widgets"
@@ -1097,9 +1097,9 @@ reference "sub:sar-hybrid-widgets"
 \end_inset
 
 ) within the Tangible Viewports system.
- While we experimented with the design of these, we found out that it was
- uncomfortable the anamorphosis/perspective principle when you required
- the user to swicth his or her focus from the task to the 
+ While we experimented with the design of these widgets, we found out that
+ when you required the user to swicth his or her focus from the task to
+ the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1107,7 +1107,7 @@ illusion
 \begin_inset Quotes erd
 \end_inset
 
- back and forth.
+ back and forth, it was uncomfortable.
  Instead, we think that these types of illusions could be leveraged when
  their purposes is meant to be working within the 
 \emph on
@@ -1144,9 +1144,9 @@ reference "part:interaction"
  Since it only acts like context for the cursor behavior, users might not
  have to put their focus on it.
  That way, it might be helpful in supporting hybrid operations -- that both
- leverage screen-based interactor and tangible augmented objects -- without
+ leverage screen-based interactors and tangible augmented objects -- without
  having to deliberately position the physical object in front of the screen.
- Instead, we could render the 2D window outside the screen.
+ The illousion of a 2D window would be rendered outside the screen.
 \begin_inset Note Note
 status open
 
