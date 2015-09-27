@@ -762,8 +762,8 @@ reference "cha:tangible-viewports"
 
 \end_inset
 
-, we discussed the different screen positions in relation to the augmented
- object (Section 
+, we discussed possible screen positions in relation to the augmented object
+ (Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:tports-screen-positioning"
@@ -771,12 +771,16 @@ reference "sub:tports-screen-positioning"
 \end_inset
 
 ).
- The choice we made for the system was made according to the fact that we
- wanted to leverage the use of the computer screen.
+ The choice of handling the object 
+\emph on
+in front 
+\emph default
+of the screen was made because we wanted to leverage the use of the native
+ applications of computers which, right now, are operated on screens.
  However, in an installation where the computer is fused in the desk itself,
- we could imagine a way to improvise working surfaces in order to realize
- certain operations.
- 
+ physical screens might not be a permanent fixture.
+ We could therefore imagine a way to improvise working surfaces in order
+ to realize certain operations.
 \end_layout
 
 \begin_layout Standard
