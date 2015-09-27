@@ -1184,12 +1184,18 @@ n of progress realized by victims of strokes.
  of rehabilitation.
  It would be interesting to study if a system such as Teegi could help these
  patients be more involved in their rehabilitation.
- Another possible application we are interested in is as a support for BCI
+ Being able to see the activity of your brain in real-time as you are training
+ and also comparing with past sessions could prove encouraging by enabling
+ patients to visualize progress.
+\end_layout
+
+\begin_layout Standard
+Another possible application we are interested in is as a support for BCI
  learning.
  Indeed, BCI are often difficult to control and require users to be trained
  in using them.
  Usually, they rely on mental imagery of motor skills.
- These skills can be increased through training but the feedback currently
+ These skills can be increased through exercises but the feedback currently
  used in BCI training is not very helpful 
 \begin_inset CommandInset citation
 LatexCommand citep
