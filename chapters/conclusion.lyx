@@ -779,7 +779,8 @@ reference "sub:tports-screen-positioning"
 in front 
 \emph default
 of the screen was made because we wanted to leverage the use of the native
- applications of computers which, right now, are operated on screens.
+ applications of computers which, right now, are operated on screens and
+ also because it helped emphasizing the use of the physical object.
  However, in an installation where the computer is fused in the desk itself,
  physical screens might not be a permanent fixture.
  We could therefore imagine a way to improvise working surfaces in order
@@ -1100,9 +1101,8 @@ reference "sub:sar-hybrid-widgets"
 \end_inset
 
 ) within the Tangible Viewports system.
- While we experimented with the design of these widgets, we found out that
- when you required the user to swicth his or her focus from the task to
- the 
+ While we experimented with the design of these widgets, we quickly realized
+ that having to switch the user's focus from the task to the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1110,9 +1110,9 @@ illusion
 \begin_inset Quotes erd
 \end_inset
 
- back and forth, it was uncomfortable.
+ back and forth was being very uncomfortable.
  Instead, we think that these types of illusions could be leveraged when
- their purposes is meant to be working within the 
+ their purposes is meant to be working in the 
 \emph on
 periphery
 \emph default
@@ -1122,11 +1122,24 @@ periphery
 
 \begin_layout Standard
 Anamorphic illusions typically do not work well at close distance.
- This is because of the stereo cues -- each eye is seeing a slightly different
- image, enabling the viewer to infer the depth of the objects in sight --
- that are strong when the observed objects are relatively close to the viewer.
- However, if the user is not focusing on the illusion itself, it might be
- possible to perceive it, even if it will obviously be blurry.
+ This is because of the strong stereo cues -- each eye is seeing a slightly
+ different image, enabling the viewer to infer the depth of the objects
+ in sight -- when the observed objects are relatively close to the viewer.
+ However, if the user is not focusing on the illusion itself, it might still
+ be possible to perceive it without being uncomfortable
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Of course, if the illusion is in the user's peripheral vision, it will appear
+ blurry.
+ However, it might not be a problem if the intended purpose is to provide
+ peripheral guides to give context and provide subtle cues.
+\end_layout
+
+\end_inset
+
+.
  Nevertheless, interesting uses of this principles could prove to be useful
  in certain interaction contexts.
 \end_layout
@@ -1145,8 +1158,7 @@ reference "part:interaction"
  a good reference frame for interacting using a 2D indirect input devices,
  we could project a virtual window as a 3D illusion.
  Since it only acts like context for the cursor behavior, users might not
- have to put their focus on it in order to reap the benefit; it only serves
- as context.
+ have to put their focus on it in order to reap the benefit.
  That way, users might be able to more easily leverage indirect pointing
  techniques for precision tasks when working with augmented objects.
  Interestingly, context could be given only at appropriate times, without
