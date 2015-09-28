@@ -1299,22 +1299,23 @@ reference "cha:teegi"
  We already received feedback regarding the potential applications of such
  ways of displaying EEG information.
  Among them, we are very interested by the potential for a friendly visualizatio
-n of progress realized by victims of strokes.
+n of rehabilitation progress realized by victims of strokes.
  Indeed, after a stroke, patients sometime have to go through long periods
- of rehabilitation.
+ of rehabilitation that can be frustrating and demoralizing.
  It would be interesting to study if a system such as Teegi could help these
- patients be more involved in their rehabilitation.
- Being able to see the activity of your brain in real-time as you are training
- and also comparing with past sessions could prove encouraging by enabling
- patients to visualize progress.
+ patients be more involved with the recovery process.
+ Being able to see the activity of their brain in real-time as they are
+ training could prove encouraging.
+ Also comparing with past sessions would enable patients to visualize their
+ progress.
 \end_layout
 
 \begin_layout Standard
-Another possible application we are interested in is as a support for BCI
- learning.
+Another possible application we are interested in is using Teegi as a support
+ for BCI learning.
  Indeed, BCI are often difficult to control and require users to be trained
- in using them.
- Usually, they rely on mental imagery of motor skills.
+ in using them efficiently.
+ Usually, BCI rely on mental imagery of motor skills.
  These skills can be increased through exercises but the feedback currently
  used in BCI training is not very helpful 
 \begin_inset CommandInset citation
@@ -1345,9 +1346,9 @@ reference "cha:tobe"
  of physiological data by engaging users in creating their own representation
  of their inner selves.
  We already tested the use of the toolkit in a scientific museum but we
- want to give the toolkit to actual users -- for example in FabLabs and
- different maker spaces -- and see where it can be improved upon and what
- kind of applications people are interested in.
+ want to give the toolkit to a wider range of users -- for example in FabLabs
+ and different maker spaces -- and see where it can be improved upon and
+ what kind of applications people are interested in.
  One future perspective we are particularly excited about is the use of
  such a tangible avatar in medical settings and health applications.
  Indeed, we want to study if displaying medical readings on a physical puppet
