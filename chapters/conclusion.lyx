@@ -107,8 +107,8 @@ interaction
  We have approached this investigation using traditional 2D indirect input
  devices.
  While it may at first seem contradictory with an overall tangible approach,
- our motivation was to build upon already existing -- and rich -- digital
- systems by bridging them with physical objects.
+ our motivation was to build upon already existing -- and powerful -- digital
+ systems and enrich them with physical objects.
  In a second time, we used these augmented objects as ways to encourage
  
 \emph on
@@ -207,7 +207,7 @@ status open
 
 \end_inset
 
- on them -- and the augmented objects.
+ on them -- and tangible augmented objects.
 \end_layout
 
 \begin_layout Enumerate
@@ -331,12 +331,13 @@ reference "cha:tangible-viewports"
 The exploratory study we conducted indicated that the metaphor seemed to
  work well.
  All participants understood and interacted with the system without showing
- any sign of being destabilized by the chosen interaction technique; every
- user went on to work on their design without hesitations.
+ any sign of being disturbed or bothered by the way of interacting with
+ the augmented objects; every user went on to work on their design without
+ hesitation.
  However, it would be interesting to quantify the performance of the pointing
- technique compared to pointing on a 3D rendering inside a window.
- Moreover, it would also be worth comparing with the study conducted with
- CurSAR (Chapter 
+ technique compared to pointing on a 3D viewport on screen.
+ Moreover, it would also be worth comparing the performance of Tangible
+ Viewports with the study conducted with CurSAR (Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:cursar"
@@ -344,10 +345,9 @@ reference "cha:cursar"
 \end_inset
 
 ).
- A lower decrease in completion time performance would point towards the
- hypothesis that the implicit coordinate system created by screen bezel
- is important.
- From there, we could investigate ways to infer this coordinate system when
+ If a lower decrease in completion time performance is found, it might mean
+ that the implicit reference frame created by screen bezel is important.
+ From there, we could investigate ways to infer this reference frame when
  using indirect pointing techniques in the real world as it was done in
  CurSAR.
 \end_layout
