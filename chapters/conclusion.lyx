@@ -457,7 +457,7 @@ reference "cha:cursar"
  With an object bound cursor, the raycasting could be made from a bounding
  surface around the physical object -- e.g.
  a sphere -- towards the object.
- A simple draft is illustrated in Figure 
+ A sketch illustrating this idea is shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:conclusion-obj-bound-cursor"
@@ -557,7 +557,8 @@ key "Kienzle2014"
  combined with a Leap Motion or a tracked pen, for example.
  That way, it would be possible for users to use direct pointing for tasks
  requiring short operation time and low accuracy while they could simply
- lay down their dominant hand on the table to move the cursor indirectly.
+ lay down their dominant hand on the table to move the cursor indirectly
+ from a comfortable position or for a precise operation.
  Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -699,9 +700,9 @@ The previous two suggestions are only examples of possible investigation
  It is important to note that the overall pointing approach when using a
  SAR system can be very different than one using see-through or video see-throug
 h AR.
- For one, video see-through, often being used on multitouch devices, offer
- a surface on which to point, effectively making the camera view acts like
- a 3D rendering window.
+ For one, video see-through systems are often being used on multitouch devices,
+ thus offering a surface on which to point.
+ This is effectively making the camera view acts like a 3D rendering window.
  This enable a variety of pointing techniques that can take place on the
  multitouch surface 
 \begin_inset CommandInset citation
@@ -742,10 +743,12 @@ not there
 \end_inset
 
 .
- SAR is more limited in this regard.
- However, this means that the digital content is mostly hosted on physical
- objects; the location of the virtual objects are close to their physical
- hosted location.
+ SAR is more limited in this regard: it works best for texture mapping.
+ 3D illusions are still possible, but they require relying on anamorphosis,
+ which tends to not work properly at close distances.
+ However, this means that the digital content is mostly hosted on actual
+ physical objects; the location of the virtual objects are close to their
+ physical hosted location.
  This provides opportunities for interaction to be much closer to real world
  metaphors, such as the one used in TUI techniques.
 \end_layout
