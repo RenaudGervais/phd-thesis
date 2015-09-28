@@ -1139,19 +1139,124 @@ reference "part:interaction"
  of this thesis would be in trying to improve indirect pointing in the absence
  of a physical screen.
  Since a 2D window -- as it was used in Tangible Viewports -- acts like
- a good reference plane for interacting using a 2D indirect input devices,
- we could project a 3D illusion of a virtual window.
+ a good reference frame for interacting using a 2D indirect input devices,
+ we could project a virtual window as a 3D illusion.
  Since it only acts like context for the cursor behavior, users might not
- have to put their focus on it.
- That way, it might be helpful in supporting hybrid operations -- that both
- leverage screen-based interactors and tangible augmented objects -- without
- having to deliberately position the physical object in front of the screen.
- The illusion of a 2D window would be rendered outside the screen.
-\begin_inset Note Note
+ have to put their focus on it in order to reap the benefit; it only serves
+ as context.
+ That way, users might be able to more easily leverage indirect pointing
+ techniques for precision tasks when working with augmented objects.
+ Interestingly, context could be given only at appropriate times, without
+ being distracting when other tasks are being conveyed.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:conclusion-peripheral-anamorphosis"
+
+\end_inset
+
+ presents a sketch of the intended principles.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
 status open
 
 \begin_layout Plain Layout
-add sketch of idea (see journal entry sept-03)
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/conclusion-peripheral-anamorphosis-1.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Side-view
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/conclusion-peripheral-anamorphosis-2.jpg
+	lyxscale 20
+	width 49line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+User's view
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:conclusion-peripheral-anamorphosis"
+
+\end_inset
+
+A sketch illustrating an anamorphic illusion of a 2D window that can be
+ used as context for indirect pointing techniques in the absence of a screen.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
