@@ -1146,7 +1146,7 @@ reference "part:interaction"
  That way, it might be helpful in supporting hybrid operations -- that both
  leverage screen-based interactors and tangible augmented objects -- without
  having to deliberately position the physical object in front of the screen.
- The illousion of a 2D window would be rendered outside the screen.
+ The illusion of a 2D window would be rendered outside the screen.
 \begin_inset Note Note
 status open
 
