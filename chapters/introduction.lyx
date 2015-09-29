@@ -84,8 +84,8 @@ name "cha:introduction"
 Most of our waking hours are now spent staring at backlit rectangles of
  varying sizes.
  While the use of computational devices has become ubiquitous in our daily
- lives, flat and rectangular screens are still the de-facto output channel
- for consuming and interacting with digital content.
+ lives, flat and rectangular screens are still the de facto channel for
+ consuming and interacting with digital content.
  While they serve a great purpose at delivering this content to their viewer(s),
  they fail to seamlessly merge with the environment in which they exist.
  Instead, the user is required to divert his attention from the real-world
@@ -101,7 +101,7 @@ then
 \begin_layout Standard
 There are multiple problems with this way of handling the meshing of our
  digital and real lives.
- For one, our digital lives existd in a completely isolated state.
+ For one, our digital lives exist in completely isolated states.
  We carry them around in our pockets, but one of our scarcest resource,
  our attention, has always to be either on the digital world or the real
  one.
@@ -726,7 +726,7 @@ Great Thoughts
 .
  It is indeed hard to imagine any Nobel prize laureate reflecting on important
  problems while answering emails or disturbed by yet another notification
- from their smartphone.
+ from his or her smartphone.
 \end_layout
 
 \begin_layout Standard
@@ -1575,7 +1575,7 @@ The evaluation of the use of 2D pointing devices -- mouse and graphics tablet
 \begin_layout Enumerate
 The design, implementation and evaluation of a system enabling the interaction
  between a typical desktop computer environment -- traditional screens,
- mouse and keyboard -- with tangible augmented objects, considering a object
+ mouse and keyboard -- with tangible augmented objects, considering an object
  design scenario as a main thread.
 \end_layout
 
