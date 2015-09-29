@@ -1800,5 +1800,70 @@ reference "cha:tobe"
  interactive and visual aspects of the systems.
 \end_layout
 
+\begin_layout Standard
+Finally, Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:conclusion"
+
+\end_inset
+
+ concludes this thesis by offering a high-level view of the contributions
+ as well as discussing potential future works.
+ Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:intro-plan"
+
+\end_inset
+
+ provides a visual overview of this thesis plan.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/intro-plan.png
+	lyxscale 10
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:intro-plan"
+
+\end_inset
+
+Plan of the thesis
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \end_body
 \end_document
