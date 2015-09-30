@@ -2520,7 +2520,7 @@ name "subfig:tports-dataviz"
 
 \end_inset
 
-Physical data visualization
+Linked data representations
 \end_layout
 
 \end_inset
@@ -2558,7 +2558,7 @@ name "subfig:tports-multiple-objects"
 
 \end_inset
 
-Multiple tangible augmented objects
+Multiple objects
 \end_layout
 
 \end_inset
@@ -2600,7 +2600,7 @@ name "subfig:tports-sync-obj-screen"
 
 \end_inset
 
-Synchronization between screen and object
+Synchronized views
 \end_layout
 
 \end_inset
@@ -2638,7 +2638,7 @@ name "subfig:tports-sync-heatmap"
 
 \end_inset
 
-Live heatmap of interaction zones
+Manipulation statistics
 \end_layout
 
 \end_inset
