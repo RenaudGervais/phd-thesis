@@ -2333,7 +2333,14 @@ Another opportunity offered by the fact that a screen stands behind the
  SAR setups.
  In our case, it is easy to annotate a physical object by selecting an anchor
  point (either with the mouse or direct touch) and typing a related note
- being displayed on the screen, with the keyboard.
+ being displayed on the screen, with the keyboard -- see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-annotations"
+
+\end_inset
+
+.
  Inversely, one can select a note on the screen, and see the corresponding
  area directly on the physical object.
  This creates a text box positioned in an empty zone of the screen which
@@ -2370,6 +2377,58 @@ reference "subfig:tports-dataviz"
 \end_inset
 
 ).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tports-annotations.jpg
+	lyxscale 20
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tports-annotations"
+
+\end_inset
+
+Textual annotations on physical object leveraging the screen and standard
+ inputs for pointing and text entry.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Textual annotations on physical object
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection
