@@ -143,7 +143,7 @@ Sketch of a desktop environment which cursor would be able to travel in
 In the previous chapters, we have discussed the idea that augmented physical
  objects could be an interesting way to mesh together digital capabilities
  while remaining anchored in the physical world, which our bodies and minds
- inhabit everyday.
+ inhabit everydays.
  However, this raises the question on how content for these mixed reality
  objects will be created and 
 \emph on
@@ -156,7 +156,7 @@ interacted
  A central concept in interaction is the ability to select an element or
  position.
  In this chapter, we investigate the question of pointing -- more specifically
- using standard 2D pointing devices as shown in Figure 
+ using standard 2D pointing devices, as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cursar-teaser-drawing"
@@ -216,10 +216,24 @@ d.
 \end_layout
 
 \begin_layout Standard
-There is many components to interaction.
- One of the basic one is pointing.
+There are many components to interaction.
+ A fundamental one consists in pointing.
  Several strategies to point at augmented objects exist.
- One is to touch directly the area of interest.
+ When the augmented content is visualized using a multitouch device, via
+ video see-through, it is possible to leverage the touch surface to point
+ at a target, as is done in Vincent et al.'s work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Vincent2013"
+
+\end_inset
+
+.
+ Regarding pointing on 
+\emph on
+tangible 
+\emph default
+augmented objects, one option is to touch directly the area of interest.
  Technological means to achieve precise touch detection on physical object
  are becoming mature and versatile.
  For example, the field of OUIs -- see Section 
@@ -229,7 +243,7 @@ reference "sub:intro-oui"
 
 \end_inset
 
- for an overview -- envisions augmented objects covered by thin film diplays
+ for an overview -- envisions everyday objects covered by thin film diplays
  which are multitouch.
  Touché is a system that enables the detection of different types of touch
  -- one finger, two fingers, palm, knuckles, etc -- on almost any object
