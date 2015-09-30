@@ -265,16 +265,16 @@ Tool-Based Interaction with SAR
 \begin_layout Standard
 Many different works are inspired by the use of physical tools for interaction
  with digital content and for its creation.
- Touch Tools leverage the muscle memory of our hands when using physical
- tools such as holding a pen or a camera to trigger the proper behavior
- on a multitouch surface 
+ Touch Tools 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Harrison2014"
 
 \end_inset
 
-.
+ leverage the muscle memory of our hands when using physical tools such
+ as holding a pen or a camera to trigger the proper behavior on a multitouch
+ surface.
  IntuPaint 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -345,8 +345,9 @@ However, even when tangibility hold great promises for interaction, its
  use in real-world contexts remains rare, while we still use standard computers
  for the majority of our daily tasks involving digital information.
  The desktop computer is still a relevant tool to work with digital and
- physical matter, but we also think that its place on our desks should be
- rethought 
+ physical matter.
+ However, we also think that its place on our desks should be rethought
+ 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Raskar1998,Rekimoto1999"
@@ -397,7 +398,7 @@ key "Rekimoto1999"
  using projectors.
  Users could use their mouse cursor to drag information between the different
  surfaces.
- Moving towards desktop systems, Kane 
+ More related to desktop systems, Kane 
 \emph on
 et al.
 
@@ -439,7 +440,8 @@ key "Lee2013"
  They present a see-through desktop environment that supports transitioning
  from 2D and spatial 3D interactions easily.
  The system allows users to see the content of the screen and their hands
- behind it at the same time, only focusing on virtual elements.
+ behind it at the same time.
+ Their main focus was on handling virtual elements.
  We are instead interested in bringing interaction with physical objects
  to a traditional desktop workspace.
  
