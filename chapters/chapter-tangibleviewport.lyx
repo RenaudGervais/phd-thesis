@@ -149,7 +149,7 @@ name "fig:tports-video-teaser"
 
 \end_inset
 
-A workspace that allows the user to work both digitally (left) and physically
+A workspace that allows a user to work both digitally (left) and physically
  (right).
  A tangible viewport (middle) allows physical objects to be used in the
  context of a screen.
@@ -197,11 +197,11 @@ reference "cha:cursar"
  With CurSAR, we studied the performance of a standard pointing technique
  using 2D indirect devices, like the mouse, to reach targets displayed in
  the real world using SAR.
- We found out that pointing in SAR remains fully usable with a very reasonable
- performance drop of 11% compared to a screen condition.
+ We found out that pointing in SAR remains fully usable with a minor performance
+ drop (11%) compared to a screen condition.
  However, performance still is impacted negatively when removing the screen
  context.
- One of the research objective tackled in this thesis is the digital content
+ One of the research objectives tackled in this thesis is the digital content
  creation and interaction for tangible augmented objects.
  Since most digital content creation tools are designed for standard input
  devices, we combined traditional computer screens, physical objects and
@@ -209,7 +209,7 @@ reference "cha:cursar"
  Effectively, it enables a seamless integration between desktop applications
  and physical objects.
  The objects behave in the same way as they would if they would be rendered
- in a traditional viewport.
+ in a traditional viewport on screen.
 \end_layout
 
 \begin_layout Section
