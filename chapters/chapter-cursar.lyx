@@ -245,7 +245,16 @@ reference "sub:intro-oui"
 
  for an overview -- envisions everyday objects covered by thin film diplays
  which are multitouch.
- Touché is a system that enables the detection of different types of touch
+ PapARt is a system which detects touch on standard tracked sheets of paper
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Laviole2012"
+
+\end_inset
+
+.
+  Touché is a system that enables the detection of different types of touch
  -- one finger, two fingers, palm, knuckles, etc -- on almost any object
  
 \begin_inset CommandInset citation
