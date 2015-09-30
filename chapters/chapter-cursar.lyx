@@ -254,7 +254,7 @@ key "Laviole2012"
 \end_inset
 
 .
-  Touché is a system that enables the detection of different types of touch
+ Touché is a system that enables the detection of different types of touch
  -- one finger, two fingers, palm, knuckles, etc -- on almost any object
  
 \begin_inset CommandInset citation
@@ -279,7 +279,7 @@ key "Harrison2011"
 Direct touch, as an approach, is very straightforward and, consequently,
  it may be valuable in many contexts.
  However, it suffers from many drawbacks.
- In particular, anatomical issues including the 
+ In particular, anatomical issues such as the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -298,22 +298,23 @@ fat finger
 s, but they still suffer from similar accuracy and fatigue issues.
  This motivated our approach to consider the use of standard pointing devices,
  namely mice and graphics tablets, to point at augmented objects.
- One of the thing we had in mind is the possibility to create hybrid application
-s -- as shown in Figure 
+ One of the thing we had in mind is the creation of hybrid applications
+ -- as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cursar-teaser-drawing"
 
 \end_inset
 
-; applications that could both leverage the power and flexibility of professiona
+.
+ These applications could leverage both the power and flexibility of professiona
 l tools, currently hosted on traditional computing platforms, and the real
  world surrounding these platforms.
- Years of human-computer interaction (HCI) have shown that mouse and graphic
+ Years of human-computer interaction (HCI) have shown that mice and graphic
  tablets are decidedly well suited to point at visual objects displayed
  on 2D screens.
  Our assumption is that they can benefit to SAR as well, as soon as precision
- and prolonged work is required.
+ or prolonged work is required.
 \end_layout
 
 \begin_layout Standard
@@ -321,7 +322,7 @@ As an example, we can imagine an inspection scenario where an engineer points
  at an augmented circuit board with a mouse to highlight defects on small
  components.
  Another example is a design scenario where the artist draws by way of a
- tablet on a physical object, e.g.
+ graphics tablet on a physical object, e.g.
  a 3D-printed one, to give it a specific appearance.
  For these two scenarios, it is interesting to note that the user equipped
  with a standard pointing device is still able to interact efficiently with
@@ -354,7 +355,7 @@ key "Schemali2014,Teather2013"
  in SAR, from standard pointing devices.
  In this work, we are interested in a setup where the user is sitting at
  a desk (desktop environment) and is interacting with objects located in
- front of him or her, as illustrated in Figure 
+ front of him or her, as shown in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:cursar-teaser"
