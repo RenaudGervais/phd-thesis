@@ -2520,7 +2520,7 @@ name "subfig:tports-dataviz"
 
 \end_inset
 
-Direct painting on the object using the mouse cursor
+Physical data visualization
 \end_layout
 
 \end_inset
@@ -2558,7 +2558,7 @@ name "subfig:tports-multiple-objects"
 
 \end_inset
 
-Virtual elements interaction
+Multiple tangible augmented objects
 \end_layout
 
 \end_inset
@@ -2600,7 +2600,7 @@ name "subfig:tports-sync-obj-screen"
 
 \end_inset
 
-Creative coding
+Synchronization between screen and object
 \end_layout
 
 \end_inset
@@ -2638,7 +2638,7 @@ name "subfig:tports-sync-heatmap"
 
 \end_inset
 
-UV painting using Photoshop
+Live heatmap of interaction zones
 \end_layout
 
 \end_inset
@@ -2681,7 +2681,7 @@ Illustrative scenario
 \begin_layout Standard
 To illustrate the use of Tangible Viewports, we describe here an object
  design scenario where an artist is experimenting with new visual design
- ideas for a product (see complementary video).
+ ideas for a product.
 \end_layout
 
 \begin_layout Standard
