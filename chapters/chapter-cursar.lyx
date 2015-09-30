@@ -445,7 +445,7 @@ key "Marner2009"
 
 \end_inset
 
- is a refinement of this concept, introducing more flexible editing tools
+ is a refinement of this concept, introducing more flexible edition tools
  inspired by real physical tools (e.g.
  an airbrush).
  Benko et al.
@@ -496,8 +496,12 @@ key "Xiao2011"
  consists in projecting a cursor that can slide on any surface of the environmen
 t (which has been modeled in 3D beforehand).
  However, the system has been designed as a way to give feedback on the
- cursor's position when transitioning between screens and no targets were
- located in the environment itself in their evaluation.
+ cursor's position when 
+\emph on
+transitioning
+\emph default
+ between screens and no targets were located in the environment itself in
+ their evaluation.
  Pointing on a stereoscopic display has been studied by Teather and Stuerzlinger
  
 \begin_inset CommandInset citation
@@ -580,7 +584,7 @@ reference "fig:cursar-setup"
 
 \end_inset
 
- (C item).
+ (item C).
  Contrary to standard screen configurations where the cursor is displayed
  on the screen plane, our SAR cursor is displayed directly on the physical
  objects.
@@ -684,7 +688,7 @@ Drawing of the experimental setup.
  displayed (light blue halo).
  (B) Plane on which the cursor is projected.
  This plane is either virtual in the SAR condition or physical (white wooden
- panel) in the Screen condition.
+ panel) in the SCREEN condition.
  (C) Feedback used in the SAR condition indicating the position of the virtual
  plane with the tip of the triangle indicating the horizontal position of
  the cursor.
@@ -741,7 +745,7 @@ Sixteen participants took part in the study (12 males, 4 females, mean age
  Six participants were left-handed (the mouse used during the experiment
  was adapted to both left- and right-handed users).
  All the participants were familiar with mice, whereas they had very little
- experience with tablets.
+ experience with graphic tablets.
  None of them had previous experience with SAR systems.
 \end_layout
 
@@ -791,7 +795,7 @@ reference "fig:cursar-sar-screen"
 \end_layout
 
 \begin_layout Standard
-For the input device, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
+For the input devices, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
  tablet (TABLET).
  The screen of the tablet was not used for the experiment and therefore
  was displaying a black viewport.
@@ -799,6 +803,16 @@ For the input device, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
  The mouse was used in a relative mode while an absolute mapping was associated
  with the tablet.
  The acceleration transfer function of the mouse was disabled.
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+in order to...?
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -896,7 +910,7 @@ name "fig:cursar-sar-screen"
 Comparison between the SAR and SCREEN conditions, captured from the same
  point of view.
  The SCREEN condition is made to be a replica of the view of the reality
- -- note the virtual and real table that are aligned.
+ -- note the virtual and real table which are aligned.
 \begin_inset Argument 1
 status open
 
@@ -945,7 +959,7 @@ Procedure
 \end_layout
 
 \begin_layout Standard
-We followed the procedure described in 
+We followed the procedure described in MacKenzie's work 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "MacKenzie1992"
