@@ -520,7 +520,7 @@ key "Raskar1998,Rekimoto1999"
 \emph on
 onto
 \emph default
- the surface of the objects and interaction with native desktop application
+ the surface of the objects and interaction with native desktop applications
  becomes possible.
  For example, one can use a painting software to paint over the surface
  of the object as if it was part of the screen using the mouse cursor.
@@ -672,7 +672,7 @@ The general idea of our system is to embed physical objects within the standard
  desktop paradigm.
  
 \begin_inset Note Comment
-status open
+status collapsed
 
 \begin_layout Plain Layout
  To do so, we introduce the concept of 
@@ -704,12 +704,12 @@ key "Rekimoto1999"
 
 \end_inset
 
-) that extend the reach of the cursor to the environment, while we bring
- the physical objects within reach of the screen cursor.
+) that extend the reach of the cursor to the environment.
+ We instead bring the physical objects within reach of the screen cursor.
  We tested different ways to position the screen in relation to the augmented
  objects before settling for the current design: in front, on the side and
  behind.
- We ended up selecting to position the screen 
+ We ended up choosing to position the screen 
 \emph on
 behind
 \emph default
@@ -805,16 +805,16 @@ in front
 \begin_layout Standard
 The idea with this design was to ease the activity of drawing on an object
  by providing a flat surface onto which to draw -- which is often easier
- to use for stability and flexibility, such as the capability to zoom on
- the drawing, purposes -- while retaining the haptic properties of having
- a real object.
+ to use for stability and flexibility (e.g.
+ zooming on the drawing) purposes -- while retaining the haptic properties
+ of having a real object.
  Moreover, the synchronized views would allow for reviewing the design using
  the real object instead of a virtual rendering.
  The ability to handle the object with the hands also provided a good option
  to quickly place the object in the desired viewpoint.
- However, our first tests with this design encouraged the use of the physical
- object, not as a canvas, but simply as a proxy to control the orientation
- of the virtual model in 6 DoF.
+ However, our first tests with this screen position encouraged the use of
+ the physical object, not as a canvas, but simply as a proxy to control
+ the orientation of the virtual model in 6 DoF.
  We instead wanted to put emphasis on the physical object itself because,
  even though the 3D virtual rendering often looks 
 \begin_inset Quotes eld
@@ -869,7 +869,15 @@ reference "fig:tports-screen-beside-obj"
  It consists in having a main display, a screen, where all the standard
  digital operations take place.
  When the cursor reaches the edge of the screen, it can seamlessly slide
- on the neighboring surfaces and geometries.
+ on the neighboring surfaces and geometries, such as in Reikimoto and Saito's
+ work 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Rekimoto1999"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -948,12 +956,11 @@ This design is interesting as it keeps a familiar interaction context with
  When moving outside the screen, the physical screen still acts like a reference
  system for the interaction scheme, which in some casual tests, seemed to
  prove useful.
- However, as demonstrated in the study of the last chapter, pointing without
- a screen still has some costs in terms of performance.
- Moreover, the transition from a 2D cursor located inside the screen to
- a cursor following the 3D geometry of the surrounding physical environment
- requires a change in paradigm for the users, which proved to be slightly
- unsettling.
+ However, as demonstrated in the study of the previous chapter, pointing
+ without a screen still has some costs in terms of performance.
+ Moreover, it also has the drawback of requiring a context change when the
+ transitioning from a 2D cursor located inside the screen to a cursor following
+ the 3D geometry of the surrounding physical environment.
 \end_layout
 
 \begin_layout Subsubsection
