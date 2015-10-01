@@ -4027,5 +4027,37 @@ key "Patterson2007,Lambooij2009"
 , which is something we wanted to avoid in the first place.
 \end_layout
 
+\begin_layout Section
+Summary
+\end_layout
+
+\begin_layout Standard
+In this chapter, we provided a background for augmented reality and, more
+ specifically, spatial augmented reality.
+ The spatial aspect consists in displaying the augmented information in
+ the environment itself, either relying on screens or projectors.
+ We covered the main techniques used in SAR, which are texture mapping and
+ anamorphic illusions.
+ We also presented an overview of the working principles and ways to achieve
+ them.
+ The notions presented here served as a basis in creating most of the systems
+ that will be covered in Part 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:interaction"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "part:introspection"
+
+\end_inset
+
+ of this thesis.
+ We will refer back to appropriate sections of this chapter later on.
+\end_layout
+
 \end_body
 \end_document
