@@ -1687,7 +1687,7 @@ happy
 \end_layout
 
 \begin_layout Standard
-We used OpenViBE to analyze physiological data in real time
+We used OpenViBE
 \begin_inset Foot
 status collapsed
 
@@ -1707,7 +1707,7 @@ http://openvibe.inria.fr/
 
 \end_inset
 
-.
+ to analyze physiological data in real time.
  EEG signals were re-referenced using a common average reference.
  Mentioned frequencies were extracted with a band-pass filter, taking the
  log of the power of signals in order to normalize indices.
@@ -1747,18 +1747,15 @@ Augmentation
 
 \begin_layout Standard
 The visualization of users' signals are displayed onto Tobe using Spatial
- Augmented Reality (SAR), as introduced by Raskar et al.
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "Raskar1998a"
+ Augmented Reality (SAR), as described in Chapter 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cha:sar"
 
 \end_inset
 
 .
- SAR adds dynamic graphics to real-world surfaces by the means of projected
- light.
- Despite external hardware -- i.e.
+ Despite external hardware requirements -- i.e.
  a projector and eventually a tracking device (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2045,8 +2042,8 @@ Tobe in a Public Exhibition
 \end_layout
 
 \begin_layout Standard
-Using a co-design approach, we intervened in a scientific museum over two
- half days, proposing to passersby to try out Tobe.
+Following a co-design approach, we intervened in a scientific museum over
+ two half days, proposing to passersby to try out Tobe.
  We built the sensors and prepared the signal processing beforehand because
  these steps require hardware and expertise.
  Five high-level metrics were selected: workload, vigilance, meditation,
@@ -2165,7 +2162,7 @@ We created the activity cards after our first intervention in the museum.
 \end_layout
 
 \begin_layout Standard
-One degree of freedom was left to users by the mean of a graphical interface
+Control of the system was given to users by the mean of a graphical interface
  (see Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2177,14 +2174,11 @@ reference "fig:tobe-gui"
  They had to manipulate the GUI on a nearby tablet to drag and drop visualizatio
 ns on predefined anchor points.
  Users could customize some of Tobe's aspects (eyes and heart rate feedback)
- and among the 5 high-level metrics available, they selected which one to
- study at a particular time.
- When at first we tested Tobe with 
-\emph on
-no
-\emph default
- degree of freedom -- i.e., all metrics were displayed altogether -- we realized
- that users were too passive and quickly overwhelmed.
+ and among the five high-level metrics available, they selected which one
+ to study at a particular time.
+ When at first we tested Tobe with no control mechanisim -- i.e., all metrics
+ were displayed altogether -- we realized that users were too passive and
+ quickly overwhelmed.
  The GUI helped to focus and engage users.
 \end_layout
 
