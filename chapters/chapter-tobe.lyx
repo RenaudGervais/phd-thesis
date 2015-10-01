@@ -81,37 +81,6 @@ name "cha:tobe"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-\begin_inset Note Greyedout
-status open
-
-\begin_layout Plain Layout
-Chapter overview
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 This chapter introduces Tobe, a toolkit for creating Tangible 
 \begin_inset Quotes eld
 \end_inset
@@ -411,28 +380,6 @@ reflection
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-The Quantified Self
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 People are interested in improving their own lives.
  We indeed live in an era of Do-It-Yourself, 
 \begin_inset Quotes eld
@@ -543,28 +490,6 @@ key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Tobe: a tool to reflect on oneself and others
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 On the one hand, physiological technologies are not exploited to their full
  potential and on the other hand, we have end users that ignore what technology
  has to offer for their well-being.
@@ -664,28 +589,6 @@ key "Golsteijn2012"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Towards a Qualified self
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 One of our objectives with Tobe was to foster reflection about well-being
  and inner states.
  While the toolkit we propose can definitely fit well into the 
@@ -732,28 +635,6 @@ status open
 \begin_layout Plain Layout
 Feels a bit subjective but might be ok.
  To revise.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Previous work
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -811,28 +692,6 @@ key "Frey2014"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Contributions
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 The contributions for this work are:
 \end_layout
 
@@ -876,29 +735,6 @@ key "Chanel2015"
  We conducted two surveys to gain more insight about the knowledge and the
  representation people had of different types of signals and high-level
  mental states.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-Participants indicated that they were very aware of their mental states,
- even as a whole literature demonstrate how difficult this is.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -962,29 +798,6 @@ key "Valins1966,Kahneman2011"
  (6 out of 36) gave examples other than sports or health.
  This emphasis the fact that the general public is unaware of possibilities
  of technology for well-being.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Participants made an important variety of drawings, highlighting the benefit
- of having tools to tailor a personal feedback.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1070,28 +883,6 @@ Toolkit
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-We created Tobe, a cute tangible avatar to foster social presence and likability.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 We created a tangible anthropomorphic avatar, named Tobe as a host for displayin
 g real-time feedback.
  We chose this form factor because we found evidence in the literature that
@@ -1137,29 +928,6 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Low-cost and open components are used to encourage people to create their
- own Tobe.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Our implementation uses open or low-cost hardware and we are releasing as
  open-source software the entire pipeline
 \begin_inset Foot
@@ -1197,29 +965,6 @@ status open
 
 \begin_layout Subsection
 General Approach
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-There are 4 components: sensors and signal processing, metrics, feedback
- and the user.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1344,29 +1089,6 @@ Metrics
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Metrics can be classified by who is able to detect them (me, others, no
- one).
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 There is a continuum in the visibility of the signals and mental states
  measured from physiological sensors, i.e.
  metrics.
@@ -1409,28 +1131,6 @@ key "Nisbett1977"
 
 \begin_layout Subsection
 Support: 3D Printing
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-3D printing enables customization of the avatar.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1725,29 +1425,6 @@ Metrics were acquired from five physiological signals.
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Wearable sensors were made to be used in a public settings.
- Dry electrodes were favored over gel-based and wet ones.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 We created the sensors with a wearable form factor in mind.
  Since we used Tobe in public settings, it was important that the sensors
  were non-invasive (no need to remove clothes or apply gel to the skin)
@@ -1755,28 +1432,6 @@ We created the sensors with a wearable form factor in mind.
  signal.
  With the setup described in this section, we were able to equip the users
  and record physiological signals in less than two minutes.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-The sensors were embedded inside a lab coat to shorten setup time.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1919,29 +1574,6 @@ Signal Processing
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-A custom-made EEG helmet enables complete control on the signal processing
- algorithms.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Consumers-oriented EEG headsets usually conceal signal processing behind
  proprietary algorithms, with little scientific evidence on what is truly
  measured.
@@ -2031,28 +1663,6 @@ happy
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-OpenViBE was used for signal processing and LSL for communication.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 We used OpenViBE to analyze physiological data in real time
 \begin_inset Foot
 status collapsed
@@ -2112,28 +1722,6 @@ Augmentation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-The visual feedback is created using SAR.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 The visualization of users' signals are displayed onto Tobe using Spatial
  Augmented Reality (SAR), as introduced by Raskar et al.
  
@@ -2182,29 +1770,6 @@ http://vvvv.org/
  a 120 FPS with an overall latency of 8.3ms and a precision of 0.8mm.
  The projector was calibrated with the OptiTrack using OpenCV's camera calibrati
 on function.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-It is possible to replace SAR with embedded electronics.
- This reduces the flexibility but increase portability.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2328,29 +1893,6 @@ TODO: Make sure this is not too redundant with what has been mentioned in
 
 \begin_layout Subsection
 Feedback Customization
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-A simple multitouch animator can be used to created tailored feedback and
- animations.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2479,28 +2021,6 @@ Tobe in a Public Exhibition
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-We tested Tobe in a scientific museum over the course of two half days.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Using a co-design approach, we intervened in a scientific museum over two
  half days, proposing to passersby to try out Tobe.
  We built the sensors and prepared the signal processing beforehand because
@@ -2513,29 +2033,6 @@ Using a co-design approach, we intervened in a scientific museum over two
  Due to the short duration of our exhibitions, we also set the corresponding
  feedback (both support and shape), according to the outcome of the questionnair
 es about people's representations.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Users were given activity cards corresponding to the metrics available to
- them in order to encourage self-investigation.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2641,28 +2138,6 @@ We created the activity cards after our first intervention in the museum.
  emotional valence that was displayed on Tobe.
  This proved to be a fun activity for him -- and for the people around.
  Having such goal in mind was an effective way to drive participants.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Users could control which feedback was displayed using a multitouch GUI.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -2883,30 +2358,6 @@ Implementation
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Tobe as biofeedback to reach cardiac coherence, a state in which heart rate
- increases slightly while breathing in and slowing down while breathing
- out.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 This version of Tobe relies only on respiration and heart rate variability.
  It relates to cardiac coherence: when someone takes deep breaths, slowly
  (
@@ -2929,57 +2380,12 @@ key "McCraty2009"
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-OpenBCI was preferred to the BITalino because of the amplifier's resolution.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Sensors consisted in a breathing belt and in a pair of elastic bands around
  the wrists to measure ECG.
  We used OpenBCI instead of BITalino to measure ECG and breathing in order
  to get more accurate readings.
  Indeed, the OpenBCI amplifier has a resolution of 24 bits instead of 10
  for the BITalino.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Breathing activity shown as inflating lungs on each user's Tobe.
- Water ripples at Tobe's feet represented heart beats.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3010,29 +2416,6 @@ We asked 14 participants, by pairs, to come and use Tobe to reach cardiac
  talk to each other.
  We presented them the cardiac coherence activity as a relaxation exercise.
  Afterwards, we equipped them and turned the system on.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Three sessions of 5 minutes: solo training, seeing the other participant's
- Tobe and a collaboration task.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3077,28 +2460,6 @@ Results and Discussion
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Participants reported feeling more relaxed after the session.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 From the questionnaires, that took the form of 5-points Likert scales, participa
 nts reported that they were more relaxed after the end of the session: 4.36
  on a scale ranging from 1 "much *less* relaxed" to 5 "much 
@@ -3110,29 +2471,6 @@ more
  experiment was also a chance to introduce participants to activities centered
  around well-being, as few of them were practicing relaxation or meditation
  in their daily life -- 1.93 score (SD=1.44) with 1 "never" and 5 "regularly".
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-The feedback was appreciated and formed a coherent experience.
- Some users had difficulty with the suggested rythm.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3163,29 +2501,6 @@ e calm than auditory cues.
  while we could have kept the visual feedback for the actual users' breathing.
  These two last issues could be resolved by giving users access to the signal
  processing through our toolkit.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-The qualitative nature of the feedback was appreciated.
- Users worked together to synchronize their heart rates.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3228,28 +2543,6 @@ One User
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-As a biofeedback device to gain insight about own self.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Tobe can be used as a biofeedback device with a specific goal -- e.g., reduce
  stress -- or to gain knowledge about one self.
  A feedback about workload and vigilance would prevent overwork.
@@ -3265,29 +2558,6 @@ act
 
 \begin_layout Subsubsection
 One User and Observer(s)
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-As a support for rehabilitation therapy or to explicit inner states of autistic
- persons.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3315,28 +2585,6 @@ key "Hedman2012"
 
 \begin_layout Subsubsection
 Multiple Users and Tobes
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Alternate communication channels in social settings.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3368,28 +2616,6 @@ Archetype of a Group
 \end_layout
 
 \begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Summarizing the state of a group.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
 Tobe could summarize the state of a group.
  A real-time feedback from the audience would be a valuable tool for every
  speaker or performer.
@@ -3408,28 +2634,6 @@ key "Raca2013"
 
 \begin_layout Subsubsection
 Time
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Replay recorded internal states of past events.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -3474,28 +2678,6 @@ key "Victor2011"
 
 \begin_layout Subsubsection
 Space
-\end_layout
-
-\begin_layout Standard
-\begin_inset Branch margin
-status open
-
-\begin_layout Standard
-\begin_inset Marginal
-status open
-
-\begin_layout Plain Layout
-Helping partners in long distance relationships.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
