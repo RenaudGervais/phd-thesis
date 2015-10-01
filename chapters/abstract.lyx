@@ -128,20 +128,40 @@ Abstract
 \end_layout
 
 \begin_layout Standard
-Short summary of the contents in English
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-dots
+Most of our waking hours are now spent staring at a screen.
+ While the advances in touch screens has enabled the use of more expressiveness
+ by using our fingers to interact with digital content, what we see and
+ manipulate on screen is being kept away from us, locked behind a glassy
+ surface.
+ The range of capabilities of the human senses are much richer than what
+ screens can currently offer.
+ In order to be sustainable in the future, interaction with the digital
+ world should leverage these human capabilities instead of letting them
+ atrophy.
+ One way to provide richer interaction and visualization modalities is to
+ rely on the physical world itself as a host for digital content.
+ Spatial Augmented Reality provides a technical mean towards this idea by
+ using projectors to shed digitally controlled light onto real-world objects
+ to augment them and their environment with functionalities and content.
+ This leads the way to smart objects that will have very rich possibilities
+ while still be anchored in the real-world.
 \end_layout
 
-\end_inset
-
-
+\begin_layout Standard
+In this thesis, we are interested in two main aspects related to these tangible
+ augmented objects.
+ In a first time, we are raising the question on 
+\emph on
+how to interact
+\emph default
+ with digital content when it is hosted on tangible objects.
+ Then, we investigate how these artifacts, combined with physiological computing
+, can be used to raise our awareness of the processes of our own bodies
+ and minds and, eventually, foster 
+\emph on
+introspection
+\emph default
+ activities.
 \end_layout
 
 \begin_layout Standard
