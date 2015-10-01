@@ -81,36 +81,8 @@ name "cha:tobe"
 \end_layout
 
 \begin_layout Standard
-This chapter introduces Tobe, a toolkit for creating Tangible 
-\begin_inset Quotes eld
-\end_inset
-
-Out-of-Body
-\begin_inset Quotes erd
-\end_inset
-
- Experiences.
- These tools are presented using one incarnation of the system based on
- a tangible anthropomorphic avatar and spatial augmented reality to display
- real-time physiological signals and mental states (Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:tobe-and-gui"
-
-\end_inset
-
-).
- The main objective of this project was to enable users to know more about
- themselves and others using a representation that they could shape themselves
- -- that is, creating a tangible avatar of their 
-\emph on
-inner
-\emph default
- selves.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
+placement H
 wide false
 sideways false
 status open
@@ -149,6 +121,35 @@ Tobe, the tangible avatar displaying real-time physiological readings along
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+This chapter introduces Tobe, a toolkit for creating Tangible 
+\begin_inset Quotes eld
+\end_inset
+
+Out-of-Body
+\begin_inset Quotes erd
+\end_inset
+
+ Experiences.
+ These tools are presented using one incarnation of the system based on
+ a tangible anthropomorphic avatar and spatial augmented reality to display
+ real-time physiological signals and mental states (Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-and-gui"
+
+\end_inset
+
+).
+ The main objective of this project was to enable users to know more about
+ themselves and others using a representation that they could shape themselves
+ -- that is, creating a tangible avatar of their 
+\emph on
+inner
+\emph default
+ selves.
 \end_layout
 
 \begin_layout Section
