@@ -587,24 +587,11 @@ reference "fig:intro-ccoo-table"
  existing digital tools that are already known of content creators.
  For example, programming and visual design are activities well suited for
  desktop platforms.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
- In a second time, we investigated the use of augmented objects as a way
- to foster 
-\emph on
-introspection
-\emph default
-.
- We explored ways to allow users to create and investigate representations
- of their inner selves by using physiological sensors -- heartbeats, breathing,
- electroencephalography.
-\end_layout
-
-\end_inset
-
-
+ In the same way that we are interested in anchoring interaction in the
+ real world because users are already very skilled in interacting with the
+ real world, starting our investigation with tools that users already spent
+ years getting proficient with seems promising approach towards a more reality-b
+ased approach to computing.
 \end_layout
 
 \begin_layout Standard
