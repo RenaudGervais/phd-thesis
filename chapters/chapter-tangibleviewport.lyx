@@ -372,11 +372,7 @@ Augmented and smart spaces
 \emph default
  are systems that use see-through augmented reality or projectors, often
  in an office environment, to enhance the workspace.
- Raskar 
-\emph on
-et al.
-
-\emph default
+ Raskar et al.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -398,11 +394,7 @@ key "Rekimoto1999"
  using projectors.
  Users could use their mouse cursor to drag information between the different
  surfaces.
- More related to desktop systems, Kane 
-\emph on
-et al.
-
-\emph default
+ More related to desktop systems, Kane et al.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -424,11 +416,7 @@ key "Hilliges2012"
  is a situated see-through display where virtual and tangible objects can
  be manipulated directly with the users' hands, but does not integrate any
  traditional computer-related tasks.
- From an interaction point of view, the work of Lee 
-\emph on
-et al.
-
-\emph default
+ From an interaction point of view, the work of Lee et al.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -3087,11 +3075,7 @@ Examples of participants' creations using Tangible Viewports.
 Regarding the technical solution, several participants (6/14) mentioned
  that the augmentation calibration was not precise enough.
  This could be improved by using more advanced calibration solutions such
- as the one used by Jones 
-\emph on
-et al.
-
-\emph default
+ as the one used by Jones et al.
  
 \begin_inset CommandInset citation
 LatexCommand cite
