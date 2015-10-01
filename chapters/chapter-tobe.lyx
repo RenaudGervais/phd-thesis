@@ -955,6 +955,10 @@ status open
 \begin_layout Standard
 Our implementation uses open or low-cost hardware and we are releasing as
  open-source software the entire pipeline
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset Foot
 status open
 
@@ -976,11 +980,6 @@ https://gitrepo.github.com/
 \end_inset
 
 
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-@TODO: Update git repo address
 \end_layout
 
 \end_inset
@@ -1006,8 +1005,9 @@ reference "fig:tobe-toolkit-drawing"
 .
  The first step consists in choosing a metric, e.g.
  the arousal level.
- For this given metric there are different ways to measure it, that include
- a combination of one or multiple sensor(s) and signal processing algorithm(s).
+ For each given metric, there are different ways to measure it.
+ This include a combination of one or multiple sensor(s) and signal processing
+ algorithm(s).
  One chooses a support to express this metric (e.g.
  tangible avatar, screen, speaker for sound) and creates a shape associated
  to it (e.g.
@@ -1183,14 +1183,14 @@ reference "fig:tobe-modular-body"
 \begin_layout Standard
 Alternatively, it could be possible to resolve some of the parameters of
  the parametric 3D model based on physiological readings or body properties.
- Although somewhat potentially sociably uncomfortable, the Body Mass Index
+ Although potentially uncomfortable in social settings, the Body Mass Index
  of the user could be retrieved from the combination of a video camera and
  a balance and propose body proportions similar to the person's silhouette.
  If the user wishes the create an avatar based on inner states, it could
  for example be possible to alter the stance of the avatar based on the
  user's real-time stress level.
  This would allow a dynamic and playful exploration of inner states even
- at the avatar creation stages.
+ at the avatar creation stage.
 \end_layout
 
 \begin_layout Standard
@@ -1516,9 +1516,9 @@ EDA
 \begin_layout Standard
 When measuring EDA, most accurate readings can be obtained from the tip
  of the fingers.
- However, since it is difficult to manipulate a tangible interface and controls
- while having hardware attached to one's fingers, we acquire the signal
- from the palm of a single hand instead.
+ However, since it is difficult to manipulate a tangible interface while
+ having hardware attached to one's fingers, we acquire the signal from the
+ palm of a single hand instead.
  We assess skin conductance from two small conductive thread patches sewn
  inside a fingerless glove (Figure 
 \begin_inset CommandInset ref
@@ -1718,8 +1718,7 @@ http://openvibe.inria.fr/
 
 \begin_layout Standard
 Each physiological signal or mental state index was sent to the other stage
- of the toolkit using LSL, a network protocol dedicated to physiological
- recordings
+ of the toolkit using LSL
 \begin_inset Foot
 status collapsed
 
@@ -1739,7 +1738,7 @@ https://github.com/sccn/labstreaminglayer/
 
 \end_inset
 
-.
+, a network protocol dedicated to physiological recordings.
 \end_layout
 
 \begin_layout Subsection
@@ -2049,7 +2048,7 @@ Following a co-design approach, we intervened in a scientific museum over
  these steps require hardware and expertise.
  Five high-level metrics were selected: workload, vigilance, meditation,
  valence and arousal.
- These metrics were chosen because the wide public showed interest into
+ These metrics were chosen because the general public showed interest into
  them (meditation and emotions) or because they could benefit from being
  better known (workload and vigilance).
  Due to the short duration of our exhibitions, we also set the corresponding
@@ -2557,7 +2556,7 @@ We drew usages for Tobe by exploring different dimensions: on the one hand
  other hand the time and space separating the feedback and the recordings.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 One User
 \end_layout
 
@@ -2575,7 +2574,7 @@ act
  answering harshly to beloved ones.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 One User and Observer(s)
 \end_layout
 
@@ -2602,7 +2601,7 @@ key "Hedman2012"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Multiple Users and Tobes
 \end_layout
 
@@ -2630,7 +2629,7 @@ key "Walmink2014"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Archetype of a Group
 \end_layout
 
@@ -2651,7 +2650,7 @@ key "Raca2013"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Time
 \end_layout
 
@@ -2680,7 +2679,7 @@ reference "fig:tobe-video-replay"
 
 \begin_layout Standard
 Collecting large amount of data -- such as is often the case in the QS movement
- -- is useful to gain insight over patterns happening over long stretches
+ -- is useful to gain insight on patterns happening over long stretches
  of time.
  However, charts and diagrams are not well suited to convey sensations and
  feelings.
@@ -2695,7 +2694,7 @@ key "Victor2011"
 .
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Space
 \end_layout
 
@@ -2850,7 +2849,7 @@ Potential applications for Tobe
 \end_layout
 
 \begin_layout Section
-Future Work and Outlooks
+Summary
 \end_layout
 
 \begin_layout Standard
