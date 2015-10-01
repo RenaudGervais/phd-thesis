@@ -9,9 +9,11 @@ chapters/titleback.lyx
 chapters/dedication.lyx
 chapters/abstract.lyx
 chapters/publication.lyx
+chapters/acknowledgments.lyx
+chapters/contents.lyx
 chapters/introduction.lyx
-chapters/chapter-sar.lyx
 chapters/dirtytitlepage.lyx
+chapters/chapter-sar.lyx
 chapters/chapter-cursar.lyx
 chapters/chapter-tangibleviewport.lyx
 chapters/chapter-teegi.lyx
@@ -19,8 +21,6 @@ chapters/chapter-tobe.lyx
 chapters/conclusion.lyx
 chapters/chapter-0A.lyx
 chapters/Bibliography.lyx
-chapters/contents.lyx
-chapters/acknowledgments.lyx
 \end_includeonly
 \maintain_unincluded_children true
 \language english
@@ -218,9 +218,18 @@ filename "./chapters/publication.lyx"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 \begin_inset CommandInset include
 LatexCommand include
 filename "./chapters/acknowledgments.lyx"
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
