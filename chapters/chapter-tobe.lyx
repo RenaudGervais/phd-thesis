@@ -381,17 +381,7 @@ reflection
 \end_layout
 
 \begin_layout Standard
-Most people are interested in improving their own life.
- We indeed live in an era of Do-It-Yourself, 
-\begin_inset Quotes eld
-\end_inset
-
-life hacking
-\begin_inset Quotes erd
-\end_inset
-
- and personal development.
- Wearable computational devices are more accessible and more popular than
+Wearable computational devices are more accessible and more popular than
  ever.
  These devices are personal and are embedded with physiological sensors.
  The most current use of these sensors are health monitoring, e.g.
@@ -407,7 +397,7 @@ Quantified Self
 \begin_inset Quotes erd
 \end_inset
 
- 
+ (QS) 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Wolf2010"
@@ -423,8 +413,18 @@ key "Li2011"
 
  and people uses them to collect large amount of data about their lives
  in order to reflect on them.
- While this movement has been mostly about collecting physical health data,
- extension to cognitive tasks has also been proposed 
+ This trend takes place in an even larger movement of personal life improvements.
+ We indeed live in an era of Do-It-Yourself, 
+\begin_inset Quotes eld
+\end_inset
+
+life hacking
+\begin_inset Quotes erd
+\end_inset
+
+ and personal development.
+ While QS has been mostly about collecting physical health data, extension
+ to cognitive tasks has also been proposed 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kunze2013"
@@ -433,7 +433,7 @@ key "Kunze2013"
 
 .
  Such data collection is popular exactly because people are not explicitly
- and objectively aware of how well their body and mind are doing.
+ and objectively aware of how well their bodies and minds are doing.
  However, these applications are limited compared to what physiological
  sensors can offer.
  Nowadays even brain activity is within reach of consumers thanks to cheap
@@ -643,7 +643,7 @@ Qualified
  how scores work.
  A score can be used to compare against our own previous performances or
  performances of others.
- This implicitly create competition, a state more or less compatible with
+ This implicitly creates competition, a state more or less compatible with
  calm, reflection and well-being 
 \begin_inset CommandInset citation
 LatexCommand citep
