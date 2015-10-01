@@ -81,6 +81,50 @@ name "cha:teegi"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/teegi-teaser.jpg
+	lyxscale 10
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:teegi-trailer"
+
+\end_inset
+
+Teegi (Tangible EEG Interface) is a friendly interactive character that
+ users can manipulate to observe and analyze their own brain activity in
+ real-time.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 In the last two chapters, we have explored different ways to interact with
  augmented content hosted on physical objects.
  AR is especially useful to add information to real-world objects and environmen
@@ -92,8 +136,8 @@ ts that would otherwise be unavailable to us.
  In this chapter, we will more specifically focus on letting users explore
  what happens in their brain in real-time, using a combination of Electroencepha
 lography -- EEG -- and tangible interfaces.
- Instead of directly augmenting the body, we recreate a proxy persona --
- a tangible avatar -- which acts like a 
+ Instead of directly augmenting the user's body, we create a proxy persona
+ -- a tangible avatar -- which acts like a 
 \begin_inset Quotes eld
 \end_inset
 
@@ -117,8 +161,8 @@ name "sec:teegi-introduction"
 
 \begin_layout Standard
 EEG measures the brain activity of participants under the form of electrical
- currents, through use of a set of electrodes connected to amplifiers and
- placed on the scalp 
+ currents, through the use of a set of electrodes connected to amplifiers
+ and placed on the scalp 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "Niedermeyer05"
@@ -203,53 +247,6 @@ reference "fig:teegi-trailer"
  activity easily accessible, interactive and understandable.
  This work is based on theoretical foundations, technical developments,
  and preliminary investigations.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/teegi-teaser.jpg
-	lyxscale 10
-	width 75line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:teegi-trailer"
-
-\end_inset
-
-Teegi (Tangible EEG Interface) is a friendly interactive character that
- users can manipulate to observe and analyze their own brain activity in
- real-time.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section
@@ -576,7 +573,7 @@ reference "sub:intro-tui"
  purposes.
  One of the reason is their strong situatedness: the interaction takes place
  in a real-world environment that often hides most of the technological
- aspectis to expose physical interaction components only.
+ aspects to expose physical interaction components only.
  This tends to be more inviting to a general public compared to mouse-screen
  based interfaces 
 \begin_inset CommandInset citation
@@ -680,7 +677,7 @@ Teegi is a tangible interface that enables users to visualize and analyze
  Teegi was purposely given a child-like appearance, as well as animated
  eyes (also projected) that blink at the same time as the users do, in order
  to breathe life to the character and enhance attractiveness.
- Indeed blinking can be easily detected in electrodes neighboring the eyes.
+ Indeed, blinking can be easily detected in electrodes neighboring the eyes.
 \end_layout
 
 \begin_layout Standard
@@ -1216,6 +1213,12 @@ Using an inverse model, the cortical activity and EEG measures are presented
 Technical Description
 \end_layout
 
+\begin_layout Standard
+In this section, we present how the Teegi system was built.
+ We will cover the aspects related to EEG measurements and related signal
+ processing as well as the visual augmentation using SAR.
+\end_layout
+
 \begin_layout Subsection
 EEG
 \end_layout
@@ -1552,17 +1555,20 @@ Diagram of the Teegi installation
 Exploratory Study and Discussion
 \end_layout
 
-\begin_layout Subsection
-Protocol
-\end_layout
-
 \begin_layout Standard
 We conducted an explorative study where participants had to manipulate Teegi
  following a given scenario.
  The objectives of this study were to i) evaluate the general usability
  of the interface and ii) obtain initial feedback about the relevance of
  the approach to help users understand EEG signals and the brain.
- Ten participants (6 males, 4 females, mean age 28.6 (SD=9.7)) took part in
+\end_layout
+
+\begin_layout Subsection
+Protocol
+\end_layout
+
+\begin_layout Standard
+Ten participants (6 males, 4 females, mean age 28.6 (SD=9.7)) took part in
  this study.
  Pre-tests confirmed they were rather naive on the subject.
  They manipulated the version of Teegi described in the General Description
