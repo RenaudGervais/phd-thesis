@@ -380,7 +380,7 @@ reflection
 \end_layout
 
 \begin_layout Standard
-People are interested in improving their own lives.
+Most people are interested in improving their own life.
  We indeed live in an era of Do-It-Yourself, 
 \begin_inset Quotes eld
 \end_inset
@@ -571,7 +571,31 @@ al signals through it.
  As such, we designed a modular toolkit around Tobe that can be used to
  customize any part of the system.
  Tobe has been tested on two different occasions in a scientific museum
- to collect user feedback.
+ (
+\emph on
+Cap Sciences
+\emph default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.cap-sciences.net/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, located in Bordeaux, France) to collect user feedback.
  A specialized version of the system was also built to give biofeedback
  to multiple users in a relaxation task.
  Beside these two implementations, we frame potential uses of the system,
