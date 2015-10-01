@@ -978,7 +978,7 @@ reference "fig:tports-sar-cursor-and-user"
 
 .
  This configuration reduces the change of context required compared to having
- the screen beside the object -- as discussed in the previous Section 
+ the screen beside the object -- as discussed in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sub:tports-screen-beside-object"
@@ -1197,9 +1197,8 @@ systemname
 \end_layout
 
 \begin_layout Standard
-The key element on which our system relies is to create the illusion that
- a physical object is entirely part of the screen space when located in
- front of it.
+The key element on which our system relies is the illusion that a physical
+ object is entirely part of the screen space when located in front of it.
  In order to do so, we ensure that the cursor movements inside the working
  area occur in a continuous way, independently of where this cursor is displayed
  (screen or tangible viewport).
@@ -1209,16 +1208,16 @@ The key element on which our system relies is to create the illusion that
 
 \begin_layout Standard
 A window dedicated to the interaction with the object is created on the
- screen and its position is retrieved by using the Windows API.
+ screen and its position is retrieved using the Microsoft Windows API.
  The screen is also tracked in world space by the OptiTrack system.
  Thus, knowing the 2D cursor position in the viewport space allows us to
  infer its position in world coordinates.
  A virtual camera is created to reproduce the user's view of the window
  (and whichever augmented object located in front of it).
- The user's head position is obtained by Kinect v2 skeleton tracking.
- As soon as a physical object starts occluding the screen's cursor for the
- observer, a 3D cursor appears at the correct location on the object, as
- illustrated in Figure 
+ The user's head position is obtained using the Kinect v2 skeleton tracking.
+ As soon as a physical object starts occluding the screen's cursor, from
+ the observer's point of view, a 3D cursor appears at the correct location
+ on the object, as illustrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tports-cursor-screen-obj-transition"
@@ -1246,15 +1245,15 @@ reference "fig:tports-sar-cursor-and-user"
  This cursor is rendered as part of the virtual scene and reprojected onto
  the augmented object.
  On the screen, a horizontal and a vertical line passing through the cursor
- position are displayed for enforcing the link between the tangible viewport
- and the screen.
+ position are displayed in order to emphasize the link between the tangible
+ viewport and the screen.
  
 \end_layout
 
 \begin_layout Standard
 In the end, this technique is fully transparent to the users.
- Users work with Tangible Viewports as they would do with any standard applicati
-on.
+ They work with Tangible Viewports as they would do with any standard applicatio
+n.
  It is also to be noted that the head position of the user only impacts
  the 
 \emph on
@@ -1405,13 +1404,14 @@ Beyond cursor interaction in front of the screen, direct touch on the objects
  pen) so that it is detected by the OptiTrack system.
  We also tested the use of the Leap Motion in order to avoid instrumenting
  the finger of the user.
- However, the Leap is unable to detect direct touch and is better suited
- for fine gestures 
+ However, the Leap does not support direct touch detection and is better
+ suited for fine gestures 
 \emph on
 near
 \emph default
  the object.
- For coarse gestures, the hand tracking of the Kinect API is sufficient.
+ For coarse gestures, it could be possible to rely on the hand capabilities
+ of the Kinect API.
 \end_layout
 
 \begin_layout Section
@@ -1422,7 +1422,7 @@ Interaction
 In our hybrid workspace, interaction can either take place on the screen,
  on the augmented object, or on both display supports at the same time.
  In the following sections, we explore the interaction space by describing
- examples of techniques that we developed for each of these categories (Table
+ techniques that we developed for each of these categories (Table
 \begin_inset space ~
 \end_inset
 
@@ -2082,7 +2082,7 @@ reference "subfig:tports-uv-painting"
 
 \end_inset
 
-) which consists of adding graphics on a 3D model.
+) which consists of editing the texture of a 3D model.
  It is a task that can be done either in a 2D painting environments using
  a UV layout or directly on a 3D view of the object.
  Both can be achieved using Photoshop.
@@ -2199,7 +2199,7 @@ Direct Interaction
 Working with physical objects has the benefit of enabling manipulation directly
  with the hands.
  No 2D to 3D mapping operations are required to create a desired point of
- view as is required in desktop 3D applications.
+ view as is required in 3D desktop applications.
  Also, since the augmentation occurs on the surface of the object, changing
  the viewpoint can simply be achieved my moving the head.
  The user can thus observe the object in a natural way, which radically
@@ -2224,8 +2224,8 @@ Pointing on Objects
 
 \begin_layout Standard
 In addition to direct manipulation of the tangible objects, our system supports
- cursor-based indirect interaction for completing interaction tasks directly
- onto the physical objects.
+ cursor-based indirect interaction for completing interaction tasks onto
+ the physical objects.
  These tasks can be pointing, drawing, selecting or moving virtual elements.
  Compared to an approach where the user would interact directly on the physical
  object, indirect interaction offers several complementary advantages.
@@ -2262,7 +2262,8 @@ Both the physical objects and the screen are part of the same working space.
  Consequently, it is possible to directly link operations on the screen
  with actions on the physical objects.
  The converse is also true.
- We present application examples that use both object and screen simultaneously.
+ We present application examples that use both the object and the screen
+ simultaneously.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2272,8 +2273,8 @@ Drag and Drop
 \begin_layout Standard
 Since the viewport creates a seamless continuum between the screen and the
  object, drag and drop operations can be used with the mouse cursor.
- This operation would not be possible using touch and would have to be replaced
- by pick and drop.
+ It is interesting to note that this operation would not be possible using
+ touch, and would have to be replaced by the pick and drop technique.
 \end_layout
 
 \begin_layout Subsubsection
@@ -2300,13 +2301,15 @@ key "Benko2014"
 \end_inset
 
 , it is very difficult to create the illusion of floating visual elements
- around the object as soon as no material can support the display.
+ around the object when no material can support the display.
  We designed hybrid widgets that are operated on screen.
+ From the user's point of view, they appear centered on the currently selected
+ element.
  We reproject the position of the selected element on the screen based on
  the user's viewpoint and we place 2D widgets centered on this location.
  When moving the physical object, the position of the widgets is updated
  accordingly on the screen.
- These transformation widgets that allow the rotation and scaling of the
+ These transformation widgets, which allow the rotation and scaling of the
  selected element are illustrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2315,7 +2318,8 @@ reference "subfig:tports-virtual-elements"
 \end_inset
 
 .
- They are relatively big and they do not touch directly the physical objects.
+ They are relatively big and they do not overlap the user's view of the
+ physical objects.
  This design choice has been made to avoid problems of eye accommodation
  between the depth of the object and the depth of the screen.
  Hence, after selecting an object to modify, users can quickly grab and
