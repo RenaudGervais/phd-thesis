@@ -688,8 +688,8 @@ A sketch illustration a combination of direct and indirect interaction for
 \emph on
 (b)
 \emph default
- For doing a more complicated drawing or just to be able to work on a more
- stable surface, a user could seamlessly use an indirect cursor handling,
+ For doing a more complicated drawing or simply to be able to work on a
+ more stable surface, a user could seamlessly use an indirect cursor handling,
  using the same input device.
 \begin_inset Argument 1
 status open
@@ -723,7 +723,7 @@ h AR.
  For one, video see-through systems are often being used on multitouch devices,
  thus offering a surface on which to point.
  This is effectively making the camera view acts like a 3D rendering window.
- This enable a variety of pointing techniques that can take place on the
+ This enables a variety of pointing techniques that can take place on the
  multitouch surface 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -802,13 +802,13 @@ of the screen was made because we wanted to leverage the use of the native
  applications of computers which, right now, are operated on screens and
  also because it helped emphasizing the use of the physical object.
  However, in an installation where the computer is fused in the desk itself,
- physical screens might not be a permanent fixture.
+ physical screens might not be permanent fixtures.
  We could therefore imagine a way to improvise working surfaces in order
  to realize certain operations.
 \end_layout
 
 \begin_layout Standard
-Taking inspiration from the Paper Windows
+Taking inspiration from the Paper Windows 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Holman2005"
@@ -840,7 +840,7 @@ key "Laviole2012"
 .
  The appearance of the tangible object would then be synchronized in real
  time.
- A potential workflow is illustrated in Figure 
+ This workflow is illustrated in Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:conclusion-improvised-working-surfaces"
@@ -1178,7 +1178,7 @@ reference "part:interaction"
  a good reference frame for interacting using a 2D indirect input devices,
  we could project a virtual window as a 3D illusion.
  Since it only acts like context for the cursor behavior, users might not
- have to put their focus on it in order to reap the benefit.
+ have to put their focus on it in order to reap the benefits of its presence.
  That way, users might be able to more easily leverage indirect pointing
  techniques for precision tasks when working with augmented objects.
  Interestingly, context could be given only at appropriate times, without
@@ -1326,13 +1326,13 @@ n of rehabilitation progress realized by victims of strokes.
  patients be more involved with the recovery process.
  Being able to see the activity of their brain in real-time as they are
  training could prove encouraging.
- Also comparing with past sessions would enable patients to visualize their
- progress.
+ Also, comparing with past training sessions would enable patients to assess
+ their progress.
 \end_layout
 
 \begin_layout Standard
-Another possible application we are interested in is using Teegi as a support
- for BCI learning.
+Another possible application we are interested in would be to use Teegi
+ as a support for BCI learning.
  Indeed, BCI are often difficult to control and require users to be trained
  in using them efficiently.
  Usually, BCI rely on mental imagery of motor skills.
@@ -1363,7 +1363,7 @@ reference "cha:tobe"
  their own avatar and representations for their real-time physiological
  data.
  Our goal with Tobe was to democratize even more the access and understanding
- of physiological data by engaging users in creating their own representation
+ of physiological data by engaging users in creating their own representations
  of their inner selves.
  We already tested the use of the toolkit in a scientific museum but we
  want to give the toolkit to a wider range of users -- for example in FabLabs
@@ -1568,7 +1568,8 @@ Each time I find myself isolated from digital technologies for an extended
  exhilarating appeal.
  Even though I feel very stimulated and engaged with the technology, rarely
  does it make me feel as calm as when I ride my bicycle or sleep in a tent.
- I think that we shouldn't have to choose between technology and being calm.
+ I think that we shouldn't have to choose between using technology and being
+ calm.
  It is worthwhile pursuing a way to combine both: how can we use digital
  technology to sometimes feel engaged and productive while at other times
  slowing down and be mindful to what matters to us personally?
