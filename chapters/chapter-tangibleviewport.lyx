@@ -721,30 +721,6 @@ Screen in front object
 \end_layout
 
 \begin_layout Standard
-In this configuration, we positioned the augmented object 
-\emph on
-behind
-\emph default
- the screen -- see Figure 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:tports-screen-front-obj"
-
-\end_inset
-
-.
- The screen was a graphics tablet replicating the user's view on the physical
- object.
- It was possible for the user to draw on the screen to digitally paint the
- object.
- The digital paint was reprojected in real-time on the physical object in
- the back.
- Also, both the user's head and the physical object were tracked which enabled
- the user to manipulate his viewpoint freely -- the viewpoint is updated
- for both the graphics tablet and the real view.
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -800,6 +776,30 @@ in front
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+In this configuration, we positioned the augmented object 
+\emph on
+behind
+\emph default
+ the screen -- see Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tports-screen-front-obj"
+
+\end_inset
+
+.
+ The screen was a graphics tablet replicating the user's view on the physical
+ object.
+ It was possible for the user to draw on the screen to digitally paint the
+ object.
+ The digital paint was reprojected in real-time on the physical object in
+ the back.
+ Also, both the user's head and the physical object were tracked which enabled
+ the user to manipulate his viewpoint freely -- the viewpoint is updated
+ for both the graphics tablet and the real view.
 \end_layout
 
 \begin_layout Standard
@@ -1103,25 +1103,6 @@ reference "sec:sar-how-does-it-work"
 \end_layout
 
 \begin_layout Standard
-We use 3D printed objects created using a MakerBot Replicator 2 in white
- PLA plastic with a precision of 
-\begin_inset Formula $\pm0.2$
-\end_inset
-
-mm.
- Alternatively, we could use already existing or sculpted objects given
- that they would require 3D scanning before, using KinectFusion 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Newcombe2011"
-
-\end_inset
-
- for example.
- 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1143,16 +1124,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-
-\lang english
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:tports-sar-setup"
 
 \end_inset
 
-
-\lang american
 The SAR installation: A) The desktop environment using a standard screen
  and input devices, B) 6DOF tracking system (OptiTrack Trio and Microsoft
  Kinect v2), C) Projector and D) Physical objects that are being augmented.
@@ -1177,6 +1154,25 @@ The installation for Tangible Viewports
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+We use 3D printed objects created using a MakerBot Replicator 2 in white
+ PLA plastic with a precision of 
+\begin_inset Formula $\pm0.2$
+\end_inset
+
+mm.
+ Alternatively, we could use already existing or sculpted objects given
+ that they would require 3D scanning before, using KinectFusion 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "Newcombe2011"
+
+\end_inset
+
+ for example.
+ 
 \end_layout
 
 \begin_layout Subsection
