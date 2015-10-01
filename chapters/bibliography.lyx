@@ -182,7 +182,7 @@ name "app:bibliography"
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
 bibfiles "../PhD"
-options "plainnat"
+options "../plainnatnourl"
 
 \end_inset
 
