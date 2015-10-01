@@ -454,7 +454,15 @@ object centric cursor
 
 \begin_layout Standard
 Among the different ways to interact with augmented objects, we would like
- to investigate the use of an object-bound cursor.
+ to investigate the use of an object-bound cursor, e.g.
+ Navidget 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Hachet2008"
+
+\end_inset
+
+.
  As is the case when pointing in 3D from 2D input devices, the 3D space
  has to be collapsed by one dimension.
  In Chapter 
