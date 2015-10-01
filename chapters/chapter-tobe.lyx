@@ -2210,7 +2210,7 @@ name "fig:tobe-gui"
 
 \end_inset
 
-The touched-based GUI allowing visitors to customize the appearance of Tobe's
+The touch interface allowing visitors to customize the appearance of Tobe's
  eyes and to select which feedback was displayed on Tobe.
 \begin_inset Argument 1
 status open
@@ -2408,7 +2408,7 @@ Sensors consisted in a breathing belt and in a pair of elastic bands around
 
 \begin_layout Standard
 There were two Tobes on the table, one for each participant.
- They were not tracked.
+ They were standing at fixed positions, hence no tracking was required.
  Breathing activity was pictured with inflating lungs onto the torso; cardiac
  coherence with a blooming flower onto the forehead.
  The synchronicity 
@@ -2542,8 +2542,8 @@ ence, rich interactions emerged between participants over a short period
 
 \begin_layout Standard
 Overall these findings suggest that Tobe could be employed as a proxy for
- interpersonal communications and that it has an interesting potential for
- enhancing well-being.
+ interpersonal communications and that it may have an interesting potential
+ for enhancing well-being.
 \end_layout
 
 \begin_layout Section
