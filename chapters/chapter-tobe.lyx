@@ -1019,35 +1019,6 @@ reference "fig:tobe-toolkit-drawing"
 \end_layout
 
 \begin_layout Standard
-In order to help users mold the system to their likening, we identified
- three different degrees of freedom:
-\end_layout
-
-\begin_layout Itemize
-The measured physiological signal or mental state (
-\emph on
-Metric
-\emph default
-)
-\end_layout
-
-\begin_layout Itemize
-The form factor (
-\emph on
-Support
-\emph default
-)
-\end_layout
-
-\begin_layout Itemize
-The display of the signals (
-\emph on
-Shape
-\emph default
-)
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1083,13 +1054,38 @@ Simplified overview of the toolkit that supports Tobe.
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+In order to help users mold the system to their likening, we identified
+ three different degrees of freedom:
+\end_layout
+
+\begin_layout Itemize
+The measured physiological signal or mental state (
+\emph on
+Metric
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+The form factor (
+\emph on
+Support
+\emph default
+)
+\end_layout
+
+\begin_layout Itemize
+The display of the signals (
+\emph on
+Shape
+\emph default
+)
 \end_layout
 
 \begin_layout Subsubsection
@@ -1177,20 +1173,6 @@ reference "fig:tobe-modular-body"
 \end_inset
 
 ).
- 
-\end_layout
-
-\begin_layout Standard
-Alternatively, it could be possible to resolve some of the parameters of
- the parametric 3D model based on physiological readings or body properties.
- Although potentially uncomfortable in social settings, the Body Mass Index
- of the user could be retrieved from the combination of a video camera and
- a balance and propose body proportions similar to the person's silhouette.
- If the user wishes the create an avatar based on inner states, it could
- for example be possible to alter the stance of the avatar based on the
- user's real-time stress level.
- This would allow a dynamic and playful exploration of inner states even
- at the avatar creation stage.
 \end_layout
 
 \begin_layout Standard
@@ -1230,13 +1212,22 @@ Modular 3D printed body pieces in order to quickly create a personalized
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Alternatively, it could be possible to resolve some of the parameters of
+ the parametric 3D model based on physiological readings or body properties.
+ Although potentially uncomfortable in social settings, the Body Mass Index
+ of the user could be retrieved from the combination of a video camera and
+ a balance and propose body proportions similar to the person's silhouette.
+ If the user wishes the create an avatar based on inner states, it could
+ for example be possible to alter the stance of the avatar based on the
+ user's real-time stress level.
+ This would allow a dynamic and playful exploration of inner states even
+ at the avatar creation stage.
 \end_layout
 
 \begin_layout Subsection
@@ -1794,6 +1785,61 @@ on function.
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-capscience-setup.png
+	lyxscale 20
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-capscience-setup"
+
+\end_inset
+
+In a scientific museum, various activities were proposed to visitors in
+ order to prompt self-investigation.
+ The setup consists of a projector handling the augmentation and an OptiTrack
+ for the tracking.
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Installation of Tobe in a scientific museum activities prompting self-investigat
+ion
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 As an alternative to SAR, Tobe can be embedded with small screens, LEDs,
  actuators and small electronics components so that it represents a standalone
  unit.
@@ -1833,7 +1879,7 @@ status open
 \begin_inset Graphics
 	filename ../img/tobe-droid.jpg
 	lyxscale 10
-	width 75line%
+	width 100line%
 
 \end_inset
 
@@ -2085,65 +2131,6 @@ status open
 
 \begin_layout Plain Layout
 @ADD (Bonus): figure showing the activity cards
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/tobe-capscience-setup.png
-	lyxscale 20
-	width 100line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:tobe-capscience-setup"
-
-\end_inset
-
-In a scientific museum, various activities were proposed to visitors in
- order to prompt self-investigation.
- The setup consists of a projector handling the augmentation and an OptiTrack
- for the tracking.
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Installation of Tobe in a scientific museum activities prompting self-investigat
-ion
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
 \end_layout
 
 \end_inset
