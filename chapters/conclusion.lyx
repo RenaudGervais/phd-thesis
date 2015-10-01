@@ -337,7 +337,8 @@ The exploratory study we conducted indicated that the metaphor seemed to
  the augmented objects; every user went on to work on their design without
  hesitation.
  However, it would be interesting to quantify the performance of the pointing
- technique compared to pointing on a 3D viewport on screen.
+ technique compared to pointing on a viewport displaying a 3D object on
+ screen to assess the impact of physicality.
  Moreover, it would also be worth comparing the performance of Tangible
  Viewports with the study conducted with CurSAR (Chapter 
 \begin_inset CommandInset ref
@@ -379,13 +380,22 @@ reference "cha:tangible-viewports"
  More specifically, Tangible Viewports is an attempt at reducing the gap
  between the world of screens-based software and tangible objects.
  However, this approach has some limitations.
- Most notably is the constraint of having to position the physical object
- in front of the screen in order to interact with it using the mouse cursor.
+ The most obvious one is the constraint of having to position the physical
+ object in front of the screen in order to interact with it using the mouse
+ cursor.
  Following the general approach of ubiquitous computing and tangible interaction
 , we think that fusing the desktop computer inside the desk it is laid on
  would be a promising direction.
  Of course, much work has already been done under the form of workbenches
- such as the pioneering work of Ullmer and Ishii with the metaDESK 
+ such as the pioneering work of Krüger et al.
+ on the Responsive Workbench
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kruger1995"
+
+\end_inset
+
+ or Ullmer and Ishii's metaDESK 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Ullmer1997"
