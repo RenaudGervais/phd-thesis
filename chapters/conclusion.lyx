@@ -108,7 +108,8 @@ interaction
  devices.
  While it may at first seem contradictory with an overall tangible approach,
  our motivation was to build upon already existing -- and powerful -- digital
- systems and enrich them with physical objects.
+ systems, which digital artists and professional already spent years learning,
+ and enrich them with physical objects.
  In a second time, we used these augmented objects as ways to encourage
  
 \emph on
@@ -136,8 +137,8 @@ reference "cha:cursar"
 ).
  It replicated the interaction technique of a standard desktop computer
  to a real world scene to see if interacting with real world object in that
- way could an appropriate choice.
- We found a
+ way could be an appropriate choice.
+ We found that, under certain conditions, pointing in SAR
 \begin_inset Branch margin
 status collapsed
 
@@ -163,8 +164,9 @@ status open
 
 \end_inset
 
- drop of 11% in completion time in the SAR condition which still remained
- predictable using Fitts' law.
+ without a screen is still possible (completion time decreased by 11% in
+ SAR in comparison to using a screen).
+ Pointing in SAR still remained predictable using Fitts' law.
 \end_layout
 
 \begin_layout Enumerate
@@ -180,8 +182,7 @@ reference "cha:tangible-viewports"
  This took the form of an on-screen window -- that we called Tangible Viewport
  -- which enables the mouse cursor to slide back and forth between the screen
  and a physical object held before it.
- We also explored the interaction space provided by this interplay between
- traditional screens -- and the applications hosted
+ We also explored the interaction space 
 \begin_inset Branch margin
 status collapsed
 
@@ -207,7 +208,8 @@ status open
 
 \end_inset
 
- on them -- and tangible augmented objects.
+provided by this interplay between traditional screens -- and the applications
+ hosted on them -- and tangible augmented objects.
 \end_layout
 
 \begin_layout Enumerate
@@ -224,8 +226,7 @@ reference "cha:teegi"
  We have shown its use for learning about different brain processes, using
  the user's own real-time EEG readings as a basis.
  The interface is controlled through mini-teegis -- small tangible puppets
- -- which apply specific filters in order to investigate specific brain
- activity: 
+ -- which
 \begin_inset Branch margin
 status collapsed
 
@@ -251,7 +252,8 @@ status collapsed
 
 \end_inset
 
-motor activity, vision and meditation.
+ apply specific filters in order to investigate specific brain activity:
+ motor activity, vision and meditation.
 \end_layout
 
 \begin_layout Enumerate
