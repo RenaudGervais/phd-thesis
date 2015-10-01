@@ -717,23 +717,13 @@ key "Frey2014"
 \end_layout
 
 \begin_layout Standard
-The contributions for this work are:
-\end_layout
-
-\begin_layout Itemize
-A toolkit enabling users to create an animated tangible representation of
- their inner states, encompassing the entire workflow including the physical
- avatar creation, sensors, signal processing, feedback and augmentation
- using spatial augmented reality.
-\end_layout
-
-\begin_layout Itemize
-Two use cases of Tobe which were tested in public settings.
-\end_layout
-
-\begin_layout Itemize
-User's feedback about the Tobe system and how they perceive physiological
- signals and mental states.
+The contributions for this work are 1) a toolkit enabling users to create
+ an animated tangible representation of their inner states, encompassing
+ the entire workflow including the physical avatar creation, sensors, signal
+ processing, feedback and augmentation using spatial augmented reality,
+ 2) two use cases of Tobe which were tested in public settings and 3) user's
+ feedback about the Tobe system and how they perceive physiological signals
+ and mental states.
 \end_layout
 
 \begin_layout Section
