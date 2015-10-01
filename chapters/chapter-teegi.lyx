@@ -913,7 +913,7 @@ status open
 \begin_inset Graphics
 	filename ../img/teegi-signal-table-raw.jpg
 	lyxscale 7
-	height 50line%
+	width 75line%
 
 \end_inset
 
@@ -930,8 +930,7 @@ name "subfig:teegi-signal-table-raw"
 
 \end_inset
 
-The raw EEG readings are displayed going from the user to the filter area
- and then rerouted towards Teegi.
+Raw EEG readings
 \end_layout
 
 \end_inset
@@ -942,10 +941,10 @@ The raw EEG readings are displayed going from the user to the filter area
 \end_inset
 
 
-\begin_inset Newline newline
-\end_inset
+\end_layout
 
-
+\begin_layout Plain Layout
+\align center
 \begin_inset Float figure
 wide false
 sideways false
@@ -956,7 +955,7 @@ status open
 \begin_inset Graphics
 	filename ../img/teegi-signal-table-filtered.jpg
 	lyxscale 7
-	height 50line%
+	width 75line%
 
 \end_inset
 
@@ -973,9 +972,7 @@ name "subfig:teegi-signal-table-filtered"
 
 \end_inset
 
-When a mini-Teegi (i.e.
- a filter) is active, the corresponding filtered signals are displayed between
- the filter area and Teegi instead.
+Filtered signals
 \end_layout
 
 \end_inset
@@ -1000,6 +997,29 @@ name "fig:teegi-signal-table"
 
 \emph default
 Exposing the signal filtering process.
+ 
+\emph on
+(a)
+\emph default
+ The raw EEG readings are displayed going from the user to the filter area
+ and then rerouted towards Teegi.
+ 
+\emph on
+(b)
+\emph default
+ When a mini-Teegi (i.e.
+ a filter) is active, the corresponding filtered signals are displayed between
+ the filter area and Teegi instead.
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Exposing the signal filtering process with Teegi
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1197,10 +1217,6 @@ Using an inverse model, the cortical activity and EEG measures are presented
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
