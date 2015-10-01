@@ -2331,8 +2331,8 @@ Object Annotation
 \end_layout
 
 \begin_layout Standard
-Another opportunity offered by the fact that a screen stands behind the
- physical object concern the display and the entry of text.
+Another opportunity offered by the choice of positioning the screen behind
+ the tangible object is the display and the entry of text.
  Indeed, these operations may be difficult to complete in many traditional
  SAR setups.
  In our case, it is easy to annotate a physical object by selecting an anchor
@@ -2345,10 +2345,12 @@ reference "fig:tports-annotations"
 \end_inset
 
 .
+ Picking a point on the object creates a text box positioned in an empty
+ zone of the screen which is linked to the projected position on the screen
+ of the anchor point.
  Inversely, one can select a note on the screen, and see the corresponding
  area directly on the physical object.
- This creates a text box positioned in an empty zone of the screen which
- is linked to the projected position on the screen of the anchor point.
+ 
 \end_layout
 
 \begin_layout Subsubsection
@@ -2689,17 +2691,17 @@ To illustrate the use of Tangible Viewports, we describe here an object
 \end_layout
 
 \begin_layout Standard
-She can start by sketching first ideas on a paper, and then use a modeling
+She can start by sketching first ideas on paper, and then use a modeling
  tool to create a 3D sketch.
  Equipped with a 3D printer, she can print one (or many) physical objects
  to have in front of her.
- She can first directly paint on the object using the mouse cursor.
+ She can first digitally paint directly on the object using the mouse cursor.
  Then, she can use a digital painting application such as Adobe Photoshop
  or a vector graphics editor like Inkscape to draft a logo on her computer.
  Then, using the mouse, seamlessly drag the logo from the editor directly
  to the physical prototype she just printed.
  The prototype can be physically manipulated to review the appearance.
- Modification to the design on the desktop computer will be automatically
+ Modification to the visual design on the desktop computer will be automatically
  reflected in real-time onto the object.
  She can scale and rotate the logo directly on the physical object to see
  directly the impact of her modifications.
@@ -2794,13 +2796,13 @@ naturally
 \end_inset
 
  with Tangible Viewport, whereas they were using a trackball metaphor operated
- with the mouse middle-button in the standard viewport version, as commonly
+ with the middle mouse button in the standard viewport version, as commonly
  done in standard desktop 3D tools.
 \end_layout
 
 \begin_layout Standard
-Subjects were asked to follow a tutorial for customizing their clock (Figure
- 
+Participants were asked to follow a tutorial for customizing their clock
+ (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:tports-user-creations"
@@ -2831,8 +2833,8 @@ key "Laugwitz2008"
  between the two.
  Both questionnaires showed no significant difference between the two versions
  of the system.
- They were also invited to leave comments and feedback about what they liked
- and disliked about each version of the system.
+ Participants were also invited to leave comments and feedback about what
+ they liked and disliked about each version of the system.
  Overall, the majority of the participants preferred manipulating the tangible
  version (12 out of 14) and were more satisfied with the final result (11/14).
  No participant mentioned difficulties moving from the screen to the object.
@@ -2842,9 +2844,9 @@ key "Laugwitz2008"
 
 \begin_layout Standard
 Regarding the comments, among the most appreciated features spontaneously
- cited by the subjects is the ability to work with a real object (9/14)
+ cited by the participants is the ability to work with a real object (9/14)
  and to have a physical view on the final product (6/14).
- For example S1 liked that 
+ For example P1 liked that 
 \emph on
 
 \begin_inset Quotes eld
@@ -2858,7 +2860,7 @@ you can see the real object with the elements you draw.
 
 \emph default
 .
- S9 mentioned that 
+ P9 mentioned that 
 \emph on
 
 \begin_inset Quotes eld
@@ -2908,7 +2910,8 @@ magic wand
 
 .
  This highlights that the interaction between the screen and the object
- was working well enough that the main focus was about the painting features.
+ was working well enough that the main focus was about the painting features
+ of the application.
 \end_layout
 
 \begin_layout Standard
@@ -3086,9 +3089,9 @@ Examples of participants' creations using Tangible Viewports.
 
 \begin_layout Standard
 Regarding the technical solution, several participants (6/14) mentioned
- that the augmentation calibration was not precise enough, which could be
- improved by using more advanced known solutions such as the one used by
- Jones 
+ that the augmentation calibration was not precise enough.
+ This could be improved by using more advanced calibration solutions such
+ as the one used by Jones 
 \emph on
 et al.
 
@@ -3112,7 +3115,7 @@ key "Jones2014"
  on the object to move when the head position of the user changes and instead
  correct the on-screen cursor's position when it reaches the edge of the
  object's silhouette, from the user's point of view.
- Such alternatives will be studied on the future.
+ Such alternatives will be studied in the future.
 \end_layout
 
 \begin_layout Section
@@ -3169,7 +3172,7 @@ http://carbon3d.com/
 In the future, we would like to assess more precisely how Tangible Viewports
  may leverage creativity in professional uses.
  This will require dedicated user studies with targeted users for investigating
- in more depth on how interactive physicality impacts performance.
+ in more depth how interactive physicality impacts performance.
 \end_layout
 
 \begin_layout Standard
@@ -3186,7 +3189,7 @@ in front
 on of CurSAR with the system described in this chapter.
  Indeed, during our experimentation with the system, we realized that the
  ability to slide the cursor off the screen onto a physical object laid
- in front of it change the perception of the screen itself.
+ in front of it changes the perception of the screen itself.
  Instead of being considered as a self-contained space, the screen suddenly
  becomes a 
 \emph on
