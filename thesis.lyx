@@ -4,6 +4,24 @@
 \begin_header
 \textclass classicthesis
 \use_default_options true
+\begin_includeonly
+chapters/titleback.lyx
+chapters/dedication.lyx
+chapters/abstract.lyx
+chapters/publication.lyx
+chapters/introduction.lyx
+chapters/chapter-sar.lyx
+chapters/dirtytitlepage.lyx
+chapters/chapter-cursar.lyx
+chapters/chapter-tangibleviewport.lyx
+chapters/chapter-teegi.lyx
+chapters/chapter-tobe.lyx
+chapters/conclusion.lyx
+chapters/chapter-0A.lyx
+chapters/Bibliography.lyx
+chapters/contents.lyx
+chapters/acknowledgments.lyx
+\end_includeonly
 \maintain_unincluded_children true
 \language english
 \language_package default
