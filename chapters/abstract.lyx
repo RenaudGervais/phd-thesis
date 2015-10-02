@@ -128,6 +128,74 @@ Abstract
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../img/conclusion-cursar.jpg
+	lyxscale 5
+	height 3cm
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../img/conclusion-tports.jpg
+	lyxscale 20
+	height 3cm
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../img/teegi-inverse-model.jpg
+	lyxscale 5
+	height 3cm
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename ../img/conclusion-tobe.jpg
+	lyxscale 5
+	height 3cm
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Most of our waking hours are now spent staring at a screen.
  While the advances in touch screens has enabled the use of more expressiveness
  by using our fingers to interact with digital content, what we see and
@@ -143,8 +211,8 @@ Most of our waking hours are now spent staring at a screen.
  Spatial Augmented Reality provides a technical mean towards this idea by
  using projectors to shed digitally controlled light onto real-world objects
  to augment them and their environment with functionalities and content.
- This leads the way to smart objects that will have very rich possibilities
- while still be anchored in the real-world.
+ This paves the way to smart objects embedded with rich and expressive capabilit
+ies, while still being anchored in the real-world.
 \end_layout
 
 \begin_layout Standard
@@ -155,13 +223,22 @@ In this thesis, we are interested in two main aspects related to these tangible
 how to interact
 \emph default
  with digital content when it is hosted on tangible objects.
- Then, we investigate how these artifacts, combined with physiological computing
-, can be used to raise our awareness of the processes of our own bodies
- and minds and, eventually, foster 
+ As a basis for our investigation, we studied interaction modalities that
+ leverages traditional input and output devices found in a typical desktop
+ environment.
+ Our rationale in this approach is to leverage the experience of users with
+ traditional tools while at the same time steering towards a physically
+ enriched interaction space.
+ In a second time, we investigate how these augmented artifacts, combined
+ with physiological computing, can be used to raise our awareness of the
+ processes of our own bodies and minds and, eventually, foster 
 \emph on
 introspection
 \emph default
  activities.
+ This took the form of two different projects where we used tangible avatars
+ to let users explore and customize a real-time physiological feedback of
+ their own inner states.
 \end_layout
 
 \begin_layout Standard
