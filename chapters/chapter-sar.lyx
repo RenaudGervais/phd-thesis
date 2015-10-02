@@ -110,7 +110,7 @@ Background
 This section covers the main concepts and definitions related to AR and
  SAR.
  AR is first defined and a brief overview of its history is given.
- Then we will focus on one of its subset: SAR.
+ Then we will focus on one of its subsets: SAR.
 \end_layout
 
 \begin_layout Subsection
@@ -197,7 +197,7 @@ reference "fig:sar-virtuality-continuum"
 \end_inset
 
 .
- At the left extremity is unaltered reality.
+ At the left extremity is the unaltered reality.
  On the other side lies virtual reality, which replaces reality completely
  relying on different sensory channels -- usually visual and auditory.
  Augmented reality is located on the left-hand spectrum of mixed reality.
@@ -326,7 +326,7 @@ Augment the physical object:
 
 \end_inset
 
- Physically modify the objects themselves with different input/ouput components.
+ Physically modify the objects themselves with different input/output components.
  For example, an object's surface could be covered by a thin film display,
  such as what is described in the Organic User Interfaces vision (see Section
  
@@ -415,7 +415,8 @@ Spatial Augmented Reality
 \end_layout
 
 \begin_layout Standard
-SAR is subset of AR that consists in displaying the augmented content 
+SAR is a subset of AR that consists in displaying the augmented content
+ 
 \emph on
 in
 \emph default
@@ -623,7 +624,7 @@ environment
  illusions for the user.
  When updating the projection in real-time, it is possible to make it appear
  as if virtual objects are registered in 3D to physical objects.
- This process is often used in art to create surreal and surprising illusions
+ This process is often used in arts to create surreal and surprising illusions
  that only works for a specific viewpoint.
  It is usually referred to as 
 \emph on
@@ -970,7 +971,7 @@ shader
  was used to highlight the fact that this technique could be used to create
  the illusion of different materials and simulate artificial illuminations
  on the augmented objects.
- One of the advantage of this technique over anamorphic illusion is that
+ One of the advantages of this technique over anamorphic illusion is that
  it does not require the users' head position
 \begin_inset Foot
 status collapsed
@@ -1139,7 +1140,7 @@ In this section, we are taking a closer look at how SAR is actually achieved
  As discussed in the previous section, there are mainly two different types
  of augmentation that can be done with SAR: texture mapping -- Shader Lamps
  -- and anamorphic illusions.
- The creation of augmented objects rely more heavily on texture mapping.
+ The creation of augmented objects relies more heavily on texture mapping.
  It is the main technique used in Chapters 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1459,7 +1460,7 @@ From real to virtual
 This approach consists in starting from a real object and then creating
  a virtual version of it.
  One of the most straightforward way to achieve this is by simply measuring
- -- using for example a measuring tape and a protractor -- different key
+ -- using, for example, a measuring tape and a protractor -- different key
  points of the object.
  They are then processed in a 3D Computer Assisted Design (CAD) software
  to form a more or less complete geometric shape.
@@ -1498,7 +1499,7 @@ key "Newcombe2011"
 .
  However, the Kinect's sensors are still relatively low resolution and do
  not operate well below a certain distance -- 0.5 meters for the Kinect v2.
- Consequently, relatively small objects do not produce high fidelity 3D
+ Consequently, relatively small objects do not produce high-fidelity 3D
  models.
  While it might be sufficient for certain types of augmentation, anything
  related to design and precision applications will suffer greatly from a
@@ -1527,7 +1528,7 @@ This method is typically used in industrial settings where object fabrication
  However, recent advances in digital fabrication technologies, such as 3D
  printing and laser cutting, has widened considerably the accessibility
  object making.
- One of the main advantage of digital fabrication is that it ensures that
+ One of the main advantages of digital fabrication is that it ensures that
  the physical object corresponds to the 3D model (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1710,9 +1711,9 @@ reference "fig:sar-pipeline"
 \end_inset
 
 .
- Once the exact geometry of the object is known, we must replicate its real
- world pose in the virtual environment.
- The requirements in precision and performance depend of the application
+ Once the exact geometry of the object is known, we must replicate its real-worl
+d pose in the virtual environment.
+ The requirements in precision and performance depend on the application
  at hand.
 \end_layout
 
@@ -1732,7 +1733,7 @@ precision
 accuracy
 \emph default
 .
- The difference between these two concepts are highlighted in Section 
+ The difference between these two concepts is highlighted in Section 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "sec:0a-precision-and-accuracy"
@@ -1999,9 +2000,9 @@ visual trademark
  of AR.
  They are comprised of patterns that are easy to detect and identify for
  computer vision algorithms.
- Moreover, their easily distinguishable square shape is used to compute
- their pose in 6 degrees of freedom (DoF) -- position and rotation -- in
- the camera's coordinate system.
+ Moreover, their square shape, which is easily distinguishable, is used
+ to compute their pose in 6 degrees of freedom (DoF) -- position and rotation
+ -- in the camera's coordinate system.
  Enabling libraries in this area are ARToolkit 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2227,17 +2228,17 @@ status open
 
 .
  This process essentially consists of transforming pixel measurements in
- real-world coordinate system -- i.e.
+ the real-world coordinate system -- i.e.
  meters.
  This tracking solution has the obvious advantages of being cheap, accessible
  and can achieve good and robust precision.
  The markers are required to be planar, therefore it is important that they
  are not folded or distorted in any way.
- They also require to be fully visible in the camera's frustrum in order
+ They also require to be fully visible in the camera's frustum in order
  to be detected.
  To overcome this limitation, it is possible to combine multiple markers
  together that acts like a single tracked target.
- Their form factor make them difficult to affix on complex 3D objects.
+ Their form factor makes them difficult to affix on complex 3D objects.
  Another drawback is their visual clutter.
  Indeed, their appearance and form factor can be disturbing for users when
  manipulating a physical object.
@@ -2257,8 +2258,9 @@ Natural Feature Tracking
 \end_layout
 
 \begin_layout Standard
-Image features are characteristic points processed in certain ways that
- renders them easier to detect and match together for computer vision algorithms.
+Image features are characteristic points processed in certain ways which
+ make it possible to detect and match them together, using computer vision
+ algorithms.
  Commonly used are SIFT 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2366,7 +2368,7 @@ Depth-Based Tracking
 \begin_layout Standard
 This category is relatively broad as it encompasses a lot of different technique
 s.
- We will only discuss the ones that has been considered for our work with
+ We will only discuss the ones that have been considered for our work with
  SAR.
  It consists in using 3D -- or 2.5D -- data to track an object in space.
  As mentioned above, the democratization of depth sensors such as the Microsoft
@@ -2644,7 +2646,7 @@ reference "fig:sar-pipeline"
 \end_inset
 
 .
- A simplified explanation of these parameters are described below.
+ A simplified explanation of these parameters is presented below.
  An interested reader can refer to Appendix 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2807,7 +2809,7 @@ know
  and that their pose can be determined using the camera calibration, corresponde
 nces between the image plane of the projector and the real world coordinate
  system can be generated.
- Different tools and methods exists to calibrate a camera-projector pair
+ Different tools and methods exist to calibrate a camera-projector pair
  together -- for example, see 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -3281,8 +3283,8 @@ Tools of the trade
 \end_layout
 
 \begin_layout Standard
-This section give a quick overview of the tools used for the different projects
- highlighted in the following chapters.
+This section gives a quick overview of the tools used for the different
+ projects highlighted in the following chapters.
  Note that they could easily be swapped for other tools achieving the same
  purpose, but we will justify their choice briefly.
 \end_layout
@@ -3340,9 +3342,9 @@ reference "fig:sar-vvvv"
  There is only one mode: real-time.
  Everything is done 
 \emph on
-live
+in real-time
 \emph default
- and avoid the dichotomy of 
+ and avoids the dichotomy of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3355,9 +3357,10 @@ then
 \end_inset
 
  of standard integrated development environments (IDEs).
- Therefore, it is easy to experiment or make fix in real-time which is especiall
-y helpful with systems dealing both with digital and real world components.
- Moreover, for interactive system, being able to tweak parameters 
+ Therefore, it is easy to experiment or make fixes in real-time which is
+ especially helpful with systems dealing both with digital and real world
+ components.
+ Moreover, for interactive systems, being able to tweak parameters 
 \emph on
 while
 \emph default
@@ -3378,8 +3381,8 @@ master
 
  computer, it is possible to seamlessly assign certain parts of the program
  to slave machines.
- In a projection setup for example, each projector can be assigned its own
- computer and have the processing be done 
+ In a projection setup, for example, each projector can be assigned its
+ own computer and have the processing be done 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3447,7 +3450,7 @@ creative coding
 
 .
  It put emphasis on code as a mean of expression and of artistic creation.
- Usually, these frameworks try to present high level APIs enabling their
+ Usually, these frameworks try to present high-level APIs enabling their
  users to experiment and tinker quickly -- a process essential to creative
  work as is highlighted in Victor's talk 
 \begin_inset CommandInset citation
@@ -3569,8 +3572,8 @@ Tracking: OptiTrack
 \end_layout
 
 \begin_layout Standard
-The tracking of the augmented objects were handled with OptiTrack cameras.
- As mentioned before, this tracking solution provide real-time performance
+The tracking of the augmented objects was handled with OptiTrack cameras.
+ As mentioned before, this tracking solution provides real-time performance
  and precision which is required when working with augmented objects of
  small size -- often smaller than 10 centimeters.
 \begin_inset Note Note
@@ -3616,7 +3619,7 @@ see
  off the IR filter.
  However, the resolution of these cameras are relatively low -- 640x480
  pixels in the case of the V120:Trio model -- making it difficult to obtain
- high quality calibrations.
+ high-quality calibrations.
  
 \end_layout
 
@@ -3729,9 +3732,9 @@ key "Witmer1998"
 \end_inset
 
 .
- It is associated to virtual reality which whole purpose is often to immerse
- one or many persons in computer generated artificial worlds and giving
- the illusion of 
+ It is associated to virtual reality which the whole purpose is often to
+ immerse one or many persons in computer-generated artificial worlds and
+ giving the illusion of 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3740,7 +3743,7 @@ being there
 \end_inset
 
 .
- However, one of the reason we are interested in SAR is its potential to
+ However, one of the reasons we are interested in SAR is its potential to
  anchor the digital information 
 \emph on
 in the real world
@@ -3833,8 +3836,8 @@ key "Basballe2010,Ridel2014"
 \end_inset
 
 .
- Using projected light also has the benefit of being being flexible in terms
- of the installation size.
+ Using projected light also has the benefit of being flexible in terms of
+ the installation size.
  For example, it is possible to create dynamic rendering over huge buildings
  or very small objects with relatively similar setups
 \begin_inset Foot
@@ -3863,8 +3866,8 @@ key "Raskar1998a"
  AR.
  Namely, they mention the fact that the user does not need to wear any device
  such as a HMD.
- Larger field of view can also be supported; using multiple projectors allows
- for covering an entire room with projected light.
+ A larger field of view can also be supported; using multiple projectors
+ allows for covering an entire room with projected light.
  Also, since the virtual objects are displayed near their real world location,
  eye accommodation is made easier.
 \end_layout
@@ -3912,7 +3915,7 @@ key "Audet2007"
 .
  Concerning the second issue, it should be relatively easy to create an
  occlusion mask to avoid projecting on the user occluding an augmented object.
- This could for example be achieved using the Kinect camera point cloud
+ This could, for example, be achieved using the Kinect camera point cloud
  combined with its skeleton tracking capabilities.
 \begin_inset Note Note
 status collapsed
