@@ -86,8 +86,7 @@ This thesis explored the use of tangible objects as hosts for digital content,
  More specifically, we have focused on the interaction with the digital
  content as well as using these augmented objects as a basis to foster introspec
 tion.
- Each chapter thus far have presented and discussed their individual contributio
-ns.
+ Each chapter thus far presented and discussed their individual contributions.
  In this chapter, we summarize these contributions and discuss potential
  future works.
 \end_layout
@@ -108,7 +107,7 @@ interaction
  devices.
  While it may at first seem contradictory with an overall tangible approach,
  our motivation was to build upon already existing -- and powerful -- digital
- systems, which digital artists and professional already spent years learning,
+ systems, which digital artists and professionals already spent years learning,
  and enrich them with physical objects.
  In a second time, we used these augmented objects as ways to encourage
  
@@ -232,7 +231,7 @@ status collapsed
 
 \begin_layout Standard
 \begin_inset Marginal
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -257,7 +256,7 @@ status collapsed
 \end_layout
 
 \begin_layout Enumerate
-A toolkit for creating tangible avatars displaying the real-time low level
+A toolkit for creating tangible avatars displaying the real-time low-level
  physiological signals as well as different mental states of the users (Chapter
  
 \begin_inset CommandInset ref
@@ -375,10 +374,10 @@ reference "cha:tangible-viewports"
 \end_inset
 
 ), we presented a working environment that leveraged the traditional ways
- to interact with digital information and combined it with real world objects
+ to interact with digital information and combined it with real-world objects
  and environments.
  More specifically, Tangible Viewports is an attempt at reducing the gap
- between the world of screens-based software and tangible objects.
+ between the world of screen-based softwares and tangible objects.
  However, this approach has some limitations.
  The most obvious one is the constraint of having to position the physical
  object in front of the screen in order to interact with it using the mouse
@@ -403,7 +402,7 @@ key "Ullmer1997"
 \end_inset
 
 .
- However, it would be interesting to consider a workbench not as non-immersive
+ However, it would be interesting to consider a workbench not as a non-immersive
  virtual workspace, but as a real world work area onto which tools have
  both digital and physical purposes.
  In this section, we present a few ideas that we think could be interesting
@@ -415,8 +414,8 @@ Complementary Pointing techniques
 \end_layout
 
 \begin_layout Standard
-When studying the performance of a pointing task in real world using indirect
- pointing device in Chapter 
+When studying the performance of a pointing task in the real world using
+ indirect pointing device in Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "cha:cursar"
@@ -437,19 +436,6 @@ The consideration for indirect techniques remains justified for precision
 \end_inset
 
  might also be worth considering.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-object centric cursor
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -544,19 +530,6 @@ A sketch of a cursor that would be mapped to a bounding volume encompassing
 \end_inset
 
 
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-hybrid cursor
 \end_layout
 
 \end_inset
@@ -803,7 +776,7 @@ of the screen was made because we wanted to leverage the use of the native
  also because it helped emphasizing the use of the physical object.
  However, in an installation where the computer is fused in the desk itself,
  physical screens might not be permanent fixtures.
- We could therefore imagine a way to improvise working surfaces in order
+ We could, therefore, imagine a way to improvise working surfaces in order
  to realize certain operations.
 \end_layout
 
@@ -1131,8 +1104,8 @@ illusion
 \end_inset
 
  back and forth was being very uncomfortable.
- Instead, we think that these types of illusions could be leveraged when
- their purposes is meant to be working in the 
+ Instead, we think that this type of illusions could be leveraged when their
+ purposes are meant to be working in the 
 \emph on
 periphery
 \emph default
@@ -1141,7 +1114,7 @@ periphery
 \end_layout
 
 \begin_layout Standard
-Anamorphic illusions typically do not work well at close distance.
+Anamorphic illusions typically do not work well at close distances.
  This is because of the strong stereo cues -- each eye is seeing a slightly
  different image, enabling the viewer to infer the depth of the objects
  in sight -- when the observed objects are relatively close to the viewer.
@@ -1312,13 +1285,13 @@ reference "cha:teegi"
 \end_inset
 
 ), one of our objectives was to make complex and abstract data such as EEG
- signals accessible, not only in terms of expressed meaning, but also in
+ signals accessible, not only in terms of expressed meaning but also in
  ease of manipulation.
  By displaying the data on a tangible avatar, people were able to explore
  what was measured via EEG in a friendly and comprehensible way.
  We already received feedback regarding the potential applications of such
  ways of displaying EEG information.
- Among them, we are very interested by the potential for a friendly visualizatio
+ Among them, we are very interested in the potential for a friendly visualizatio
 n of rehabilitation progress realized by victims of strokes.
  Indeed, after a stroke, patients sometime have to go through long periods
  of rehabilitation that can be frustrating and demoralizing.
@@ -1335,8 +1308,8 @@ Another possible application we are interested in would be to use Teegi
  as a support for BCI learning.
  Indeed, BCI are often difficult to control and require users to be trained
  in using them efficiently.
- Usually, BCI rely on mental imagery of motor skills.
- These skills can be increased through exercises but the feedback currently
+ Usually, BCI rely on mental imagery of motor activities.
+ This skill can be increased through exercises, but the feedback currently
  used in BCI training is not very helpful 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1365,7 +1338,7 @@ reference "cha:tobe"
  Our goal with Tobe was to democratize even more the access and understanding
  of physiological data by engaging users in creating their own representations
  of their inner selves.
- We already tested the use of the toolkit in a scientific museum but we
+ We already tested the use of the toolkit in a scientific museum, but we
  want to give the toolkit to a wider range of users -- for example in FabLabs
  and different maker spaces -- and see where it can be improved upon and
  what kind of applications people are interested in.
@@ -1385,7 +1358,7 @@ at-a-glance
  view of the patient's readings.
  Since the form factor can be customized, we could think of ways to make
  health monitoring more engaging and positive for kids -- by 3D printing
- avatars shaped as their favorite super heros, for example.
+ avatars shaped as their favorite super heroes, for example.
 \end_layout
 
 \begin_layout Standard
@@ -1408,7 +1381,7 @@ key "Ugur2013"
 \end_layout
 
 \begin_layout Subsection
-Fostering Wellbeing and Self-Reflection
+Fostering Well-being and Self-Reflection
 \end_layout
 
 \begin_layout Standard
@@ -1428,7 +1401,7 @@ reference "cha:tobe"
 \end_inset
 
 ) was anchored in a desire to know more about our inner selves.
- Of course, physiological computing does not consists in an open door to
+ Of course, physiological computing does not consist in an open door to
  the mind -- it is not possible to read thoughts.
  However, it consists in an interesting technological mean to gain insight
  about how our bodies and minds work.
@@ -1436,7 +1409,7 @@ reference "cha:tobe"
  the technology as a mean to know more about ourselves, one of the visitors
  stayed a moment to discuss it.
  She was emphasizing the fact that technology was unnecessary for this purpose
- and that introspection came from deliberate practice like meditation and
+ and that introspection came from deliberate practices like meditation and
  contemplation.
  Here, we agree in that introspection is an activity that requires self-motivati
 on.
@@ -1490,7 +1463,7 @@ key "Weiser1996"
 \end_inset
 
 , we think that this combination of fields could present great opportunities
- for fostering calm and wellbeing.
+ for fostering calm and well-being.
  Even more so, with technology designed for self-reflection, people could
  investigate how their own inner states are affected by different stimuli
  and events.
