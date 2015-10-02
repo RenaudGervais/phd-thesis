@@ -400,7 +400,7 @@ Although EEG visualizations are intended for experts only, the general public
  aging, etc.
  may want to seek further knowledge about how the brain works.
  Currently, the public is increasingly exposed to neurotechnologies due
- to the availability of consumer grade EEG devices, such as the Emotiv EPOC
+ to the availability of consumer-grade EEG devices, such as the Emotiv EPOC
  or the Neurosky MindWave.
  Consequently, it has become necessary to design tools and user interfaces
  which will allow the general public to visualize, understand and interact
@@ -879,7 +879,7 @@ reference "subfig:teegi-signal-table-raw"
 .
  This creates a visual link between what is recorded with the EEG system,
  and the visualization that is provided on Teegi's head.
- This is possible because we know the rough position of the user, and the
+ This is possible because we know the rough position of the user and the
  exact position of Teegi.
  When applying a filter, as described in the previous section, the user
  can see the effect of his or her action on the signal (see Figure 
@@ -1178,9 +1178,9 @@ reference "fig:teegi-inverse-model"
  Since both Teegi and the brain proxy are tracked, it becomes possible to
  manipulate two synchronized representations of the same brain activity
  (the source at the surface of the brain and the measures on the scalp).
- This opens way to mediation activities that are more advanced all the while
- keeping the simplicity and ease of use brought forth by using SAR and tangible
- interaction.
+ This opens the way to mediation activities that are more advanced all the
+ while keeping the simplicity and ease of use brought forth by using SAR
+ and tangible interaction.
 \end_layout
 
 \begin_layout Standard
@@ -1240,8 +1240,9 @@ EEG
 \end_layout
 
 \begin_layout Standard
-We designed different EEG signal processing pipelines that each create a
- specific visualization tailored to identify specific elements in the signal.
+We designed different EEG signal processing pipelines that each creates
+ a specific visualization tailored to identify specific elements in the
+ signal.
  The details of these pipelines are transparent to the user.
  Each pipeline corresponds to a mini-Teegi filter.
  In particular, we set up the following EEG signal processing pipelines:
@@ -1826,7 +1827,7 @@ Manipulations of Teegi were numerous and frequent.
  of lifting Teegi to enhance visual perception.
  Two participants reported difficulties in grasping Teegi while the remaining
  8 were comfortable with the form of the character.
- Video analyses did not show difficulties for the manipulation of Teegi.
+ Video analyzes did not show difficulties for the manipulation of Teegi.
  Similarly, applying filters by manipulating the mini-Teegis seemed easy
  for the participants.
 \end_layout
@@ -1844,7 +1845,7 @@ The participants reported that they understood the visualization associated
  16.9% (5.5); meditation filter: 26.6% (8.7)).
  Interestingly, the visual activity filter seemed slightly easier to understand
  than the other filters.
- Moreover, video analyses indicated that the participants did not have difficult
+ Moreover, video analyzes indicated that the participants did not have difficult
 y observing the signals on Teegi's head, as soon as they found the right
  location to observe.
  Overall, participants reported that they were able to use Teegi without
@@ -1940,7 +1941,7 @@ Marks obtained by the participants during the pre- and post-test assessments
 All our results indicate that Teegi clearly promotes real-time tangible
  interactions, which contributes to enhancing awareness.
  Constructivism and inquiry-based science education principles indicate
- that, to become conscious of complex phenomena and construct scientific
+ that in order to become conscious of complex phenomena and construct scientific
  knowledge, people/learners have to experiment by interacting with and physicall
 y manipulating the content 
 \begin_inset CommandInset citation
@@ -1974,7 +1975,7 @@ User eXperience
 The general experience with Teegi was rated as pleasant, attractive and
  stimulating, and participants did not feel stressed or oppressed.
  Overall, participants reported that they liked interacting with Teegi.
- The emotion expression analyses confirmed those statements.
+ The emotion expression analyzes confirmed those statements.
  They showed that on average participants expressed curiosity and questioning
  about Teegi feedback during almost 20% (20.1% SD=9.1) of the manipulation
  duration.
@@ -2028,7 +2029,7 @@ key "Paiva05"
 
 .
  It is known that identification can be associated with increasing loss
- of self-awareness, and its temporary replacement with elements of the perceived
+ of self-awareness and its temporary replacement with elements of the perceived
  character's personality 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2052,7 +2053,7 @@ Regarding visual attention, the participants were apparently paying attention
  It also indicates a cognitive user engagement.
  Personal investigations were permanent (only 1.9% of inactivity was measured
  during the session duration; SD=1.7).
- Behavior analyses indicate that participants made predictions, hypotheses
+ Behavior analyzes indicate that participants made predictions, hypotheses
  and tested them by conducting experiments.
  Numerous trial and error strategies were frequently used.
  This clearly indicates personal active control of the task and inquiry
