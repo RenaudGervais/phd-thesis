@@ -217,10 +217,10 @@ Context
 \end_layout
 
 \begin_layout Standard
-Look at your work space right now.
- There is a high probability that the space is divided into two different
- areas: one for working digitally (computer) and one for working physically
- (pen and paper, books, building materials).
+Look at your workspace right now.
+ There is a high probability that it is divided into two different areas:
+ one for working digitally (computer) and one for working physically (pen
+ and paper, books, building materials).
  Figures 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -289,8 +289,8 @@ key "Otsuki2010"
 
 \end_inset
 
- are both systems that uses a physical paint brush to digitally paint real
- objects, while at the same time keeping the feeling of using a real brush.
+ are both systems that use a physical paint brush to digitally paint real
+ objects while at the same time keeping the feeling of using a real brush.
  In the same line of thought, Conté 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -341,7 +341,7 @@ key "Shaer2009"
 \end_layout
 
 \begin_layout Standard
-However, even when tangibility hold great promises for interaction, its
+However, even when tangibility holds great promises for interaction, its
  use in real-world contexts remains rare, while we still use standard computers
  for the majority of our daily tasks involving digital information.
  The desktop computer is still a relevant tool to work with digital and
@@ -624,7 +624,7 @@ systemnamens
 
 \end_inset
 
-, an on screen window that enables interaction between a desktop computer
+, an on-screen window that enables interaction between a desktop computer
  and a physical object located in front of it, 2) a proof-of-concept prototype
  of an integrated workspace that combines augmented physical objects and
  native applications, and 3) the exploration of the interaction space of
@@ -1074,7 +1074,7 @@ reference "fig:tports-sar-setup"
 \end_inset
 
  illustrates the setup.
- The projector handling the augmentation is located behind the user, and
+ The projector handling the augmentation is located behind the user and
  oriented so that its vertical field of view would span from the edge of
  the desk up to the top of the screen.
  It only emits light towards the physical object, so it does not perturb
@@ -1186,7 +1186,7 @@ The key element on which our system relies is the illusion that a physical
  In order to do so, we ensure that the cursor movements inside the working
  area occur in a continuous way, independently of where this cursor is displayed
  (screen or tangible viewport).
- The user thus perceive the visual space as a whole.
+ The user thus perceives the visual space as a whole.
  
 \end_layout
 
@@ -1403,7 +1403,7 @@ Interaction
 \end_layout
 
 \begin_layout Standard
-In our hybrid workspace, interaction can either take place on the screen,
+In our hybrid workspace, the interaction can either take place on the screen,
  on the augmented object, or on both display supports at the same time.
  In the following sections, we explore the interaction space by describing
  techniques that we developed for each of these categories (Table
@@ -2171,7 +2171,7 @@ Physical Object
 
 \begin_layout Standard
 This section presents the interaction techniques we have implemented to
- support the use of physical objects: direct interaction, pointing on object
+ support the use of physical objects: direct interaction, pointing on objects
  using the tangible viewport window and bimanual interaction.
 \end_layout
 
@@ -2231,10 +2231,10 @@ key "Balakrishnan1999"
 \end_inset
 
 .
- The hand holding the object plays the role of reference frame and assists
+ The hand holding the object plays the role of the reference frame and assists
  the dominant hand which is dedicated to fine mouse movements.
  This approach leverages the precision and stability of 2D pointing and
- the easiness of 6 degree of freedom manipulations of 3D objects.
+ the easiness of 6 degrees of freedom manipulations of 3D objects.
 \end_layout
 
 \begin_layout Subsection
@@ -2427,7 +2427,7 @@ Synchronized Views
 
 \begin_layout Standard
 We also explored the synchronization between a virtual version of an object
- displayed on screen and a physical one.
+ displayed on the screen and a physical one.
  When the tangible object is not in front of the screen, the tangible viewport
  window displays a virtual version of the augmented object (Figure 
 \begin_inset CommandInset ref
@@ -2804,7 +2804,7 @@ reference "fig:tports-user-creations"
 \end_layout
 
 \begin_layout Standard
-After the experiment, participants where asked to answer two questionnaires:
+After the experiment, participants were asked to answer two questionnaires:
  the User Experience Questionnaire 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -2830,7 +2830,7 @@ key "Laugwitz2008"
 Regarding the comments, among the most appreciated features spontaneously
  cited by the participants is the ability to work with a real object (9/14)
  and to have a physical view on the final product (6/14).
- For example P1 liked that 
+ For example, P1 liked that 
 \emph on
 
 \begin_inset Quotes eld
@@ -3177,13 +3177,13 @@ spatial element
 \emph default
 .
  Combining a perspective-based cursor and the technique used in our system
- could further extent the interaction space of traditional desktop environments.
+ could further extend the interaction space of traditional desktop environments.
 \end_layout
 
 \begin_layout Standard
 Finally, Tangible Viewports leverage the desktop computer capabilities as
  part of a set of tools to interact with physical matter.
- In the future, we plan go further, by merging the desktop on the workbench
+ In the future, we plan to go further, by merging the desktop on the workbench
  itself.
 \end_layout
 
