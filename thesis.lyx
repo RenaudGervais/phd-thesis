@@ -301,7 +301,7 @@ This thesis is interested in tangible augmented objects, that is, physical
  More specifically, we focus on the interaction with the augmented content
  and its creation.
  We investigate the use of already existing content creation tools for visual
- appearances (graphics) and behavior (programming) on physical canvas.
+ appearances (graphics) and behavior (programming) on physical canvases.
  For this purpose, we use the desktop computer environment as a starting
  point for our investigations.
  We also explore the use of tangible augmented objects as a mean to learn
@@ -353,7 +353,7 @@ g with the digital content is not trivial.
  We first investigate if it is possible to interact with augmented objects
  with such devices, even without the presence of a screen.
  Then, we propose a system leveraging both the use of screens and traditional
- input devices in combination with physical augmented objects to allow the
+ input devices in combination with tangible augmented objects to allow the
  creation and customization of content for these objects.
 \end_layout
 
