@@ -106,7 +106,7 @@ There are multiple problems with this way of handling the meshing of our
  our attention, has always to be either on the digital world or the real
  one.
  Additionally, the interaction with the different screens that populate
- our lives are still very limited.
+ our lives is still very limited.
  While the advances of touch screen technologies have enabled us to use
  our fingers to interact with the digital content displayed on screen, we
  can hardly make the case that it leverages all the rich possibilities of
@@ -125,7 +125,7 @@ key "Victor2014"
 
 \end_inset
 
-, Bret Victor makes a convincing case for designing interfaces that leverages
+, Bret Victor makes a convincing case for designing interfaces that leverage
  the vast amount of human senses 
 \emph on
 as ways of thinking
@@ -247,7 +247,7 @@ key "Holman2008"
 \emph on
 Augmented Reality 
 \emph default
-consists in overlaying a live view of the reality with computer generated
+consists in overlaying a live view of the reality with computer-generated
  graphics to form a coherent and augmented view of the reality 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -268,7 +268,7 @@ with computational properties.
 \begin_layout Standard
 Augmented objects have the potential to conciliate the flexibility of the
  digital world with our expertise of the real world.
- Note that real world skills are not innate.
+ Note that real-world skills are not innate.
  However, we get to hone them naturally, simply because our bodies are real
  world entities.
  For example, just by looking at a mug (Figure 
@@ -724,7 +724,7 @@ Augmented objects, especially tangible ones, have the potential of creating
  the world.
  More specifically, it can be used to gain more insight about one of the
  most personal aspect of lives: our own selves -- bodies and minds.
- Indeed, while we are using our bodies and minds everyday of our lives,
+ Indeed, while we are using our bodies and minds every day of our lives,
  we are most often unaware of their inner working and states.
  Physiological computing 
 \begin_inset CommandInset citation
@@ -734,7 +734,7 @@ key "Fairclough2009a"
 \end_inset
 
  is getting mature enough to not only measure basic physiological signals
- such as heart beats and breathing, but also mental states 
+ such as heartbeats and breathing, but also mental states 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Picard1995"
