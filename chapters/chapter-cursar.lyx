@@ -143,7 +143,7 @@ Sketch of a desktop environment which cursor would be able to travel in
 In the previous chapters, we have discussed the idea that augmented physical
  objects could be an interesting way to mesh together digital capabilities
  while remaining anchored in the physical world, which our bodies and minds
- inhabit everydays.
+ inhabit every days.
  However, this raises the question on how content for these mixed reality
  objects will be created and 
 \emph on
@@ -234,7 +234,7 @@ key "Vincent2013"
 tangible 
 \emph default
 augmented objects, one option is to touch directly the area of interest.
- Technological means to achieve precise touch detection on physical object
+ Technological means to achieve precise touch detection on physical objects
  are becoming mature and versatile.
  For example, the field of OUIs -- see Section 
 \begin_inset CommandInset ref
@@ -243,7 +243,7 @@ reference "sub:intro-oui"
 
 \end_inset
 
- for an overview -- envisions everyday objects covered by thin film diplays
+ for an overview -- envisions everyday objects covered by thin film displays
  which are multitouch.
  PapARt is a system which detects touch on standard tracked sheets of paper
  
@@ -512,7 +512,7 @@ key "Teather2011,Teather2013"
 
 .
  They studied different cursor types in what is effectively a “2.5D”, or
- projected pointing task using a 3D Fitts' law pointing task.
+ projected pointing task, using a 3D Fitts' law pointing task.
  We also used projected pointing in this study.
  However, working on a real-world canvas is different from working on a
  screen since the real-world does not provide any reference frame for the
@@ -760,7 +760,7 @@ The scene to be augmented was laid out on a table in front of the user.
  The projector was calibrated using OpenCV's camera calibration functions.
  We used a 3.6 GHz Core i7 PC with Windows 8 equipped with two GeForce GTX690
  graphic boards.
- The videoprojector was a ViewSonic Pro9000 with a resolution of 1920×1080
+ The video projector was a ViewSonic Pro9000 with a resolution of 1920×1080
  pixels.
  The same setup was used for both SAR and SCREEN conditions.
  In SAR, the virtual scene was projected directly onto the physical objects
@@ -769,7 +769,7 @@ The scene to be augmented was laid out on a table in front of the user.
  This ensured a similar frame rate (50 FPS), colorimetric configuration
  (color, brightness, contrast) and approximately same pixel size in both
  conditions.
- The focus of the videoprojector was set on the screen plane.
+ The focus of the video projector was set on the screen plane.
  On this plane, the resolution was effectively of 915×904 pixels.
 \end_layout
 
@@ -788,7 +788,7 @@ reference "fig:cursar-sar-screen"
 \end_inset
 
 .
- We did not use real-time head tracking but the user head's position was
+ We did not use real-time head tracking, but the user head's position was
  measured manually and thus accounted for.
  The whole installation has been created using the creative coding framework
  vvvv.
@@ -797,22 +797,12 @@ reference "fig:cursar-sar-screen"
 \begin_layout Standard
 For the input devices, we used both a mouse (MOUSE) and a Wacom Cintiq 13HD
  tablet (TABLET).
- The screen of the tablet was not used for the experiment and therefore
+ The screen of the tablet was not used for the experiment and, therefore,
  was displaying a black viewport.
  The button located on the pen was used for the selection action.
  The mouse was used in a relative mode while an absolute mapping was associated
  with the tablet.
  The acceleration transfer function of the mouse was disabled.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-in order to...?
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
@@ -1001,8 +991,8 @@ key "Zhai2004"
  and the number of errors, defined as the number of selections outside the
  target area.
  For each condition, the participants had to acquire 40 targets, resulting
- in 160 target acquisitions by participant, and 2560 records in total.
- The order for the input and output were counter balanced following a latin
+ in 160 target acquisitions per participant, and 2560 records in total.
+ The order for the input and output were counterbalanced following a latin
  square to avoid any learning effects.
 \end_layout
 
@@ -1493,7 +1483,7 @@ Inefficiency is a measure of “wasted” cursor movement by the user.
  than the mouse.
  This difference can be explained by the lack of experience of almost all
  participants with such a tablet.
- Output did not have a clear significant effect on the inefficency of the
+ Output did not have a clear significant effect on the inefficiency of the
  movements of the users.
  When looking at Figure 
 \begin_inset CommandInset ref
