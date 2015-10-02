@@ -2153,7 +2153,7 @@ ns on predefined anchor points.
  Users could customize some of Tobe's aspects (eyes and heart rate feedback)
  and among the five high-level metrics available, they selected which one
  to study at a particular time.
- When at first we tested Tobe with no control mechanisim -- i.e., all metrics
+ When at first we tested Tobe with no control mechanism -- i.e., all metrics
  were displayed altogether -- we realized that users were too passive and
  quickly overwhelmed.
  The GUI helped to focus and engage users.
@@ -2193,7 +2193,7 @@ The touch interface allowing visitors to customize the appearance of Tobe's
 status open
 
 \begin_layout Plain Layout
-GUI allowing visotors to customize Tobe's appearance and select feedback
+GUI allowing visitors to customize Tobe's appearance and select feedback
 \end_layout
 
 \end_inset

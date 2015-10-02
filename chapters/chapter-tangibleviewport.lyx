@@ -1043,7 +1043,7 @@ name "fig:tports-sar-cursor-and-user"
 
 \lang american
 The user can interact with the augmented object when located in front of
- the screen, emulating the behavior of a 3D viewport.
+ the screen, emulating the behavior of a normal viewport.
  
 \end_layout
 
@@ -2397,13 +2397,13 @@ name "fig:tports-annotations"
 
 \end_inset
 
-Textual annotations on physical object leveraging the screen and standard
+Textual annotations on a physical object leveraging the screen and standard
  inputs for pointing and text entry.
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-Textual annotations on physical object
+Textual annotations on a physical object
 \end_layout
 
 \end_inset
