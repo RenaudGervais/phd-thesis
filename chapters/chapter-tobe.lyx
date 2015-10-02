@@ -404,7 +404,7 @@ key "Wolf2010"
 
 \end_inset
 
- movement have arose from the availability of such sensors 
+ movement arose from the availability of such sensors 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Li2011"
@@ -423,7 +423,7 @@ life hacking
 \end_inset
 
  and personal development.
- While QS has been mostly about collecting physical health data, extension
+ While QS has been mostly about collecting physical health data, extensions
  to cognitive tasks has also been proposed 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -492,7 +492,7 @@ key "Fairclough2009a,Frey2014a,Picard1995,Zander2011"
 
 \begin_layout Standard
 On the one hand, physiological technologies are not exploited to their full
- potential and on the other hand, we have end users that ignore what technology
+ potential and on the other hand, we have end-users that ignore what technology
  has to offer for their well-being.
  Some companies are pioneers, as for example Empatica and its Embrace smart
  watch
@@ -639,7 +639,7 @@ Qualified
  Self.
  Qualitative representations of information, especially when on a continuum,
  have the advantage of avoiding explicit metrics.
- Numbers have this properties that they can easily be compared -- that is
+ Numbers have this property that they can easily be compared -- that is
  how scores work.
  A score can be used to compare against our own previous performances or
  performances of others.
@@ -983,7 +983,7 @@ General Approach
 
 \begin_layout Standard
 We conceived a toolkit to assist the creation of representations of inner
- activities -- our body at large and the hidden processes of our mind in
+ activities -- our body at large and the hidden processes of our minds in
  particular, making it visible to oneself and to others.
  The different components are highlighted in Figure 
 \begin_inset CommandInset ref
@@ -996,7 +996,7 @@ reference "fig:tobe-toolkit-drawing"
  The first step consists in choosing a metric, e.g.
  the arousal level.
  For each given metric, there are different ways to measure it.
- This include a combination of one or multiple sensor(s) and signal processing
+ This includes a combination of one or multiple sensor(s) and signal processing
  algorithm(s).
  One chooses a support to express this metric (e.g.
  tangible avatar, screen, speaker for sound) and creates a shape associated
@@ -1565,13 +1565,13 @@ reference "fig:tobe-sensor-eeg"
 \end_layout
 
 \begin_layout Standard
-In earlier iterations of the system we tested the use of an Emotive Epoc
+In earlier iterations of the system, we tested the use of an Emotive Epoc
  headset to account for brain activity.
  The Epoc is a consumers-oriented EEG device, easier to install than medical
  headsets that use gel.
  However, it still requires a saline solution that tends to dry over time,
  causing additional installation time between users.
- Moreover, good signal quality was next to impossible to obtain with long
+ Moreover, good-quality signals were next to impossible to obtain with long
  haired persons.
 \end_layout
 
@@ -1767,8 +1767,8 @@ http://vvvv.org/
 \end_inset
 
 , a software that uses real-time visual programming to render 3D scenes.
- As for hardware, we used a LG PF80G projector of resolution 1920x1080 and
- the tracking of Tobe was achieved with an OptiTrack V120:Trio, running
+ As for hardware, we used an LG PF80G projector of resolution 1920x1080
+ and the tracking of Tobe was achieved with an OptiTrack V120:Trio, running
  a 120 FPS with an overall latency of 8.3ms and a precision of 0.8mm.
  The projector was calibrated with the OptiTrack using OpenCV's camera calibrati
 on function.
@@ -2360,7 +2360,7 @@ This version of Tobe relies only on respiration and heart rate variability.
 \end_inset
 
  10s periods) and regularly, her or his heart rate (HR) varies accordingly
- and the resulting state has positive impact on well-being 
+ and the resulting state has a positive impact on well-being 
 \begin_inset CommandInset citation
 LatexCommand cite
 key "McCraty2009"
@@ -2410,7 +2410,7 @@ We asked 14 participants, by pairs, to come and use Tobe to reach cardiac
  Participants were seated on each side of a screen and instructed to not
  talk to each other.
  We presented them the cardiac coherence activity as a relaxation exercise.
- Afterwards, we equipped them and turned the system on.
+ Afterward, we equipped them and turned the system on.
 \end_layout
 
 \begin_layout Standard
@@ -2530,7 +2530,7 @@ Applications
 \begin_layout Standard
 We drew usages for Tobe by exploring different dimensions: on the one hand
  the number of users, Tobes and external observers involved, and, on the
- other hand the time and space separating the feedback and the recordings.
+ other hand, the time and space separating the feedback and the recordings.
 \end_layout
 
 \begin_layout Subsection
@@ -2539,7 +2539,7 @@ One User
 
 \begin_layout Standard
 Tobe can be used as a biofeedback device with a specific goal -- e.g., reduce
- stress -- or to gain knowledge about one self.
+ stress -- or to gain knowledge about oneself.
  A feedback about workload and vigilance would prevent overwork.
  Insights gathered from an introspection session with Tobe could also be
  employed to 
@@ -2559,7 +2559,7 @@ One User and Observer(s)
 Scientists involved in stroke rehabilitation research suggested that Tobe
  could be used in a medical context.
  Indeed, patients with motor disabilities may regain mobility after long
- and difficult sessions of reeducation.
+ and difficult sessions of re-education.
  However, occasional drawbacks may create anxiety and a counterproductive
  attitude towards therapy, which leads to even more anxiety.
  A Tobe could help patients and therapists acknowledge this affective state
@@ -2655,8 +2655,8 @@ reference "fig:tobe-video-replay"
 \end_layout
 
 \begin_layout Standard
-Collecting large amount of data -- such as is often the case in the QS movement
- -- is useful to gain insight on patterns happening over long stretches
+Collecting large amounts of data -- such as is often the case in the QS
+ movement -- is useful to gain insight on patterns happening over long stretches
  of time.
  However, charts and diagrams are not well suited to convey sensations and
  feelings.
@@ -2853,9 +2853,9 @@ We have presented an open system aimed at externalizing physiological signals
  to cognitive science, psychology and humanities, bridging the gap between
  "hard" and "soft" sciences.
  Even if the modules we chose promote the inclusion of novices -- e.g., visual
- programming that could be easily extended in OpenViBE or vvvv, they can
- be switched to other components that would suits more experienced users
- -- e.g., Matlab for signal processing.
+ programming that could be easily extended in OpenViBE or vvvv --, they
+ can be switched to other components that would better suit more experienced
+ users -- e.g., Matlab for signal processing.
  The system is not reduced to a set of tools, though, and we emphasized
  how such device is aimed at knowing better ourselves and others.
 \end_layout
