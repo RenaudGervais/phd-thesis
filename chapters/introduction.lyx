@@ -1659,8 +1659,8 @@ reference "cha:cursar"
  rendering a 3D scene with the main exception that the 3D scene is composed
  of a real, tangible object.
  The goal with this system is to leverage the power and flexibility of standard
- computer application for content creation while enriching the content creators
- with physicality in their workflow.
+ computer applications for content creation while enriching the content
+ creators with physicality in their workflow.
  We also present an exploration of the design space enabled by this way
  of interacting with digital content hosted on physical objects.
 \end_layout
