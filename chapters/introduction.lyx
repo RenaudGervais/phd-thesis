@@ -952,19 +952,19 @@ key "Fairclough2009a"
 
 \end_inset
 
- defines it as a type of computing which uses real-time psychophysiology
+ define it as a type of computing which uses real-time psychophysiology
  to represent the state of the user -- e.g.
  cognitions, motivation, emotion).
  It then uses this knowledge of the user's internal state to adapt the interacti
 ve system in real-time.
- Physiological computing rely on different types of bodily signals, such
+ Physiological computing relies on different types of bodily signals, such
  as heart rate, breathing or electrodermal activity that can be detected
  in different ways.
  It is also possible to measure brain activity using varying method; one
  of the most popular one consists in measuring the electrical current at
  the surface of the scalp -- electroencephalography (EEG).
  Measuring brain activity as a communication and control channel for interactive
- systems is a research area on its own: Brain Computer Interfaces (BCI)
+ systems is a research area on its own: Brain-Computer Interfaces (BCI)
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1004,9 +1004,9 @@ key "Wellner1993"
 \end_inset
 
 .
- While all the pieces were there, it took a few years before it formed as
- a interaction style.
- Often cited as one of the first concept of TUI is the marble answering
+ While all the pieces were there, it took a few years before it developed
+ as an interaction style.
+ Often cited as one of the first incarnations of TUI is the marble answering
  machine 
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -1129,7 +1129,7 @@ key "Ishii2012"
  malleable materials.
  This field of research is mainly driven by advances in flexible input and
  output technologies.
- This vision refers to interfaces using non-planar display that can change
+ This vision refers to interfaces using non-planar displays that can change
  shape via continuous physical inputs, either actively or passively 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1155,7 +1155,7 @@ Input equals output: the display is the input device;
 \end_layout
 
 \begin_layout Enumerate
-Functions equals form: the display can take any shape;
+Function equals form: the display can take any shape;
 \end_layout
 
 \begin_layout Enumerate
@@ -1201,8 +1201,8 @@ functions equals form
  which are strongly linked to their form factor.
  As an example, they consider a credit card which is wrapped by thin interactive
  displays.
- The back of the card would exhibits a map indicating the nearest ATM machine
- or the current account balance, because it relates strongly to the card's
+ The back of the card would exhibit a map indicating the nearest ATM machine
+ or the current account balance because it relates strongly to the card's
  initial function.
  It would avoid nesting a web browser or a news reader.
  In the same article, they also highlight the difference between the OUI
@@ -1252,7 +1252,7 @@ name "sub:intro-sar"
 Augmented Reality (AR) consists in overlaying computer generated information
  to our real world experience.
  The concept has first been described by Sutherland in his description of
- an hypothetical 
+ a hypothetical 
 \begin_inset Quotes eld
 \end_inset
 
@@ -1270,11 +1270,11 @@ key "Sutherland1965"
 .
  This display would be a room that have the power to control matter itself,
  resulting in a complete weaving of the real and the virtual.
- Traditionally, the visual information overlay have been conveyed using
- see-through or video see-through AR.
+ Traditionally, the visual information overlay has been conveyed using see-throu
+gh or video see-through AR.
  See-through AR consists in having a semi-transparent display which allows
  to both display the virtual elements and let the user see through it to
- observe the real world scene simulatenously.
+ observe the real world scene simultaneously.
  Video see-through consists in augmenting a live video feed that is then
  viewed either using a head mounted display or a mobile device equipped
  with a camera -- e.g.
@@ -1397,7 +1397,7 @@ key "Raskar2001a"
  The main advantage of SAR lies in the fact that it does not require the
  user to wear any special equipment -- objects and spaces are augmented
  in place.
- This also ease a shared experience between multiple users.
+ This also eases a shared experience between multiple users.
  
 \end_layout
 
@@ -1575,7 +1575,7 @@ The design, implementation and evaluation of a tangible interface enabling
 \begin_layout Enumerate
 The design, implementation and evaluation of a toolkit enabling users to
  create tangible augmented avatars providing feedback from real-time low
- and high level physiological readings.
+ and high-level physiological readings.
 \end_layout
 
 \begin_layout Section
@@ -1583,7 +1583,7 @@ Structure of the Thesis
 \end_layout
 
 \begin_layout Standard
-This thesis is divided in three main parts.
+This thesis is divided into three main parts.
  Part 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -1687,8 +1687,8 @@ reference "cha:teegi"
 
 \end_inset
 
- present a friendly little character named Teegi -- Tangible Electroncephalograp
-hy (EEG) Interface -- a tangible interface to learn more about the internal
+ present a friendly little character named Teegi -- Tangible Electroencephalogra
+phy (EEG) Interface -- a tangible interface to learn more about the internal
  working of the brain.
  EEG is a technology that measures the electric current 
 \begin_inset Note Note
@@ -1702,7 +1702,7 @@ status open
 
  on the surface of the scalp.
  It allows to infer the electrical activity of the brain and is commonly
- used in Brain Computer Interfaces (BCI).
+ used in Brain-Computer Interfaces (BCI).
  Teegi itself is an anthropomorphic character onto which a user's live EEG
  reading is displayed.
  The user can manipulate Teegi to explore the signals and change the different
@@ -1764,7 +1764,7 @@ http://jfrey.info
 \end_inset
 
 .
- It is important to emphasis and recognize this collaboration since the
+ It is important to emphasize and recognize this collaboration since the
  projects presented in Chapter 
 \begin_inset CommandInset ref
 LatexCommand ref
