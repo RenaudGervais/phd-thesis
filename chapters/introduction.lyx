@@ -958,13 +958,13 @@ key "Fairclough2009a"
 
  define it as a type of computing which uses real-time psychophysiology
  to represent the state of the user -- e.g.
- cognitions, motivation, emotion).
+ cognitions, motivation, emotion.
  It then uses this knowledge of the user's internal state to adapt the interacti
 ve system in real-time.
  Physiological computing relies on different types of bodily signals, such
  as heart rate, breathing or electrodermal activity that can be detected
  in different ways.
- It is also possible to measure brain activity using varying method; one
+ It is also possible to measure brain activity using varying methods; one
  of the most popular one consists in measuring the electrical current at
  the surface of the scalp -- electroencephalography (EEG).
  Measuring brain activity as a communication and control channel for interactive
@@ -1018,15 +1018,11 @@ key "CramptonSmith1995"
 
 \end_inset
 
- where marbles embodied messages received while the recipient was away from
- home.
+ where marbles embodied voice messages received while the recipient was
+ away from home.
  Putting the marble in a dedicated groove on the device would play back
  the message and propose to call back the original caller.
  Fitzmaurice et al.
- laid the foundation of the field with its 
-\emph on
-Graspable Interface
-\emph default
  
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -1034,6 +1030,10 @@ key "Fitzmaurice1995"
 
 \end_inset
 
+ laid the foundation of the field with its 
+\emph on
+Graspable Interface
+\emph default
 .
  A few years later, Ishii and his collaborators proposed a defined vision
  as 
@@ -1578,7 +1578,7 @@ The design, implementation and evaluation of a tangible interface enabling
 
 \begin_layout Enumerate
 The design, implementation and evaluation of a toolkit enabling users to
- create tangible augmented avatars providing feedback from real-time low
+ create tangible augmented avatars providing feedback from real-time low-
  and high-level physiological readings.
 \end_layout
 
@@ -1587,7 +1587,7 @@ Structure of the Thesis
 \end_layout
 
 \begin_layout Standard
-This thesis is divided into three main parts.
+This thesis is divided into four parts.
  Part 
 \begin_inset CommandInset ref
 LatexCommand ref
