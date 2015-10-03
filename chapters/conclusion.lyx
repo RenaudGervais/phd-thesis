@@ -299,7 +299,7 @@ status open
 
  to a user's mental states and physiological responses -- e.g.
  frustration, attention, arousal, heart rate, breathing, ...) -- which has
- been tested in a scientific museum.
+ been tested in a scientific museum and in a collaborative relaxation task.
 \end_layout
 
 \begin_layout Section
@@ -422,8 +422,8 @@ reference "cha:cursar"
 
 \end_inset
 
-, we ported the technique that is typically used interacting with 3D elements
- rendered on screen.
+, we ported the technique that is typically used when interacting with 3D
+ elements rendered on screen.
  However, other indirect techniques
 \begin_inset Foot
 status collapsed
@@ -739,7 +739,7 @@ not there
  SAR is more limited in this regard: it works best for texture mapping.
  3D illusions are still possible, but they require relying on anamorphosis,
  which tends to not work properly at close distances.
- However, this means that the digital content is mostly hosted on actual
+ However, this means that the digital content is generally hosted on actual
  physical objects; the location of the virtual objects are close to their
  physical hosted location.
  This provides opportunities for interaction to be much closer to real world
