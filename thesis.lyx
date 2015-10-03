@@ -292,23 +292,6 @@ pagenumbering{arabic}
 
 \end_layout
 
-\begin_layout Part Introduction (ClassicThesis)
-This thesis is interested in tangible augmented objects, that is, physical
- objects which have digital content embedded on them.
- For this purpose, we use Spatial Augmented Reality -- a technique consisting
- in overlaying computer generated graphics on the real world by the mean
- of projected light -- to create augmented objects.
- More specifically, we focus on the interaction with the augmented content
- and its creation.
- We investigate the use of already existing content creation tools for visual
- appearances (graphics) and behavior (programming) on physical canvases.
- For this purpose, we use the desktop computer environment as a starting
- point for our investigations.
- We also explore the use of tangible augmented objects as a mean to learn
- more about the inner working of our bodies and to foster personal introspection
-, by creating real-time feedback for low- and high-level physiological signals.
-\end_layout
-
 \begin_layout Part
 Getting Out of Flatland
 \end_layout
