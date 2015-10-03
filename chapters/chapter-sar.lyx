@@ -3342,9 +3342,9 @@ reference "fig:sar-vvvv"
  There is only one mode: real-time.
  Everything is done 
 \emph on
-in real-time
+interactively
 \emph default
- and avoids the dichotomy of 
+, which avoids the dichotomy of 
 \begin_inset Quotes eld
 \end_inset
 
