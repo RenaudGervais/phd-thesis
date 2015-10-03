@@ -590,8 +590,9 @@ reference "fig:intro-ccoo-table"
  In the same way that we are interested in anchoring interaction in the
  real world because users are already very skilled in interacting with its
  elements, starting our investigation with tools that users already spent
- years getting proficient with seems a promising approach towards a more
- reality-based approach to computing.
+ years getting proficient with -- and which researchers and developers spent
+ decades to make simpler and more efficient to use -- seems a promising
+ approach towards a more reality-based approach to computing.
 \end_layout
 
 \begin_layout Standard
@@ -642,7 +643,10 @@ Know Thyself
 \end_layout
 
 \begin_layout Standard
-As the form factor of our computational devices gets increasingly personal
+In a second time, we go beyond the interaction with the digital content
+ of augmented objects and reflect on their potential as a humane medium
+ support.
+ As the form factor of our computational devices gets increasingly personal
  -- smartphones and smartwatches are quickly becoming ubiquitous and are
  with us all the time -- it is important to reflect on the effect they have
  in our lives.
