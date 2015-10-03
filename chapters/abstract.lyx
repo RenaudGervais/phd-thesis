@@ -228,11 +228,15 @@ how to interact
  leverage traditional input and output devices found in a typical desktop
  environment.
  Our rationale for this approach is to leverage the experience of users
- with traditional digital tools while at the same time steering towards
- a physically enriched interaction space.
- In a second time, we investigate how these augmented artifacts, combined
- with physiological computing, can be used to raise our awareness of the
- processes of our own bodies and minds and, eventually, foster 
+ with traditional digital tools -- tools which researchers and developers
+ spent decades to make simpler and more efficient to use -- while at the
+ same time steering towards a physically enriched interaction space.
+ In a second time, we go beyond the interaction with the digital content
+ of augmented objects and reflect on their potential as a humane medium
+ support.
+ We investigate how these augmented artifacts, combined with physiological
+ computing, can be used to raise our awareness of the processes of our own
+ bodies and minds and, eventually, foster 
 \emph on
 introspection
 \emph default
