@@ -150,7 +150,7 @@ glassy
 
 .
  You cannot shape an idea with your hands freely; you have to comply to
- the communication channels that a computer can understand -- which most
+ the communication channels which a computer can understand -- which most
  often are different that the ones we would use 
 \begin_inset Quotes eld
 \end_inset
@@ -232,7 +232,7 @@ key "Atzori2010"
 \emph on
 Organic User Interfaces
 \emph default
- (OUI) defined by Holman et al.
+ (OUI), defined by Holman et al.
  
 \begin_inset CommandInset citation
 LatexCommand cite
@@ -240,8 +240,8 @@ key "Holman2008"
 
 \end_inset
 
- describe a future where thin and flexible displays and touch sensors will
- wrap everyday objects.
+, describe a future where thin and flexible displays as well as touch sensors
+ will wrap everyday objects.
  Therefore, any part of an object can be a sensor and/or a display.
  
 \emph on
@@ -269,8 +269,8 @@ with computational properties.
 Augmented objects have the potential to conciliate the flexibility of the
  digital world with our expertise of the real world.
  Note that real-world skills are not innate.
- However, we get to hone them naturally, simply because our bodies are real
- world entities.
+ However, we get to hone them naturally, simply because our bodies are real-worl
+d entities.
  For example, just by looking at a mug (Figure 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -588,10 +588,10 @@ reference "fig:intro-ccoo-table"
  For example, programming and visual design are activities well suited for
  desktop platforms.
  In the same way that we are interested in anchoring interaction in the
- real world because users are already very skilled in interacting with the
- real world, starting our investigation with tools that users already spent
- years getting proficient with seems promising approach towards a more reality-b
-ased approach to computing.
+ real world because users are already very skilled in interacting with its
+ elements, starting our investigation with tools that users already spent
+ years getting proficient with seems a promising approach towards a more
+ reality-based approach to computing.
 \end_layout
 
 \begin_layout Standard
