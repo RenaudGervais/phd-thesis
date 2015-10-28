@@ -109,6 +109,40 @@ status open
 
 
 \backslash
+bibentry{Gervais2016a}
+\backslash
+textsuperscript{(co-first authorship)}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{Gervais2016}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
 bibentry{Gervais2015}
 \end_layout
 
