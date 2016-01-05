@@ -1,5 +1,5 @@
-#LyX 2.0 created this file. For more info see http://www.lyx.org/
-\lyxformat 413
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
 \begin_document
 \begin_header
 \textclass classicthesis
@@ -12,13 +12,13 @@
 \font_roman default
 \font_sans default
 \font_typewriter default
+\font_math auto
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
 \font_sf_scale 100
 \font_tt_scale 100
-
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -29,15 +29,24 @@
 \use_hyperref false
 \papersize default
 \use_geometry false
-\use_amsmath 1
-\use_esint 0
-\use_mhchem 1
-\use_mathdots 1
-\cite_engine natbib_numerical
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
+\justification true
 \use_refstyle 0
 \index Index
 \shortcut idx
@@ -80,64 +89,30 @@ pdfbookmark[1]{Acknowledgments}{acknowledgments}
 \align right
 
 \shape slanted
-We have seen that computer programming is an art, 
+Drop by drop is the water pot filled.
 \begin_inset Newline newline
 \end_inset
 
- because it applies accumulated knowledge to the world, 
+Likewise, the wise man,
 \begin_inset Newline newline
 \end_inset
 
- because it requires skill and ingenuity, and especially 
+ gathering it little by little,
 \begin_inset Newline newline
 \end_inset
 
- because it produces objects of beauty.
-
+fills himself with good.
 \shape default
- 
+
 \begin_inset Newline newline
 \end_inset
 
- 
+
 \begin_inset VSpace medskip
 \end_inset
 
  --- 
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-defcitealias{knuth:1974}{Donald E.
- Knuth}
-\end_layout
-
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-citetalias{knuth:1974}
-\end_layout
-
-\end_inset
-
- 
-\begin_inset CommandInset citation
-LatexCommand citep
-key "knuth:1974"
-
-\end_inset
-
- 
+The Buddha
 \end_layout
 
 \begin_layout Standard
@@ -190,47 +165,46 @@ Acknowledgments
 \end_layout
 
 \begin_layout Standard
-Put your acknowledgments here.
+When I finally decided to embark on the journey towards a PhD, it was motivated
+ by the desire to keep growing as an individual and push the boundaries
+ of my own knowledge about the world.
+ This has proved to be a worthwhile pursuit and I admit that this broadened
+ my view of research much more than I expected.
+ I did not only learned about different topics, but also got to meet incredible
+ persons that all contributed to this journey in their own ways.
 \end_layout
 
 \begin_layout Standard
-Many thanks to everybody who already sent me a postcard!
+I would obviously like to first thank my advisor, Martin Hachet, for giving
+ me this incredible opportunity to come to France and work at Inria in the
+ Potioc team.
+ Martin is a very humane person and was very supportive during these three
+ years.
+ He gave me the freedom to explore topics that appealed to me and helped
+ me bringing ideas to fruition.
+ I would also like to thank Jacek Jankowski and Christian Muehl for their
+ guidance and friendship.
+ The many discussions we had about research and life in general really helped
+ me grow both as a person and as a researcher.
+ The year we spent together, along with Iza and Lisa, is full of nice memories
+ I will treasure for the years to come.
+ Also, I would like to extend my thanks to Jérémy Laviole and Thomas Hulin
+ for their friendship and support, especially at the start of my PhD.
+ Jérémy is the one that got me to get into Spatial Augmented Reality along
+ with opening my mind towards art and my many discussions with Thomas on
+ self-improvement has been very inspiring for me.
 \end_layout
 
 \begin_layout Standard
-Regarding the typography and other help, many thanks go to Marco Kuhlmann,
- Philipp Lehman, Lothar Schlesier, Jim Young, Lorenzo Pantieri and Enrico
- Gregorio
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-Member of GuIT (Gruppo Italiano Utilizzatori di TeX
-\begin_inset space \space{}
-\end_inset
-
-e LaTeX)
-\end_layout
-
-\end_inset
-
-, Jörg Sommer, Joachim Köstler, Daniel Gottschlag, Denis Aydin, Paride Legovini,
- Steffen Prochnow, Nicolas Repp, Hinrich Harms, Roland Winkler, Jörg Weber,
- and the whole LaTeX-community for support, ideas and some great software.
-\end_layout
-
-\begin_layout Standard
-\begin_inset VSpace bigskip
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-The LyX port was initially done by Nicholas Mariette in March 2009 and continued
- by Ivo Pletikosić in 2011.
- Thank you very much for your work and the contributions to the original
- style.
+Of course, the different projects highlighted in this thesis could not have
+ been possible without the collaboration and help from my friends and colleagues
+ at the Potioc group.
+ First and foremost, I want to thank Jérémy Frey, a person one can only
+ qualify as the ideal collaborator.
+ His enthusiasm, positivity and his seemingly endless reserve of energy
+ has made working with him both motivating and inspiring.
+ I can only hope that our paths may cross again in the future.
+ I would also like to thank Joan Sol Roo
 \end_layout
 
 \begin_layout Standard
