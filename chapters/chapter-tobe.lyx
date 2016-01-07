@@ -1095,7 +1095,7 @@ ysmography (PPG), brain activity measured by electroencephalography (EEG),
  Emotions can be inferred from EDA or certain frequency bands within EEG.
 \end_layout
 
-\begin_layout Subsubsection
+\begin_layout Subsection
 Metrics
 \end_layout
 
@@ -1141,87 +1141,7 @@ key "Nisbett1977"
 \end_layout
 
 \begin_layout Subsection
-Support: 3D Printing
-\end_layout
-
-\begin_layout Standard
-3D printing a tangible avatar is a powerful incentive for customization.
- While the version of the system that we deployed in the scientific museum
- used an already modeled and 3D printed incarnation of Tobe because of time
- constraints, a user of the system could change the parametric model in
- order to obtain an avatar that pleases her.
- The process would be similar to how the appearance of a Nintendo "Mii"
- can be tuned, except for the tangibility.
- As a tradeoff between preparation time and customization, we prototyped
- a "Mr.
- Potato Head" version of Tobe, with parts ready to be assembled (Figure
- 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:tobe-modular-body"
-
-\end_inset
-
-).
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename ../img/tobe-potato.jpg
-	lyxscale 10
-	width 75line%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption Standard
-
-\begin_layout Plain Layout
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:tobe-modular-body"
-
-\end_inset
-
-Modular 3D printed body pieces in order to quickly create a personalized
- Tobe.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-Alternatively, it could be possible to resolve some of the parameters of
- the parametric 3D model based on physiological readings or body properties.
- Although potentially uncomfortable in social settings, the Body Mass Index
- of the user could be retrieved from the combination of a video camera and
- a balance and propose body proportions similar to the person's silhouette.
- If the user wishes the create an avatar based on inner states, it could
- for example be possible to alter the stance of the avatar based on the
- user's real-time stress level.
- This would allow a dynamic and playful exploration of inner states even
- at the avatar creation stage.
-\end_layout
-
-\begin_layout Subsection
-Sensors: Wearables
+Sensors and Signal Processing
 \end_layout
 
 \begin_layout Standard
@@ -1456,6 +1376,28 @@ reference "fig:tobe-capscience-setup"
  recording device.
  It contains modules that amplifies various physiological signals and embeds
  a Bluetooth adapter as well as a battery to work in ambulatory settings.
+ Each physiological signal or mental state index was sent to the other stage
+ of the toolkit using LSL
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://github.com/sccn/labstreaminglayer/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+, a network protocol dedicated to physiological recordings.
 \end_layout
 
 \begin_layout Subsubsection
@@ -1495,7 +1437,18 @@ EDA
 \end_layout
 
 \begin_layout Standard
-When measuring EDA, most accurate readings can be obtained from the tip
+We measured arousal -- which relates to the intensity of an emotion and
+ varies from calm to excited (e.g.
+ 
+\emph on
+satisfied
+\emph default
+ vs 
+\emph on
+happy
+\emph default
+) -- using EDA.
+ When measuring EDA, most accurate readings can be obtained from the tip
  of the fingers.
  However, since it is difficult to manipulate a tangible interface while
  having hardware attached to one's fingers, we acquire the signal from the
@@ -1562,32 +1515,33 @@ reference "fig:tobe-sensor-eeg"
  rim of the scalp to avoid difficulties with long-haired people.
  In the 10-20 system, electrodes were positioned at O1, P7, F7, FP1, F8,
  T8, P8 and O2 locations -- reference at T7, ground at FP2.
+ We used OpenViBE
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://openvibe.inria.fr/
 \end_layout
 
-\begin_layout Standard
-In earlier iterations of the system, we tested the use of an Emotive Epoc
- headset to account for brain activity.
- The Epoc is a consumers-oriented EEG device, easier to install than medical
- headsets that use gel.
- However, it still requires a saline solution that tends to dry over time,
- causing additional installation time between users.
- Moreover, good-quality signals were next to impossible to obtain with long
- haired persons.
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsection
-Signal Processing 
-\end_layout
+\end_inset
 
-\begin_layout Standard
-Consumers-oriented EEG headsets usually conceal signal processing behind
- proprietary algorithms, with little scientific evidence on what is truly
- measured.
- While building a tailored EEG helmet, we took the upper hand on the whole
- pipeline.
- With access to raw EEG signals, we looked into the literature to match
- the inner state we wanted to measure with actual neurological markers.
- We have used the following features:
+ to analyze physiological data in real time.
+ EEG signals were re-referenced using a common average reference.
+ Mentioned frequencies were extracted with a band-pass filter, taking the
+ log of the power of signals in order to normalize indices.
+ Eye blinks were detected when the signal, after DC drift removal, exceeded
+ 4 times the variance in the F8 electrode.
+ We used the following metrics:
 \end_layout
 
 \begin_layout Description
@@ -1654,76 +1608,110 @@ key "Molina2009"
 .
 \end_layout
 
-\begin_layout Description
-Arousal: relates to the intensity of an emotion and varies from calm to
- excited (e.g., 
-\emph on
-satisfied
-\emph default
- vs 
-\emph on
-happy
-\emph default
-).
- We use the EDA readings.
-\end_layout
-
 \begin_layout Standard
-We used OpenViBE
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-http://openvibe.inria.fr/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
- to analyze physiological data in real time.
- EEG signals were re-referenced using a common average reference.
- Mentioned frequencies were extracted with a band-pass filter, taking the
- log of the power of signals in order to normalize indices.
- Eye blinks were detected when the signal exceeded 4 times the variance
- in the F8 electrode.
-\end_layout
-
-\begin_layout Standard
-Each physiological signal or mental state index was sent to the other stage
- of the toolkit using LSL
-\begin_inset Foot
-status collapsed
-
-\begin_layout Plain Layout
-\begin_inset Flex URL
-status open
-
-\begin_layout Plain Layout
-
-https://github.com/sccn/labstreaminglayer/
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-, a network protocol dedicated to physiological recordings.
+In earlier iterations of the system we tested the use of an Emotive Epoc
+ headset to account for brain activity.
+ The Epoc is a consumers-oriented EEG device, easier to install than medical
+ headsets that use gel.
+ However, it still requires a saline solution that tends to dry over time,
+ causing additional installation time between users.
+ Moreover, good signal quality was next to impossible to obtain with long
+ haired persons.
+ Another downside of consumers-oriented EEG headsets is that they usually
+ conceal signal processing behind proprietary algorithms, with little scientific
+ evidence on what is truly measured.
+ While building a tailored EEG helmet, we took the upper hand on the whole
+ pipeline.
+ With access to raw EEG signals, we looked into the literature to match
+ the inner state we wanted to measure with actual neurological markers.
 \end_layout
 
 \begin_layout Subsection
-Augmentation
+Feedback
+\end_layout
+
+\begin_layout Subsubsection
+Support
+\end_layout
+
+\begin_layout Standard
+3D printing a tangible avatar is a powerful incentive for customization.
+ While the version of the system that we deployed in the scientific museum
+ used an already modeled and 3D printed incarnation of Tobe because of time
+ constraints, a user of the system could change the parametric model in
+ order to obtain an avatar that pleases her.
+ The process would be similar to how the appearance of a Nintendo "Mii"
+ can be tuned, except for the tangibility.
+ As a tradeoff between preparation time and customization, we prototyped
+ a "Mr.
+ Potato Head" version of Tobe, with parts ready to be assembled (Figure
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:tobe-modular-body"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ../img/tobe-potato.jpg
+	lyxscale 10
+	width 75line%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:tobe-modular-body"
+
+\end_inset
+
+Modular 3D printed body pieces in order to quickly create a personalized
+ Tobe.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Alternatively, it could be possible to resolve some of the parameters of
+ the parametric 3D model based on physiological readings or body properties.
+ Although potentially uncomfortable in social settings, the Body Mass Index
+ of the user could be retrieved from the combination of a video camera and
+ a balance and propose body proportions similar to the person's silhouette.
+ If the user wishes the create an avatar based on inner states, it could
+ for example be possible to alter the stance of the avatar based on the
+ user's real-time stress level.
+ This would allow a dynamic and playful exploration of inner states even
+ at the avatar creation stage.
+\end_layout
+
+\begin_layout Subsubsection
+Shape
 \end_layout
 
 \begin_layout Standard
@@ -1948,8 +1936,8 @@ TODO: Make sure this is not too redundant with what has been mentioned in
 
 \end_layout
 
-\begin_layout Subsection
-Feedback Customization
+\begin_layout Subsubsection
+Customization
 \end_layout
 
 \begin_layout Standard
