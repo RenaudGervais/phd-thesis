@@ -717,13 +717,12 @@ key "Frey2014"
 \end_layout
 
 \begin_layout Standard
-The contributions for this work are 1) a toolkit enabling users to create
- an animated tangible representation of their inner states, encompassing
- the entire workflow including the physical avatar creation, sensors, signal
- processing, feedback and augmentation using spatial augmented reality,
- 2) two use cases of Tobe which were tested in public settings and 3) user's
- feedback about the Tobe system and how they perceive physiological signals
- and mental states.
+Our contribution for this work consists of a toolkit enabling users to create
+ an animated tangible representation of their inner states.
+ The toolkit encompasses the whole workflow, including the physical avatar
+ creation, sensors, signal processing, feedback and augmentation.
+ It was tested through two use cases, in public settings and with a multiple
+ users scenario.
 \end_layout
 
 \begin_layout Section
@@ -1628,6 +1627,10 @@ In earlier iterations of the system we tested the use of an Emotive Epoc
 
 \begin_layout Subsection
 Feedback
+\end_layout
+
+\begin_layout Standard
+The feedback consists in both a support and a shape.
 \end_layout
 
 \begin_layout Subsubsection
