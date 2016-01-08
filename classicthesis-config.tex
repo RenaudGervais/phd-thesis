@@ -100,7 +100,12 @@
 \usepackage{scrhack} % fix warnings when using KOMA with listings package          
 \usepackage{xspace} % to get the spacing after macros right
 \usepackage{mparhack} % get marginpar right
+\usepackage{float}
+\makeatletter
+\let\@tmp\@xfloat
 \usepackage{fixltx2e} % fixes some LaTeX stuff
+\let\@xfloat\@tmp
+\makeatother
 \PassOptionsToPackage{printonlyused,smaller}{acronym}
 	\usepackage{acronym} % nice macros for handling all acronyms in the thesis
 %\renewcommand*{\acsfont}[1]{\textssc{#1}} % for MinionPro
