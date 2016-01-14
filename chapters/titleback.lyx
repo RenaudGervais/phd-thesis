@@ -203,25 +203,12 @@ spacedlowsmallcaps{Supervisor}:
 
 \end_inset
 
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-myProf 
-\backslash
-
-\backslash
-
+M.
+ Martin Hachet, Chargé de Recherche, Inria Bordeaux Sud-Ouest
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -232,7 +219,9 @@ status open
 
 
 \backslash
-myOtherProf 
+noindent
+\backslash
+spacedlowsmallcaps{President}: 
 \backslash
 
 \backslash
@@ -241,9 +230,12 @@ myOtherProf
 
 \end_inset
 
-
+M.
+ Pierre-Yves Oudeyer, Directeur de Recherche, Inria Bordeaux Sud-Ouest
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -254,12 +246,50 @@ status open
 
 
 \backslash
-mySupervisor
+noindent
+\backslash
+spacedlowsmallcaps{Examiners}: 
+\backslash
+
+\backslash
+
 \end_layout
 
 \end_inset
 
+Mme Laurence Nigay, Professeur, Université Joseph Fourier, Grenoble
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+M.
+ Sriram Subramanian, Professeur, University of Sussex, UK
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+M.
+ Pierre Dragicevic, Chargé de Recherche, Université Paris Sud
 \end_layout
 
 \begin_layout Standard
@@ -315,7 +345,7 @@ status open
 \backslash
 noindent
 \backslash
-spacedlowsmallcaps{Time Frame}: 
+spacedlowsmallcaps{Defended On}: 
 \backslash
 
 \backslash
@@ -332,7 +362,7 @@ status open
 
 
 \backslash
-myTime
+myDefenseDate
 \end_layout
 
 \end_inset
