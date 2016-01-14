@@ -21,6 +21,7 @@ chapters/chapter-tobe.lyx
 chapters/conclusion.lyx
 chapters/chapter-0A.lyx
 chapters/Bibliography.lyx
+chapters/resume.lyx
 \end_includeonly
 \maintain_unincluded_children true
 \language english
@@ -187,6 +188,23 @@ filename "./chapters/dedication.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "chapters/abstract.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage cleardoublepage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapters/resume.lyx"
 
 \end_inset
 

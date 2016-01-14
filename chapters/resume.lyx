@@ -115,7 +115,15 @@ status open
 
 
 \backslash
-pdfbookmark[1]{Abstract}{Abstract}
+pdfbookmark[1]{R
+\backslash
+'esum
+\backslash
+'e}{R
+\backslash
+'esum
+\backslash
+'e}
 \end_layout
 
 \end_inset
@@ -124,7 +132,7 @@ pdfbookmark[1]{Abstract}{Abstract}
 \end_layout
 
 \begin_layout Chapter*
-Abstract
+Résumé
 \end_layout
 
 \begin_layout Standard
