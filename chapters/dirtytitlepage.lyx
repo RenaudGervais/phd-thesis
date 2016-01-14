@@ -117,29 +117,6 @@ status open
 
 
 \backslash
-spacedlowsmallcaps{
-\backslash
-myName}
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-\begin_inset VSpace medskip
-\end_inset
-
-
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
 begingroup 
 \backslash
 color{Maroon} 
@@ -171,7 +148,7 @@ Everything below this point was added for the Lyx version.
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 2cm
+\begin_inset VSpace medskip
 \end_inset
 
 
@@ -198,6 +175,104 @@ mySubtitle}
 
 \begin_layout Standard
 \begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+spacedlowsmallcaps{by}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+spacedallcaps{
+\backslash
+myName}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace vfill
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+spacedlowsmallcaps{Submitted in partial fulfillment of the requirements}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+spacedlowsmallcaps{of the degree of Doctor of Philosophy}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+spacedlowsmallcaps{in the Graduate School of Mathematics and Computer Sciences}
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace 2cm
 \end_inset
 
 
