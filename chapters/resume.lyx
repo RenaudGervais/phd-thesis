@@ -222,9 +222,39 @@ intouchable
 
 ; nos doigts ne pouvant pénétrer la surface de l'écran pour toucher le contenu
  numérique qui se trouve derrière.
+ Pour que l'intéraction avec le monde numérique soit écologique dans le
+ futur, elle doit mettre à profit l'ensemble des différentes capacités de
+ l'humain au lieu de ne se concentrer que sur certaines d'entre elles (comme
+ le toucher et la vision) tout en laissant les autres sens s'attrofier.
+ Une façon de considérer le problème est d'utiliser le monde physique réel
+ comme support pour le monde numérique, permettant d'imaginer un futur où
+ les objects du quotidien comprendront de riches et expressives fonctions
+ numérique, tout en étant ancré dans le monde réel.
+ La réalité augmentée spatiale est une modalité permettant d'aller dans
+ cette direction.
 \end_layout
 
 \begin_layout Standard
+Cette thèse s'intéresse à deux aspects principaux en lien avec ces objects
+ tangibles augmentés.
+ Dans un premier temps, nous soulevons la question 
+\emph on
+comment inéragir
+\emph default
+ avec du contenu numérique lorsqu'il est supporté par des objects physiques.
+ Comme point de départ de notre investigation, nous avons étudié différentes
+ modalités qui utilisent des dipositifs d'entrée/sortie typiquement retrouvé
+ dans un environnement de bureau.
+ Cette approche est justifiée par le désir d'utiliser au maximum l'expérience
+ que les utilisateurs ont déjà acquis avec leurs outils numériques tout
+ en se dirigeant vers un espace d'intéraction comprenant des éléments physiques.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
 Most of our waking hours are now spent staring at a screen.
  While the advances in touch screens have enabled a more expressive interaction
  space with our devices, by using our fingers to interact with digital content,
@@ -245,7 +275,7 @@ Most of our waking hours are now spent staring at a screen.
  real world.
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
 In this thesis, we are interested in two main aspects related to these tangible
  augmented objects.
  In a first time, we are raising the question on 
@@ -273,6 +303,11 @@ introspection
  This took the form of two different projects where we used tangible avatars
  to let users explore and customize real-time physiological feedback of
  their own inner states.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
